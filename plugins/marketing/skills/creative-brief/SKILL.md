@@ -1,0 +1,139 @@
+---
+name: creative-brief
+description: "Brief a designer or writer so they can make the piece without guessing the strategy. Use when the user mentions creative brief, design brief, copy brief, brief a designer, or asks for a creative brief. Marketing skill by Yasir Jilani."
+license: MIT
+compatibility: Agent Skills standard. No network access, extra packages, or credentials required.
+metadata:
+  author: Yasir Jilani
+  version: "1.0.0"
+  domain: marketing
+---
+
+# Creative Brief
+
+Brief a designer or writer so they can make the piece without guessing the strategy.
+
+## When to use this skill
+
+Use this skill when the user:
+
+- creative brief
+- design brief
+- copy brief
+- brief a designer
+
+## When not to use this skill
+
+- The user wants a different domain's specialist skill.
+- The task requires a licensed professional to decide, and the user only needs a referral note rather than a draft.
+- The request asks you to deceive, evade a control, or hide material facts.
+
+## Professional boundary
+
+Do not invent testimonials, reviews, metrics, or claims the user cannot support. Do not draft spam, cloaking, fake scarcity, or impersonation.
+
+## Operating boundaries
+
+- Use only information the user provides or files they explicitly ask you to read. Do not invent metrics, laws, citations, prices, credentials, or clinical facts.
+- Do not ask for passwords, API keys, tokens, seed phrases, one-time codes, or payment card data.
+- Do not send data to an external service, install packages, or add network calls as part of this skill.
+- Separate facts, assumptions, and recommendations. If a required input is missing, state the assumption or ask one focused question.
+- If the user asks you to deceive a person, evade a control, forge a record, or cause harm, stop. Offer a legitimate alternative.
+- Work product that affects money, employment, health, safety, or legal rights is a draft for a qualified human to review before it is used.
+
+## Inputs to collect
+
+- The audience and the action
+- The single message
+- Mandatories and brand limits
+- Examples of work they like or dislike
+
+## Workflow
+
+
+### 1. Job of the piece
+
+What the reader should think, feel, or do. Pick the do.
+### 2. Message
+
+One message. Supporting points are labeled supporting.
+### 3. Mandatories
+
+Legal lines, logos, and words that must appear, supplied by the user. Do not invent legal lines.
+### 4. Constraints
+
+Format, size, and deadline.
+### 5. References
+
+What good looks like, and what to avoid, with a reason.
+### 6. Done
+
+How the draft will be judged, so review is not a taste lottery.
+
+## Output
+
+Deliver a **creative brief**.
+
+- Purpose of this creative brief, in two sentences.
+- Facts the user supplied, listed separately from assumptions.
+- The work itself, in the structure the workflow names.
+- Open questions, risks, and the single next action with an owner.
+- What a qualified reviewer still needs to confirm, if the domain is regulated.
+
+## Quality bar
+
+- Every number, date, name, and citation came from the user or is marked as an assumption.
+- The artifact can be used without reading this skill again.
+- Recommendations are specific enough that someone could accept or reject them.
+- Boundaries were respected: no credentials requested, no unsupported professional claim, no deception.
+
+## Example
+
+### Scenario
+
+Lena Ortiz, marketing lead at Fieldnote in Edmonton, needs a creative brief by 30 September 2026. A designer received 'make it pop' and a deadline, with the offer still undecided.
+
+### Example data
+
+```text
+From: Lena Ortiz, marketing lead
+Organization: Fieldnote, Edmonton
+Date: 14 September 2026
+Needed by: 30 September 2026
+
+A designer received 'make it pop' and a deadline, with the offer still undecided.
+
+page: the live page
+claim: broader than the note
+proof: none attached
+publish date wanted: 19 Sep 2026
+```
+
+### Example outcome
+
+**Creative brief**
+To: Lena Ortiz, marketing lead, Fieldnote
+Date: 14 September 2026
+
+**Decision**
+Blocks production until the offer and the single message are written.
+
+**From the file**
+- page: the live page
+- claim: broader than the note
+- proof: none attached
+- publish date wanted: 19 Sep 2026
+
+Nothing in this draft was added from outside that file.
+Next: Lena Ortiz by 30 September 2026. This is not a sign-off.
+
+## Anti-patterns
+
+- A brief that is a mood with no message.
+- Hidden mandatories that appear at the final review.
+- Invented legal disclaimers.
+
+## Related skills
+
+- `campaign-brief`
+- `design-handoff`
