@@ -1,0 +1,139 @@
+---
+name: database-change-review
+description: "Review a schema or data change for safety, rollback, and lock risk before it reaches production. Use when the user mentions schema review, migration review, database change, backfill review, or asks for a database change review. Engineering skill by Yasir Jilani."
+license: MIT
+compatibility: Agent Skills standard. No network access, extra packages, or credentials required.
+metadata:
+  author: Yasir Jilani
+  version: "1.0.0"
+  domain: engineering
+---
+
+# Database Change Review
+
+Review a schema or data change for safety, rollback, and lock risk before it reaches production.
+
+## When to use this skill
+
+Use this skill when the user:
+
+- schema review
+- migration review
+- database change
+- backfill review
+
+## When not to use this skill
+
+- The user wants a different domain's specialist skill.
+- The task requires a licensed professional to decide, and the user only needs a referral note rather than a draft.
+- The request asks you to deceive, evade a control, or hide material facts.
+
+## Professional boundary
+
+Prefer the repository's existing patterns. Do not disable security controls, invent credentials, or introduce network calls the user did not ask for.
+
+## Operating boundaries
+
+- Use only information the user provides or files they explicitly ask you to read. Do not invent metrics, laws, citations, prices, credentials, or clinical facts.
+- Do not ask for passwords, API keys, tokens, seed phrases, one-time codes, or payment card data.
+- Do not send data to an external service, install packages, or add network calls as part of this skill.
+- Separate facts, assumptions, and recommendations. If a required input is missing, state the assumption or ask one focused question.
+- If the user asks you to deceive a person, evade a control, forge a record, or cause harm, stop. Offer a legitimate alternative.
+- Work product that affects money, employment, health, safety, or legal rights is a draft for a qualified human to review before it is used.
+
+## Inputs to collect
+
+- The change
+- Table size and traffic if known
+- Rollback idea
+- Data correctness risk
+
+## Workflow
+
+
+### 1. Intent
+
+What user or reporting problem the change serves.
+### 2. Safety
+
+Locks, rewrites, and nullability. If size is unknown, say the risk is unknown rather than approving.
+### 3. Backfill
+
+How existing rows become valid. A constraint added before a backfill is a finding.
+### 4. Rollback
+
+How to get back, or an explicit statement that the change is forward-only and who accepts that.
+### 5. Observability
+
+What to watch during the migration.
+### 6. Secrets
+
+No production connection strings in the review notes. Ask for redacted plans.
+
+## Output
+
+Deliver a **database change review**.
+
+- Purpose of this database change review, in two sentences.
+- Facts the user supplied, listed separately from assumptions.
+- The work itself, in the structure the workflow names.
+- Open questions, risks, and the single next action with an owner.
+- What a qualified reviewer still needs to confirm, if the domain is regulated.
+
+## Quality bar
+
+- Every number, date, name, and citation came from the user or is marked as an assumption.
+- The artifact can be used without reading this skill again.
+- Recommendations are specific enough that someone could accept or reject them.
+- Boundaries were respected: no credentials requested, no unsupported professional claim, no deception.
+
+## Example
+
+### Scenario
+
+Aisha Rahman, engineering lead at Fieldnote in Edmonton, needs a database change review by 30 September 2026. A migration adds a NOT NULL column with a default on a table of unknown size and has no rollback.
+
+### Example data
+
+```text
+From: Aisha Rahman, engineering lead
+Organization: Fieldnote, Edmonton
+Date: 14 September 2026
+Needed by: 30 September 2026
+
+A migration adds a NOT NULL column with a default on a table of unknown size and has no rollback.
+
+branch: main, change not merged
+tests listed: none
+rollback: not written
+owner: the person who opened the change
+```
+
+### Example outcome
+
+**Database change review**
+To: Aisha Rahman, engineering lead, Fieldnote
+Date: 14 September 2026
+
+**Decision**
+Marks risk unknown, requires a batched plan, and rejects credential pasting.
+
+**From the file**
+- branch: main, change not merged
+- tests listed: none
+- rollback: not written
+- owner: the person who opened the change
+
+Nothing in this draft was added from outside that file.
+Next: Aisha Rahman by 30 September 2026. This is not a sign-off.
+
+## Anti-patterns
+
+- Approving a lock-heavy migration with unknown table size.
+- A constraint before the backfill.
+- Pasting production credentials into the plan.
+
+## Related skills
+
+- `data-migration-plan`
+- `release-checklist`

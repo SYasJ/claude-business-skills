@@ -1,0 +1,139 @@
+---
+name: fundraising-model
+description: "Lay out how much cash a raise needs to buy, what it funds, and what remains unresolved. Not a valuation. Use when the user mentions fundraising model, use of proceeds, how much should we raise, runway raise, or asks for a fundraising use-of-proceeds model. Finance skill by Yasir Jilani."
+license: MIT
+compatibility: Agent Skills standard. No network access, extra packages, or credentials required.
+metadata:
+  author: Yasir Jilani
+  version: "1.0.0"
+  domain: finance
+---
+
+# Fundraising Model
+
+Lay out how much cash a raise needs to buy, what it funds, and what remains unresolved. Not a valuation.
+
+## When to use this skill
+
+Use this skill when the user:
+
+- fundraising model
+- use of proceeds
+- how much should we raise
+- runway raise
+
+## When not to use this skill
+
+- Investment advice
+- Inventing investor demand
+
+## Professional boundary
+
+This is not investment, tax, or financial advice. Do not invent rates of return, tax rates, or valuation multiples. A qualified finance professional must review any decision that moves money.
+
+## Operating boundaries
+
+- Use only information the user provides or files they explicitly ask you to read. Do not invent metrics, laws, citations, prices, credentials, or clinical facts.
+- Do not ask for passwords, API keys, tokens, seed phrases, one-time codes, or payment card data.
+- Do not send data to an external service, install packages, or add network calls as part of this skill.
+- Separate facts, assumptions, and recommendations. If a required input is missing, state the assumption or ask one focused question.
+- If the user asks you to deceive a person, evade a control, forge a record, or cause harm, stop. Offer a legitimate alternative.
+- Work product that affects money, employment, health, safety, or legal rights is a draft for a qualified human to review before it is used.
+
+## Inputs to collect
+
+- Current cash and monthly burn the user stands behind
+- The plan the raise is meant to fund
+- Target months of runway
+- Known financing terms, if any
+
+## Workflow
+
+
+### 1. Start from the plan
+
+The raise follows the operating plan, not the other way around. If there is no plan, say the amount cannot be justified yet.
+### 2. Build a monthly cash view
+
+Use the user's costs. Separate hiring that is required for the plan from hiring that is optional.
+### 3. Add a buffer
+
+Recommend a stated buffer for timing slips. Call it a buffer, not a pretend precision.
+### 4. Use of proceeds
+
+Group the money into a few uses a investor or lender can audit later. No 'miscellaneous growth' bucket over a small share unless the user insists, and then flag it.
+### 5. Do not value the company
+
+If the user supplies a price, you may show dilution math as arithmetic. Do not invent a valuation.
+### 6. State what the money will not do
+
+The milestones this raise does not buy. Overclaiming the plan is how raises become stories.
+
+## Output
+
+Deliver a **fundraising use-of-proceeds model**.
+
+- Purpose of this fundraising use-of-proceeds model, in two sentences.
+- Facts the user supplied, listed separately from assumptions.
+- The work itself, in the structure the workflow names.
+- Open questions, risks, and the single next action with an owner.
+- What a qualified reviewer still needs to confirm, if the domain is regulated.
+
+## Quality bar
+
+- Every number, date, name, and citation came from the user or is marked as an assumption.
+- The artifact can be used without reading this skill again.
+- Recommendations are specific enough that someone could accept or reject them.
+- Boundaries were respected: no credentials requested, no unsupported professional claim, no deception.
+
+## Example
+
+### Scenario
+
+Mara Chen, founder at Northline Studio in Calgary, needs a fundraising use-of-proceeds model by 30 September 2026. A founder wants to raise '18 months of runway' and has a hiring plan that is not in the current burn.
+
+### Example data
+
+```text
+From: Mara Chen, founder
+Organization: Northline Studio, Calgary
+Date: 14 September 2026
+Needed by: 30 September 2026
+
+A founder wants to raise '18 months of runway' and has a hiring plan that is not in the current burn.
+
+cash: the counted figure in the ask, one entity
+maybe receipt: not in the bank
+buffer: the one they named
+new spend: not in the base case
+```
+
+### Example outcome
+
+**Fundraising use-of-proceeds model**
+To: Mara Chen, founder, Northline Studio
+Date: 14 September 2026
+
+**Decision**
+A monthly cash view, a recommended buffer, a use-of-proceeds grouping, and an explicit statement that valuation is outside this skill.
+
+**From the file**
+- cash: the counted figure in the ask, one entity
+- maybe receipt: not in the bank
+- buffer: the one they named
+- new spend: not in the base case
+
+Nothing in this draft was added from outside that file.
+Next: Mara Chen by 30 September 2026. This is not a sign-off.
+
+## Anti-patterns
+
+- Choosing a raise amount because it sounds normal.
+- Inventing a pre-money valuation.
+- A use-of-proceeds slide that does not tie to the cash model.
+
+## Related skills
+
+- `runway-and-burn`
+- `investment-memo`
+- `cash-flow-forecast`
