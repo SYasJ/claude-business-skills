@@ -1,0 +1,139 @@
+---
+name: analysis-plan
+description: "Plan an analysis so the question, the data, and the decision rule are fixed before the slicing starts. Use when the user mentions analysis plan, data analysis request, what should we analyze, analytics brief, or asks for a analysis plan. Data and analytics skill by Yasir Jilani."
+license: MIT
+compatibility: Agent Skills standard. No network access, extra packages, or credentials required.
+metadata:
+  author: Yasir Jilani
+  version: "1.0.0"
+  domain: data
+---
+
+# Analysis Plan
+
+Plan an analysis so the question, the data, and the decision rule are fixed before the slicing starts.
+
+## When to use this skill
+
+Use this skill when the user:
+
+- analysis plan
+- data analysis request
+- what should we analyze
+- analytics brief
+
+## When not to use this skill
+
+- The user wants a different domain's specialist skill.
+- The task requires a licensed professional to decide, and the user only needs a referral note rather than a draft.
+- The request asks you to deceive, evade a control, or hide material facts.
+
+## Professional boundary
+
+Do not invent numbers. If a source file is missing, say so. Distinguish observation from inference. Do not re-identify private data to make a point.
+
+## Operating boundaries
+
+- Use only information the user provides or files they explicitly ask you to read. Do not invent metrics, laws, citations, prices, credentials, or clinical facts.
+- Do not ask for passwords, API keys, tokens, seed phrases, one-time codes, or payment card data.
+- Do not send data to an external service, install packages, or add network calls as part of this skill.
+- Separate facts, assumptions, and recommendations. If a required input is missing, state the assumption or ask one focused question.
+- If the user asks you to deceive a person, evade a control, forge a record, or cause harm, stop. Offer a legitimate alternative.
+- Work product that affects money, employment, health, safety, or legal rights is a draft for a qualified human to review before it is used.
+
+## Inputs to collect
+
+- The decision
+- The data available
+- The comparison they care about
+- The deadline
+
+## Workflow
+
+
+### 1. Step 1
+
+Restate the decision. An analysis with no decision is a tour.
+### 2. Write the comparison
+
+against what period, segment, or control.
+### 3. Step 3
+
+List the data you have and the data you do not. Do not plan around a table nobody can access.
+### 4. Step 4
+
+Pre-commit the cut that would change the decision.
+### 5. Step 5
+
+Name biases in the sample the user described.
+### 6. Step 6
+
+Set the deliverable as a memo, not a notebook dump, unless they asked for the notebook too.
+
+## Output
+
+Deliver a **analysis plan**.
+
+- Purpose of this analysis plan, in two sentences.
+- Facts the user supplied, listed separately from assumptions.
+- The work itself, in the structure the workflow names.
+- Open questions, risks, and the single next action with an owner.
+- What a qualified reviewer still needs to confirm, if the domain is regulated.
+
+## Quality bar
+
+- Every number, date, name, and citation came from the user or is marked as an assumption.
+- The artifact can be used without reading this skill again.
+- Recommendations are specific enough that someone could accept or reject them.
+- Boundaries were respected: no credentials requested, no unsupported professional claim, no deception.
+
+## Example
+
+### Scenario
+
+Noah Berger, data lead at Fieldnote in Edmonton, needs an analysis plan by 30 September 2026. A team wants to know why conversion fell and plans to look at twelve dimensions with no primary comparison.
+
+### Example data
+
+```text
+From: Noah Berger, data lead
+Organization: Fieldnote, Edmonton
+Date: 14 September 2026
+Needed by: 30 September 2026
+
+A team wants to know why conversion fell and plans to look at twelve dimensions with no primary comparison.
+
+extract date: 14 Sep 2026
+owner: the sender
+second source: not attached
+nulls: not counted yet
+```
+
+### Example outcome
+
+**Analysis plan**
+To: Noah Berger, data lead, Fieldnote
+Date: 14 September 2026
+
+**Decision**
+A plan with one primary comparison, the missing data called out, and a decision rule written first.
+
+**From the file**
+- extract date: 14 Sep 2026
+- owner: the sender
+- second source: not attached
+- nulls: not counted yet
+
+Nothing in this draft was added from outside that file.
+Next: Noah Berger by 30 September 2026. This is not a sign-off.
+
+## Anti-patterns
+
+- Slicing until a flattering story appears
+- Assuming a dataset you cannot see
+- A notebook with no decision
+
+## Related skills
+
+- `experiment-readout`
+- `decision-memo-from-data`

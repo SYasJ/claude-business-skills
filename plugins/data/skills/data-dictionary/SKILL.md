@@ -1,0 +1,139 @@
+---
+name: data-dictionary
+description: "Write a data dictionary entry that tells an analyst what a field means, what it does not mean, and who owns it. Use when the user mentions data dictionary, document this field, column definition, semantic layer entry, or asks for a data dictionary entry. Data and analytics skill by Yasir Jilani."
+license: MIT
+compatibility: Agent Skills standard. No network access, extra packages, or credentials required.
+metadata:
+  author: Yasir Jilani
+  version: "1.0.0"
+  domain: data
+---
+
+# Data Dictionary
+
+Write a data dictionary entry that tells an analyst what a field means, what it does not mean, and who owns it.
+
+## When to use this skill
+
+Use this skill when the user:
+
+- data dictionary
+- document this field
+- column definition
+- semantic layer entry
+
+## When not to use this skill
+
+- The user wants a different domain's specialist skill.
+- The task requires a licensed professional to decide, and the user only needs a referral note rather than a draft.
+- The request asks you to deceive, evade a control, or hide material facts.
+
+## Professional boundary
+
+Do not invent numbers. If a source file is missing, say so. Distinguish observation from inference. Do not re-identify private data to make a point.
+
+## Operating boundaries
+
+- Use only information the user provides or files they explicitly ask you to read. Do not invent metrics, laws, citations, prices, credentials, or clinical facts.
+- Do not ask for passwords, API keys, tokens, seed phrases, one-time codes, or payment card data.
+- Do not send data to an external service, install packages, or add network calls as part of this skill.
+- Separate facts, assumptions, and recommendations. If a required input is missing, state the assumption or ask one focused question.
+- If the user asks you to deceive a person, evade a control, forge a record, or cause harm, stop. Offer a legitimate alternative.
+- Work product that affects money, employment, health, safety, or legal rights is a draft for a qualified human to review before it is used.
+
+## Inputs to collect
+
+- The field and table
+- The business meaning
+- Known null or sentinel values
+- The owner
+
+## Workflow
+
+
+### 1. Step 1
+
+Name the grain of the table before defining the field.
+### 2. Step 2
+
+Write the business meaning in plain language, plus a false friend it is often confused with.
+### 3. Step 3
+
+Document nulls, sentinels, and units. Do not guess a unit.
+### 4. Step 4
+
+State the source system if they know it.
+### 5. Step 5
+
+Name an owner. An unowned field will rot.
+### 6. Step 6
+
+Add an example value only if they supplied one. Do not invent customer data.
+
+## Output
+
+Deliver a **data dictionary entry**.
+
+- Purpose of this data dictionary entry, in two sentences.
+- Facts the user supplied, listed separately from assumptions.
+- The work itself, in the structure the workflow names.
+- Open questions, risks, and the single next action with an owner.
+- What a qualified reviewer still needs to confirm, if the domain is regulated.
+
+## Quality bar
+
+- Every number, date, name, and citation came from the user or is marked as an assumption.
+- The artifact can be used without reading this skill again.
+- Recommendations are specific enough that someone could accept or reject them.
+- Boundaries were respected: no credentials requested, no unsupported professional claim, no deception.
+
+## Example
+
+### Scenario
+
+Noah Berger, data lead at Fieldnote in Edmonton, needs a data dictionary entry by 30 September 2026. A field called status has values 1, 2, and 9, and nobody agrees what 9 means.
+
+### Example data
+
+```text
+From: Noah Berger, data lead
+Organization: Fieldnote, Edmonton
+Date: 14 September 2026
+Needed by: 30 September 2026
+
+A field called status has values 1, 2, and 9, and nobody agrees what 9 means.
+
+extract date: 14 Sep 2026
+owner: the sender
+second source: not attached
+nulls: not counted yet
+```
+
+### Example outcome
+
+**Data dictionary entry**
+To: Noah Berger, data lead, Fieldnote
+Date: 14 September 2026
+
+**Decision**
+Records the known values, marks 9 as unresolved, and names the owner who must decide.
+
+**From the file**
+- extract date: 14 Sep 2026
+- owner: the sender
+- second source: not attached
+- nulls: not counted yet
+
+Nothing in this draft was added from outside that file.
+Next: Noah Berger by 30 September 2026. This is not a sign-off.
+
+## Anti-patterns
+
+- A dictionary that copies the column name as the definition
+- Invented example customers
+- No owner
+
+## Related skills
+
+- `metric-definition`
+- `event-tracking-spec`

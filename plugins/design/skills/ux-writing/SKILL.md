@@ -1,0 +1,140 @@
+---
+name: ux-writing
+description: "Write interface copy that tells the user what happened, what to do, and what they are committing to. Use when the user mentions UX writing, microcopy, button label, empty state copy, or asks for a interface copy. Design skill by Yasir Jilani."
+license: MIT
+compatibility: Agent Skills standard. No network access, extra packages, or credentials required.
+metadata:
+  author: Yasir Jilani
+  version: "1.0.0"
+  domain: design
+---
+
+# UX Writing
+
+Write interface copy that tells the user what happened, what to do, and what they are committing to.
+
+## When to use this skill
+
+Use this skill when the user:
+
+- UX writing
+- microcopy
+- button label
+- empty state copy
+- error message
+
+## When not to use this skill
+
+- The user wants a different domain's specialist skill.
+- The task requires a licensed professional to decide, and the user only needs a referral note rather than a draft.
+- The request asks you to deceive, evade a control, or hide material facts.
+
+## Professional boundary
+
+Design critique improves the work. Do not copy a third party's branded assets. Accessibility is part of done, not a later pass to skip.
+
+## Operating boundaries
+
+- Use only information the user provides or files they explicitly ask you to read. Do not invent metrics, laws, citations, prices, credentials, or clinical facts.
+- Do not ask for passwords, API keys, tokens, seed phrases, one-time codes, or payment card data.
+- Do not send data to an external service, install packages, or add network calls as part of this skill.
+- Separate facts, assumptions, and recommendations. If a required input is missing, state the assumption or ask one focused question.
+- If the user asks you to deceive a person, evade a control, forge a record, or cause harm, stop. Offer a legitimate alternative.
+- Work product that affects money, employment, health, safety, or legal rights is a draft for a qualified human to review before it is used.
+
+## Inputs to collect
+
+- The user action
+- The system state
+- The tone guide if any
+- Legal lines they must include
+
+## Workflow
+
+
+### 1. Step 1
+
+Label the action as the outcome, not as OK, when the outcome matters.
+### 2. Step 2
+
+Error text says what went wrong and how to fix it, if known.
+### 3. Step 3
+
+Empty states teach the next action.
+### 4. Step 4
+
+Commitment moments state the consequence before the click.
+### 5. Step 5
+
+Use their required legal line verbatim. Do not invent one.
+### 6. Step 6
+
+Cut cleverness that hides meaning.
+
+## Output
+
+Deliver a **interface copy**.
+
+- Purpose of this interface copy, in two sentences.
+- Facts the user supplied, listed separately from assumptions.
+- The work itself, in the structure the workflow names.
+- Open questions, risks, and the single next action with an owner.
+- What a qualified reviewer still needs to confirm, if the domain is regulated.
+
+## Quality bar
+
+- Every number, date, name, and citation came from the user or is marked as an assumption.
+- The artifact can be used without reading this skill again.
+- Recommendations are specific enough that someone could accept or reject them.
+- Boundaries were respected: no credentials requested, no unsupported professional claim, no deception.
+
+## Example
+
+### Scenario
+
+Lena Ortiz, design lead at Fieldnote in Edmonton, needs an interface copy by 30 September 2026. A delete dialog says 'Let's do this' and does not name the deletion.
+
+### Example data
+
+```text
+From: Lena Ortiz, design lead
+Organization: Fieldnote, Edmonton
+Date: 14 September 2026
+Needed by: 30 September 2026
+
+A delete dialog says 'Let's do this' and does not name the deletion.
+
+screens: 8, dated 10 Sep 2026
+job: the task in the ask
+accessibility pass: not done
+assets: theirs only
+```
+
+### Example outcome
+
+**Interface copy**
+To: Lena Ortiz, design lead, Fieldnote
+Date: 14 September 2026
+
+**Decision**
+Copy that names the deletion and the consequence before confirm.
+
+**From the file**
+- screens: 8, dated 10 Sep 2026
+- job: the task in the ask
+- accessibility pass: not done
+- assets: theirs only
+
+Nothing in this draft was added from outside that file.
+Next: Lena Ortiz by 30 September 2026. This is not a sign-off.
+
+## Anti-patterns
+
+- An OK button on a destructive action
+- Cute error text with no fix
+- Invented legal lines
+
+## Related skills
+
+- `brand-voice-guide`
+- `empty-state-design`
