@@ -1,0 +1,139 @@
+---
+name: privacy-by-design
+description: "Review a feature for data minimization, purpose, and user-facing honesty before it ships. Use when the user mentions privacy by design, data minimization, privacy review a feature, collect less data, or asks for a privacy design note. Security defense skill by Yasir Jilani."
+license: MIT
+compatibility: Agent Skills standard. No network access, extra packages, or credentials required.
+metadata:
+  author: Yasir Jilani
+  version: "1.0.0"
+  domain: security
+---
+
+# Privacy by Design
+
+Review a feature for data minimization, purpose, and user-facing honesty before it ships.
+
+## When to use this skill
+
+Use this skill when the user:
+
+- privacy by design
+- data minimization
+- privacy review a feature
+- collect less data
+
+## When not to use this skill
+
+- The user wants a different domain's specialist skill.
+- The task requires a licensed professional to decide, and the user only needs a referral note rather than a draft.
+- The request asks you to deceive, evade a control, or hide material facts.
+
+## Professional boundary
+
+Defensive use only. Do not write exploits, payloads, bypasses, malware, or intrusion steps. Describe controls, ownership, detection, and safe verification.
+
+## Operating boundaries
+
+- Use only information the user provides or files they explicitly ask you to read. Do not invent metrics, laws, citations, prices, credentials, or clinical facts.
+- Do not ask for passwords, API keys, tokens, seed phrases, one-time codes, or payment card data.
+- Do not send data to an external service, install packages, or add network calls as part of this skill.
+- Separate facts, assumptions, and recommendations. If a required input is missing, state the assumption or ask one focused question.
+- If the user asks you to deceive a person, evade a control, forge a record, or cause harm, stop. Offer a legitimate alternative.
+- Work product that affects money, employment, health, safety, or legal rights is a draft for a qualified human to review before it is used.
+
+## Inputs to collect
+
+- The data the feature collects
+- The purpose
+- Retention if known
+- What the user is told
+
+## Workflow
+
+
+### 1. Step 1
+
+List each data element and the purpose it serves. No purpose, recommend cutting it.
+### 2. Step 2
+
+Prefer the least identifying option that still meets the purpose.
+### 3. Step 3
+
+Check that the notice or UI matches the collection. A mismatch is a finding.
+### 4. Step 4
+
+Retention is a question if unknown. Do not invent a period.
+### 5. Step 5
+
+Access, export, and deletion are product questions to flag, not legal conclusions.
+### 6. Step 6
+
+Send jurisdiction-specific claims to counsel. Do not declare a law satisfied.
+
+## Output
+
+Deliver a **privacy design note**.
+
+- Purpose of this privacy design note, in two sentences.
+- Facts the user supplied, listed separately from assumptions.
+- The work itself, in the structure the workflow names.
+- Open questions, risks, and the single next action with an owner.
+- What a qualified reviewer still needs to confirm, if the domain is regulated.
+
+## Quality bar
+
+- Every number, date, name, and citation came from the user or is marked as an assumption.
+- The artifact can be used without reading this skill again.
+- Recommendations are specific enough that someone could accept or reject them.
+- Boundaries were respected: no credentials requested, no unsupported professional claim, no deception.
+
+## Example
+
+### Scenario
+
+Aisha Rahman, engineering lead at Fieldnote in Edmonton, needs a privacy design note by 30 September 2026. A feature stores a full ID document to personalize a greeting.
+
+### Example data
+
+```text
+From: Aisha Rahman, engineering lead
+Organization: Fieldnote, Edmonton
+Date: 14 September 2026
+Needed by: 30 September 2026
+
+A feature stores a full ID document to personalize a greeting.
+
+policy: the one they have
+report in the folder: none
+control named: only if it is in the policy
+owner: engineering lead
+```
+
+### Example outcome
+
+**Privacy design note**
+To: Aisha Rahman, engineering lead, Fieldnote
+Date: 14 September 2026
+
+**Decision**
+Cuts the document, keeps the display name if needed, and flags the notice gap.
+
+**From the file**
+- policy: the one they have
+- report in the folder: none
+- control named: only if it is in the policy
+- owner: engineering lead
+
+Nothing in this draft was added from outside that file.
+Next: Aisha Rahman by 30 September 2026. This is not a sign-off.
+
+## Anti-patterns
+
+- Collecting data for a future maybe
+- A UI that hides the collection
+- A fake legal clearance
+
+## Related skills
+
+- `privacy-notice-draft`
+- `privacy-impact-assessment`
