@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Practice Skills for Claude Code, by Yasir Jilani</title>
+  <meta name="description" content="587 Claude Code skills and Agent Skills for business work. SKILL.md plugins for finance, SEO, SaaS, supply chain, oil and gas, and more. Local install. By Yasir Jilani.">
+  <style>
+    :root {
+      --ink: #0c1c2e;
+      --ink-2: #16324a;
+      --paper: #f6f1e7;
+      --card: #fffaf3;
+      --gold: #b8924a;
+      --teal: #1f7a72;
+      --muted: #5d6f7d;
+      --line: #e4d8c4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+      line-height: 1.5;
+    }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 72px; }
+    header.hero {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 48px 20px 40px;
+    }
+    header.hero .wrap { padding-top: 8px; }
+    .kicker {
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-size: 13px;
+      margin: 0 0 12px;
+    }
+    h1 { font-size: 64px; line-height: 0.95; font-weight: 500; margin: 0 0 12px; }
+    .lede { font-size: 22px; max-width: 740px; color: #d7e3ea; margin: 0; }
+    .stats { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .stat {
+      background: #14344c;
+      border: 1px solid #2a4d68;
+      border-radius: 999px;
+      padding: 8px 16px;
+      font-size: 15px;
+    }
+    .stat strong { color: var(--gold); font-weight: 500; }
+    section { margin-top: 42px; }
+    h2 { font-size: 32px; font-weight: 500; margin: 0 0 8px; }
+    h3 { font-size: 22px; font-weight: 500; margin: 0 0 8px; }
+    p { margin: 0 0 12px; }
+    .sub { color: var(--muted); max-width: 720px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-top: 18px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px 16px 14px;
+    }
+    .card .count { color: var(--teal); font-size: 13px; letter-spacing: 0.04em; }
+    .card p { color: var(--muted); font-size: 15px; margin: 8px 0 0; }
+    pre {
+      background: var(--ink);
+      color: #f6f1e7;
+      padding: 16px 18px;
+      border-radius: 12px;
+      overflow: auto;
+      font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+    .example {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .note { background: #fff; border-left: 4px solid var(--gold); padding: 12px 14px; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { font-weight: 500; background: #fff; }
+    .warn {
+      background: #fff8ee;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+    footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+    @media (max-width: 800px) {
+      h1 { font-size: 44px; }
+      .example { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="kicker">Yasir Jilani</p>
+      <h1>Practice Skills</h1>
+      <p class="lede">A local library of 587 agent skills. Each one has a scenario, sample data, and a filled outcome. Built for Claude, and for any tool that reads the Agent Skills standard.</p>
+      <div class="stats">
+        <div class="stat"><strong>587</strong> skills</div>
+        <div class="stat"><strong>48</strong> domains</div>
+        <div class="stat"><strong>0</strong> network calls</div>
+        <div class="stat"><strong>MIT</strong> license</div>
+      </div>
+    </div>
+  </header>
+  <div class="wrap">
+    <section>
+      <h2>Install a practice, not a pile</h2>
+      <p class="sub">Each skill is a folder with a <code>SKILL.md</code> file. Claude reads the short description at startup and loads the procedure only when the task matches. Install one domain so you do not pay for descriptions you are not using.</p>
+      <pre>python3 scripts/install.py --tool claude --domain finance
+python3 scripts/install.py --tool claude --domain finance --dry-run</pre>
+      <p class="sub">Run it from the repository root. Finance skills land in <code>~/.claude/skills/&lt;skill-name&gt;/</code>, not in a finance subfolder. The installer copies files on this machine. It does not download a script, ask for a key, or run the skills. Naming and the write format are in <code>CONTRIBUTING.md</code>.</p>
+    </section>
+    <section>
+      <h2>A worked example</h2>
+      <div class="example">
+        <div class="card">
+          <h3>The ask</h3>
+          <p>Can we hire two engineers next month without missing payroll?</p>
+          <p>That is not a pep talk. It is a cash question. The skill <strong>cash-flow-forecast</strong> builds a 13-week view from collections and commitments, then shows the week the buffer breaks if a receipt slips.</p>
+        </div>
+        <div class="card">
+          <h3>The boundary</h3>
+          <p>The skill will not invent a collection rate, ask for a bank password, or call the result investment advice. Figures you did not supply stay labeled as assumptions.</p>
+          <p>See <code>examples/01-cash-forecast.md</code>.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Where the skills live</h2>
+      <div class="grid">
+        <article class="card"><div class="count">27 skills</div><h3>Engineering</h3><p>Design docs, reviews, incident write-ups, and release checks.</p></article>
+        <article class="card"><div class="count">24 skills</div><h3>Marketing</h3><p>Positioning, campaigns, and claims you can actually support.</p></article>
+        <article class="card"><div class="count">23 skills</div><h3>Finance</h3><p>Cash, runway, margin, and management packs. Not investment advice.</p></article>
+        <article class="card"><div class="count">23 skills</div><h3>People</h3><p>Hiring, reviews, and pay bands without invented market data.</p></article>
+        <article class="card"><div class="count">22 skills</div><h3>Strategy</h3><p>Choices, board memos, and an operating cadence.</p></article>
+        <article class="card"><div class="count">20 skills</div><h3>Sales</h3><p>Discovery, qualification, and proposals without fake proof.</p></article>
+        <article class="card"><div class="count">20 skills</div><h3>Product</h3><p>Briefs, PRDs, experiments, and roadmaps with kill criteria.</p></article>
+        <article class="card"><div class="count">18 skills</div><h3>Legal operations</h3><p>Contract triage and counsel briefs. Not a legal opinion.</p></article>
+        <article class="card"><div class="count">17 skills</div><h3>Accounting</h3><p>Close, reconciliations, and audit prep. Not an audit opinion.</p></article>
+        <article class="card"><div class="count">16 skills</div><h3>Security defense</h3><p>Controls, access, and response. No exploits or bypasses.</p></article>
+        <article class="card"><div class="count">16 skills</div><h3>Operations</h3><p>SOPs, capacity, and service levels a team can staff.</p></article>
+        <article class="card"><div class="count">23 skills</div><h3>Data</h3><p>Contracts, lineage, freshness, and readouts from files you have.</p></article>
+      </div>
+      <p class="sub" style="margin-top:14px;">Also included: AI, data, SEO, blogs, news, SaaS, startups, small business, supply chain, oil and gas, energy, automotive, and airlines. Every skill has a scenario file under <code>examples/by-skill/</code>.</p>
+    </section>
+    <section>
+      <h2>The file format</h2>
+      <pre>plugins/finance/skills/cash-flow-forecast/
+├── SKILL.md
+├── references/assumptions.md
+└── scripts/cashflow_check.py</pre>
+      <div class="note">
+        <p>Frontmatter has a name, a description that says when to use the skill, the MIT license, and the author. The body is the procedure: inputs, steps, a quality bar, an example, and the anti-patterns. Long notes stay in <code>references/</code> so they load only if needed.</p>
+      </div>
+    </section>
+    <section>
+      <h2>Why this is safe to install</h2>
+      <table>
+        <thead><tr><th>Check</th><th>What you should see</th></tr></thead>
+        <tbody>
+          <tr><td>Installer</td><td>A local Python copy. No remote script.</td></tr>
+          <tr><td>Account</td><td>None. No license server, wallet, or activation key.</td></tr>
+          <tr><td>Scripts</td><td>Standard library only. They read files you pass in.</td></tr>
+          <tr><td>Integrity</td><td><code>MANIFEST.sha256</code> is verified before copy.</td></tr>
+          <tr><td>Affiliation</td><td>Independent work by Yasir Jilani. Not an Anthropic product.</td></tr>
+        </tbody>
+      </table>
+      <div class="warn" style="margin-top:14px;">
+        <p>Skills draft work for a person to review. They do not replace counsel, a clinician, a CPA, a licensed broker, or a credit officer. If a request asks the agent to deceive someone or evade a control, the skill tells it to stop.</p>
+      </div>
+    </section>
+    <section>
+      <h2>Use it from Claude Code</h2>
+      <pre>/plugin marketplace add /path/to/yj-claude-skills
+/plugin install finance@yj-skills</pre>
+      <p class="sub">After you publish the folder to GitHub, teammates can add that repository as the marketplace. Until then, the path install and <code>scripts/install.py</code> are the supported paths. Both stay on the machine.</p>
+    </section>
+    <footer>
+      <p>Practice Skills, version 1.0.0. Written by Yasir Jilani. MIT License. Not affiliated with Anthropic.</p>
+    </footer>
+  </div>
+</body>
+</html>
