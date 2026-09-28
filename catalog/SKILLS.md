@@ -731,7 +731,14 @@ Assortment, promotions, and store operations without deceptive pricing.
 
 | Skill | What it produces |
 | --- | --- |
+| `abandoned-cart-recovery` | cart recovery email |
 | `assortment-review` | assortment review |
+| `loss-prevention-incident` | LP incident log |
+| `loyalty-program-design` | loyalty program brief |
+| `marketplace-fee-review` | marketplace fee review |
+| `planogram-brief` | planogram brief |
+| `product-listing-review` | product listing review |
+| `product-review-response` | review response |
 | `promotion-review` | promotion review |
 | `returns-desk-script` | returns script |
 | `store-opening-checklist` | opening checklist |

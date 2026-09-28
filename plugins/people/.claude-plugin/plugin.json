@@ -1,0 +1,16 @@
+{
+  "name": "people",
+  "version": "1.0.0",
+  "description": "Hiring, performance, pay bands, and workplace processes that stay fair and specific. Not legal advice.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hr",
+    "hiring",
+    "performance",
+    "people",
+    "culture"
+  ]
+}

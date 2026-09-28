@@ -1,0 +1,16 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "Use-case, eval, cost, and review gates for AI work. No invented scores and no weakened safety rules.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "llm",
+    "eval",
+    "rag",
+    "automation"
+  ]
+}

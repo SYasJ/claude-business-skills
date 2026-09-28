@@ -1,0 +1,15 @@
+{
+  "name": "consulting",
+  "version": "1.0.0",
+  "description": "Engagement framing, findings, and readouts that separate evidence from advice.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "consulting",
+    "engagement",
+    "findings",
+    "client"
+  ]
+}

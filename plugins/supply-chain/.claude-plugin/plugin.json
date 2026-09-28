@@ -1,0 +1,17 @@
+{
+  "name": "supply-chain",
+  "version": "1.0.0",
+  "description": "Demand, inventory, suppliers, and shortages using the user's own lead times.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "supply-chain",
+    "inventory",
+    "suppliers",
+    "logistics",
+    "demand",
+    "otif"
+  ]
+}

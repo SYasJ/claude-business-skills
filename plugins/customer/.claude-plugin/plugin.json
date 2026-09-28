@@ -1,0 +1,16 @@
+{
+  "name": "customer",
+  "version": "1.0.0",
+  "description": "Journeys, support quality, recovery, and honest customer communication.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "customer",
+    "support",
+    "cx",
+    "success",
+    "journey"
+  ]
+}

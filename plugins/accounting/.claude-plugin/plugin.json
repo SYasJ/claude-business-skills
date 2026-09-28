@@ -1,0 +1,16 @@
+{
+  "name": "accounting",
+  "version": "1.0.0",
+  "description": "Close, controls, reconciliations, and audit preparation. Not an audit opinion or tax advice.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "accounting",
+    "close",
+    "reconcile",
+    "controls",
+    "audit"
+  ]
+}

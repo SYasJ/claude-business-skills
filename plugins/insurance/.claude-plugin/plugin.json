@@ -1,0 +1,15 @@
+{
+  "name": "insurance",
+  "version": "1.0.0",
+  "description": "Claims files and coverage questions organized for a licensed professional. Not a coverage determination.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "insurance",
+    "claims",
+    "policy",
+    "broker"
+  ]
+}

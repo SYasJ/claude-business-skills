@@ -1,0 +1,15 @@
+{
+  "name": "real-estate",
+  "version": "1.0.0",
+  "description": "Listings, leases, and due-diligence checklists. Not brokerage, appraisal, or legal advice.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "real-estate",
+    "property",
+    "lease",
+    "due-diligence"
+  ]
+}

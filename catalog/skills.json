@@ -7394,6 +7394,22 @@
     "example_out": "A draft that splits the ideas, removes the leading praise, and cuts unused demographics."
   },
   {
+    "name": "abandoned-cart-recovery",
+    "title": "Abandoned Cart Recovery",
+    "domain": "retail",
+    "domain_title": "Retail and commerce",
+    "summary": "Draft a cart recovery email sequence that reminds without pressuring and states what was in the cart.",
+    "artifact": "cart recovery email",
+    "triggers": [
+      "abandoned cart email",
+      "cart recovery",
+      "checkout abandonment",
+      "basket reminder"
+    ],
+    "example": "A sequence says \"only 2 left\" when the warehouse has 400 units.",
+    "example_out": "A sequence that removes the false scarcity and earns the second email with a useful reminder."
+  },
+  {
     "name": "assortment-review",
     "title": "Assortment Review",
     "domain": "retail",
@@ -7408,6 +7424,103 @@
     ],
     "example": "A slow-seller list includes an item that was empty for a month.",
     "example_out": "A review that separates the stockout from true slow sellers before any drop."
+  },
+  {
+    "name": "loss-prevention-incident",
+    "title": "Loss Prevention Incident Log",
+    "domain": "retail",
+    "domain_title": "Retail and commerce",
+    "summary": "Write a factual loss prevention incident log from the events the user described, without accusations beyond what evidence supports.",
+    "artifact": "LP incident log",
+    "triggers": [
+      "loss prevention",
+      "LP incident",
+      "shrink report",
+      "theft incident log"
+    ],
+    "example": "A log says \"the suspect stole the item\" based on a single camera angle that does not show concealment.",
+    "example_out": "A log that says \"item not seen at checkout; camera angle does not confirm concealment; LP notified.\""
+  },
+  {
+    "name": "loyalty-program-design",
+    "title": "Loyalty Program Design",
+    "domain": "retail",
+    "domain_title": "Retail and commerce",
+    "summary": "Draft a loyalty program structure that rewards the behavior the brand actually wants to drive.",
+    "artifact": "loyalty program brief",
+    "triggers": [
+      "loyalty program",
+      "rewards program",
+      "points program",
+      "customer loyalty retail"
+    ],
+    "example": "A program offers 10% back in points but the redemption minimum is higher than the average order, so few members ever cash out.",
+    "example_out": "A structure that sets a redemption minimum below the average order and discloses the liability cap."
+  },
+  {
+    "name": "marketplace-fee-review",
+    "title": "Marketplace Fee Review",
+    "domain": "retail",
+    "domain_title": "Retail and commerce",
+    "summary": "Review a marketplace fee structure and show the net margin per unit at their price.",
+    "artifact": "marketplace fee review",
+    "triggers": [
+      "marketplace fees",
+      "amazon fees",
+      "platform fees",
+      "seller fees",
+      "net margin marketplace"
+    ],
+    "example": "A review uses last year's referral fee rate and shows a margin that is no longer achievable.",
+    "example_out": "A review built from the fee schedule they pasted and a note to verify the date."
+  },
+  {
+    "name": "planogram-brief",
+    "title": "Planogram Brief",
+    "domain": "retail",
+    "domain_title": "Retail and commerce",
+    "summary": "Write a shelf placement brief that explains the logic behind the facing sequence and height allocation.",
+    "artifact": "planogram brief",
+    "triggers": [
+      "planogram brief",
+      "shelf layout",
+      "shelf space",
+      "product placement retail"
+    ],
+    "example": "A brief gives 8 facings to a slow-selling line because the vendor paid for placement but does not disclose that.",
+    "example_out": "A brief that uses their sales data and labels any placement that is not data-driven."
+  },
+  {
+    "name": "product-listing-review",
+    "title": "Product Listing Review",
+    "domain": "retail",
+    "domain_title": "Retail and commerce",
+    "summary": "Review an online product listing for accurate claims, complete specs, and images that match what ships.",
+    "artifact": "product listing review",
+    "triggers": [
+      "product listing review",
+      "listing copy review",
+      "PDP review",
+      "online product page"
+    ],
+    "example": "A listing says the item includes a charger but the SKU does not ship one.",
+    "example_out": "A review that removes the charger claim and flags the image showing one."
+  },
+  {
+    "name": "product-review-response",
+    "title": "Product Review Response",
+    "domain": "retail",
+    "domain_title": "Retail and commerce",
+    "summary": "Draft a response to a customer product review that acknowledges the experience and does not argue.",
+    "artifact": "review response",
+    "triggers": [
+      "review response",
+      "respond to review",
+      "customer review reply",
+      "product feedback response"
+    ],
+    "example": "A one-star review says the zipper broke in a week. The response says \"we're sorry you feel that way.\"",
+    "example_out": "A response that acknowledges the zipper, says what the warranty covers, and invites a direct contact."
   },
   {
     "name": "promotion-review",

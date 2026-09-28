@@ -1,0 +1,16 @@
+{
+  "name": "airline",
+  "version": "1.0.0",
+  "description": "Irregular operations, delays, and station notes. Not a way around duty limits or a maintenance release.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "airline",
+    "station",
+    "delay",
+    "irrops",
+    "baggage"
+  ]
+}

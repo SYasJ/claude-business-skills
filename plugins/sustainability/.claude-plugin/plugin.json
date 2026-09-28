@@ -1,0 +1,15 @@
+{
+  "name": "sustainability",
+  "version": "1.0.0",
+  "description": "Emissions and supplier questionnaires that do not invent factors or certifications.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sustainability",
+    "emissions",
+    "esg",
+    "suppliers"
+  ]
+}

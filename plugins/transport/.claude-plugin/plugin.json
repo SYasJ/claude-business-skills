@@ -1,0 +1,15 @@
+{
+  "name": "transport",
+  "version": "1.0.0",
+  "description": "Dispatch and exception handling that follow the safety rules the user states.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "transport",
+    "dispatch",
+    "fleet",
+    "delivery"
+  ]
+}

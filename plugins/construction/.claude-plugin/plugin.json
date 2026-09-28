@@ -1,0 +1,16 @@
+{
+  "name": "construction",
+  "version": "1.0.0",
+  "description": "Site reporting, changes, and safety talks. Do not skip a safety control or invent quantities.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "construction",
+    "site",
+    "safety",
+    "change-order",
+    "estimate"
+  ]
+}

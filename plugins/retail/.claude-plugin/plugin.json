@@ -1,0 +1,15 @@
+{
+  "name": "retail",
+  "version": "1.0.0",
+  "description": "Assortment, promotions, and store operations without deceptive pricing.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "retail",
+    "store",
+    "promotion",
+    "assortment"
+  ]
+}

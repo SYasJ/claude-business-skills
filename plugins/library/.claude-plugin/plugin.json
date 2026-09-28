@@ -1,0 +1,16 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Find, write, and trust skills in this library without weakening safety rules.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "library",
+    "authoring",
+    "trust",
+    "install"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "engineering",
+  "version": "1.0.0",
+  "description": "Design, review, reliability, and delivery practices for software teams. Defensive and repository-honest.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "architecture",
+    "review",
+    "reliability",
+    "delivery"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "manufacturing",
+  "version": "1.0.0",
+  "description": "Quality, production, and shop-floor routines. Do not bypass a safety or hold step.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "manufacturing",
+    "quality",
+    "production",
+    "capa",
+    "safety"
+  ]
+}

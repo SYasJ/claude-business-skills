@@ -492,6 +492,76 @@ anti: A theft accusation in the script; Invented policy; Unrelated personal data
 example: A script tells associates to shame the shopper into keeping the item.
 out: A script that states the policy calmly and escalates exceptions without shame.
 related: returns-process; support-macro
+
+product-listing-review | Product Listing Review | product listing review
+job: Review an online product listing for accurate claims, complete specs, and images that match what ships.
+triggers: product listing review; listing copy review; PDP review; online product page
+inputs: The current listing copy; Product specs they confirmed; Images available; Category restrictions
+steps: Check every claim against the specs they supplied. Flag anything that cannot be confirmed. || Identify missing dimensions, materials, or compatibility notes a buyer needs. || Images must show what ships, at the quantity shown. Do not approve images of a bundle not included. || No invented reviews, fake ratings, or implied endorsements. || Follow category restrictions if the user named them. || Flag any claim that could trigger a misleading-advertising complaint.
+anti: Invented specs; Images of items not in the package; Fake social proof
+example: A listing says the item includes a charger but the SKU does not ship one.
+out: A review that removes the charger claim and flags the image showing one.
+related: marketing-claims-review; promotion-review
+
+product-review-response | Product Review Response | review response
+job: Draft a response to a customer product review that acknowledges the experience and does not argue.
+triggers: review response; respond to review; customer review reply; product feedback response
+inputs: The review text; The star rating; What the brand can offer; Whether the issue is known
+steps: Acknowledge what the reviewer said without paraphrasing it back sarcastically. || Do not argue about whether the experience happened. || If an issue is known and fixed, say so specifically. || If resolution is possible, invite a private conversation and name the contact method. || Keep it short. A long response looks defensive. || Do not paste a template that ignores what they actually said.
+anti: Arguing with the reviewer; A copy-paste template; Promising a fix you cannot deliver
+example: A one-star review says the zipper broke in a week. The response says "we're sorry you feel that way."
+out: A response that acknowledges the zipper, says what the warranty covers, and invites a direct contact.
+related: service-recovery; support-macro
+
+abandoned-cart-recovery | Abandoned Cart Recovery | cart recovery email
+job: Draft a cart recovery email sequence that reminds without pressuring and states what was in the cart.
+triggers: abandoned cart email; cart recovery; checkout abandonment; basket reminder
+inputs: What was in the cart; The price; Any stock constraint that is real; Timing they want
+steps: State exactly what was in the cart. Do not guess what they wanted. || A real stock constraint is a fact, not a pressure tactic. Do not invent scarcity. || One reminder before a discount. Do not open with a discount. || If a discount is offered, make the terms clear and honor them. || Do not send more than three emails in a sequence without the shopper's prior consent.
+anti: Invented scarcity; A discount on touch one; More emails than agreed
+example: A sequence says "only 2 left" when the warehouse has 400 units.
+out: A sequence that removes the false scarcity and earns the second email with a useful reminder.
+related: email-sequence; promotion-review
+
+marketplace-fee-review | Marketplace Fee Review | marketplace fee review
+job: Review a marketplace fee structure and show the net margin per unit at their price.
+triggers: marketplace fees; amazon fees; platform fees; seller fees; net margin marketplace
+inputs: Their selling price; Their unit cost; The fee schedule they shared; Fulfillment method
+steps: Apply each fee line from the schedule they supplied. Do not invent a fee category. || Show the net per unit and the margin percentage. || Flag any fee that changes at volume thresholds they provided. || If a fee is missing from their schedule, say so rather than estimating. || FBA versus FBM comparison only if they asked for both.
+anti: Invented fee rates; Confirming margin without seeing the actual cost; Mixing fee years
+example: A review uses last year's referral fee rate and shows a margin that is no longer achievable.
+out: A review built from the fee schedule they pasted and a note to verify the date.
+related: pricing-review; unit-economics-model
+
+planogram-brief | Planogram Brief | planogram brief
+job: Write a shelf placement brief that explains the logic behind the facing sequence and height allocation.
+triggers: planogram brief; shelf layout; shelf space; product placement retail
+inputs: The category; Items competing for space; Sales data they have; Store layout constraints
+steps: State the shopper path through the category first. || Place high-turn and high-margin items at eye level using their data. || Do not assign facings based on vendor pressure if it is not also in the data. || Note seasonal items separately from core planogram. || Keep a facing floor of one for items the buyer wants to test. || Document who approved the sequence.
+anti: Vendor pressure disguised as a sales rule; Facings with no data basis; Missing seasonal note
+example: A brief gives 8 facings to a slow-selling line because the vendor paid for placement but does not disclose that.
+out: A brief that uses their sales data and labels any placement that is not data-driven.
+related: assortment-review; inventory-policy
+
+loss-prevention-incident | Loss Prevention Incident Log | LP incident log
+job: Write a factual loss prevention incident log from the events the user described, without accusations beyond what evidence supports.
+triggers: loss prevention; LP incident; shrink report; theft incident log
+inputs: What was observed; Timestamps and locations; What evidence exists; What action was taken
+steps: Record only what was observed, on camera, or documented. Do not infer intent from observation alone. || Timestamps and locations must come from the user. Do not guess. || Evidence category: confirmed, on camera, alleged, or witness account. Label each. || Actions taken: what happened and who authorized it. Do not recommend an arrest the policy does not support. || No names of persons not yet confirmed as employees or involved parties. || This is a log, not a court finding.
+anti: Inferring intent from observation; An arrest recommendation without policy support; Unnamed witnesses presented as confirmed
+example: A log says "the suspect stole the item" based on a single camera angle that does not show concealment.
+out: A log that says "item not seen at checkout; camera angle does not confirm concealment; LP notified."
+related: returns-desk-script; policy-brief
+
+loyalty-program-design | Loyalty Program Design | loyalty program brief
+job: Draft a loyalty program structure that rewards the behavior the brand actually wants to drive.
+triggers: loyalty program; rewards program; points program; customer loyalty retail
+inputs: What behavior they want to reward; Their margin; Tech they have; Competitors they named
+steps: Define the earn rule from the behavior they want, not from the points chart that sounds nice. || State the redemption value in real dollars so they can check the margin math. || A high earn rate with a blocked redemption is a fraud risk. Do not design that. || Cap liability exposure if they name a max outstanding balance. || Name what happens to points on a return. || This is a draft structure. They need legal review before launch.
+anti: An earn rate that creates liability they cannot pay; Blocked redemption that misleads members; No return policy for points
+example: A program offers 10% back in points but the redemption minimum is higher than the average order, so few members ever cash out.
+out: A structure that sets a redemption minimum below the average order and discloses the liability cap.
+related: promotion-review; customer-health-score
 """
 ))
 

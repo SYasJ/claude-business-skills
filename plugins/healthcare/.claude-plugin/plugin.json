@@ -1,0 +1,16 @@
+{
+  "name": "healthcare",
+  "version": "1.0.0",
+  "description": "Clinic operations, documentation quality, and patient communication drafts. Not medical advice or a treatment protocol.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "healthcare",
+    "clinic",
+    "operations",
+    "documentation",
+    "privacy"
+  ]
+}

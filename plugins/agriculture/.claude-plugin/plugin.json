@@ -1,0 +1,15 @@
+{
+  "name": "agriculture",
+  "version": "1.0.0",
+  "description": "Farm records, seasonal plans, and food-safety documentation. Not a recipe for pesticides, toxins, or pathogens.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "agriculture",
+    "farm",
+    "season",
+    "food-safety"
+  ]
+}

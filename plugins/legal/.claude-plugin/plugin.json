@@ -1,0 +1,16 @@
+{
+  "name": "legal",
+  "version": "1.0.0",
+  "description": "Drafts, checklists, and intake for counsel. Not legal advice and not a filing service.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "legal",
+    "contracts",
+    "privacy",
+    "counsel",
+    "compliance"
+  ]
+}

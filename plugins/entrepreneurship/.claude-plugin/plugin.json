@@ -1,0 +1,19 @@
+{
+  "name": "entrepreneurship",
+  "version": "1.0.0",
+  "description": "Offers, experiments, and founder operating reviews. Not a promise of funding.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "startup",
+    "founder",
+    "offer",
+    "experiment",
+    "traction",
+    "ideas",
+    "saas",
+    "mvp"
+  ]
+}

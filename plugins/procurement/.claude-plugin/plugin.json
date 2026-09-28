@@ -1,0 +1,15 @@
+{
+  "name": "procurement",
+  "version": "1.0.0",
+  "description": "Sourcing events and award notes that follow authority and do not steer a bid unfairly.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "procurement",
+    "sourcing",
+    "rfp",
+    "award"
+  ]
+}

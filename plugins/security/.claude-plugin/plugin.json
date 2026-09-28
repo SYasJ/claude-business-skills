@@ -1,0 +1,16 @@
+{
+  "name": "security",
+  "version": "1.0.0",
+  "description": "Defensive security requirements, reviews, and response coordination. No exploits, payloads, or bypasses.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "defense",
+    "access",
+    "privacy",
+    "incident"
+  ]
+}

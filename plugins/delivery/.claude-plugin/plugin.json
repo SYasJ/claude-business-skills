@@ -1,0 +1,16 @@
+{
+  "name": "delivery",
+  "version": "1.0.0",
+  "description": "Charters, plans, risks, and status that tell the truth about commitments.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "project",
+    "delivery",
+    "sprint",
+    "risk",
+    "status"
+  ]
+}

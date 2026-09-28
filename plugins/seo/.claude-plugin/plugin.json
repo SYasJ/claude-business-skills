@@ -1,0 +1,15 @@
+{
+  "name": "seo",
+  "version": "1.0.0",
+  "description": "Query maps, intent, and index notes from pages and data the user can show. No cloaking or fake reviews.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "search",
+    "keywords",
+    "local"
+  ]
+}

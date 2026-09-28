@@ -1,0 +1,20 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "Metric definitions, analysis plans, and decision memos grounded in the user's data.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "analytics",
+    "metrics",
+    "sql",
+    "experiments",
+    "data-quality",
+    "data",
+    "warehouse",
+    "pipeline",
+    "lineage"
+  ]
+}

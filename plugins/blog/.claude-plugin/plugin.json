@@ -1,0 +1,15 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Assignments, outlines, edits, and updates from sources the writer has. No copied articles.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "blog",
+    "editorial",
+    "post",
+    "headline"
+  ]
+}

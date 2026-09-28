@@ -1,0 +1,15 @@
+{
+  "name": "small-business",
+  "version": "1.0.0",
+  "description": "Owner-level cash, hiring, and local offers. Not legal, tax, or bylaw advice.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "small-business",
+    "owner",
+    "local",
+    "shop"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "education",
+  "version": "1.0.0",
+  "description": "Lesson design, assessment, and facilitation for teachers and trainers. Not a service for cheating.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "education",
+    "teaching",
+    "assessment",
+    "curriculum",
+    "training"
+  ]
+}

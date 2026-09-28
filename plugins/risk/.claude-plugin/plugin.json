@@ -1,0 +1,16 @@
+{
+  "name": "risk",
+  "version": "1.0.0",
+  "description": "Risk assessments, controls, and compliance operations. Not a certification and not legal advice.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "risk",
+    "compliance",
+    "controls",
+    "audit",
+    "privacy"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "finance",
+  "version": "1.0.0",
+  "description": "Cash, forecasts, unit economics, and management reporting for operators and FP&A. Not investment advice.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "finance",
+    "fpna",
+    "forecast",
+    "cash",
+    "budget",
+    "metrics"
+  ]
+}

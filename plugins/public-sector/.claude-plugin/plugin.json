@@ -1,0 +1,15 @@
+{
+  "name": "public-sector",
+  "version": "1.0.0",
+  "description": "Briefing notes and consultation records that are accurate and suitable for the public record.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "public-sector",
+    "briefing",
+    "consultation",
+    "government"
+  ]
+}

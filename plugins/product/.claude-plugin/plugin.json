@@ -1,0 +1,16 @@
+{
+  "name": "product",
+  "version": "1.0.0",
+  "description": "Discovery, requirements, prioritization, and launch decisions for product teams.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "prd",
+    "roadmap",
+    "discovery",
+    "prioritization"
+  ]
+}

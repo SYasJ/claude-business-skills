@@ -1,177 +1,227 @@
 <p align="center">
-  <img src="docs/assets/banner.svg" alt="Practice Skills by Yasir Jilani: 587 Claude Code skills and Agent Skills across 48 business domains" width="880">
+  <img src="docs/assets/banner.svg" alt="594 Claude Code Agent Skills for business work across 48 domains" width="880">
 </p>
-
-# Practice Skills for Claude Code
-
-**587 Claude Code skills for business work, in the Agent Skills `SKILL.md` format.** Written by Yasir Jilani. Install one domain in Claude Code, Codex, Cursor, Gemini CLI, Windsurf, or OpenCode. Each skill is a folder the agent loads only when the task matches.
-
-Use it for finance, SEO, SaaS, supply chain, oil and gas, airlines, automotive, research, and the rest of a company. It is an independent library. It is not an Anthropic product, not a hosted service, and not legal, medical, tax, or investment advice.
 
 <p align="center">
-  <img src="docs/assets/flow.svg" alt="Local installer copies one domain into Claude" width="760">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
+  <a href="https://github.com/SYasJ/claude-practice-skills/stargazers"><img src="https://img.shields.io/github/stars/SYasJ/claude-practice-skills?style=flat" alt="GitHub Stars"></a>
+  <a href="https://github.com/SYasJ/claude-practice-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/skills-594-brightgreen" alt="594 Skills"></a>
+  <a href="https://github.com/SYasJ/claude-practice-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/domains-48-orange" alt="48 Domains"></a>
 </p>
 
-## Install Claude Code skills
+<h1 align="center">Claude Code Business Skills</h1>
 
-Run this from the repository root. The installer checks `MANIFEST.sha256`, then copies skill folders on this machine. It does not download code, ask for a key, or run a skill.
+<p align="center"><strong>594 Agent Skills for real business work — finance, ops, engineering, HR, legal, and 43 more domains.<br>Install one command. Works in Claude Code, Cursor, Gemini CLI, Codex, and any Agent Skills–compatible tool.</strong></p>
 
-Preview first:
+---
+
+## What it does
+
+You drop a skill into Claude Code. When you describe a task that matches, Claude loads the skill and follows it — step by step, with guardrails. You get consistent output that shows its work.
+
+**Before:** "Help me with the bank reconciliation" → generic advice.  
+**After (with `bank-reconciliation` skill):** Claude reconciles book to bank, flags the unexplained $400 gap, classifies the three old deposits-in-transit as needing a decision, and refuses to plug the difference.
+
+> The skill tells Claude: no plugs, classify everything, flag items older than the threshold, propose entries as drafts only — not post them.
+
+## Quick install
+
+```bash
+git clone https://github.com/SYasJ/claude-practice-skills.git
+cd claude-practice-skills
+python3 scripts/install.py --tool claude --domain finance
+```
+
+That copies each skill in the `finance` domain to `~/.claude/skills/`. Claude Code loads a skill when the task matches its description. No server. No API key. No network call during install.
+
+Preview before installing:
 
 ```bash
 python3 scripts/install.py --tool claude --domain finance --dry-run
 ```
 
-Install when the plan looks right:
+Install multiple domains:
 
 ```bash
-python3 scripts/install.py --tool claude --domain finance
+python3 scripts/install.py --tool claude --domain finance --domain accounting --domain people
 ```
 
-That copies each finance skill to `~/.claude/skills/<skill-name>/SKILL.md`. Skills are not nested by domain in that folder. Repeat `--domain` to add another practice. Use `--domain all` only if you mean every skill.
+## What it looks like in practice
 
-| Tool | Command | Lands in |
+### Finance · `cash-flow-forecast`
+```
+You: build the 13-week cash forecast from these invoices
+
+Claude: [loads cash-flow-forecast skill]
+Week 1: Opening $180,000 | Receipts $62,400 | Disbursements $74,100 | Closing $168,300
+Week 2: Opening $168,300 | Receipts $48,200 | Disbursements $81,600 | Closing $134,900
+...
+Week 7 hits the $40,000 buffer. Review before week 5.
+Assumptions: collections lag 21 days; payroll on the 15th and last Friday.
+These are projections, not a guarantee.
+```
+
+### Engineering · `incident-postmortem`
+```
+You: the draft postmortem says Alex was careless
+
+Claude: [loads incident-postmortem skill]
+Removed: "Alex was careless"
+Contributing factor: branch protection was not enabled on main — any
+push could deploy without review.
+Action: enable branch protection (owner: Aisha, due 28 Sep 2026)
+This postmortem does not assign blame to an individual.
+```
+
+### Accounting · `bank-reconciliation`
+```
+You: the rec has an unexplained difference and three old DITs
+
+Claude: [loads bank-reconciliation skill]
+Statement balance:  $97,820
+Outstanding checks: ($5,070) — checks #2241, #2242
+Adjusted bank:      $92,750
+Book balance:       $94,350
+Adjustments:        ($1,200) — NSF + bank fee
+Adjusted book:      $93,150
+Unexplained gap:    $400     ← needs investigation before sign-off
+
+DITs older than 30 days (3 items, $11,700): recommend inquiry,
+not automatic reversal.
+```
+
+## Supported tools
+
+| Tool | Flag | Skills land in |
 | --- | --- | --- |
-| Claude, all projects | `--tool claude` | `~/.claude/skills/` |
-| Claude, one project | `--tool claude-project --project .` | `.claude/skills/` |
-| Codex CLI | `--tool codex` | `~/.codex/skills/` |
-| Gemini CLI | `--tool gemini` | `~/.gemini/skills/` |
-| Generic Agent Skills | `--tool agents` | `~/.agents/skills/` |
-| This project, generic | `--tool project --project .` | `.agents/skills/` |
+| Claude Code (global) | `--tool claude` | `~/.claude/skills/` |
+| Claude Code (project) | `--tool claude-project --project .` | `.claude/skills/` |
 | Cursor | `--tool cursor --project .` | `.cursor/skills/` |
+| Gemini CLI | `--tool gemini` | `~/.gemini/skills/` |
+| Codex CLI | `--tool codex` | `~/.codex/skills/` |
 | Windsurf | `--tool windsurf --project .` | `.windsurf/skills/` |
 | OpenCode | `--tool opencode --project .` | `.opencode/skills/` |
+| Generic agents | `--tool agents` | `~/.agents/skills/` |
 
-Windows, macOS, and Linux use the same script. If `python3` is not on your PATH, use `py -3 scripts/install.py` with the same flags. `scripts/install.sh` only calls that script. There is no `curl | sh` path.
+## Domains
 
-A domain id is the folder under `plugins/`, such as `finance` or `oil-gas`. Unknown ids stop the install. The list is `catalog/SKILLS.md`.
+| Domain | Skills | What it covers |
+| --- | ---: | --- |
+| Engineering | 27 | Design docs, code review, incidents, releases, ADRs |
+| Marketing | 24 | Positioning, campaigns, claims you can support |
+| Finance | 23 | Cash, runway, margin, management packs |
+| People | 23 | Hiring, reviews, comp bands, onboarding |
+| Data | 23 | Contracts, lineage, freshness, governance |
+| Strategy | 22 | Choices, board memos, OKRs, operating cadence |
+| Sales | 20 | Discovery, qualification, proposals, sequences |
+| Product | 20 | PRDs, briefs, experiments, roadmaps |
+| Legal | 18 | Contract triage and counsel briefs |
+| Accounting | 17 | Close, reconciliations, controls, audit prep |
+| Research | 17 | Questions, evidence, consent, claim limits |
+| Supply chain | 17 | Demand, inventory, OTIF, dock exceptions |
+| Security | 16 | Controls and incident response. No exploits |
+| Operations | 16 | SOPs, capacity, service levels |
+| Customer | 14 | Journeys, recovery, health scores, escalations |
+| Delivery | 14 | Charters, status, RAID, change control |
+| Manufacturing | 14 | Quality, CAPA, schedule, traceability |
+| Entrepreneurship | 14 | Runway, first customers, idea screens |
+| Design | 13 | Critique, UX writing, handoff, accessibility |
+| Education | 12 | Lessons, rubrics, workshops, assessments |
+| Healthcare ops | 12 | Clinic flow and documentation quality |
+| Media | 12 | Assignments, source logs, headlines, corrections |
+| Creator | 43 | Video outlines, sponsorship, scripts, community |
+| AI | 10 | Use cases, evals, review gates, cost control |
+| SEO | 8 | Query maps, intent, local listings, briefs |
+| Oil and gas | 8 | Production, nominations, site safety notes |
+| Airline | 8 | Delays, duty checks, station opens |
+| Automotive | 8 | Service lane, recalls, DVI, handovers |
+| Small business | 8 | Owner cash, first hire, local offers |
+| SaaS | 8 | Weekly metrics, activation, pricing page |
+| Blog | 8 | Assignments, edits, titles, source checks |
+| Energy | 8 | Tariffs, bills, curtailment, isolation |
+| Retail | 11 | Promotions, listings, cart recovery, loyalty, planogram |
+| + 15 more | — | Agriculture, banking, construction, consulting… |
 
-### Claude Code marketplace
+Full list: [catalog/SKILLS.md](catalog/SKILLS.md)
 
-This path installs a domain plugin. It does not use `scripts/install.py`.
+## Skill format
 
-From a local checkout:
+Each skill is a folder with one `SKILL.md` file:
 
-```text
-/plugin marketplace add /absolute/path/to/yj-claude-skills
-/plugin install finance@yj-skills
 ```
-
-After you publish the repository as `claude-practice-skills`:
-
-```text
-/plugin marketplace add YOUR_GITHUB_USER/claude-practice-skills
-/plugin install finance@yj-skills
-```
-
-The marketplace name is `yj-skills`. Each domain is one plugin. Author metadata is Yasir Jilani.
-
-## SKILL.md format
-
-```text
 plugins/finance/skills/cash-flow-forecast/
-├── SKILL.md
-├── references/assumptions.md
-└── scripts/cashflow_check.py
+└── SKILL.md
 ```
-
-`SKILL.md` is the procedure. The description tells Claude when to load it. The body stays under 500 lines. Longer notes live in `references/` and load only if needed. Scripts, where they exist, are Python standard library and do not open a network connection.
 
 ```markdown
 ---
 name: cash-flow-forecast
-description: "Build a 13-week direct cash forecast from collections and commitments, not from accrual revenue. Use when the user mentions 13-week cash, cash forecast, or when do we run out of money."
+description: "Build a 13-week direct cash forecast from collections and
+  commitments, not accrual revenue. Use when the user mentions 13-week
+  cash, cash forecast, or when do we run out of money."
 license: MIT
 metadata:
   author: Yasir Jilani
   version: "1.0.0"
   domain: finance
 ---
+
+## When to use
+...
+
+## Workflow
+...
+
+## Quality bar
+...
 ```
 
-Invoke it in Claude with `/cash-flow-forecast`, or ask in plain language. Claude can also load the skill when the description matches.
+Claude loads a skill when the task description matches. You can also invoke directly: `/cash-flow-forecast`.
 
-## Examples
+## Why the guardrails matter
 
-Every skill has one file under `examples/by-skill/`. Each file is a scenario: what the skill is for, the sample data, and a filled outcome. The index is [examples/INDEX.md](examples/INDEX.md).
+Every skill in a regulated domain (finance, legal, HR, medical, tax) tells Claude to:
+- Draft for a qualified human to review, not self-sign
+- Use only the data the user supplied — no invented numbers
+- State what is missing rather than filling in a gap
+- Label output as a draft, not a final deliverable
 
-A cash scenario with a week-by-week result is in [examples/01-cash-forecast.md](examples/01-cash-forecast.md). A YouTube outline with the creator's own receipt and timing notes is in [examples/by-skill/creator/youtube-video-outline.md](examples/by-skill/creator/youtube-video-outline.md).
+This is not a legal, tax, medical, or investment advice product.
+
+## Trust
+
+| Promise | How to verify |
+| --- | --- |
+| No telemetry | Read `scripts/install.py` — it copies files, nothing else |
+| No remote calls during install | No `curl` pipeline in these docs |
+| Files match the manifest | `python3 scripts/validate.py` |
+| Author is visible in every skill | Every SKILL.md says Yasir Jilani |
+| Not an Anthropic product | This README says so, on purpose |
+
+## Claude Code marketplace
 
 ```bash
-python3 plugins/finance/skills/cash-flow-forecast/scripts/cashflow_check.py examples/weeks.csv --opening 180000 --buffer 40000
+/plugin marketplace add YOUR_GITHUB_USER/claude-practice-skills
+/plugin install finance@yj-skills
 ```
 
-## Domains
+The marketplace name is `yj-skills`. Each domain is one plugin.
 
-| Domain | Skills | Use it for |
-| --- | ---: | --- |
-| Engineering | 27 | Design docs, reviews, incidents, releases |
-| Marketing | 24 | Positioning, campaigns, claims you can support |
-| Finance | 23 | Cash, runway, margin, management packs |
-| People | 23 | Hiring, reviews, bands, onboarding |
-| Strategy | 22 | Choices, board memos, operating cadence |
-| Sales | 20 | Discovery, qualification, proposals |
-| Product | 20 | Briefs, PRDs, experiments, roadmaps |
-| Legal operations | 18 | Contract triage and counsel briefs |
-| Accounting | 17 | Close, reconciliations, audit prep |
-| Security defense | 16 | Controls and response. No exploits |
-| Operations | 16 | SOPs, capacity, service levels |
-| Data | 23 | Contracts, lineage, freshness, readouts |
-| Risk and compliance | 15 | Assessments, controls, issue logs |
-| Delivery | 14 | Charters, status, RAID, change control |
-| Customer | 14 | Journeys, recovery, health scores |
-| Manufacturing | 14 | Quality, CAPA, schedule, traceability |
-| Design | 13 | Critique, UX writing, handoff, access |
-| Healthcare operations | 12 | Clinic flow and documentation quality |
-| Education | 12 | Lessons, rubrics, workshops |
-| Research | 17 | Questions, evidence, consent, claim limits |
-| Supply chain | 17 | Demand, inventory, OTIF, dock exceptions |
-| Entrepreneurship | 14 | Runway, first customers, idea screens |
-| Media | 12 | Assignments, source logs, headlines |
-| AI | 10 | Use cases, evals, review gates, cost |
-| SEO | 8 | Query maps, intent, local listings |
-| Oil and gas | 8 | Production, nominations, site notes |
-| Airline | 8 | Delays, duty checks, station opens |
-| Automotive | 8 | Service lane, recalls, handovers |
-| Small business | 8 | Owner cash, first hire, local offers |
-| SaaS | 8 | Weekly metrics, activation, pricing page |
-| Blog | 8 | Assignments, edits, titles, sources |
-| Energy | 8 | Tariffs, bills, curtailment |
+## Repository layout
 
-The rest of the tree is in [catalog/SKILLS.md](catalog/SKILLS.md).
-
-## Trust this tree
-
-| Promise | How to check |
-| --- | --- |
-| No telemetry and no license server | Read `scripts/install.py`. It copies files. |
-| No remote installer | There is no `curl` pipeline in the install docs. |
-| Hashes match the files | `python3 scripts/validate.py` |
-| Author is visible | Every skill says Yasir Jilani |
-| Not an official Claude product | This README says so, on purpose |
-
-Regulated skills tell the agent to draft for a qualified human. They do not invent statutes, diagnoses, coverage decisions, or valuations. Security skills are defensive. If a request asks for deception or evasion, the skill says to stop.
-
-Details: [SECURITY.md](SECURITY.md).
-
-## Repository map
-
-```text
-yj-claude-skills/
-├── .claude-plugin/marketplace.json
-├── plugins/<domain>/
-│   ├── .claude-plugin/plugin.json
-│   └── skills/<skill-name>/SKILL.md
-├── examples/by-skill/<domain>/<skill-name>.md
-├── catalog/SKILLS.md
-├── scripts/install.py
-└── source/
+```
+plugins/<domain>/skills/<skill-name>/SKILL.md   ← install these
+examples/by-skill/<domain>/<skill-name>.md       ← one example per skill
+catalog/SKILLS.md                                ← full index
+scripts/install.py                               ← installer
+scripts/validate.py                              ← hash check
+source/                                          ← source for the generator
 ```
 
-`plugins/` is what you install. `source/` is what you edit. `python3 scripts/generate.py` rebuilds `plugins/` from `source/`. You do not need the generator to install.
+`plugins/` is what you install. `source/` is what you edit if you want to add skills. Run `python3 scripts/generate.py` to rebuild `plugins/` from `source/`. You do not need to run the generator to install.
 
-Naming, the `SKILL.md` format, and how two people add a skill are in [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributing, naming rules, and how to add a skill: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## License
 
-MIT. Copyright 2026 Yasir Jilani. See [LICENSE](LICENSE).
+MIT. Copyright 2026 Yasir Jilani.

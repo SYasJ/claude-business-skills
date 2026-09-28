@@ -1,0 +1,16 @@
+{
+  "name": "oil-gas",
+  "version": "1.0.0",
+  "description": "Production, nominations, and site notes for operators. Not a permit and not a way around a safety control.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "oil",
+    "gas",
+    "production",
+    "nomination",
+    "hse"
+  ]
+}

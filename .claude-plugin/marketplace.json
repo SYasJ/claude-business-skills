@@ -1,0 +1,827 @@
+{
+  "name": "yj-skills",
+  "owner": {
+    "name": "Yasir Jilani"
+  },
+  "description": "Independent Agent Skills library by Yasir Jilani. 594 practice skills across 48 domains for Claude and other Agent Skills clients. Not affiliated with Anthropic. No telemetry, no remote installer, no license server.",
+  "plugins": [
+    {
+      "name": "strategy",
+      "source": "./plugins/strategy",
+      "description": "Direction, choices, board narrative, and operating cadence for founders and executive teams.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "strategy",
+      "keywords": [
+        "strategy",
+        "leadership",
+        "board",
+        "planning",
+        "okrs"
+      ]
+    },
+    {
+      "name": "finance",
+      "source": "./plugins/finance",
+      "description": "Cash, forecasts, unit economics, and management reporting for operators and FP&A. Not investment advice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "finance",
+      "keywords": [
+        "finance",
+        "fpna",
+        "forecast",
+        "cash",
+        "budget",
+        "metrics"
+      ]
+    },
+    {
+      "name": "accounting",
+      "source": "./plugins/accounting",
+      "description": "Close, controls, reconciliations, and audit preparation. Not an audit opinion or tax advice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "accounting",
+      "keywords": [
+        "accounting",
+        "close",
+        "reconcile",
+        "controls",
+        "audit"
+      ]
+    },
+    {
+      "name": "legal",
+      "source": "./plugins/legal",
+      "description": "Drafts, checklists, and intake for counsel. Not legal advice and not a filing service.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "legal",
+      "keywords": [
+        "legal",
+        "contracts",
+        "privacy",
+        "counsel",
+        "compliance"
+      ]
+    },
+    {
+      "name": "people",
+      "source": "./plugins/people",
+      "description": "Hiring, performance, pay bands, and workplace processes that stay fair and specific. Not legal advice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "people",
+      "keywords": [
+        "hr",
+        "hiring",
+        "performance",
+        "people",
+        "culture"
+      ]
+    },
+    {
+      "name": "sales",
+      "source": "./plugins/sales",
+      "description": "Discovery, qualification, proposals, and pipeline hygiene for honest selling.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "sales",
+      "keywords": [
+        "sales",
+        "pipeline",
+        "discovery",
+        "proposal",
+        "negotiation"
+      ]
+    },
+    {
+      "name": "marketing",
+      "source": "./plugins/marketing",
+      "description": "Positioning, campaigns, content, and claims that a company can actually support.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "marketing",
+      "keywords": [
+        "marketing",
+        "brand",
+        "content",
+        "campaign",
+        "positioning"
+      ]
+    },
+    {
+      "name": "product",
+      "source": "./plugins/product",
+      "description": "Discovery, requirements, prioritization, and launch decisions for product teams.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "product",
+      "keywords": [
+        "product",
+        "prd",
+        "roadmap",
+        "discovery",
+        "prioritization"
+      ]
+    },
+    {
+      "name": "engineering",
+      "source": "./plugins/engineering",
+      "description": "Design, review, reliability, and delivery practices for software teams. Defensive and repository-honest.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "engineering",
+      "keywords": [
+        "engineering",
+        "architecture",
+        "review",
+        "reliability",
+        "delivery"
+      ]
+    },
+    {
+      "name": "data",
+      "source": "./plugins/data",
+      "description": "Metric definitions, analysis plans, and decision memos grounded in the user's data.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "data",
+      "keywords": [
+        "analytics",
+        "metrics",
+        "sql",
+        "experiments",
+        "data-quality",
+        "data",
+        "warehouse",
+        "pipeline",
+        "lineage"
+      ]
+    },
+    {
+      "name": "security",
+      "source": "./plugins/security",
+      "description": "Defensive security requirements, reviews, and response coordination. No exploits, payloads, or bypasses.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "security",
+      "keywords": [
+        "security",
+        "defense",
+        "access",
+        "privacy",
+        "incident"
+      ]
+    },
+    {
+      "name": "operations",
+      "source": "./plugins/operations",
+      "description": "SOPs, capacity, service levels, and the weekly operating system.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "operations",
+      "keywords": [
+        "operations",
+        "sop",
+        "capacity",
+        "sla",
+        "process"
+      ]
+    },
+    {
+      "name": "delivery",
+      "source": "./plugins/delivery",
+      "description": "Charters, plans, risks, and status that tell the truth about commitments.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "delivery",
+      "keywords": [
+        "project",
+        "delivery",
+        "sprint",
+        "risk",
+        "status"
+      ]
+    },
+    {
+      "name": "customer",
+      "source": "./plugins/customer",
+      "description": "Journeys, support quality, recovery, and honest customer communication.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "customer",
+      "keywords": [
+        "customer",
+        "support",
+        "cx",
+        "success",
+        "journey"
+      ]
+    },
+    {
+      "name": "risk",
+      "source": "./plugins/risk",
+      "description": "Risk assessments, controls, and compliance operations. Not a certification and not legal advice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "risk",
+      "keywords": [
+        "risk",
+        "compliance",
+        "controls",
+        "audit",
+        "privacy"
+      ]
+    },
+    {
+      "name": "healthcare",
+      "source": "./plugins/healthcare",
+      "description": "Clinic operations, documentation quality, and patient communication drafts. Not medical advice or a treatment protocol.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "healthcare",
+      "keywords": [
+        "healthcare",
+        "clinic",
+        "operations",
+        "documentation",
+        "privacy"
+      ]
+    },
+    {
+      "name": "education",
+      "source": "./plugins/education",
+      "description": "Lesson design, assessment, and facilitation for teachers and trainers. Not a service for cheating.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "education",
+      "keywords": [
+        "education",
+        "teaching",
+        "assessment",
+        "curriculum",
+        "training"
+      ]
+    },
+    {
+      "name": "research",
+      "source": "./plugins/research",
+      "description": "Questions, evidence tables, and citations that do not invent sources.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "research",
+      "keywords": [
+        "research",
+        "evidence",
+        "citations",
+        "interviews",
+        "surveys",
+        "consent",
+        "replication"
+      ]
+    },
+    {
+      "name": "design",
+      "source": "./plugins/design",
+      "description": "Critique, content design, and handoff that respect users and accessibility.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "design",
+      "keywords": [
+        "design",
+        "ux",
+        "content",
+        "accessibility",
+        "handoff"
+      ]
+    },
+    {
+      "name": "supply-chain",
+      "source": "./plugins/supply-chain",
+      "description": "Demand, inventory, suppliers, and shortages using the user's own lead times.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "supply-chain",
+      "keywords": [
+        "supply-chain",
+        "inventory",
+        "suppliers",
+        "logistics",
+        "demand",
+        "otif"
+      ]
+    },
+    {
+      "name": "manufacturing",
+      "source": "./plugins/manufacturing",
+      "description": "Quality, production, and shop-floor routines. Do not bypass a safety or hold step.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "manufacturing",
+      "keywords": [
+        "manufacturing",
+        "quality",
+        "production",
+        "capa",
+        "safety"
+      ]
+    },
+    {
+      "name": "real-estate",
+      "source": "./plugins/real-estate",
+      "description": "Listings, leases, and due-diligence checklists. Not brokerage, appraisal, or legal advice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "real-estate",
+      "keywords": [
+        "real-estate",
+        "property",
+        "lease",
+        "due-diligence"
+      ]
+    },
+    {
+      "name": "construction",
+      "source": "./plugins/construction",
+      "description": "Site reporting, changes, and safety talks. Do not skip a safety control or invent quantities.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "construction",
+      "keywords": [
+        "construction",
+        "site",
+        "safety",
+        "change-order",
+        "estimate"
+      ]
+    },
+    {
+      "name": "entrepreneurship",
+      "source": "./plugins/entrepreneurship",
+      "description": "Offers, experiments, and founder operating reviews. Not a promise of funding.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "entrepreneurship",
+      "keywords": [
+        "startup",
+        "founder",
+        "offer",
+        "experiment",
+        "traction",
+        "ideas",
+        "saas",
+        "mvp"
+      ]
+    },
+    {
+      "name": "productivity",
+      "source": "./plugins/productivity",
+      "description": "Personal and team operating habits that respect focus and do not surveil colleagues.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "productivity",
+      "keywords": [
+        "productivity",
+        "planning",
+        "meetings",
+        "writing",
+        "focus"
+      ]
+    },
+    {
+      "name": "library",
+      "source": "./plugins/library",
+      "description": "Find, write, and trust skills in this library without weakening safety rules.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "library",
+      "keywords": [
+        "skills",
+        "library",
+        "authoring",
+        "trust",
+        "install"
+      ]
+    },
+    {
+      "name": "consulting",
+      "source": "./plugins/consulting",
+      "description": "Engagement framing, findings, and readouts that separate evidence from advice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "consulting",
+      "keywords": [
+        "consulting",
+        "engagement",
+        "findings",
+        "client"
+      ]
+    },
+    {
+      "name": "nonprofit",
+      "source": "./plugins/nonprofit",
+      "description": "Case statements, grants, and program reviews that do not invent impact.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "nonprofit",
+      "keywords": [
+        "nonprofit",
+        "fundraising",
+        "program",
+        "impact"
+      ]
+    },
+    {
+      "name": "banking",
+      "source": "./plugins/banking",
+      "description": "Cash operations and credit-file hygiene. Not a credit decision and not a request for banking passwords.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "banking",
+      "keywords": [
+        "banking",
+        "treasury",
+        "credit",
+        "payments"
+      ]
+    },
+    {
+      "name": "insurance",
+      "source": "./plugins/insurance",
+      "description": "Claims files and coverage questions organized for a licensed professional. Not a coverage determination.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "insurance",
+      "keywords": [
+        "insurance",
+        "claims",
+        "policy",
+        "broker"
+      ]
+    },
+    {
+      "name": "public-sector",
+      "source": "./plugins/public-sector",
+      "description": "Briefing notes and consultation records that are accurate and suitable for the public record.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "public-sector",
+      "keywords": [
+        "public-sector",
+        "briefing",
+        "consultation",
+        "government"
+      ]
+    },
+    {
+      "name": "sustainability",
+      "source": "./plugins/sustainability",
+      "description": "Emissions and supplier questionnaires that do not invent factors or certifications.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "sustainability",
+      "keywords": [
+        "sustainability",
+        "emissions",
+        "esg",
+        "suppliers"
+      ]
+    },
+    {
+      "name": "media",
+      "source": "./plugins/media",
+      "description": "Editorial briefs and corrections that do not fabricate quotes or sources.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "media",
+      "keywords": [
+        "media",
+        "editorial",
+        "communications",
+        "corrections",
+        "news",
+        "newsroom",
+        "headline"
+      ]
+    },
+    {
+      "name": "procurement",
+      "source": "./plugins/procurement",
+      "description": "Sourcing events and award notes that follow authority and do not steer a bid unfairly.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "procurement",
+      "keywords": [
+        "procurement",
+        "sourcing",
+        "rfp",
+        "award"
+      ]
+    },
+    {
+      "name": "agriculture",
+      "source": "./plugins/agriculture",
+      "description": "Farm records, seasonal plans, and food-safety documentation. Not a recipe for pesticides, toxins, or pathogens.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "agriculture",
+      "keywords": [
+        "agriculture",
+        "farm",
+        "season",
+        "food-safety"
+      ]
+    },
+    {
+      "name": "hospitality",
+      "source": "./plugins/hospitality",
+      "description": "Service recovery and shift briefs for hotels and restaurants, inside policy.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "hospitality",
+      "keywords": [
+        "hospitality",
+        "hotel",
+        "restaurant",
+        "guest"
+      ]
+    },
+    {
+      "name": "retail",
+      "source": "./plugins/retail",
+      "description": "Assortment, promotions, and store operations without deceptive pricing.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "retail",
+      "keywords": [
+        "retail",
+        "store",
+        "promotion",
+        "assortment"
+      ]
+    },
+    {
+      "name": "energy",
+      "source": "./plugins/energy",
+      "description": "Outage communication and work planning. Not a permit and not a bypass of isolation rules.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "energy",
+      "keywords": [
+        "energy",
+        "utilities",
+        "outage",
+        "isolation",
+        "utility",
+        "tariff",
+        "power"
+      ]
+    },
+    {
+      "name": "transport",
+      "source": "./plugins/transport",
+      "description": "Dispatch and exception handling that follow the safety rules the user states.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "transport",
+      "keywords": [
+        "transport",
+        "dispatch",
+        "fleet",
+        "delivery"
+      ]
+    },
+    {
+      "name": "creator",
+      "source": "./plugins/creator",
+      "description": "Original workflows for influencers, YouTube, TikTok, Instagram, faceless channels, voice-over, and prompting. No copied creators, fake metrics, or undisclosed ads.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "creator",
+      "keywords": [
+        "creator",
+        "youtube",
+        "tiktok",
+        "instagram",
+        "influencer",
+        "voiceover",
+        "prompting"
+      ]
+    },
+    {
+      "name": "ai",
+      "source": "./plugins/ai",
+      "description": "Use-case, eval, cost, and review gates for AI work. No invented scores and no weakened safety rules.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "ai",
+      "keywords": [
+        "ai",
+        "llm",
+        "eval",
+        "rag",
+        "automation"
+      ]
+    },
+    {
+      "name": "blog",
+      "source": "./plugins/blog",
+      "description": "Assignments, outlines, edits, and updates from sources the writer has. No copied articles.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "blog",
+      "keywords": [
+        "blog",
+        "editorial",
+        "post",
+        "headline"
+      ]
+    },
+    {
+      "name": "seo",
+      "source": "./plugins/seo",
+      "description": "Query maps, intent, and index notes from pages and data the user can show. No cloaking or fake reviews.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "seo",
+      "keywords": [
+        "seo",
+        "search",
+        "keywords",
+        "local"
+      ]
+    },
+    {
+      "name": "oil-gas",
+      "source": "./plugins/oil-gas",
+      "description": "Production, nominations, and site notes for operators. Not a permit and not a way around a safety control.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "oil-gas",
+      "keywords": [
+        "oil",
+        "gas",
+        "production",
+        "nomination",
+        "hse"
+      ]
+    },
+    {
+      "name": "automotive",
+      "source": "./plugins/automotive",
+      "description": "Dealer, service, and recall notes. Not a safety-system repair procedure and not a recall determination.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "automotive",
+      "keywords": [
+        "automotive",
+        "dealer",
+        "service",
+        "recall",
+        "fleet"
+      ]
+    },
+    {
+      "name": "airline",
+      "source": "./plugins/airline",
+      "description": "Irregular operations, delays, and station notes. Not a way around duty limits or a maintenance release.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "airline",
+      "keywords": [
+        "airline",
+        "station",
+        "delay",
+        "irrops",
+        "baggage"
+      ]
+    },
+    {
+      "name": "small-business",
+      "source": "./plugins/small-business",
+      "description": "Owner-level cash, hiring, and local offers. Not legal, tax, or bylaw advice.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "small-business",
+      "keywords": [
+        "small-business",
+        "owner",
+        "local",
+        "shop"
+      ]
+    },
+    {
+      "name": "saas",
+      "source": "./plugins/saas",
+      "description": "Weekly metrics, activation, and pricing notes from the export. No invented retention or certification.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yasir Jilani"
+      },
+      "category": "saas",
+      "keywords": [
+        "saas",
+        "subscription",
+        "churn",
+        "activation",
+        "pricing"
+      ]
+    }
+  ]
+}

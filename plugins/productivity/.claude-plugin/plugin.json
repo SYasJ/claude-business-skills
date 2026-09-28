@@ -1,0 +1,16 @@
+{
+  "name": "productivity",
+  "version": "1.0.0",
+  "description": "Personal and team operating habits that respect focus and do not surveil colleagues.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "productivity",
+    "planning",
+    "meetings",
+    "writing",
+    "focus"
+  ]
+}

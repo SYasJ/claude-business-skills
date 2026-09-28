@@ -1,0 +1,15 @@
+{
+  "name": "hospitality",
+  "version": "1.0.0",
+  "description": "Service recovery and shift briefs for hotels and restaurants, inside policy.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hospitality",
+    "hotel",
+    "restaurant",
+    "guest"
+  ]
+}

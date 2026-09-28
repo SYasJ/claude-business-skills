@@ -1,5 +1,5 @@
 {
-  "skills": 587,
+  "skills": 594,
   "domains": 48,
   "by_domain": {
     "strategy": 22,
@@ -38,7 +38,7 @@
     "procurement": 4,
     "agriculture": 4,
     "hospitality": 3,
-    "retail": 4,
+    "retail": 11,
     "energy": 8,
     "transport": 3,
     "creator": 43,

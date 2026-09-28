@@ -1,0 +1,15 @@
+{
+  "name": "nonprofit",
+  "version": "1.0.0",
+  "description": "Case statements, grants, and program reviews that do not invent impact.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "nonprofit",
+    "fundraising",
+    "program",
+    "impact"
+  ]
+}

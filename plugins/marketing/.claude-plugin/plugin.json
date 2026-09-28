@@ -1,0 +1,16 @@
+{
+  "name": "marketing",
+  "version": "1.0.0",
+  "description": "Positioning, campaigns, content, and claims that a company can actually support.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "brand",
+    "content",
+    "campaign",
+    "positioning"
+  ]
+}

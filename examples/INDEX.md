@@ -540,7 +540,14 @@ One file per skill. Each file has the situation, the sample data, and a sample o
 - [Survey Instrument](by-skill/research/survey-instrument.md)
 ## Retail and commerce
 
+- [Abandoned Cart Recovery](by-skill/retail/abandoned-cart-recovery.md)
 - [Assortment Review](by-skill/retail/assortment-review.md)
+- [Loss Prevention Incident Log](by-skill/retail/loss-prevention-incident.md)
+- [Loyalty Program Design](by-skill/retail/loyalty-program-design.md)
+- [Marketplace Fee Review](by-skill/retail/marketplace-fee-review.md)
+- [Planogram Brief](by-skill/retail/planogram-brief.md)
+- [Product Listing Review](by-skill/retail/product-listing-review.md)
+- [Product Review Response](by-skill/retail/product-review-response.md)
 - [Promotion Review](by-skill/retail/promotion-review.md)
 - [Returns Desk Script](by-skill/retail/returns-desk-script.md)
 - [Store Opening Checklist](by-skill/retail/store-opening-checklist.md)

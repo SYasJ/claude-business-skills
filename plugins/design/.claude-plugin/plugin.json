@@ -1,0 +1,16 @@
+{
+  "name": "design",
+  "version": "1.0.0",
+  "description": "Critique, content design, and handoff that respect users and accessibility.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ux",
+    "content",
+    "accessibility",
+    "handoff"
+  ]
+}

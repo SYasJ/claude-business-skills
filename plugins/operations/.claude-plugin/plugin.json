@@ -1,0 +1,16 @@
+{
+  "name": "operations",
+  "version": "1.0.0",
+  "description": "SOPs, capacity, service levels, and the weekly operating system.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "operations",
+    "sop",
+    "capacity",
+    "sla",
+    "process"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "strategy",
+  "version": "1.0.0",
+  "description": "Direction, choices, board narrative, and operating cadence for founders and executive teams.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "strategy",
+    "leadership",
+    "board",
+    "planning",
+    "okrs"
+  ]
+}

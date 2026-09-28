@@ -1,0 +1,16 @@
+{
+  "name": "sales",
+  "version": "1.0.0",
+  "description": "Discovery, qualification, proposals, and pipeline hygiene for honest selling.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "pipeline",
+    "discovery",
+    "proposal",
+    "negotiation"
+  ]
+}

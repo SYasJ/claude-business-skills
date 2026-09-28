@@ -1,0 +1,16 @@
+{
+  "name": "automotive",
+  "version": "1.0.0",
+  "description": "Dealer, service, and recall notes. Not a safety-system repair procedure and not a recall determination.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "automotive",
+    "dealer",
+    "service",
+    "recall",
+    "fleet"
+  ]
+}

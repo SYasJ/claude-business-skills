@@ -1,0 +1,16 @@
+{
+  "name": "saas",
+  "version": "1.0.0",
+  "description": "Weekly metrics, activation, and pricing notes from the export. No invented retention or certification.",
+  "author": {
+    "name": "Yasir Jilani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "saas",
+    "subscription",
+    "churn",
+    "activation",
+    "pricing"
+  ]
+}
