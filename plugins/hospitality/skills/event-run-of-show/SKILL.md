@@ -9,6 +9,11 @@ metadata:
   domain: hospitality
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'event-run-of-show' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Event Run of Show
 
 Write a run of show for a hosted event with owners, cues, and a guest-impact backup.

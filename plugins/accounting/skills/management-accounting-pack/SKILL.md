@@ -9,6 +9,11 @@ metadata:
   domain: accounting
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'management-accounting-pack' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Management Accounting Pack
 
 Turn the ledger into a decision view: margins, cost centers, and a reconciliation back to the books.

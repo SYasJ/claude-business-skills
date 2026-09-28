@@ -9,6 +9,11 @@ metadata:
   domain: security
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'security-requirements' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Security Requirements
 
 Write defensive security requirements for a feature so engineering can build controls without exploit instructions.

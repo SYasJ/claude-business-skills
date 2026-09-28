@@ -9,6 +9,11 @@ metadata:
   domain: strategy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'okrs-and-scorecard' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # OKRs and Scorecard
 
 Write objectives and key results that measure outcomes, then pair them with a weekly operating scorecard.

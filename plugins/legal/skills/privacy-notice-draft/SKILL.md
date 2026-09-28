@@ -9,6 +9,11 @@ metadata:
   domain: legal
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'privacy-notice-draft' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Privacy Notice Draft
 
 Draft a plain-language privacy notice from the data practices the user describes, and mark every unknown.

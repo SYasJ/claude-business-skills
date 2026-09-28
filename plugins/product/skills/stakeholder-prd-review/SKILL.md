@@ -9,6 +9,11 @@ metadata:
   domain: product
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'stakeholder-prd-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Stakeholder PRD Review
 
 Review a PRD with stakeholders by separating decisions from opinions and parking out-of-scope demands.

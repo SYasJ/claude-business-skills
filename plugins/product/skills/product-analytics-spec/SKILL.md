@@ -9,6 +9,11 @@ metadata:
   domain: product
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'product-analytics-spec' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Product Analytics Spec
 
 Specify the events and properties a product change needs so the team can tell whether it worked.

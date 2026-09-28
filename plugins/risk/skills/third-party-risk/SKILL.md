@@ -9,6 +9,11 @@ metadata:
   domain: risk
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'third-party-risk' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Third-Party Risk
 
 Screen a third party for the risk created by the access and data you will give them.

@@ -9,6 +9,11 @@ metadata:
   domain: engineering
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'performance-budget' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Performance Budget
 
 Set a performance budget for a user journey and a plan for what happens when a change blows it.

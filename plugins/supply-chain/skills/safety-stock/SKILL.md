@@ -9,6 +9,11 @@ metadata:
   domain: supply-chain
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'safety-stock' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Safety Stock Review
 
 Review safety stock for a few items so cash is not trapped in a habit.

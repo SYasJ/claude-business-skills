@@ -9,6 +9,11 @@ metadata:
   domain: strategy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'scenario-planning' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Scenario Planning
 
 Build a small set of contrasting futures and the early signs that tell you which one you are in.

@@ -9,6 +9,11 @@ metadata:
   domain: delivery
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'status-report' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Status Report
 
 Write a status report that leads with the decision needed and the variance from plan.

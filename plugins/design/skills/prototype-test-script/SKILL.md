@@ -9,6 +9,11 @@ metadata:
   domain: design
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'prototype-test-script' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Prototype Test Script
 
 Write a prototype test script that gives the participant a goal and does not reveal the clicks.

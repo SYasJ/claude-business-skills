@@ -9,6 +9,11 @@ metadata:
   domain: legal
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'marketing-claims-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Marketing Claims Review
 
 Review marketing claims for substantiation gaps before they are published.

@@ -9,6 +9,11 @@ metadata:
   domain: creator
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'graphic-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Graphic Design Brief
 
 Write a visual design brief so a designer or image-generation tool has a complete spec before starting.

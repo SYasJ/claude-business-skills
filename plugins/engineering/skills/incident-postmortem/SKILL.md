@@ -9,6 +9,11 @@ metadata:
   domain: engineering
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'incident-postmortem' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Incident Postmortem
 
 Write a blameless postmortem that records the timeline, the impact, and the corrective actions that change a system.

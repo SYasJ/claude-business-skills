@@ -9,6 +9,11 @@ metadata:
   domain: creator
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'instagram-collab-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Instagram Collab Brief
 
 Brief an Instagram collaboration so both creators know the work, the credit, and what is not allowed.

@@ -9,6 +9,11 @@ metadata:
   domain: marketing
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'partner-co-marketing' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Partner Co-Marketing
 
 Plan a co-marketing activity with shared claims, shared approval, and no borrowed credibility.

@@ -9,6 +9,11 @@ metadata:
   domain: customer
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'churn-interview' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Churn Interview
 
 Prepare a churn or cancellation interview that learns the real reason without arguing.

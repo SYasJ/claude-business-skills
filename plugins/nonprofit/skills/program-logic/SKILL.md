@@ -9,6 +9,11 @@ metadata:
   domain: nonprofit
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'program-logic' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Program Logic
 
 Draft a program logic model that shows inputs, activities, and outcomes without pretending impact is proven.

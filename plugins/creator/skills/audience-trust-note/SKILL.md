@@ -9,6 +9,11 @@ metadata:
   domain: creator
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'audience-trust-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Audience Trust Note
 
 Review a creator's recent posts for trust gaps: undisclosed deals, recycled claims, and metrics they cannot show.

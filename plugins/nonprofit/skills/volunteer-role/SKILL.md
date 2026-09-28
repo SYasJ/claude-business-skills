@@ -9,6 +9,11 @@ metadata:
   domain: nonprofit
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'volunteer-role' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Volunteer Role
 
 Write a volunteer role with the work, the time, and the supervision, without unpaid-staff exploitation hidden in cheerful language.

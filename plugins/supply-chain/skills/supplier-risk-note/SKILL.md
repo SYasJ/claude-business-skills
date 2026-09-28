@@ -9,6 +9,11 @@ metadata:
   domain: supply-chain
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'supplier-risk-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Supplier Risk Note
 
 Note a supplier risk from the evidence the buyer has, without a mood score.

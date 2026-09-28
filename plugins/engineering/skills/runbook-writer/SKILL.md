@@ -9,6 +9,11 @@ metadata:
   domain: engineering
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'runbook-writer' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Runbook Writer
 
 Write a runbook a tired on-call engineer can follow, with checks, stops, and escalation.

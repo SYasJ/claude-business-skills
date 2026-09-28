@@ -9,6 +9,11 @@ metadata:
   domain: sales
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'objection-handling' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Objection Handling
 
 Answer a sales objection with evidence and a question, not with pressure or made-up proof.

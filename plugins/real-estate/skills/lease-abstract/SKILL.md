@@ -9,6 +9,11 @@ metadata:
   domain: real-estate
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'lease-abstract' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Lease Abstract
 
 Abstract a lease the user provides into dates, money, and notice clauses, without a legal opinion.

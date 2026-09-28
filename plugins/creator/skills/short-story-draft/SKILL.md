@@ -9,6 +9,11 @@ metadata:
   domain: creator
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'short-story-draft' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Short Story Draft
 
 Draft a short story with a clear arc — setup, tension, and a resolution that earns its ending.

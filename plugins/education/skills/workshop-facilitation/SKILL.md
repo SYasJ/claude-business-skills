@@ -9,6 +9,11 @@ metadata:
   domain: education
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'workshop-facilitation' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Workshop Facilitation
 
 Plan a workshop that produces a shared artifact, with timing and a way to hear quiet people.

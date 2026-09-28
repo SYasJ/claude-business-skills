@@ -9,6 +9,11 @@ metadata:
   domain: sustainability
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'sustainability-claim-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Sustainability Claim Review
 
 Review a sustainability claim for substantiation before it is published.

@@ -9,6 +9,11 @@ metadata:
   domain: finance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'kpi-tree-finance' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Finance KPI Tree
 
 Break a financial outcome into drivers the operator can influence, and stop at metrics someone owns.

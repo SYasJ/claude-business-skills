@@ -9,6 +9,11 @@ metadata:
   domain: sales
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'qualification-meddic' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # MEDDIC Qualification
 
 Qualify an opportunity with MEDDIC-style evidence so the forecast is not a mood.

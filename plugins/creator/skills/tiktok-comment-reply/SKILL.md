@@ -9,6 +9,11 @@ metadata:
   domain: creator
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'tiktok-comment-reply' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # TikTok Comment Reply
 
 Draft replies to TikTok comments that are useful, bounded, and free of fake engagement.

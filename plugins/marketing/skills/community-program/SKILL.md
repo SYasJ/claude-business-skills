@@ -9,6 +9,11 @@ metadata:
   domain: marketing
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'community-program' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Community Program
 
 Design a community program with a member job-to-be-done, moderation, and no vanity member count.

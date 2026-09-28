@@ -9,6 +9,11 @@ metadata:
   domain: insurance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'claim-file-checklist' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Claim File Checklist
 
 Organize a claim file so a handler can see facts, documents, and open questions.

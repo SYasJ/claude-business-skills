@@ -9,6 +9,11 @@ metadata:
   domain: ai
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'ai-incident-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # AI Incident Note
 
 Write up a bad model output the user observed, with the prompt, the harm, and the hold.

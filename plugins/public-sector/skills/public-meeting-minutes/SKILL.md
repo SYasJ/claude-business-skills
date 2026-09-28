@@ -9,6 +9,11 @@ metadata:
   domain: public-sector
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'public-meeting-minutes' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Public Meeting Minutes
 
 Draft minutes of a public meeting that record motions, votes, and conflicts.

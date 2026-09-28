@@ -9,6 +9,11 @@ metadata:
   domain: oil-gas
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'flare-volume-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Flare Volume Note
 
 Report flare volumes from the meter the user has, with the reason code they supplied.

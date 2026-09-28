@@ -9,6 +9,11 @@ metadata:
   domain: media
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'desk-handoff' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Desk Handoff
 
 Hand a story to the next shift with what is confirmed, what is open, and who owns the next call.

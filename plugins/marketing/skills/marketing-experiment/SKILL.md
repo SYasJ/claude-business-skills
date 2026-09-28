@@ -9,6 +9,11 @@ metadata:
   domain: marketing
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'marketing-experiment' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Marketing Experiment
 
 Design a marketing experiment with a hypothesis, a single change, and a decision rule.

@@ -9,6 +9,11 @@ metadata:
   domain: finance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'runway-and-burn' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Runway and Burn
 
 Compute cash runway from a defined burn, and show how hiring or a slipped receipt changes the date.

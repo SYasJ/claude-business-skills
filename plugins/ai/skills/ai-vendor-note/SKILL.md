@@ -9,6 +9,11 @@ metadata:
   domain: ai
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'ai-vendor-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # AI Vendor Note
 
 Compare AI vendors on data use, exit, and support the user can point to in a document.

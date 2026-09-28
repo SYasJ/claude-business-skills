@@ -9,6 +9,11 @@ metadata:
   domain: manufacturing
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'incoming-inspection' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Incoming Inspection
 
 Plan incoming inspection for a material based on risk and the reaction to a failed lot.

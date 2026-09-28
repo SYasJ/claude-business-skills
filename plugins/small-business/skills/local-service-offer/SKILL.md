@@ -9,6 +9,11 @@ metadata:
   domain: small-business
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'local-service-offer' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Local Service Offer
 
 Write a local offer from the price and the hours the owner can honor.

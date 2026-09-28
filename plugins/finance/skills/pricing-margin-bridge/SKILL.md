@@ -9,6 +9,11 @@ metadata:
   domain: finance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'pricing-margin-bridge' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Pricing and Margin Bridge
 
 Trace price, mix, and cost so a margin change has a cause and a commercial response.

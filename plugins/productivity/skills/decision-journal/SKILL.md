@@ -9,6 +9,11 @@ metadata:
   domain: productivity
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'decision-journal' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Decision Journal
 
 Write a personal decision journal entry with the choice, the expectation, and a review date.

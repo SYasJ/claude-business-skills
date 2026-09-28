@@ -9,6 +9,11 @@ metadata:
   domain: saas
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'plan-limit-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Plan Limit Note
 
 Write the limit a plan enforces, and the message the user sees when they hit it.

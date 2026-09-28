@@ -9,6 +9,11 @@ metadata:
   domain: healthcare
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'hipaa-privacy-ops' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Privacy Operations for a Clinic
 
 Review a clinic privacy practice for minimum necessary access and a real incident path. Not a legal opinion.

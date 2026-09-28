@@ -9,6 +9,11 @@ metadata:
   domain: education
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'academic-integrity' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Academic Integrity Conversation
 
 Plan an academic integrity conversation that is fair, specific, and not a trap.

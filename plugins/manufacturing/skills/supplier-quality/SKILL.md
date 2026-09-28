@@ -9,6 +9,11 @@ metadata:
   domain: manufacturing
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'supplier-quality' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Supplier Quality Note
 
 Write a supplier quality note that states the defect, the containment, and the evidence requested.

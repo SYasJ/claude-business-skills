@@ -9,6 +9,11 @@ metadata:
   domain: accounting
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'chart-of-accounts-design' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Chart of Accounts Design
 
 Design a chart of accounts people can code to, with enough detail to manage and not so much that nobody agrees.

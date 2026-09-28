@@ -9,6 +9,11 @@ metadata:
   domain: design
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'wireframe-spec' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Wireframe Spec
 
 Specify a wireframe's structure, priority, and states so visual design does not have to guess.

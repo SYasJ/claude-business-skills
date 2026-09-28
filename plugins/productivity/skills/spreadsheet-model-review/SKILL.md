@@ -9,6 +9,11 @@ metadata:
   domain: productivity
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'spreadsheet-model-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Spreadsheet Model Review
 
 Review a spreadsheet model for structure, formula errors, and hard-coded values that should be inputs.

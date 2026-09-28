@@ -9,6 +9,11 @@ metadata:
   domain: design
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'empty-state-design' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Empty State Design
 
 Design an empty state that explains why it is empty and offers the next honest action.

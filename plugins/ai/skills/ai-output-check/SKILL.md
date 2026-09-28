@@ -9,6 +9,11 @@ metadata:
   domain: ai
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'ai-output-check' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # AI Output Check
 
 Check a model draft against the source text the user supplied.

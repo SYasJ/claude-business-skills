@@ -9,6 +9,11 @@ metadata:
   domain: supply-chain
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'otif-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # OTIF Review
 
 Review on-time-in-full from the shipments the user counted, split by cause.

@@ -9,6 +9,11 @@ metadata:
   domain: people
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'inclusive-hiring' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Inclusive Hiring Review
 
 Review a hiring process for avoidable bias in the funnel, using the user's data and without quotas theater.

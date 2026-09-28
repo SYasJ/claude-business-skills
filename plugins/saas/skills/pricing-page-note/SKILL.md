@@ -9,6 +9,11 @@ metadata:
   domain: saas
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'pricing-page-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Pricing Page Note
 
 Check a pricing page against the plans and the limits they actually enforce.

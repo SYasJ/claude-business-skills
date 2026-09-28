@@ -9,6 +9,11 @@ metadata:
   domain: delivery
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'definition-of-done' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Definition of Done
 
 Write a definition of done that a team can apply to a backlog item without a debate each time.

@@ -9,6 +9,11 @@ metadata:
   domain: manufacturing
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'work-instruction' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Work Instruction
 
 Write a work instruction a new operator can follow, including the stop and the quality check.

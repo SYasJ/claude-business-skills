@@ -9,6 +9,11 @@ metadata:
   domain: security
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'sbom-and-supply-chain' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Software Supply Chain Note
 
 Review a software supply chain concern using the inventory the user has, without pretending a scan you did not run.

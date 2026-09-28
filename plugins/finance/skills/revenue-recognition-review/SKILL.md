@@ -9,6 +9,11 @@ metadata:
   domain: finance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'revenue-recognition-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Revenue Recognition Review
 
 Prepare questions and a fact pattern for a revenue-recognition issue without pretending to issue an accounting opinion.

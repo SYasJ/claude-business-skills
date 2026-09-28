@@ -9,6 +9,11 @@ metadata:
   domain: security
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'tabletop-exercise' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Tabletop Exercise
 
 Plan a tabletop exercise that practices decisions under a security scenario without live attacks.

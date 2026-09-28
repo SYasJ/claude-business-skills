@@ -9,6 +9,11 @@ metadata:
   domain: retail
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'planogram-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Planogram Brief
 
 Write a shelf placement brief that explains the logic behind the facing sequence and height allocation.

@@ -9,6 +9,11 @@ metadata:
   domain: sales
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'expansion-play' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Expansion Play
 
 Design an expansion conversation that starts from a realized outcome, not from the seller's quota gap.

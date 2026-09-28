@@ -9,6 +9,11 @@ metadata:
   domain: engineering
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'code-review-standard' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Code Review Standard
 
 Review a change for correctness, risk, and clarity, and write comments a teammate can act on.

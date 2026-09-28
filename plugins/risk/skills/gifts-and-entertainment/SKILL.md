@@ -9,6 +9,11 @@ metadata:
   domain: risk
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'gifts-and-entertainment' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Gifts and Entertainment
 
 Apply a gifts and entertainment rule to a specific offer, and record the decision.

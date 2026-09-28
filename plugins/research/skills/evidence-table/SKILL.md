@@ -9,6 +9,11 @@ metadata:
   domain: research
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'evidence-table' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Evidence Table
 
 Build an evidence table from sources the user supplied, with columns that match the question.

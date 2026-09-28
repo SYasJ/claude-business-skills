@@ -9,6 +9,11 @@ metadata:
   domain: accounting
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'accrual-policy' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Accrual Policy
 
 Draft a short accrual policy so estimates are consistent, documented, and reversed on purpose.

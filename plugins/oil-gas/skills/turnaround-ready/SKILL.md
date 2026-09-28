@@ -9,6 +9,11 @@ metadata:
   domain: oil-gas
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'turnaround-ready' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Turnaround Readiness
 
 Check a turnaround checklist against the items the site says must be done before isolation.

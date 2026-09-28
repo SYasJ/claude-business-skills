@@ -9,6 +9,11 @@ metadata:
   domain: risk
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'policy-writer' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Policy Writer
 
 Draft a policy people can follow, with an owner, an exception path, and a review date.

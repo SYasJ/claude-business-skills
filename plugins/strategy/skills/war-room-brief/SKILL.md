@@ -9,6 +9,11 @@ metadata:
   domain: strategy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'war-room-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # War Room Brief
 
 Stand up a short-lived response when a serious business issue needs daily focus, without turning panic into a permanent process.

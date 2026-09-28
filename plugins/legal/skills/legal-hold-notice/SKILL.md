@@ -9,6 +9,11 @@ metadata:
   domain: legal
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'legal-hold-notice' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Legal Hold Notice Draft
 
 Draft a plain legal-hold notice for counsel to approve, telling people to preserve records without spoiling anything.

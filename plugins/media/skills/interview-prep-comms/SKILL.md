@@ -9,6 +9,11 @@ metadata:
   domain: media
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'interview-prep-comms' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Spokesperson Prep
 
 Prepare a spokesperson with the known facts, the bridge to the point, and the questions they must not bluff.

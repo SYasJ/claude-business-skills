@@ -9,6 +9,11 @@ metadata:
   domain: product
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'usability-test-plan' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Usability Test Plan
 
 Plan a usability test that watches someone attempt a task, instead of asking if they like the design.

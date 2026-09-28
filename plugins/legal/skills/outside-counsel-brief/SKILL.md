@@ -9,6 +9,11 @@ metadata:
   domain: legal
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'outside-counsel-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Outside Counsel Brief
 
 Brief outside counsel with the question, the facts, and the business constraint, so the meter starts on the right problem.

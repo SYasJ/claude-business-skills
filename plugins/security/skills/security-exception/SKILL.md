@@ -9,6 +9,11 @@ metadata:
   domain: security
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'security-exception' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Security Exception
 
 Record a security exception with an owner, an expiry, and a compensating control.

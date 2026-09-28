@@ -9,6 +9,11 @@ metadata:
   domain: accounting
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'fixed-asset-register' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Fixed Asset Register
 
 Review a fixed-asset register so additions, disposals, and depreciation have an owner and a trail.

@@ -9,6 +9,11 @@ metadata:
   domain: saas
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'saas-weekly-metrics' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # SaaS Weekly Metrics
 
 Read a weekly SaaS export and say what moved, without a benchmark from memory.

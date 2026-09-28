@@ -9,6 +9,11 @@ metadata:
   domain: engineering
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'data-migration-plan' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Data Migration Plan
 
 Plan a data migration with reconciliation counts, a freeze or dual-write choice, and a stop condition.

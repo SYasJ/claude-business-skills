@@ -9,6 +9,11 @@ metadata:
   domain: marketing
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'landing-page-cro' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Landing Page Review
 
 Review a landing page for clarity, proof, and the single action, without dark patterns.

@@ -9,6 +9,11 @@ metadata:
   domain: energy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'utility-bill-check' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Utility Bill Check
 
 Check a bill against the meter read and the rate the user has.

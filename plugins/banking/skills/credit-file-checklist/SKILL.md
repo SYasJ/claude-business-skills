@@ -9,6 +9,11 @@ metadata:
   domain: banking
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'credit-file-checklist' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Credit File Checklist
 
 Checklist a credit file for missing information before a human credit officer decides.

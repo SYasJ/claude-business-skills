@@ -9,6 +9,11 @@ metadata:
   domain: blog
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'blog-series' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Blog Series
 
 Plan a series where each post can stand alone and the writer has notes for each part.

@@ -9,6 +9,11 @@ metadata:
   domain: product
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'product-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Product Brief
 
 Write a product brief that frames the problem, the user, and the bet before anyone argues about features.

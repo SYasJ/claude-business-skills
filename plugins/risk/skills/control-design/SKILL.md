@@ -9,6 +9,11 @@ metadata:
   domain: risk
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'control-design' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Control Design
 
 Design a control that prevents or detects a named failure, and specify the evidence it leaves.

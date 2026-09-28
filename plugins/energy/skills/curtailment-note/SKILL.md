@@ -9,6 +9,11 @@ metadata:
   domain: energy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'curtailment-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Curtailment Note
 
 Record a curtailment the user was instructed to make, with the volume and the time.

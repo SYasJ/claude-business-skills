@@ -9,6 +9,11 @@ metadata:
   domain: customer
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'customer-communication-incident' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Customer Incident Communication
 
 Draft customer incident updates that say what is known, what is not, and when the next update will come.

@@ -9,6 +9,11 @@ metadata:
   domain: seo
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'content-refresh-seo' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Search Refresh
 
 Decide whether an old URL should be updated, from the query and the stale claim.

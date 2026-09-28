@@ -9,6 +9,11 @@ metadata:
   domain: marketing
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'newsletter-editor' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Newsletter Editor
 
 Edit a newsletter so each issue has one idea, true links, and a reason to exist.

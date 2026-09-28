@@ -9,6 +9,11 @@ metadata:
   domain: product
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'outcome-roadmap' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Outcome Roadmap
 
 Rebuild a feature roadmap into an outcome roadmap with bets, evidence, and kill criteria.

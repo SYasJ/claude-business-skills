@@ -9,6 +9,11 @@ metadata:
   domain: risk
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'sox-walkthrough' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # SOX Walkthrough Prep
 
 Prepare a walkthrough of a financial control so the performer can show what they actually do.

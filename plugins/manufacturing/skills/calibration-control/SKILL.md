@@ -9,6 +9,11 @@ metadata:
   domain: manufacturing
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'calibration-control' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Calibration Control
 
 Review calibration control so instruments used for acceptance are in date, and out-of-date tools are not used.

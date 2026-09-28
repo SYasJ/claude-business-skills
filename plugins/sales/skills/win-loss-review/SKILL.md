@@ -9,6 +9,11 @@ metadata:
   domain: sales
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'win-loss-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Win Loss Review
 
 Review wins and losses to find a pattern the team can change, not a story that flatters the winner.

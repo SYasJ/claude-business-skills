@@ -9,6 +9,11 @@ metadata:
   domain: retail
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'assortment-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Assortment Review
 
 Review an assortment for the customer job, the duplicate, and the item that does not earn its space.

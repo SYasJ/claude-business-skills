@@ -9,6 +9,11 @@ metadata:
   domain: legal
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'policy-exception-log' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Policy Exception Log
 
 Record a policy exception so the company can see who accepted the risk and when it expires.

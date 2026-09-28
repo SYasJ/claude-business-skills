@@ -9,6 +9,11 @@ metadata:
   domain: sales
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'discovery-call' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Discovery Call
 
 Plan and review a discovery call that uncovers the buyer's problem, timing, and authority without pitching over them.

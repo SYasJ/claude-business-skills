@@ -9,6 +9,11 @@ metadata:
   domain: customer
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'qbr-customer' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Customer QBR
 
 Plan a customer quarterly review around their outcomes, not around a product tour.

@@ -9,6 +9,11 @@ metadata:
   domain: oil-gas
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'site-induction-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Site Induction Brief
 
 Brief a contractor on the site rules the user listed, including what they must not bypass.

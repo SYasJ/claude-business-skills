@@ -9,6 +9,11 @@ metadata:
   domain: operations
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'meeting-operating-system' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Meeting Operating System
 
 Redesign a meeting so it produces a decision or a documented exception, or cancel it.

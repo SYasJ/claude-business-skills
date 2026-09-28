@@ -9,6 +9,11 @@ metadata:
   domain: research
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'literature-review-plan' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Literature Review Plan
 
 Plan a literature review around a question, with sources the user can actually obtain and no fabricated papers.

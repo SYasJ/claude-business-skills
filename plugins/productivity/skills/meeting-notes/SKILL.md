@@ -9,6 +9,11 @@ metadata:
   domain: productivity
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'meeting-notes' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Meeting Notes
 
 Write meeting notes that capture decisions, owners, and open questions.

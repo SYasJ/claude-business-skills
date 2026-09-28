@@ -9,6 +9,11 @@ metadata:
   domain: saas
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'net-retention-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Net Retention Note
 
 Compute net retention only from the starting and ending revenue they provide for the same accounts.

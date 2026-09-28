@@ -9,6 +9,11 @@ metadata:
   domain: seo
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'technical-seo-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Technical SEO Note
 
 Turn crawl findings the user exported into a fix list a developer can accept or reject.

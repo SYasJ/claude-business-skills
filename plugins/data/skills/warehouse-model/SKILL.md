@@ -9,6 +9,11 @@ metadata:
   domain: data
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'warehouse-model' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Warehouse Model Review
 
 Review a warehouse model for grain mistakes and double-counted joins.

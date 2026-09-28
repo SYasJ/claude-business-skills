@@ -9,6 +9,11 @@ metadata:
   domain: people
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'conflict-mediation' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Conflict Mediation Prep
 
 Prepare a fair conversation between coworkers in conflict, without taking a side or diagnosing character.

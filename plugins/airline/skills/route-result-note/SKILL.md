@@ -9,6 +9,11 @@ metadata:
   domain: airline
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'route-result-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Route Result
 
 Report a route day from the flights and the loads the user exported.

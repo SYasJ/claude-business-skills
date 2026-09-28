@@ -9,6 +9,11 @@ metadata:
   domain: entrepreneurship
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'pricing-test-startup' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Startup Pricing Test
 
 Design a startup pricing test that learns willingness to pay without deceptive charges.

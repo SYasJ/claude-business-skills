@@ -9,6 +9,11 @@ metadata:
   domain: design
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'design-system-token' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Design Token Decision
 
 Decide whether a new visual style becomes a token or stays a one-off, based on reuse.

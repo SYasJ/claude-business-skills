@@ -9,6 +9,11 @@ metadata:
   domain: data
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'data-contract' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Data Contract
 
 Write the columns, grain, freshness, and owner a producer and a consumer can both use.

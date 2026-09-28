@@ -9,6 +9,11 @@ metadata:
   domain: healthcare
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'referral-workflow' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Referral Workflow
 
 Map a referral workflow so the sending and receiving sides know the packet, the owner, and the clock.

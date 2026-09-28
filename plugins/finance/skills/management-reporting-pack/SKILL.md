@@ -9,6 +9,11 @@ metadata:
   domain: finance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'management-reporting-pack' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Management Reporting Pack
 
 Design a short monthly pack that tells leaders what changed, what it means, and what decision is due.

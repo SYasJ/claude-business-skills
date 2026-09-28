@@ -9,6 +9,11 @@ metadata:
   domain: customer
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'onboarding-success-plan' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Customer Onboarding Plan
 
 Plan customer onboarding to a first value moment, with owners on both sides.

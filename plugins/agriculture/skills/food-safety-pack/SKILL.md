@@ -9,6 +9,11 @@ metadata:
   domain: agriculture
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'food-safety-pack' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Food Safety Pack
 
 Assemble a food-safety document pack from the practices they already run, for their auditor or buyer.

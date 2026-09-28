@@ -9,6 +9,11 @@ metadata:
   domain: people
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'coaching-session' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Coaching Session
 
 Plan a coaching conversation that builds a skill on real work, not a motivational speech.

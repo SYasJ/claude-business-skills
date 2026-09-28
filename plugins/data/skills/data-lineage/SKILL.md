@@ -9,6 +9,11 @@ metadata:
   domain: data
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'data-lineage' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Data Lineage
 
 Trace a metric to the source tables the user can name, and stop where the trail stops.

@@ -9,6 +9,11 @@ metadata:
   domain: banking
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'account-opening-ops' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Account Opening Operations
 
 Review an account-opening checklist for identity steps they require, without collecting secrets into the chat.

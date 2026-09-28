@@ -9,6 +9,11 @@ metadata:
   domain: healthcare
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'clinical-documentation-quality' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Clinical Documentation Quality
 
 Review documentation quality for completeness and clarity against their template, not for a diagnosis.

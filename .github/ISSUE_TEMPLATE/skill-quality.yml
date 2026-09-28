@@ -1,0 +1,54 @@
+name: Report a skill problem
+description: A skill gives bad guidance, invents something, or does not match practice
+title: "[fix] "
+labels: ["skill quality"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reports from people who do the work are the most useful thing this project gets. If a skill would embarrass you in front of a colleague, that is worth an issue.
+
+  - type: input
+    id: skill
+    attributes:
+      label: Which skill?
+      placeholder: bank-reconciliation
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - It invents a figure, citation, or fact
+        - It gives a regulated conclusion it should refer to a professional
+        - The procedure does not match real practice
+        - The example is unrealistic or too thin
+        - It asks for a credential or something it should not
+        - Wrong or broken link
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the line if you can.
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct
+    attributes:
+      label: What should it say instead?
+      description: How would you do this in practice?
+    validations:
+      required: true
+
+  - type: input
+    id: background
+    attributes:
+      label: Your background in this area
+      description: Optional, and it carries weight. "12 years in audit" tells me how to weigh this.

@@ -9,6 +9,11 @@ metadata:
   domain: ai
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'ai-eval-plan' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # AI Eval Plan
 
 Plan an evaluation from examples the user already has, with a pass rule they can apply.

@@ -9,6 +9,11 @@ metadata:
   domain: people
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'manager-one-on-one' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Manager One-on-One
 
 Set up a one-on-one that surfaces blockers and growth, not a status meeting in disguise.

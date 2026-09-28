@@ -9,6 +9,11 @@ metadata:
   domain: small-business
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'permit-checklist-local' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Local Permit Checklist
 
 List the permits the owner already knows they need, and the ones they have not checked.

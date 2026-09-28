@@ -9,6 +9,11 @@ metadata:
   domain: blog
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'blog-source-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Blog Source Note
 
 List what the post may cite, and what has to come out.

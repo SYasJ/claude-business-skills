@@ -9,6 +9,11 @@ metadata:
   domain: people
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'pip-design' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Performance Improvement Plan
 
 Design a fair, time-boxed improvement plan with observable standards, not a paper trail dressed up as coaching.

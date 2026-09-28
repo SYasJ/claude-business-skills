@@ -9,6 +9,11 @@ metadata:
   domain: media
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'embargo-check' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Embargo Check
 
 Check whether an embargo still applies and who agreed to it.

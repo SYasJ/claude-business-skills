@@ -9,6 +9,11 @@ metadata:
   domain: customer
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'csat-recovery' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Low Score Recovery
 
 Plan a follow-up to a low satisfaction score that seeks the cause and stays inside the remedy policy.

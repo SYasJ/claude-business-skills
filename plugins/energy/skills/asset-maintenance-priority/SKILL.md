@@ -9,6 +9,11 @@ metadata:
   domain: energy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'asset-maintenance-priority' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Maintenance Priority
 
 Prioritize maintenance work by safety and customer impact, using their defect list.

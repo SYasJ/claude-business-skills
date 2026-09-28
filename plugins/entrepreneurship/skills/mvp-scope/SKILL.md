@@ -9,6 +9,11 @@ metadata:
   domain: entrepreneurship
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'mvp-scope' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # MVP Scope
 
 Cut a product idea to the smallest test that answers the riskiest question.

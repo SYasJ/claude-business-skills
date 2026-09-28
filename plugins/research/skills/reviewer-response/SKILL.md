@@ -9,6 +9,11 @@ metadata:
   domain: research
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'reviewer-response' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Reviewer Response
 
 Draft a response to reviewer comments from the changes the authors actually made.

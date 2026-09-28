@@ -9,6 +9,11 @@ metadata:
   domain: research
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'research-memo' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Research Memo
 
 Write a research memo that separates evidence, interpretation, and what is still unknown.

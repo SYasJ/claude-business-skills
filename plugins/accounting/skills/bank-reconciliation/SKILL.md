@@ -9,6 +9,11 @@ metadata:
   domain: accounting
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'bank-reconciliation' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Bank Reconciliation
 
 Reconcile book to bank and leave a list of items a human must clear, with no plugs.

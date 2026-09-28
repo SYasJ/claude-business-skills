@@ -9,6 +9,11 @@ metadata:
   domain: strategy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'corporate-narrative' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Corporate Narrative
 
 Write the company story employees and customers can repeat without sliding into hype.

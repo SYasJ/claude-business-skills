@@ -9,6 +9,11 @@ metadata:
   domain: sustainability
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'esg-disclosure-outline' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # ESG Disclosure Outline
 
 Outline an ESG disclosure around metrics the company can evidence this year.

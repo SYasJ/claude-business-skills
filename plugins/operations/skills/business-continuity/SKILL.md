@@ -9,6 +9,11 @@ metadata:
   domain: operations
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'business-continuity' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Business Continuity Plan
 
 Draft a continuity plan for a named disruption, with a manual path and a named leader.

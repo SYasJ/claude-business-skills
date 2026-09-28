@@ -9,6 +9,11 @@ metadata:
   domain: procurement
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'sourcing-event-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Sourcing Event Brief
 
 Brief a sourcing event with the need, the evaluation criteria, and the rules before vendors are contacted.

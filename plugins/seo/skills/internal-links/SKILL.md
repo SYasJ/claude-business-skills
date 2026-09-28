@@ -9,6 +9,11 @@ metadata:
   domain: seo
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'internal-links' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Internal Link Plan
 
 Plan internal links from pages that exist to pages that answer the next question.

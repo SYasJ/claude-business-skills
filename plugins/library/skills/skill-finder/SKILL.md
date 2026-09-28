@@ -9,6 +9,11 @@ metadata:
   domain: library
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'skill-finder' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Skill Finder
 
 Recommend the smallest set of skills in this library for a task, and say what not to load.

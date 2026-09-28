@@ -9,6 +9,11 @@ metadata:
   domain: data
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'retention-schedule-data' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Data Retention Schedule
 
 Draft a retention note from the policy the user already has, not from a guessed law.

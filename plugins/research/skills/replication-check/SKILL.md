@@ -9,6 +9,11 @@ metadata:
   domain: research
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'replication-check' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Replication Check
 
 Check whether a result can be rerun from the files the user has.

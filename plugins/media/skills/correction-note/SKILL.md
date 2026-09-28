@@ -9,6 +9,11 @@ metadata:
   domain: media
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'correction-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Correction Note
 
 Draft a correction that states what was wrong, what is right, and where it ran.

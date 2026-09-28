@@ -9,6 +9,11 @@ metadata:
   domain: healthcare
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'patient-intake-sop' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Patient Intake SOP
 
 Write an intake procedure that collects only what the visit needs and tells staff when to stop and ask a clinician.

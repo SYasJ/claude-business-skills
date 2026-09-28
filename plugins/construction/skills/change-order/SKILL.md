@@ -9,6 +9,11 @@ metadata:
   domain: construction
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'change-order' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Change Order Brief
 
 Brief a change order with the cause, the cost basis they have, and the time effect.

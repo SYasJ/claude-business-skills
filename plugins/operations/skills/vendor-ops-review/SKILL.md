@@ -9,6 +9,11 @@ metadata:
   domain: operations
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'vendor-ops-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Vendor Operations Review
 
 Review a vendor's operational performance against the outcomes the company bought.

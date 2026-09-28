@@ -9,6 +9,11 @@ metadata:
   domain: energy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'grid-connection-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Grid Connection Brief
 
 Brief a connection request with the site facts and the studies the user already has.

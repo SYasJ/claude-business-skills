@@ -9,6 +9,11 @@ metadata:
   domain: hospitality
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'guest-recovery' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Guest Recovery
 
 Plan guest recovery after a service miss, with a truthful apology and a remedy inside authority.

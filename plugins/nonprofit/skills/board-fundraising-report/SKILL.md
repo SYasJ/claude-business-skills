@@ -9,6 +9,11 @@ metadata:
   domain: nonprofit
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'board-fundraising-report' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Fundraising Report
 
 Report fundraising progress with cash received, pledges, and restrictions kept distinct.

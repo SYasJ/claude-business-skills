@@ -9,6 +9,11 @@ metadata:
   domain: manufacturing
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'process-fmea' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Process FMEA Facilitation
 
 Facilitate a process FMEA on a few high-risk steps, with actions for the failures that lack detection.

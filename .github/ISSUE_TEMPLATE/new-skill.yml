@@ -1,0 +1,117 @@
+name: Propose a new skill
+description: Suggest a workflow that should become a skill
+title: "[skill] "
+labels: ["new skill"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a skill. The best proposals come from work you actually do — a procedure you follow that an agent keeps getting wrong.
+
+        Skills live in `source/`, not `plugins/`. See [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md) if you want to open the PR yourself.
+
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      description: Lowercase kebab-case. The job, not the company or the date.
+      placeholder: shift-handover-note
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      description: An existing domain. Pick the closest — a new domain for one skill is usually wrong.
+      options:
+        - accounting
+        - agriculture
+        - ai
+        - airline
+        - automotive
+        - banking
+        - blog
+        - construction
+        - consulting
+        - creator
+        - customer
+        - data
+        - delivery
+        - design
+        - education
+        - energy
+        - engineering
+        - entrepreneurship
+        - finance
+        - healthcare
+        - hospitality
+        - insurance
+        - legal
+        - library
+        - manufacturing
+        - marketing
+        - media
+        - nonprofit
+        - oil-gas
+        - operations
+        - people
+        - procurement
+        - product
+        - productivity
+        - public-sector
+        - real-estate
+        - research
+        - retail
+        - risk
+        - saas
+        - sales
+        - security
+        - seo
+        - small-business
+        - strategy
+        - supply-chain
+        - sustainability
+        - transport
+        - other / not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: job
+    attributes:
+      label: What should it produce?
+      description: One sentence. The deliverable, not the topic.
+      placeholder: Hand a shift over so the next crew knows what is open, what is unsafe, and who to call.
+    validations:
+      required: true
+
+  - type: textarea
+    id: inputs
+    attributes:
+      label: What does the person need to supply?
+      description: The facts the skill cannot invent.
+      placeholder: |
+        - Who is coming on and going off
+        - Open issues from this shift
+        - Anything flagged unsafe
+    validations:
+      required: true
+
+  - type: textarea
+    id: anti
+    attributes:
+      label: What should it refuse to do?
+      description: The most important field. Every skill here is defined as much by what it will not invent or assume. What goes wrong when a person or an agent does this badly?
+      placeholder: |
+        - Do not mark an unresolved safety issue as closed
+        - Do not invent a handover that did not happen
+        - Do not name a person who was not on shift
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: A realistic situation
+      description: Optional, but it is what makes a skill good. Real numbers or details if you have them.

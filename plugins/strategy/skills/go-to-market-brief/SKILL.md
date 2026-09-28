@@ -9,6 +9,11 @@ metadata:
   domain: strategy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'go-to-market-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Go-to-Market Brief
 
 Brief a launch or a new motion so sales, product, and marketing are aiming at the same buyer and offer.

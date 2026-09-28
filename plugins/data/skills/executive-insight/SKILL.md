@@ -9,6 +9,11 @@ metadata:
   domain: data
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'executive-insight' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Executive Insight Memo
 
 Turn an analysis into a one-page insight a leader can use, with the number, the comparison, and the limit.

@@ -9,6 +9,11 @@ metadata:
   domain: airline
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'station-turn-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Station Turn Note
 
 Record a turn delay with the minute it started and the cause the ramp lead wrote.

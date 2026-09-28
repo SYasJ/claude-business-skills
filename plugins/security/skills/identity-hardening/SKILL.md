@@ -9,6 +9,11 @@ metadata:
   domain: security
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'identity-hardening' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Identity Hardening
 
 Plan identity hardening around administrators, joiners and leavers, and phishing-resistant sign-in where they can support it.

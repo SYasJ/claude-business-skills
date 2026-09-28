@@ -9,6 +9,11 @@ metadata:
   domain: retail
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'promotion-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Promotion Review
 
 Review a promotion for margin, inventory, and honest terms.

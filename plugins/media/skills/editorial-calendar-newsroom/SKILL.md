@@ -9,6 +9,11 @@ metadata:
   domain: media
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'editorial-calendar-newsroom' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Newsroom Planning Note
 
 Plan a newsroom or content desk day around the stories that are ready and the slots that should stay empty.

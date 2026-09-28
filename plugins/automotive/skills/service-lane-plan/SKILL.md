@@ -9,6 +9,11 @@ metadata:
   domain: automotive
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'service-lane-plan' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Service Lane Plan
 
 Plan the lane so promised times match the techs and the parts on hand.

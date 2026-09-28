@@ -9,6 +9,11 @@ metadata:
   domain: retail
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'product-review-response' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Product Review Response
 
 Draft a response to a customer product review that acknowledges the experience and does not argue.

@@ -9,6 +9,11 @@ metadata:
   domain: finance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'saas-metrics-pack' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # SaaS Metrics Pack
 
 Define a small SaaS metrics pack from the company's own billing reality, without imported benchmark theater.

@@ -9,6 +9,11 @@ metadata:
   domain: strategy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'market-entry-assessment' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Market Entry Assessment
 
 Test whether a new segment or geography deserves a real bet, using the user's evidence rather than a borrowed market-size slide.

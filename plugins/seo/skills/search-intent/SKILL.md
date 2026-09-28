@@ -9,6 +9,11 @@ metadata:
   domain: seo
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'search-intent' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Search Intent
 
 Say what the searcher is trying to do, from the query and the page the user has.

@@ -9,6 +9,11 @@ metadata:
   domain: delivery
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'steering-committee-pack' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Steering Committee Pack
 
 Prepare a steering pack that asks for decisions and shows exceptions, in a few pages.

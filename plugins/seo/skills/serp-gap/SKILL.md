@@ -9,6 +9,11 @@ metadata:
   domain: seo
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'serp-gap' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # SERP Gap
 
 Compare the user's page to what they can see on the results page, without inventing ranks.

@@ -9,6 +9,11 @@ metadata:
   domain: design
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'information-architecture' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Information Architecture
 
 Recommend an information architecture from user tasks, not from the company's org chart.

@@ -9,6 +9,11 @@ metadata:
   domain: real-estate
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'offer-comparison' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Offer Comparison
 
 Compare property offers on the terms the user cares about, without advising which legal form to sign.

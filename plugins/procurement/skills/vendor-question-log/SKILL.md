@@ -9,6 +9,11 @@ metadata:
   domain: procurement
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'vendor-question-log' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Vendor Question Log
 
 Log vendor questions and publish answers so every bidder sees the same clarification.

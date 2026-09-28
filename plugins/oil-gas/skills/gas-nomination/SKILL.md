@@ -9,6 +9,11 @@ metadata:
   domain: oil-gas
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'gas-nomination' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Gas Nomination
 
 Check a nomination against the confirmed volume and the cycle time the user states.

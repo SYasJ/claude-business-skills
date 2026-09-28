@@ -9,6 +9,11 @@ metadata:
   domain: operations
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'raci-design' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # RACI Design
 
 Assign one accountable owner to a decision or process and stop at the roles that matter.

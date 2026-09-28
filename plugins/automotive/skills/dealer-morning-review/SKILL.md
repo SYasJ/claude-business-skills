@@ -9,6 +9,11 @@ metadata:
   domain: automotive
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'dealer-morning-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Dealer Morning Review
 
 Set the service morning from the appointments and the parts the dealer can see.

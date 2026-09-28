@@ -9,6 +9,11 @@ metadata:
   domain: education
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'instructional-design-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Instructional Design Brief
 
 Brief a designer or trainer on a learning experience with audience, objective, and constraints.

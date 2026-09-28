@@ -9,6 +9,11 @@ metadata:
   domain: entrepreneurship
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'beachhead-market' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Beachhead Market
 
 Pick the first market from the customers they can already reach.

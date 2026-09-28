@@ -9,6 +9,11 @@ metadata:
   domain: construction
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'schedule-look-ahead' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Schedule Look-Ahead
 
 Build a short look-ahead from constraints, not from a hopeful bar chart.

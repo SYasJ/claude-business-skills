@@ -9,6 +9,11 @@ metadata:
   domain: productivity
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'personal-okr' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Personal OKRs
 
 Set a few personal objectives that fit the week you actually have.

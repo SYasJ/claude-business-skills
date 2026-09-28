@@ -9,6 +9,11 @@ metadata:
   domain: library
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'domain-enablement' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Domain Enablement
 
 Explain which domain plugin to enable for a team role, and which skills that role should try first.

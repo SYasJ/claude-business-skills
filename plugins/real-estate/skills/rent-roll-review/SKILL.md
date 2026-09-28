@@ -9,6 +9,11 @@ metadata:
   domain: real-estate
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'rent-roll-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Rent Roll Review
 
 Review a rent roll for inconsistencies, expirations, and concessions the user can see.

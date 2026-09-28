@@ -9,6 +9,11 @@ metadata:
   domain: retail
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'marketplace-fee-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Marketplace Fee Review
 
 Review a marketplace fee structure and show the net margin per unit at their price.

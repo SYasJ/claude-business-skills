@@ -9,6 +9,11 @@ metadata:
   domain: supply-chain
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'dock-exception-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Dock Exception
 
 Record a dock exception with the count, the PO, and the photo or tally they have.

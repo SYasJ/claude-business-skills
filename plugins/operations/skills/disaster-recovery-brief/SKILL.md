@@ -9,6 +9,11 @@ metadata:
   domain: operations
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'disaster-recovery-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Disaster Recovery Brief
 
 Brief a disaster recovery choice for one system, including the recovery point they are actually buying.

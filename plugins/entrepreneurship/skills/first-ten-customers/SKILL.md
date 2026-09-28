@@ -9,6 +9,11 @@ metadata:
   domain: entrepreneurship
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'first-ten-customers' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # First Ten Customers
 
 List the first customers they can name, and the ones that are still wishes.

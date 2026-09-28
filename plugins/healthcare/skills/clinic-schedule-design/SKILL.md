@@ -9,6 +9,11 @@ metadata:
   domain: healthcare
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'clinic-schedule-design' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Clinic Schedule Design
 
 Design a clinic schedule around visit types and staffing, without pretending to triage medical urgency.

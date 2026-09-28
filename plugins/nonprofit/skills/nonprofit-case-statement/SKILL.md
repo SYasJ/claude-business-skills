@@ -9,6 +9,11 @@ metadata:
   domain: nonprofit
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'nonprofit-case-statement' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Case Statement
 
 Write a case for support from real need, real program facts, and a specific ask.

@@ -9,6 +9,11 @@ metadata:
   domain: productivity
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'weekly-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Weekly Review
 
 Run a weekly review that closes open loops and picks next week's outcomes.

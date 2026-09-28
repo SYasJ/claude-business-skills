@@ -9,6 +9,11 @@ metadata:
   domain: insurance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'broker-renewal-prep' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Renewal Preparation
 
 Prepare an insurance renewal packet from the expiring facts and the changes the insured reported.

@@ -9,6 +9,11 @@ metadata:
   domain: banking
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'payment-run-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Payment Run Review
 
 Review a payment run for duplicates, approvals, and changes to payee details.

@@ -9,6 +9,11 @@ metadata:
   domain: creator
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'youtube-channel-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # YouTube Channel Brief
 
 Brief a YouTube channel around one viewer job, a repeatable episode shape, and a publishing promise the creator can keep.

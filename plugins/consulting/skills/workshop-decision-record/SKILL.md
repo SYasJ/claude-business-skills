@@ -9,6 +9,11 @@ metadata:
   domain: consulting
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'workshop-decision-record' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Workshop Decision Record
 
 Turn a client workshop into a decision record rather than a photo of sticky notes.

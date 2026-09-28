@@ -9,6 +9,11 @@ metadata:
   domain: accounting
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'account-reconciliation-standard' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Account Reconciliation Standard
 
 Set a standard for balance-sheet reconciliations: purpose, frequency, evidence, and aging of open items.

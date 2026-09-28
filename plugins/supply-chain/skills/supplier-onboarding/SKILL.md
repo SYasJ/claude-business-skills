@@ -9,6 +9,11 @@ metadata:
   domain: supply-chain
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'supplier-onboarding' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Supplier Onboarding
 
 Onboard a supplier with the documents, access, and first-order check the company actually requires.

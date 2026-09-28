@@ -9,6 +9,11 @@ metadata:
   domain: saas
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'churn-save-plan' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Churn Save Plan
 
 Plan a save offer from the cancel reasons in the export and the offer they can honor.

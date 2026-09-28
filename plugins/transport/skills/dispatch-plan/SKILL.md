@@ -9,6 +9,11 @@ metadata:
   domain: transport
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'dispatch-plan' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Dispatch Plan
 
 Plan a dispatch from orders, hours, and equipment limits the user stated.

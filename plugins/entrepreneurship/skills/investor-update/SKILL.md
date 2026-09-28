@@ -9,6 +9,11 @@ metadata:
   domain: entrepreneurship
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'investor-update' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Investor Update
 
 Draft an investor update that leads with cash, the metric, and the ask, without spin.

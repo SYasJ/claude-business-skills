@@ -9,6 +9,11 @@ metadata:
   domain: consulting
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'engagement-framing' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Engagement Framing
 
 Frame a consulting engagement with the decision, the evidence, and what is out of scope.

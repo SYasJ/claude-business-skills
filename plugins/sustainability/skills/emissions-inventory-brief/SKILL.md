@@ -9,6 +9,11 @@ metadata:
   domain: sustainability
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'emissions-inventory-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Emissions Inventory Brief
 
 Brief an emissions inventory from activity data they have, with factors labeled and gaps visible.

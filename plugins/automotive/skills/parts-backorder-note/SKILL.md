@@ -9,6 +9,11 @@ metadata:
   domain: automotive
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'parts-backorder-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Parts Backorder
 
 Tell the advisor what to say when a part is not in and a promise date is already on the RO.

@@ -9,6 +9,11 @@ metadata:
   domain: airline
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'crew-duty-limit' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Crew Duty Check
 
 Check a duty figure against the limit the user provides. Do not advise exceeding it.

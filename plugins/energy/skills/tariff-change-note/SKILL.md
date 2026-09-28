@@ -9,6 +9,11 @@ metadata:
   domain: energy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'tariff-change-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Tariff Change Note
 
 Explain a tariff change from the sheet the user has, in the units on that sheet.

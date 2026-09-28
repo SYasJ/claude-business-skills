@@ -9,6 +9,11 @@ metadata:
   domain: ai
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'ai-use-case' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # AI Use Case
 
 Decide whether a task should use a model, who owns the failure, and what stays manual.

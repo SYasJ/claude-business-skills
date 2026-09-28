@@ -9,6 +9,11 @@ metadata:
   domain: automotive
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'recall-owner-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Recall Owner Note
 
 Draft the customer note for a recall using the notice the dealer has, not a homemade defect claim.

@@ -9,6 +9,11 @@ metadata:
   domain: education
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'rubric-builder' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Rubric Builder
 
 Build a rubric with levels a second marker could apply to the same work.

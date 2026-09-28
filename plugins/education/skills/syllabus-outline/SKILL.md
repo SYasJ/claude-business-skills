@@ -9,6 +9,11 @@ metadata:
   domain: education
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'syllabus-outline' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Syllabus Outline
 
 Outline a syllabus with outcomes, assessments, and policies the instructor actually uses.

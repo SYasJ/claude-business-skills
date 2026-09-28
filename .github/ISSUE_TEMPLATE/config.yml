@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How to add a skill
+    url: https://github.com/SYasJ/claude-business-skills/blob/main/CONTRIBUTING.md
+    about: Skills are generated from source/ — read this before editing a SKILL.md
+  - name: Browse all 601 skills
+    url: https://github.com/SYasJ/claude-business-skills/blob/main/catalog/SKILLS.md
+    about: Check whether the skill you want already exists

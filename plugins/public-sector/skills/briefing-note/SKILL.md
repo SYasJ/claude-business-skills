@@ -9,6 +9,11 @@ metadata:
   domain: public-sector
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'briefing-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Briefing Note
 
 Write a briefing note that states the issue, the options, and the recommendation for a public decision-maker.

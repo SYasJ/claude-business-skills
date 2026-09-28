@@ -9,6 +9,11 @@ metadata:
   domain: airline
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'baggage-irregularity' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Baggage Irregularity
 
 Record a bag irregularity with the tag, the flight, and the status they know.

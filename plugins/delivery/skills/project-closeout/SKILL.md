@@ -9,6 +9,11 @@ metadata:
   domain: delivery
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'project-closeout' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Project Closeout
 
 Close a project by confirming outcomes, handing over operations, and releasing the team.

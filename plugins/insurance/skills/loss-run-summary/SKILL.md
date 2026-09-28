@@ -9,6 +9,11 @@ metadata:
   domain: insurance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'loss-run-summary' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Loss Run Summary
 
 Summarize a loss run the user provided, without forecasting a premium or hiding a large loss.

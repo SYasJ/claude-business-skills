@@ -9,6 +9,11 @@ metadata:
   domain: hospitality
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'shift-brief-hospitality' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Hospitality Shift Brief
 
 Write a hospitality shift brief covering VIPs they named, misses, and eighty-six items.

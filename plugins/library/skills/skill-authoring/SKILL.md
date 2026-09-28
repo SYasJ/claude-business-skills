@@ -9,6 +9,11 @@ metadata:
   domain: library
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'skill-authoring' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Skill Authoring
 
 Draft a new Agent Skill that is specific, safe, and small enough to load.

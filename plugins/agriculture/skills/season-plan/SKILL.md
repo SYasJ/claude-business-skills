@@ -9,6 +9,11 @@ metadata:
   domain: agriculture
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'season-plan' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Season Plan
 
 Plan a season from fields, labor, and cash the farm can actually commit.

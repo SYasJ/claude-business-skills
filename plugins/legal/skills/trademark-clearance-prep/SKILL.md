@@ -9,6 +9,11 @@ metadata:
   domain: legal
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'trademark-clearance-prep' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Trademark Clearance Prep
 
 Prepare a clearance brief so counsel or a search firm can look up a name. Do not clear the name yourself.

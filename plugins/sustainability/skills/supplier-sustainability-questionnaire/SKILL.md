@@ -9,6 +9,11 @@ metadata:
   domain: sustainability
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'supplier-sustainability-questionnaire' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Supplier Sustainability Questionnaire
 
 Review supplier sustainability answers for evidence, not for a score that hides missing proof.

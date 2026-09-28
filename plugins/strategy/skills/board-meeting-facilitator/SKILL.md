@@ -9,6 +9,11 @@ metadata:
   domain: strategy
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'board-meeting-facilitator' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Board Meeting Facilitator
 
 Design a board agenda that spends time on decisions and exceptions, and produce a clean minute skeleton afterward.

@@ -9,6 +9,11 @@ metadata:
   domain: banking
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'liquidity-ladder' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Liquidity Ladder
 
 Build a simple liquidity ladder from cash, committed inflows, and committed outflows.

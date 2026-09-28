@@ -9,6 +9,11 @@ metadata:
   domain: risk
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'conflict-of-interest' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Conflict of Interest Disclosure
 
 Structure a conflict-of-interest disclosure so a reviewer can see the interest and the decision it touches.

@@ -9,6 +9,11 @@ metadata:
   domain: productivity
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'excel-formula-help' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Excel and Sheets Formula Help
 
 Write or fix a spreadsheet formula that solves the calculation the user described, with a plain-English explanation.

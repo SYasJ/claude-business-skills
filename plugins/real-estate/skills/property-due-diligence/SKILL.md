@@ -9,6 +9,11 @@ metadata:
   domain: real-estate
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'property-due-diligence' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Property Due Diligence
 
 Build a due-diligence checklist from the deal type and the documents the user can obtain.

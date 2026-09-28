@@ -9,6 +9,11 @@ metadata:
   domain: public-sector
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'records-request-triage' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Records Request Triage
 
 Triage a records request for scope, search, and exemptions their officer must decide.

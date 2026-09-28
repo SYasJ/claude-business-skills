@@ -9,6 +9,11 @@ metadata:
   domain: creator
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'voiceover-edit-notes' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Voice-Over Edit Notes
 
 Write edit notes for a voice-over so the editor knows which breaths, mistakes, and levels to fix.

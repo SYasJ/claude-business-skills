@@ -9,6 +9,11 @@ metadata:
   domain: consulting
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'interview-synthesis-client' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Client Interview Synthesis
 
 Synthesize client interviews into themes with quotes the interviewee actually gave.

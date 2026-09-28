@@ -9,6 +9,11 @@ metadata:
   domain: public-sector
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'consultation-summary' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Consultation Summary
 
 Summarize a consultation without burying dissenting views.

@@ -9,6 +9,11 @@ metadata:
   domain: delivery
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'dependency-map' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Dependency Map
 
 Map delivery dependencies so external waits have owners and dates, not just arrows.

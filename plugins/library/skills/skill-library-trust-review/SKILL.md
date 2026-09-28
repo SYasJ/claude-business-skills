@@ -9,6 +9,11 @@ metadata:
   domain: library
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'skill-library-trust-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Skill Library Trust Review
 
 Review a skill or a skill repository for signs it is unsafe, deceptive, or pretending to be an official product.

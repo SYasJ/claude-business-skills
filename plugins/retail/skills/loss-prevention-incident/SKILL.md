@@ -9,6 +9,11 @@ metadata:
   domain: retail
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'loss-prevention-incident' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Loss Prevention Incident Log
 
 Write a factual loss prevention incident log from the events the user described, without accusations beyond what evidence supports.

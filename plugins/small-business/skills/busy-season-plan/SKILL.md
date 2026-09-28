@@ -9,6 +9,11 @@ metadata:
   domain: small-business
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'busy-season-plan' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Busy Season Plan
 
 Plan the busy weeks from last year's pattern and this year's staff.

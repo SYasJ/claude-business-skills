@@ -9,6 +9,11 @@ metadata:
   domain: construction
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'rfi-writer' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # RFI Writer
 
 Write a request for information that states the conflict, the location, and the date the answer is needed.

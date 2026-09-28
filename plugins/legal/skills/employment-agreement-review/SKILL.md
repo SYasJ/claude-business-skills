@@ -9,6 +9,11 @@ metadata:
   domain: legal
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'employment-agreement-review' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Employment Agreement Review
 
 Prepare a fact-based review list for an employment agreement so counsel and HR can see IP, restrictions, and pay terms.

@@ -9,6 +9,11 @@ metadata:
   domain: procurement
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'procurement-award-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Award Note
 
 Write an award note that shows scores, price, and the authority to award.

@@ -9,6 +9,11 @@ metadata:
   domain: real-estate
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'property-listing-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Property Listing Brief
 
 Brief a property listing from facts the owner confirmed, with no invented features.

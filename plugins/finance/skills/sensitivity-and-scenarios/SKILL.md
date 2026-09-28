@@ -9,6 +9,11 @@ metadata:
   domain: finance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'sensitivity-and-scenarios' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Sensitivity and Scenarios
 
 Show how a model moves when a few inputs move, without pretending the spreadsheet is a crystal ball.

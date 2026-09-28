@@ -9,6 +9,11 @@ metadata:
   domain: insurance
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'coverage-question-brief' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Coverage Question Brief
 
 Brief a coverage question for a licensed professional, with the policy words the user supplied.

@@ -9,6 +9,11 @@ metadata:
   domain: library
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'install-and-update' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Install and Update
 
 Plan a local install or update of this library for a specific tool and domain.

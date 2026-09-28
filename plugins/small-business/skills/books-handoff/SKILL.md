@@ -9,6 +9,11 @@ metadata:
   domain: small-business
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'books-handoff' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Books Handoff
 
 Hand a bookkeeper the accounts, the open items, and the access that is not a shared password.

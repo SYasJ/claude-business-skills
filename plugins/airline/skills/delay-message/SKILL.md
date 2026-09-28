@@ -9,6 +9,11 @@ metadata:
   domain: airline
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'delay-message' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Delay Message
 
 Write the passenger message from the delay facts the station can say.

@@ -9,6 +9,11 @@ metadata:
   domain: automotive
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'fleet-replace-note' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Fleet Replacement Note
 
 Compare fleet units the user listed on age, cost, and downtime, without a forced replacement.

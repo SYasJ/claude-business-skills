@@ -9,6 +9,11 @@ metadata:
   domain: construction
 ---
 
+<!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
+     Edit the 'safety-toolbox-talk' entry in source/, then run:
+       python3 scripts/generate.py && python3 scripts/validate.py
+     See CONTRIBUTING.md. -->
+
 # Safety Toolbox Talk
 
 Draft a toolbox talk for a specific site hazard, with the control the crew must use.
