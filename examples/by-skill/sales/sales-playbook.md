@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Reps keep promising a feature that is not shipped when they hear a competitor's name.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+The situation the play covers: Harbor Goods, recorded 14 September 2026. No supporting file attached
+The buyer: Redline Parts
+Proof: one customer email, 14 September 2026, no attachment beyond that
+The stage exit: Harbor Goods, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A competitive play with a question track, a ban on unshipped features, and an ex
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| The situation the play covers | Harbor Goods, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The buyer | Redline Parts | Carried into the draft |
+| Proof | one customer email, 14 September 2026, no attachment beyond that | Carried into the draft |
+| The stage exit | Harbor Goods, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

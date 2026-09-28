@@ -101,10 +101,10 @@ Needed by: 30 September 2026
 
 A manager wants to offer a free stay if the guest removes a public review.
 
-stay: the dates in the ask
-offer: policy amount only
-complaint: their words
-manager: on duty
+The miss: Friday dinner service, recorded 14 September 2026. No supporting file attached
+The guest's ask: A manager wants to offer a free stay if the guest removes a public review. Stated once, in the ask. Not written down anywhere else
+Authorized remedies: Friday dinner service and one other, both unconfirmed as of 14 September 2026
+The manager: Friday dinner service, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -120,10 +120,10 @@ Refuses the bargain and stays inside the authorized remedy.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| stay | the dates in the ask | Needs confirmation |
-| offer | policy amount only | Carried into the draft |
-| complaint | their words | Carried into the draft |
-| manager | on duty | Needs confirmation |
+| The miss | Friday dinner service, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The guest's ask | A manager wants to offer a free stay if the guest removes a public review. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Authorized remedies | Friday dinner service and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| The manager | Friday dinner service, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

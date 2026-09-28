@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Every item is set to 90 days because the spreadsheet default says so.
 
-sku: 1044
-supplier: Redline Parts
-lead time: their number
-alternate: none
+Current cover: Redline Parts and one other, both unconfirmed as of 14 September 2026
+Lead time: 28 days
+Stockout history they have: Redline Parts, last reviewed 14 September 2026. No owner named since
+Service target: 120
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Pilots a reduction on items with no risk story and leaves named risks alone.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| sku | 1044 | Needs confirmation |
-| supplier | Redline Parts | Carried into the draft |
-| lead time | their number | Carried into the draft |
-| alternate | none | Needs confirmation |
+| Current cover | Redline Parts and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
+| Lead time | 28 days | Carried into the draft |
+| Stockout history they have | Redline Parts, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Service target | 120 | Needs confirmation |
 
 **How this draft was built**
 

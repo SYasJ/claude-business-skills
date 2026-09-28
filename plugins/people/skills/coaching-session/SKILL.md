@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team lead's written updates confuse stakeholders, and the director wants a coaching plan.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The skill to build: Jordan Hale, recorded 14 September 2026. No supporting file attached
+A recent work example: Jordan Hale; Sam Okonkwo. Both unassigned as of 14 September 2026
+What good looks like: Open coordinator role, last reviewed 14 September 2026. No owner named since
+The coachee's goal: A team lead's written updates confuse stakeholders, and the director wants a coaching plan. Stated once, in the ask. Not written down anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A session built on one recent update, with a redo in the meeting and a next rep 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The skill to build | Jordan Hale, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| A recent work example | Jordan Hale; Sam Okonkwo. Both unassigned as of 14 September 2026 | Carried into the draft |
+| What good looks like | Open coordinator role, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The coachee's goal | A team lead's written updates confuse stakeholders, and the director wants a coaching plan. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 
 **How this draft was built**
 

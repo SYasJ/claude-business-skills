@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Sales wants a custom integration included free to win a logo, and delivery has not estimated it.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+The asked discount or term: Sales wants a custom integration included free to win a logo, and delivery has not estimated it. Stated once, in the ask. Not written down anywhere else
+Margin math the user can show: Cedar Clinic, recorded 14 September 2026. No supporting file attached
+Delivery implications: Cedar Clinic and one other, both unconfirmed as of 14 September 2026
+Precedent they worry about: Cedar Clinic, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Conditions any approval on a delivery estimate and names the precedent risk of f
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| The asked discount or term | Sales wants a custom integration included free to win a logo, and delivery has not estimated it. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Margin math the user can show | Cedar Clinic, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Delivery implications | Cedar Clinic and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Precedent they worry about | Cedar Clinic, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

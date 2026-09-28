@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A brief is edited so only the incumbent can score full marks, after drafts were shared.
 
-quotes: only those attached
-missing term: blank
-authority: their limit
-award: not made here
+The need: Quote set, 3 vendors, recorded 14 September 2026. No supporting file attached
+Constraints: no extra headcount, and no result that is not in this file
+Evaluation criteria: their existing list, 6 lines. Two lines have no owner
+Authority: Quote set, 3 vendors and one other, both unconfirmed as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Freezes fair criteria and discloses must-haves before bids.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| quotes | only those attached | Needs confirmation |
-| missing term | blank | Carried into the draft |
-| authority | their limit | Carried into the draft |
-| award | not made here | Needs confirmation |
+| The need | Quote set, 3 vendors, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Constraints | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Evaluation criteria | their existing list, 6 lines. Two lines have no owner | Carried into the draft |
+| Authority | Quote set, 3 vendors and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

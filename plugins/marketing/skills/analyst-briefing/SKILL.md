@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A briefing deck shows a beta feature in the current architecture diagram with no label.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The questions they are likely to ask: A briefing deck shows a beta feature in the current architecture diagram with no label
+Shipped facts: Local search ad, last reviewed 14 September 2026. No owner named since
+Roadmap items that must be labeled: Fall service page. Stated in the ask, not documented anywhere else
+Proof: one customer email, 14 September 2026, no attachment beyond that
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Notes that label the beta, move it out of the shipped list, and include the poor
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The questions they are likely to ask | A briefing deck shows a beta feature in the current architecture diagram with no label | Needs confirmation |
+| Shipped facts | Local search ad, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Roadmap items that must be labeled | Fall service page. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Proof | one customer email, 14 September 2026, no attachment beyond that | Needs confirmation |
 
 **How this draft was built**
 

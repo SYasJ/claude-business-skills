@@ -20,7 +20,8 @@ Needed by: 30 September 2026
 
 A customer sent a DPA that forbids subprocessors, but the product uses a hosted email vendor.
 
-Whether the user is customer or vendor: Harbor & Co
+The DPA text: Harbor renewal, recorded 14 September 2026. No supporting file attached
+Whether the user is customer or vendor: Harbor renewal. Partly documented: the what is written down, the who is not
 Categories of data they say are in scope: this decision only
 Subprocessors they already use: email to Elena Voss. No written steps after 1 Sep 2026
 ```
@@ -35,9 +36,9 @@ Flag the conflict between the ban and the known vendor, without calling either s
 
 **Checklist**
 
-- [x] **The DPA text** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+- [x] **The DPA text** — Harbor renewal, recorded 14 September 2026. No supporting file attached  
       Evidenced in the file
-- [x] **Whether the user is customer or vendor** — Harbor & Co  
+- [x] **Whether the user is customer or vendor** — Harbor renewal. Partly documented: the what is written down, the who is not  
       Evidenced in the file
 - [x] **Categories of data they say are in scope** — this decision only  
       Evidenced in the file

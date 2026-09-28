@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A roadmap of 25 features is relabeled with four outcomes, but the team can staff one bet.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+The current roadmap items: Activation checklist, recorded 14 September 2026. No supporting file attached
+The outcomes they are supposed to serve: A roadmap of 25 features is relabeled with four outcomes, but the team can staff one bet. Stated once, in the ask. Not written down anywhere else
+Evidence: one PDF, 2 pages, dated 14 September 2026
+Capacity: two people, no overtime figure
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Keeps one staffed bet, parks the rest, and writes a kill criterion.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| The current roadmap items | Activation checklist, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The outcomes they are supposed to serve | A roadmap of 25 features is relabeled with four outcomes, but the team can staff one bet. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| Capacity | two people, no overtime figure | Needs confirmation |
 
 **How this draft was built**
 

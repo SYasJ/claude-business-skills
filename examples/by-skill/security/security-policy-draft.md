@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The company wants a password policy and currently shares a team login.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+The behavior to govern: Access review Q3, recorded 14 September 2026. No supporting file attached
+Current practice: Endpoint patch ring 2 and one other, both unconfirmed as of 14 September 2026
+The owner: Aisha Rahman, engineering lead
+Consequences they already use: Endpoint patch ring 2. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Bans shared logins, sets an owner, and leaves legal penalties to counsel.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| The behavior to govern | Access review Q3, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Current practice | Endpoint patch ring 2 and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| The owner | Aisha Rahman, engineering lead | Carried into the draft |
+| Consequences they already use | Endpoint patch ring 2. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

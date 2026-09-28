@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A checklist has no plan for a dropped call and tells staff to improvise medical advice.
 
-clinic: Cedar, Tuesday list
-diagnosis: not in this note
-roster: the one attached
-advice to a patient: not written
+Their identity check: Thursday clinic, last reviewed 14 September 2026. No owner named since
+Consent practice: Thursday clinic. Partly documented: the what is written down, the who is not
+Backup if video fails: Tuesday clinic, last reviewed 14 September 2026. No owner named since
+Privacy expectations: email and billing address. They said no health data
 ```
 
 ### Example outcome
@@ -119,11 +119,11 @@ Clinical content belongs to the clinician.
 
 **Checklist**
 
-- [x] **Their identity check** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **Their identity check** — Thursday clinic, last reviewed 14 September 2026. No owner named since  
       Evidenced in the file
-- [x] **Consent practice** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **Consent practice** — Thursday clinic. Partly documented: the what is written down, the who is not  
       Evidenced in the file
-- [x] **Backup if video fails** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **Backup if video fails** — Tuesday clinic, last reviewed 14 September 2026. No owner named since  
       Evidenced in the file
 - [ ] **Privacy expectations** — email and billing address. They said no health data  
       Open — nothing in the file closes this

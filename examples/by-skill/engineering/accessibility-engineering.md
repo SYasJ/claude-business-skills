@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A modal traps keyboard focus, and the proposed fix is a README badge that says 'accessible'.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The barrier: Checkout service is open. Invoice job was raised verbally and never logged
+The user impact: Checkout service, recorded 14 September 2026. No supporting file attached
+The code or component involved: Checkout service, recorded 14 September 2026. No supporting file attached
+The team's stated target: 140
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Specifies the focus fix and a keyboard test, and rejects the badge as proof.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The barrier | Checkout service is open. Invoice job was raised verbally and never logged | Needs confirmation |
+| The user impact | Checkout service, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The code or component involved | Checkout service, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The team's stated target | 140 | Needs confirmation |
 
 **How this draft was built**
 

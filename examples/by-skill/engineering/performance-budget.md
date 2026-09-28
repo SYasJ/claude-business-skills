@@ -20,6 +20,7 @@ Needed by: 30 September 2026
 
 A team wants a 100 millisecond budget because a talk recommended it, and they have never measured the checkout.
 
+The user journey: the one named in the ask. Version and owner not recorded
 Current measurements if any: not defined beyond plan 140 and actual 70
 The pain users feel: CAD 180, from their sheet, not a guess
 The constraint: mobile, warehouse network, or checkout: mobile: in the file; warehouse network: not in the file; checkout: open

@@ -21,6 +21,7 @@ Needed by: 30 September 2026
 A team plans to switch billing systems over a weekend with no way to compare invoices.
 
 Source and target: note from Aisha Rahman, 14 September 2026. No outside report
+Data or traffic involved: 75 in the last period. No prior period attached, so no trend
 Downtime tolerance: five working days, due 30 September 2026
 Verification method: the method in the ask. No second design attached
 ```
@@ -39,8 +40,9 @@ Adds a comparison phase and names the point of no return before any weekend cuto
 | Input | Value | Status |
 | --- | --- | --- |
 | Source and target | note from Aisha Rahman, 14 September 2026. No outside report | Needs confirmation |
+| Data or traffic involved | 75 in the last period. No prior period attached, so no trend | Carried into the draft |
 | Downtime tolerance | five working days, due 30 September 2026 | Carried into the draft |
-| Verification method | the method in the ask. No second design attached | Carried into the draft |
+| Verification method | the method in the ask. No second design attached | Needs confirmation |
 
 **How this draft was built**
 

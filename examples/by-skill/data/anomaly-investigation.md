@@ -22,6 +22,7 @@ Conversion halves on the day a tracking change shipped, and marketing wants a ne
 
 The metric and the unexpected movement: plan 180, actual 90
 Recent pipeline or tracking changes: requested 14 September 2026. Not yet approved
+Business events they know about: customers. Partly documented: the what is written down, the who is not
 The decision waiting on the number: Conversion halves on the day a tracking change shipped, and marketing wants a new campaign
 ```
 
@@ -40,7 +41,8 @@ Pauses the campaign idea until tracking is ruled in or out.
 | --- | --- | --- |
 | The metric and the unexpected movement | plan 180, actual 90 | Needs confirmation |
 | Recent pipeline or tracking changes | requested 14 September 2026. Not yet approved | Carried into the draft |
-| The decision waiting on the number | Conversion halves on the day a tracking change shipped, and marketing wants a new campaign | Carried into the draft |
+| Business events they know about | customers. Partly documented: the what is written down, the who is not | Carried into the draft |
+| The decision waiting on the number | Conversion halves on the day a tracking change shipped, and marketing wants a new campaign | Needs confirmation |
 
 **How this draft was built**
 

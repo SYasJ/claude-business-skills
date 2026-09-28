@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A plant manager wants to change the shift pattern and knows the union rep and two supervisors are uneasy.
 
-decision: the one in the ask
-options: two, named
-evidence: the file only
-unowned idea: parked
+The decision or change: A plant manager wants to change the shift pattern and knows the union rep and two supervisors are uneasy
+People involved, as the user named them: open item, last reviewed 14 September 2026. No owner named since
+Known concerns: Bright Axle. Stated in the ask, not documented anywhere else
+The engagement the user is willing to do: Harbor & Co, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Does not hide the effect on hours.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| options | two, named | Carried into the draft |
-| evidence | the file only | Carried into the draft |
-| unowned idea | parked | Needs confirmation |
+| The decision or change | A plant manager wants to change the shift pattern and knows the union rep and two supervisors are uneasy | Needs confirmation |
+| People involved, as the user named them | open item, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Known concerns | Bright Axle. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The engagement the user is willing to do | Harbor & Co, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A log says "the suspect stole the item" based on a single camera angle that does not show concealment.
 
-store: Harbor Goods, Airdrie
-price: shelf price
-stock: the count
-review: not invented
+What was observed: Returns desk log, last reviewed 14 September 2026. No owner named since
+Timestamps and locations: five working days, due 30 September 2026
+What evidence exists: one PDF, 2 pages, dated 14 September 2026
+What action was taken: SKU 1044 cabin filter; End-cap display 3. Both unassigned as of 14 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Says "item not seen at checkout; camera angle does not confirm concealment; LP n
 
 | Input | Value | Status |
 | --- | --- | --- |
-| store | Harbor Goods, Airdrie | Needs confirmation |
-| price | shelf price | Carried into the draft |
-| stock | the count | Carried into the draft |
-| review | not invented | Needs confirmation |
+| What was observed | Returns desk log, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Timestamps and locations | five working days, due 30 September 2026 | Carried into the draft |
+| What evidence exists | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| What action was taken | SKU 1044 cabin filter; End-cap display 3. Both unassigned as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A team wants consent language that hides the real purpose from participants.
 
-site: one
-sample: the count they gave
-missing file: named in the ask
-unopened citation: not used
+What participants will be asked to do: A team wants consent language that hides the real purpose from participants. Stated once, in the ask. Not written down anywhere else
+Risks they can foresee: Interview set A is open. No score in the file
+Consent plan: Search log 12 Sep. Partly documented: the what is written down, the who is not
+Data storage plan: Interview set A. Partly documented: the what is written down, the who is not
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ Refuses hidden purpose and sends the design to the proper review.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | one | Needs confirmation |
-| sample | the count they gave | Carried into the draft |
-| missing file | named in the ask | Carried into the draft |
-| unopened citation | not used | Needs confirmation |
+| What participants will be asked to do | A team wants consent language that hides the real purpose from participants. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Risks they can foresee | Interview set A is open. No score in the file | Carried into the draft |
+| Consent plan | Search log 12 Sep. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Data storage plan | Interview set A. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

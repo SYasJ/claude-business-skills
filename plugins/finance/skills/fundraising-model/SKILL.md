@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A founder wants to raise '18 months of runway' and has a hiring plan that is not in the current burn.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+Current cash and monthly burn the user stands behind: Harbor & Co receipt and one other, both unconfirmed as of 14 September 2026
+The plan the raise is meant to fund: Operating cash, recorded 14 September 2026. No supporting file attached
+Target months of runway: 160
+Known financing terms, if any: Harbor & Co receipt. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ A monthly cash view, a recommended buffer, a use-of-proceeds grouping, and an ex
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cash | the counted figure in the ask, one entity | Needs confirmation |
-| maybe receipt | not in the bank | Carried into the draft |
-| buffer | the one they named | Carried into the draft |
-| new spend | not in the base case | Needs confirmation |
+| Current cash and monthly burn the user stands behind | Harbor & Co receipt and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
+| The plan the raise is meant to fund | Operating cash, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Target months of runway | 160 | Carried into the draft |
+| Known financing terms, if any | Harbor & Co receipt. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

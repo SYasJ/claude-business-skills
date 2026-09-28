@@ -101,10 +101,10 @@ Needed by: 30 September 2026
 
 A company added a second state and the controller wants a calendar, but is unsure which filings apply.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Jurisdictions they operate in, as they list them: Operating cash; Undeposited funds; Sales tax payable
+Filings they already know about: Undeposited funds. Partly documented: the what is written down, the who is not
+Owners: Priya Shah, controller
+Last year's late items: Sales tax payable, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -119,11 +119,11 @@ A calendar of known filings, unconfirmed items marked as such, internal lead tim
 
 - [x] **Jurisdictions they operate in, as they list them** — Operating cash; Undeposited funds; Sales tax payable  
       Evidenced in the file
-- [x] **Filings they already know about** — Operating cash. Priya Shah noted it on 14 September 2026. No second file for this line.  
+- [x] **Filings they already know about** — Undeposited funds. Partly documented: the what is written down, the who is not  
       Evidenced in the file
 - [x] **Owners** — Priya Shah, controller  
       Evidenced in the file
-- [ ] **Last year's late items** — Operating cash. Priya Shah noted it on 14 September 2026. No second file for this line.  
+- [ ] **Last year's late items** — Sales tax payable, last reviewed 14 September 2026. No owner named since  
       Open — nothing in the file closes this
 
 **The gates this list enforces, in order**

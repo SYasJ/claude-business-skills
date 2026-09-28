@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A CEO wants squads because a conference recommended them, but product decisions are already stuck between two leaders.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The work the organization must do: Jordan Hale; Sam Okonkwo. Both unassigned as of 14 September 2026
+The proposed structure: Jordan Hale, recorded 14 September 2026. No supporting file attached
+Known single points of failure: A CEO wants squads because a conference recommended them, but product decisions are already stuck between two leaders. Stated once, in the ask. Not written down anywhere else
+What problem the redesign is meant to solve: A CEO wants squads because a conference recommended them, but product decisions are already stuck between two leaders. Stated once, in the ask. Not written down anywhere else
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Names the stuck decision, assigns one owner, and treats squads as optional rathe
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The work the organization must do | Jordan Hale; Sam Okonkwo. Both unassigned as of 14 September 2026 | Needs confirmation |
+| The proposed structure | Jordan Hale, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Known single points of failure | A CEO wants squads because a conference recommended them, but product decisions are already stuck between two leaders. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| What problem the redesign is meant to solve | A CEO wants squads because a conference recommended them, but product decisions are already stuck between two leaders. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 
 **How this draft was built**
 

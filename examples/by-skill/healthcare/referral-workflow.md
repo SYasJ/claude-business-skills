@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Referrals leave the clinic and nobody knows which ones were received.
 
-clinic: Cedar, Tuesday list
-diagnosis: not in this note
-roster: the one attached
-advice to a patient: not written
+The packet they require: Tuesday clinic, recorded 14 September 2026. No supporting file attached
+Who sends and receives: Dr. Helen Cho, clinic director
+Clocks they use: Thursday clinic. Stated in the ask, not documented anywhere else
+What patients are told: Referral desk, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A workflow with a packet, an owner, and an aging check, and no medical-necessity
 
 | Input | Value | Status |
 | --- | --- | --- |
-| clinic | Cedar, Tuesday list | Needs confirmation |
-| diagnosis | not in this note | Carried into the draft |
-| roster | the one attached | Carried into the draft |
-| advice to a patient | not written | Needs confirmation |
+| The packet they require | Tuesday clinic, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Who sends and receives | Dr. Helen Cho, clinic director | Carried into the draft |
+| Clocks they use | Thursday clinic. Stated in the ask, not documented anywhere else | Carried into the draft |
+| What patients are told | Referral desk, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

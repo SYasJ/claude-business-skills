@@ -21,8 +21,9 @@ Needed by: 30 September 2026
 A manager wants to embarrass an employee who clicked a bad link by naming them in an all-hands.
 
 The behavior to change: requested 14 September 2026. Not yet approved
-The recent incident or risk they can describe: Cedar Clinic is open. No score in the file
+The recent incident or risk they can describe: Access review Q3 is open. No score in the file
 The audience: people who already buy from Fieldnote
+The approved reporting path: one file, dated 14 September 2026. No earlier version attached for comparison
 ```
 
 ## Example outcome
@@ -39,8 +40,9 @@ Teaches reporting, omits the name, and refuses public shaming.
 | Input | Value | Status |
 | --- | --- | --- |
 | The behavior to change | requested 14 September 2026. Not yet approved | Needs confirmation |
-| The recent incident or risk they can describe | Cedar Clinic is open. No score in the file | Carried into the draft |
+| The recent incident or risk they can describe | Access review Q3 is open. No score in the file | Carried into the draft |
 | The audience | people who already buy from Fieldnote | Carried into the draft |
+| The approved reporting path | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
 
 **How this draft was built**
 

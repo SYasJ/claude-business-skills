@@ -105,6 +105,7 @@ Packaging says 'carbon neutral' and the only support is an intention.
 
 The claim: the draft sentence is broader than the note
 The evidence: one PDF, 2 pages, dated 14 September 2026
+Where it will appear: Emissions factor sheet, recorded 14 September 2026. No supporting file attached
 The reviewer: Devon Hale. No second reviewer named
 ```
 
@@ -123,7 +124,8 @@ Removes the phrase until the basis exists.
 | --- | --- | --- |
 | The claim | the draft sentence is broader than the note | Needs confirmation |
 | The evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
-| The reviewer | Devon Hale. No second reviewer named | Carried into the draft |
+| Where it will appear | Emissions factor sheet, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The reviewer | Devon Hale. No second reviewer named | Needs confirmation |
 
 **How this draft was built**
 

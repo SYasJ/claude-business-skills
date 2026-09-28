@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A 10-minute huddle is packed with three teaching topics and no staffing note.
 
-clinic: Cedar, Tuesday list
-diagnosis: not in this note
-roster: the one attached
-advice to a patient: not written
+Today's schedule issues: Referral desk and one other, both unconfirmed as of 14 September 2026
+Safety flags they already use: Referral desk. Partly documented: the what is written down, the who is not
+Staffing gaps: Tuesday clinic is missing a source
+The time box: five working days, due 30 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Keeps the staffing gap, drops the teaching, and names the front-desk owner.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| clinic | Cedar, Tuesday list | Needs confirmation |
-| diagnosis | not in this note | Carried into the draft |
-| roster | the one attached | Carried into the draft |
-| advice to a patient | not written | Needs confirmation |
+| Today's schedule issues | Referral desk and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
+| Safety flags they already use | Referral desk. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Staffing gaps | Tuesday clinic is missing a source | Carried into the draft |
+| The time box | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

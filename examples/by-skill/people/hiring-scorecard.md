@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The panel liked a candidate's energy but nobody tested the analysis outcome in the job description.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The agreed criteria: their existing list, 6 lines. Two lines have no owner
+Evidence from each interviewer: one PDF, 2 pages, dated 14 September 2026
+Concerns still open: Jordan Hale and one other, both unconfirmed as of 14 September 2026
+The decision owner: Chris Adeyemi, people lead
 ```
 
 ## Example outcome

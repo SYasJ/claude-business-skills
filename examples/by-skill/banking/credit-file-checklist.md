@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A file is missing current financials and the draft says the borrower is strong.
 
-Their required list: Cedar Clinic; Bright Axle; open item
+Their required list: Payment run 14 Sep; Account opening file 221; Liquidity ladder
 Documents present: one PDF, 2 pages, dated 14 September 2026
 The decision owner: Priya Shah, controller
-Known gaps: Cedar Clinic is missing a source
+Known gaps: Payment run 14 Sep is missing a source
 ```
 
 ## Example outcome
@@ -36,13 +36,13 @@ Leaves the file incomplete and removes the strength claim.
 
 **Checklist**
 
-- [x] **Their required list** — Cedar Clinic; Bright Axle; open item  
+- [x] **Their required list** — Payment run 14 Sep; Account opening file 221; Liquidity ladder  
       Evidenced in the file
 - [x] **Documents present** — one PDF, 2 pages, dated 14 September 2026  
       Evidenced in the file
 - [x] **The decision owner** — Priya Shah, controller  
       Evidenced in the file
-- [ ] **Known gaps** — Cedar Clinic is missing a source  
+- [ ] **Known gaps** — Payment run 14 Sep is missing a source  
       Open — nothing in the file closes this
 
 **The gates this list enforces, in order**

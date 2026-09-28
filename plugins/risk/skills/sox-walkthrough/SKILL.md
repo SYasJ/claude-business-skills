@@ -101,10 +101,10 @@ Needed by: 30 September 2026
 
 A manager wants the performer to describe a review that does not happen.
 
-event: the one in the ask, not a one-word label
-owner: blank
-control: not named
-score: not invented
+The control description: their one-page rule dated 2 Mar 2026. No exception log since
+The performer: Control 7.2 access review, recorded 14 September 2026. No supporting file attached
+The evidence: one PDF, 2 pages, dated 14 September 2026
+The period: month ending 14 September 2026
 ```
 
 ### Example outcome
@@ -120,10 +120,10 @@ Refuses the false story and writes the gap for management.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| event | the one in the ask, not a one-word label | Needs confirmation |
-| owner | blank | Carried into the draft |
-| control | not named | Carried into the draft |
-| score | not invented | Needs confirmation |
+| The control description | their one-page rule dated 2 Mar 2026. No exception log since | Needs confirmation |
+| The performer | Control 7.2 access review, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The period | month ending 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

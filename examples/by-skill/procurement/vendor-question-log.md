@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A buyer wants to email the incumbent a clarification the others will not see.
 
-quotes: only those attached
-missing term: blank
-authority: their limit
-award: not made here
+The questions: A buyer wants to email the incumbent a clarification the others will not see
+The answers they can give: Quote set, 3 vendors, recorded 14 September 2026. No supporting file attached
+What must stay confidential: email and billing address only. They stated no health or payment data
+The publication owner: Diane Cho, buyer
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Publishes the clarification to every bidder.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| quotes | only those attached | Needs confirmation |
-| missing term | blank | Carried into the draft |
-| authority | their limit | Carried into the draft |
-| award | not made here | Needs confirmation |
+| The questions | A buyer wants to email the incumbent a clarification the others will not see | Needs confirmation |
+| The answers they can give | Quote set, 3 vendors, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| What must stay confidential | email and billing address only. They stated no health or payment data | Carried into the draft |
+| The publication owner | Diane Cho, buyer | Needs confirmation |
 
 **How this draft was built**
 

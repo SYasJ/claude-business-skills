@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A vendor is labeled difficult, but the internal briefs arrive late every week.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The outcomes contracted: unsigned draft, 8 pages, no signature date
+Recent misses they know: Dock exception log. Partly documented: the what is written down, the who is not
+Volumes: 45 in the last period. No prior period attached, so no trend
+The internal owner: Diane Cho, operations manager
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Records the late briefs as an internal cause and limits the vendor claim to evid
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The outcomes contracted | unsigned draft, 8 pages, no signature date | Needs confirmation |
+| Recent misses they know | Dock exception log. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Volumes | 45 in the last period. No prior period attached, so no trend | Carried into the draft |
+| The internal owner | Diane Cho, operations manager | Needs confirmation |
 
 **How this draft was built**
 

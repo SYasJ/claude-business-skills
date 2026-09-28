@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A text says the parcel was delivered though the driver marked an access failure.
 
-lane: the one in the ask
-tally: their count
-limit: the one they stated
-concealment: not advised
+The failure reason: Calgary-Edmonton lane, first seen 14 September 2026. No root cause recorded yet
+The customer's instruction: Calgary-Edmonton lane, recorded 14 September 2026. No supporting file attached
+Options: keep Calgary-Edmonton lane, or stop. No third option written
+The next honest window: two deals cited from memory. Neither has a written loss reason
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Corrects the status and offers a real redelivery window.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| lane | the one in the ask | Needs confirmation |
-| tally | their count | Carried into the draft |
-| limit | the one they stated | Carried into the draft |
-| concealment | not advised | Needs confirmation |
+| The failure reason | Calgary-Edmonton lane, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| The customer's instruction | Calgary-Edmonton lane, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Options | keep Calgary-Edmonton lane, or stop. No third option written | Carried into the draft |
+| The next honest window | two deals cited from memory. Neither has a written loss reason | Needs confirmation |
 
 **How this draft was built**
 

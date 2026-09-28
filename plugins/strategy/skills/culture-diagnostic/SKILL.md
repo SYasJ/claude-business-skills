@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A founder says the culture is 'like a family' but missed commitments have no consequence.
 
-decision: the one in the ask
-options: two, named
-evidence: the file only
-unowned idea: parked
+Incidents or examples the user witnessed: Cedar Clinic, first seen 14 September 2026. No root cause recorded yet
+Stated values, if any: Lantern Inn and one other, both unconfirmed as of 14 September 2026
+What the user wants culture to help the business do: open item, last reviewed 14 September 2026. No owner named since
+Limits on what they are willing to change: requested 14 September 2026. Not yet approved
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Uses the user's incidents, names the accountability gap, and proposes one ritual
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| options | two, named | Carried into the draft |
-| evidence | the file only | Carried into the draft |
-| unowned idea | parked | Needs confirmation |
+| Incidents or examples the user witnessed | Cedar Clinic, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| Stated values, if any | Lantern Inn and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| What the user wants culture to help the business do | open item, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Limits on what they are willing to change | requested 14 September 2026. Not yet approved | Needs confirmation |
 
 **How this draft was built**
 

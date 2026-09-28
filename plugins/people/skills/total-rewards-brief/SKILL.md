@@ -104,6 +104,7 @@ Needed by: 30 September 2026
 Employees think the target bonus is guaranteed because the offer conversation was casual.
 
 Components the company offers: CAD 120, dates not set, cap not set
+The person's eligible parts: Jordan Hale, recorded 14 September 2026. No supporting file attached
 What must not be promised: none written down beyond the ask
 Questions employees keep asking: Employees think the target bonus is guaranteed because the offer conversation was casual
 ```
@@ -122,8 +123,9 @@ Shows the target as variable, lists only real benefits, and sends tax questions 
 | Input | Value | Status |
 | --- | --- | --- |
 | Components the company offers | CAD 120, dates not set, cap not set | Needs confirmation |
+| The person's eligible parts | Jordan Hale, recorded 14 September 2026. No supporting file attached | Carried into the draft |
 | What must not be promised | none written down beyond the ask | Carried into the draft |
-| Questions employees keep asking | Employees think the target bonus is guaranteed because the offer conversation was casual | Carried into the draft |
+| Questions employees keep asking | Employees think the target bonus is guaranteed because the offer conversation was casual | Needs confirmation |
 
 **How this draft was built**
 

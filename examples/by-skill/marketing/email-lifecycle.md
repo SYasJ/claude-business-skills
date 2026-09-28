@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Marketing wants an 'we miss you' email to users who were never active, written as if they had a habit.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The trigger event: Fall service page, recorded 14 September 2026. No supporting file attached
+The reader's job at that moment: Lena Ortiz plus two others named in the thread. No distribution list attached
+The one action: Fall service page; Email to lapsed buyers. Both unassigned as of 14 September 2026
+What must be true in the product before sending: Local search ad, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome

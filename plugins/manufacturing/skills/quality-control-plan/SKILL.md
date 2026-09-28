@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A plan checks a safety dimension weekly because daily checks feel expensive.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+The characteristic: Line 2, recorded 14 September 2026. No supporting file attached
+The method: the method in the ask. No second design attached
+The frequency: Line 2, recorded 14 September 2026. No supporting file attached
+The reaction to a fail: Line 2; Lot 26-0914. Both unassigned as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Keeps the safety check at the frequency their rule requires and flags the cost a
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| The characteristic | Line 2, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The method | the method in the ask. No second design attached | Carried into the draft |
+| The frequency | Line 2, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The reaction to a fail | Line 2; Lot 26-0914. Both unassigned as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

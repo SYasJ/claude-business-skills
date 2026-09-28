@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team says they are the 'AI platform for business' and cannot name the buyer or the alternative.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The primary buyer: Kite Freight
+The alternative they use today: two deals cited from memory. Neither has a written loss reason
+The difference you can prove: Fall service page, recorded 14 September 2026. No supporting file attached
+Buyers you will not serve: Fall service page. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A statement aimed at one buyer, with the spreadsheet or incumbent they actually 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The primary buyer | Kite Freight | Needs confirmation |
+| The alternative they use today | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| The difference you can prove | Fall service page, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Buyers you will not serve | Fall service page. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

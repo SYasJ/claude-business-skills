@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team lead wants HR to 'make a complaint go away' before a client visit.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+What was reported: one file, dated 14 September 2026. No earlier version attached for comparison
+Who received it and when: 30 September 2026
+Immediate safety issues: Open coordinator role and one other, both unconfirmed as of 14 September 2026
+The stated company process: email to Chris Adeyemi. No written steps after 1 Sep 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Records the concern, refuses to bury it, and assigns an investigator who is not 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| What was reported | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| Who received it and when | 30 September 2026 | Carried into the draft |
+| Immediate safety issues | Open coordinator role and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| The stated company process | email to Chris Adeyemi. No written steps after 1 Sep 2026 | Needs confirmation |
 
 **How this draft was built**
 

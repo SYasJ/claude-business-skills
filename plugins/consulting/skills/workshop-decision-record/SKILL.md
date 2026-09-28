@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Notes say the client chose a market, but the room only brainstormed.
 
-decision: the one in the ask
-evidence: notes only
-out of scope: named
-finding: not promised
+The decision sought: Notes say the client chose a market, but the room only brainstormed
+Options generated: keep Scope item 4, or stop. No third option written
+The choice if one was made: Scope item 4, recorded 14 September 2026. No supporting file attached
+Dissent: Interview set A. Partly documented: the what is written down, the who is not
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Labels the market as an idea, not a decision, and lists the open choice.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| evidence | notes only | Carried into the draft |
-| out of scope | named | Carried into the draft |
-| finding | not promised | Needs confirmation |
+| The decision sought | Notes say the client chose a market, but the room only brainstormed | Needs confirmation |
+| Options generated | keep Scope item 4, or stop. No third option written | Carried into the draft |
+| The choice if one was made | Scope item 4, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Dissent | Interview set A. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

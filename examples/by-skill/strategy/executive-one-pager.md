@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A general manager needs the CEO to approve a price test and currently has a 14-page appendix.
 
-decision: the one in the ask
-options: two, named
-evidence: the file only
-unowned idea: parked
+The audience and the decision they can make: people who already buy from Northline Studio
+The source material or the user's facts: note from Mara Chen, 14 September 2026. No outside report
+The recommendation if there is one: Cedar Clinic, recorded 14 September 2026. No supporting file attached
+What must not be cut: open item, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A one-page brief with the test, the risk, three facts, and a yes-or-no ask.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| options | two, named | Carried into the draft |
-| evidence | the file only | Carried into the draft |
-| unowned idea | parked | Needs confirmation |
+| The audience and the decision they can make | people who already buy from Northline Studio | Needs confirmation |
+| The source material or the user's facts | note from Mara Chen, 14 September 2026. No outside report | Carried into the draft |
+| The recommendation if there is one | Cedar Clinic, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| What must not be cut | open item, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

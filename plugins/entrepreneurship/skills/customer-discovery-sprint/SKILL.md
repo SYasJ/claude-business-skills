@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A sprint plan interviews the founder's family and calls it validation.
 
-paying names: only those given
-cash: bank figure, not a maybe
-ask: the one they wrote
-copied line: cut
+The hypothesis: A sprint plan interviews the founder's family and calls it validation. Stated once, in the ask. Not written down anywhere else
+How they will reach people: Runway to March, last reviewed 14 September 2026. No owner named since
+The number of conversations: First four paying accounts, recorded 14 September 2026. No supporting file attached
+The disconfirming signal: First four paying accounts, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Recruits people with the problem and requires a disconfirming log.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| paying names | only those given | Needs confirmation |
-| cash | bank figure, not a maybe | Carried into the draft |
-| ask | the one they wrote | Carried into the draft |
-| copied line | cut | Needs confirmation |
+| The hypothesis | A sprint plan interviews the founder's family and calls it validation. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| How they will reach people | Runway to March, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The number of conversations | First four paying accounts, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The disconfirming signal | First four paying accounts, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A deck says thousands of users want the product, and no user has been asked.
 
-paying names: only those given
-cash: bank figure, not a maybe
-ask: the one they wrote
-copied line: cut
+The buyer: Cedar Clinic
+The promise: none written down beyond the ask
+The alternative: two deals cited from memory. Neither has a written loss reason
+The test they can run: First four paying accounts, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A hypothesis and a small test, with the invented user count removed.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| paying names | only those given | Needs confirmation |
-| cash | bank figure, not a maybe | Carried into the draft |
-| ask | the one they wrote | Carried into the draft |
-| copied line | cut | Needs confirmation |
+| The buyer | Cedar Clinic | Needs confirmation |
+| The promise | none written down beyond the ask | Carried into the draft |
+| The alternative | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| The test they can run | First four paying accounts, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

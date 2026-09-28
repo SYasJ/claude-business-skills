@@ -20,6 +20,7 @@ Needed by: 30 September 2026
 
 A PRD draft lists 15 features and no user outcome.
 
+Problem and user: A PRD draft lists 15 features and no user outcome. Stated once, in the ask. Not written down anywhere else
 Proposed scope: this decision only
 Constraints: no extra headcount, and no result that is not in this file
 Open questions: A PRD draft lists 15 features and no user outcome
@@ -38,9 +39,10 @@ A rewritten PRD with one outcome, a small slice, testable acceptance, and the ot
 
 | Input | Value | Status |
 | --- | --- | --- |
-| Proposed scope | this decision only | Needs confirmation |
+| Problem and user | A PRD draft lists 15 features and no user outcome. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Proposed scope | this decision only | Carried into the draft |
 | Constraints | no extra headcount, and no result that is not in this file | Carried into the draft |
-| Open questions | A PRD draft lists 15 features and no user outcome | Carried into the draft |
+| Open questions | A PRD draft lists 15 features and no user outcome | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The AR aging shows a large over-90 bucket, and cash sits unapplied in the same report.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Aging by customer: Kite Freight
+Billing terms: Operating cash and one other, both unconfirmed as of 14 September 2026
+Unapplied cash: Sales tax payable, last reviewed 14 September 2026. No owner named since
+Disputes the user knows about: Undeposited funds. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Reconciles the aging, separates disputes from overdue, and lists unapplied cash 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| Aging by customer | Kite Freight | Needs confirmation |
+| Billing terms | Operating cash and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Unapplied cash | Sales tax payable, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Disputes the user knows about | Undeposited funds. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

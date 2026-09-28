@@ -23,7 +23,7 @@ A project learned that vendor review takes a month, and the next template still 
 What surprised the team: two people on shift, one off
 Decisions that aged badly: A project learned that vendor review takes a month, and the next template still assumes a week
 Evidence: one PDF, 2 pages, dated 14 September 2026
-The template or checklist to change: Redline Parts; Lantern Inn; open item
+The template or checklist to change: Milestone 3 handover; RAID item 12; Change request 118
 ```
 
 ## Example outcome
@@ -42,7 +42,7 @@ Changes the template's vendor-review duration, with an owner for the edit.
 | What surprised the team | two people on shift, one off | Needs confirmation |
 | Decisions that aged badly | A project learned that vendor review takes a month, and the next template still assumes a week | Carried into the draft |
 | Evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
-| The template or checklist to change | Redline Parts; Lantern Inn; open item | Needs confirmation |
+| The template or checklist to change | Milestone 3 handover; RAID item 12; Change request 118 | Needs confirmation |
 
 **How this draft was built**
 

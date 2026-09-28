@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A company wants a term loan to fund a fit-out and has an existing facility with covenants they only partly remember.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+Historical and expected cash generation the user provided: Operating cash. Partly documented: the what is written down, the who is not
+Existing debt and covenants if known: Harbor & Co receipt, last reviewed 14 September 2026. No owner named since
+The use of the new money: Operating cash, recorded 14 September 2026. No supporting file attached
+Security or guarantee constraints: no extra headcount, and no result that is not in this file
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Shows service versus their cash, flags the missing covenant facts, and does not 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cash | the counted figure in the ask, one entity | Needs confirmation |
-| maybe receipt | not in the bank | Carried into the draft |
-| buffer | the one they named | Carried into the draft |
-| new spend | not in the base case | Needs confirmation |
+| Historical and expected cash generation the user provided | Operating cash. Partly documented: the what is written down, the who is not | Needs confirmation |
+| Existing debt and covenants if known | Harbor & Co receipt, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The use of the new money | Operating cash, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Security or guarantee constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

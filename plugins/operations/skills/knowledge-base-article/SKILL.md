@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A help draft includes an admin password so customers can 'fix it themselves'.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The question: A help draft includes an admin password so customers can 'fix it themselves'
+The correct steps: Tuesday shift; SOP 118 receiving. Both unassigned as of 14 September 2026
+The audience: people who already buy from Harbor Goods
+The escalation path: Tuesday shift, first seen 14 September 2026. No root cause recorded yet
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Removes the password, answers one question, and gives an escalation path.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The question | A help draft includes an admin password so customers can 'fix it themselves' | Needs confirmation |
+| The correct steps | Tuesday shift; SOP 118 receiving. Both unassigned as of 14 September 2026 | Carried into the draft |
+| The audience | people who already buy from Harbor Goods | Carried into the draft |
+| The escalation path | Tuesday shift, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
 
 **How this draft was built**
 

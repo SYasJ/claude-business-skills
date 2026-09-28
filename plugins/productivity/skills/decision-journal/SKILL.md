@@ -104,7 +104,8 @@ Needed by: 30 September 2026
 A journal entry is edited after a failure to say the risk was always obvious.
 
 The decision: A journal entry is edited after a failure to say the risk was always obvious
-Options: keep Cedar Clinic, or stop. No third option written
+Options: keep Friday review block, or stop. No third option written
+What you expect to happen: Q4 objective 2, last reviewed 14 September 2026. No owner named since
 The review date: 30 September 2026
 ```
 
@@ -122,8 +123,9 @@ Keeps the original expectation and sets a review without rewriting the past.
 | Input | Value | Status |
 | --- | --- | --- |
 | The decision | A journal entry is edited after a failure to say the risk was always obvious | Needs confirmation |
-| Options | keep Cedar Clinic, or stop. No third option written | Carried into the draft |
-| The review date | 30 September 2026 | Carried into the draft |
+| Options | keep Friday review block, or stop. No third option written | Carried into the draft |
+| What you expect to happen | Q4 objective 2, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The review date | 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

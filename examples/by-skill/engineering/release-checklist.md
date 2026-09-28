@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A release includes a migration that the on-call has not seen, and the checklist says LGTM.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The intended scope: this decision only
+Migrations: Checkout service, last reviewed 14 September 2026. No owner named since
+Monitoring: Invoice job. Partly documented: the what is written down, the who is not
+Rollback: Invoice job, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -38,11 +38,11 @@ A hold until the migration owner is named and the rollback is written, with no s
 
 - [x] **The intended scope** — this decision only  
       Evidenced in the file
-- [x] **Migrations** — Checkout service. Aisha Rahman noted it on 14 September 2026. No second file for this line.  
+- [x] **Migrations** — Checkout service, last reviewed 14 September 2026. No owner named since  
       Evidenced in the file
-- [x] **Monitoring** — Checkout service. Aisha Rahman noted it on 14 September 2026. No second file for this line.  
+- [x] **Monitoring** — Invoice job. Partly documented: the what is written down, the who is not  
       Evidenced in the file
-- [ ] **Rollback** — Checkout service. Aisha Rahman noted it on 14 September 2026. No second file for this line.  
+- [ ] **Rollback** — Invoice job, last reviewed 14 September 2026. No owner named since  
       Open — nothing in the file closes this
 
 **The gates this list enforces, in order**

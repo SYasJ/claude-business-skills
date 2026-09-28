@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A look-ahead schedules a pour before the inspection the city requires.
 
-site: Birch, Cochrane
-safety item: stays open
-quantity: their takeoff
-date: the look-ahead
+Planned activities: Two-week look-ahead. Stated in the ask, not documented anywhere else
+Constraints: design, material, access: design: in the file; material: not in the file; access: open
+Crew available: Two-week look-ahead, recorded 14 September 2026. No supporting file attached
+Inspections: Two-week look-ahead. Stated in the ask, not documented anywhere else
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Parks the pour behind the inspection and names the constraint owner.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | Birch, Cochrane | Needs confirmation |
-| safety item | stays open | Carried into the draft |
-| quantity | their takeoff | Carried into the draft |
-| date | the look-ahead | Needs confirmation |
+| Planned activities | Two-week look-ahead. Stated in the ask, not documented anywhere else | Needs confirmation |
+| Constraints: design, material, access | design: in the file; material: not in the file; access: open | Carried into the draft |
+| Crew available | Two-week look-ahead, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Inspections | Two-week look-ahead. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

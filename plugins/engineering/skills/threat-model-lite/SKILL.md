@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A file-sharing feature has no answer for who can access a link.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The feature and its assets: Checkout service, recorded 14 September 2026. No supporting file attached
+Actors: Aisha Rahman plus two others named in the thread. No distribution list attached
+Existing controls: their one-page rule dated 2 Mar 2026. No exception log since
+Data sensitivity they described: Checkout service. Partly documented: the what is written down, the who is not
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Lists unauthorized access as a gap, recommends an access control and audit event
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The feature and its assets | Checkout service, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Actors | Aisha Rahman plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Existing controls | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Data sensitivity they described | Checkout service. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

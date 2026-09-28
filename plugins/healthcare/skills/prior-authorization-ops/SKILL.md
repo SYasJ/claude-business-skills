@@ -102,6 +102,7 @@ Needed by: 30 September 2026
 
 Staff want to change a note so the authorization is more likely to pass.
 
+The payer requirements they have: their one-page rule dated 2 Mar 2026. No exception log since
 The documents on hand: one PDF, 2 pages, dated 14 September 2026
 The internal owner: Dr. Helen Cho, clinic director
 The requested date: 30 September 2026
@@ -117,7 +118,7 @@ A checklist of real gaps and a refusal to alter the record.
 
 **Checklist**
 
-- [x] **The payer requirements they have** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **The payer requirements they have** — their one-page rule dated 2 Mar 2026. No exception log since  
       Evidenced in the file
 - [x] **The documents on hand** — one PDF, 2 pages, dated 14 September 2026  
       Evidenced in the file

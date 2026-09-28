@@ -101,10 +101,10 @@ Needed by: 30 September 2026
 
 A draft says to skip the harness because the task is short.
 
-site: Birch, Cochrane
-safety item: stays open
-quantity: their takeoff
-date: the look-ahead
+The hazard: Birch site, Cochrane, recorded 14 September 2026. No supporting file attached
+The required control: their one-page rule dated 2 Mar 2026. No exception log since
+The crew: Birch site, Cochrane, recorded 14 September 2026. No supporting file attached
+Incidents they can mention without blame: Birch site, Cochrane, first seen 14 September 2026. No root cause recorded yet
 ```
 
 ### Example outcome
@@ -120,10 +120,10 @@ Requires the harness and stops the task if it is missing.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | Birch, Cochrane | Needs confirmation |
-| safety item | stays open | Carried into the draft |
-| quantity | their takeoff | Carried into the draft |
-| date | the look-ahead | Needs confirmation |
+| The hazard | Birch site, Cochrane, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The required control | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| The crew | Birch site, Cochrane, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Incidents they can mention without blame | Birch site, Cochrane, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
 
 **How this draft was built**
 

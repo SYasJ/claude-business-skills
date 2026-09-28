@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A new export feature has no statement about who may export customer data.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+The feature and its data: Access review Q3, recorded 14 September 2026. No supporting file attached
+Actors: Aisha Rahman plus two others named in the thread. No distribution list attached
+Existing controls: their one-page rule dated 2 Mar 2026. No exception log since
+Sensitivity the user described: Endpoint patch ring 2, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Requirements for authorization, audit, and a safe allow-and-deny test, with no a
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| The feature and its data | Access review Q3, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Actors | Aisha Rahman plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Existing controls | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Sensitivity the user described | Endpoint patch ring 2, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

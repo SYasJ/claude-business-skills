@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A manager wants to double-book every slot because the wait list is long.
 
-clinic: Cedar, Tuesday list
-diagnosis: not in this note
-roster: the one attached
-advice to a patient: not written
+Visit types and lengths they use: plain, for people who already know the context. No house guide attached
+Provider availability: Tuesday clinic. Partly documented: the what is written down, the who is not
+Room limits: Referral desk. Partly documented: the what is written down, the who is not
+No-show experience they shared: Thursday clinic, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ Shows the double-book harm and offers an access hold only within real room capac
 
 | Input | Value | Status |
 | --- | --- | --- |
-| clinic | Cedar, Tuesday list | Needs confirmation |
-| diagnosis | not in this note | Carried into the draft |
-| roster | the one attached | Carried into the draft |
-| advice to a patient | not written | Needs confirmation |
+| Visit types and lengths they use | plain, for people who already know the context. No house guide attached | Needs confirmation |
+| Provider availability | Tuesday clinic. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Room limits | Referral desk. Partly documented: the what is written down, the who is not | Carried into the draft |
+| No-show experience they shared | Thursday clinic, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

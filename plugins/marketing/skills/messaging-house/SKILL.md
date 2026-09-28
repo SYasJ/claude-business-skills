@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The homepage says 'effortless' and sales says implementation takes six weeks.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The positioning: Fall service page, recorded 14 September 2026. No supporting file attached
+Three proof points: one customer email, 14 September 2026, no attachment beyond that
+Objections sales hears: Fall service page is open. Email to lapsed buyers was raised verbally and never logged
+Claims that must not be made: the draft sentence is broader than the note
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Replaces 'effortless' with a truthful implementation claim and aligns both chann
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The positioning | Fall service page, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Three proof points | one customer email, 14 September 2026, no attachment beyond that | Carried into the draft |
+| Objections sales hears | Fall service page is open. Email to lapsed buyers was raised verbally and never logged | Carried into the draft |
+| Claims that must not be made | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

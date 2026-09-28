@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A punch list says 'finish lobby' with no owner.
 
-site: Birch, Cochrane
-safety item: stays open
-quantity: their takeoff
-date: the look-ahead
+The observed items: Birch site, Cochrane, recorded 14 September 2026. No supporting file attached
+Locations: Two-week look-ahead. Partly documented: the what is written down, the who is not
+Responsible parties: Two-week look-ahead. Stated in the ask, not documented anywhere else
+The done standard: their one-page rule dated 2 Mar 2026. No exception log since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A list of located items, with life-safety called out and an owner on each line.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | Birch, Cochrane | Needs confirmation |
-| safety item | stays open | Carried into the draft |
-| quantity | their takeoff | Carried into the draft |
-| date | the look-ahead | Needs confirmation |
+| The observed items | Birch site, Cochrane, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Locations | Two-week look-ahead. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Responsible parties | Two-week look-ahead. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The done standard | their one-page rule dated 2 Mar 2026. No exception log since | Needs confirmation |
 
 **How this draft was built**
 

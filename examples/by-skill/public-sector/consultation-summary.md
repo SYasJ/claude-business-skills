@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A summary says residents support a plan when most comments opposed it.
 
-record: the agenda or request
-vote: not implied if it has not happened
-names: public record only
-deadline: the posted one
+The question consulted: A summary says residents support a plan when most comments opposed it
+The responses they have: Council agenda item 6, recorded 14 September 2026. No supporting file attached
+How people were invited: Posted comment period, last reviewed 14 September 2026. No owner named since
+The decision still open: A summary says residents support a plan when most comments opposed it
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Reports the opposition and refuses the support claim.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| record | the agenda or request | Needs confirmation |
-| vote | not implied if it has not happened | Carried into the draft |
-| names | public record only | Carried into the draft |
-| deadline | the posted one | Needs confirmation |
+| The question consulted | A summary says residents support a plan when most comments opposed it | Needs confirmation |
+| The responses they have | Council agenda item 6, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| How people were invited | Posted comment period, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The decision still open | A summary says residents support a plan when most comments opposed it | Needs confirmation |
 
 **How this draft was built**
 

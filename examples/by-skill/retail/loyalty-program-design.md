@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A program offers 10% back in points but the redemption minimum is higher than the average order, so few members ever cash out.
 
-store: Harbor Goods, Airdrie
-price: shelf price
-stock: the count
-review: not invented
+What behavior they want to reward: Returns desk log, last reviewed 14 September 2026. No owner named since
+Their margin: End-cap display 3, last reviewed 14 September 2026. No owner named since
+Tech they have: End-cap display 3. Partly documented: the what is written down, the who is not
+Competitors they named: two deals cited from memory. Neither has a written loss reason
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Sets a redemption minimum below the average order and discloses the liability ca
 
 | Input | Value | Status |
 | --- | --- | --- |
-| store | Harbor Goods, Airdrie | Needs confirmation |
-| price | shelf price | Carried into the draft |
-| stock | the count | Carried into the draft |
-| review | not invented | Needs confirmation |
+| What behavior they want to reward | Returns desk log, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Their margin | End-cap display 3, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Tech they have | End-cap display 3. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Competitors they named | two deals cited from memory. Neither has a written loss reason | Needs confirmation |
 
 **How this draft was built**
 

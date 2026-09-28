@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Product wants to announce automation that still requires a manual file from support.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+What will be announced: Usage limit warning, last reviewed 14 September 2026. No owner named since
+Support and docs status: Trial day-3 email, last reviewed 14 September 2026. No owner named since
+Measurement: not defined beyond plan 120 and actual 85
+Rollback path: Trial day-3 email, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Tells the truth about the manual step.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| What will be announced | Usage limit warning, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Support and docs status | Trial day-3 email, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Measurement | not defined beyond plan 120 and actual 85 | Carried into the draft |
+| Rollback path | Trial day-3 email, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

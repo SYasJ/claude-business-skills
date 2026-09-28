@@ -105,6 +105,7 @@ The external auditor asked for revenue samples and the team is about to export e
 
 The auditor's request list, if any: Operating cash; Undeposited funds; Sales tax payable
 Systems and owners: Priya Shah, controller
+Known difficult areas: Undeposited funds. Stated in the ask, not documented anywhere else
 The period under audit: month ending 14 September 2026
 ```
 
@@ -123,7 +124,8 @@ An indexed PBC with owners, report parameters, tie-out notes, and no shared pass
 | --- | --- | --- |
 | The auditor's request list, if any | Operating cash; Undeposited funds; Sales tax payable | Needs confirmation |
 | Systems and owners | Priya Shah, controller | Carried into the draft |
-| The period under audit | month ending 14 September 2026 | Carried into the draft |
+| Known difficult areas | Undeposited funds. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The period under audit | month ending 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

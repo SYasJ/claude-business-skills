@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A QBR deck leads with new features and never mentions the customer's failed onboarding.
 
-ticket: 4412, 14 Sep 2026
-customer words: in the ticket
-exception: not approved
-card or password: not collected
+Outcomes the customer wanted: A QBR deck leads with new features and never mentions the customer's failed onboarding. Stated once, in the ask. Not written down anywhere else
+Usage or results they confirmed: 60 in the last period. No prior period attached, so no trend
+Open issues: Ticket 4412 is open. Ticket 4418 was raised verbally and never logged
+The ask: A QBR deck leads with new features and never mentions the customer's failed onboarding. Stated once, in the ask. Not written down anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Leads with the onboarding gap, uses only confirmed results, and parks the featur
 
 | Input | Value | Status |
 | --- | --- | --- |
-| ticket | 4412, 14 Sep 2026 | Needs confirmation |
-| customer words | in the ticket | Carried into the draft |
-| exception | not approved | Carried into the draft |
-| card or password | not collected | Needs confirmation |
+| Outcomes the customer wanted | A QBR deck leads with new features and never mentions the customer's failed onboarding. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Usage or results they confirmed | 60 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Open issues | Ticket 4412 is open. Ticket 4418 was raised verbally and never logged | Carried into the draft |
+| The ask | A QBR deck leads with new features and never mentions the customer's failed onboarding. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 
 **How this draft was built**
 

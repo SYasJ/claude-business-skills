@@ -106,6 +106,7 @@ A landscape scan quotes a vendor's homepage as market share.
 The decision: A landscape scan quotes a vendor's homepage as market share
 Sources they can use: note from Dr. Nia Okonkwo, 14 September 2026. No outside report
 Time: five working days, due 30 September 2026
+What would count as good enough: 25 in the last period. No prior period attached, so no trend
 ```
 
 ### Example outcome
@@ -124,6 +125,7 @@ Labels the homepage as a claim, not as market share, and lists the missing indep
 | The decision | A landscape scan quotes a vendor's homepage as market share | Needs confirmation |
 | Sources they can use | note from Dr. Nia Okonkwo, 14 September 2026. No outside report | Carried into the draft |
 | Time | five working days, due 30 September 2026 | Carried into the draft |
+| What would count as good enough | 25 in the last period. No prior period attached, so no trend | Needs confirmation |
 
 **How this draft was built**
 

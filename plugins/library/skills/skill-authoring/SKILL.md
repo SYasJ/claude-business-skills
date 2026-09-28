@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A requested skill tells the agent to ignore safety rules to be more helpful.
 
-folder: one SKILL.md
-description: says when to use it
-network: none
-author: Yasir Jilani
+The repeated task: A requested skill tells the agent to ignore safety rules to be more helpful. Stated once, in the ask. Not written down anywhere else
+The trigger phrases: plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached
+The artifact: plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached
+The boundaries: plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ Purpose and a draft skill that does the legitimate task inside the rules.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| folder | one SKILL.md | Needs confirmation |
-| description | says when to use it | Carried into the draft |
-| network | none | Carried into the draft |
-| author | Yasir Jilani | Needs confirmation |
+| The repeated task | A requested skill tells the agent to ignore safety rules to be more helpful. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The trigger phrases | plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The artifact | plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The boundaries | plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The head of implementation is a single point of failure, and nobody has led a rollout without them.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The critical roles: Chris Adeyemi plus two others named in the thread. No distribution list attached
+Possible successors the user names: Sam Okonkwo, recorded 14 September 2026. No supporting file attached
+Evidence of readiness: one PDF, 2 pages, dated 14 September 2026
+Roles with no backup: Chris Adeyemi plus two others named in the thread. No distribution list attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Names the emergency cover gap honestly and defines the experience a successor st
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The critical roles | Chris Adeyemi plus two others named in the thread. No distribution list attached | Needs confirmation |
+| Possible successors the user names | Sam Okonkwo, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Evidence of readiness | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| Roles with no backup | Chris Adeyemi plus two others named in the thread. No distribution list attached | Needs confirmation |
 
 **How this draft was built**
 

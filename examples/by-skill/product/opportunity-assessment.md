@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A large customer requested a feature that fits none of the current bets.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+The proposed opportunity: Activation checklist, recorded 14 September 2026. No supporting file attached
+Evidence in hand: one PDF, 2 pages, dated 14 September 2026
+Strategic bets it must serve: 35 in the last period. No prior period attached, so no trend
+Cost of a sprint: CAD 27 direct. Overhead not in this line
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Parks the feature, names the strategy conflict, and defines the evidence that wo
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| The proposed opportunity | Activation checklist, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Evidence in hand | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| Strategic bets it must serve | 35 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Cost of a sprint | CAD 27 direct. Overhead not in this line | Needs confirmation |
 
 **How this draft was built**
 

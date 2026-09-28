@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A manager wants to beat a competitor's verbal offer and the proposal sits above the band.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The band if they have one: Jordan Hale, recorded 14 September 2026. No supporting file attached
+The proposed pay: Jordan Hale, recorded 14 September 2026. No supporting file attached
+The evidence for the person's level: one PDF, 2 pages, dated 14 September 2026
+Internal peers the user chooses to include: Sam Okonkwo. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Places the proposal above the band, requires an approver, and does not invent a 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The band if they have one | Jordan Hale, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The proposed pay | Jordan Hale, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The evidence for the person's level | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| Internal peers the user chooses to include | Sam Okonkwo. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An estimate assumes night work is included but the invitation excludes it.
 
-site: Birch, Cochrane
-safety item: stays open
-quantity: their takeoff
-date: the look-ahead
+The scope basis: this decision only
+Quantities they measured: Birch site, Cochrane. Stated in the ask, not documented anywhere else
+Allowances: Two-week look-ahead and one other, both unconfirmed as of 14 September 2026
+Exclusions: Birch site, Cochrane is open. Takeoff rev C was raised verbally and never logged
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Records the conflict and refuses to hide the exclusion.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | Birch, Cochrane | Needs confirmation |
-| safety item | stays open | Carried into the draft |
-| quantity | their takeoff | Carried into the draft |
-| date | the look-ahead | Needs confirmation |
+| The scope basis | this decision only | Needs confirmation |
+| Quantities they measured | Birch site, Cochrane. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Allowances | Two-week look-ahead and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Exclusions | Birch site, Cochrane is open. Takeoff rev C was raised verbally and never logged | Needs confirmation |
 
 **How this draft was built**
 

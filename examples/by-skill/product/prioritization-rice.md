@@ -22,6 +22,7 @@ A stakeholder wants their idea scored 100 percent confidence so it sorts to the 
 
 The candidate list: Activation checklist; Trial day-3 email; Usage limit warning
 Evidence for reach and impact: one PDF, 2 pages, dated 14 September 2026
+Effort estimates: Activation checklist, last reviewed 14 September 2026. No owner named since
 Constraints: no extra headcount, and no result that is not in this file
 ```
 
@@ -40,7 +41,8 @@ Keeps confidence low, shows the math, and records any strategic override separat
 | --- | --- | --- |
 | The candidate list | Activation checklist; Trial day-3 email; Usage limit warning | Needs confirmation |
 | Evidence for reach and impact | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
-| Constraints | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Effort estimates | Activation checklist, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

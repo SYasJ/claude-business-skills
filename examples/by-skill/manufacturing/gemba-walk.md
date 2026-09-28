@@ -23,6 +23,7 @@ A leader plans a walk to catch operators breaking the instruction.
 The process to see: email to Gus Moretti. No written steps after 1 Sep 2026
 The question: A leader plans a walk to catch operators breaking the instruction
 Who will walk: Gus Moretti, plant manager
+How notes will be used: one file, dated 14 September 2026. No earlier version attached for comparison
 ```
 
 ## Example outcome
@@ -41,6 +42,7 @@ Observes the obstacle, bans surprise punishment, and still escalates safety issu
 | The process to see | email to Gus Moretti. No written steps after 1 Sep 2026 | Needs confirmation |
 | The question | A leader plans a walk to catch operators breaking the instruction | Carried into the draft |
 | Who will walk | Gus Moretti, plant manager | Carried into the draft |
+| How notes will be used | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,8 +20,9 @@ Needed by: 30 September 2026
 
 A finance lead wants a board slide for net retention, but implementation fees have been folded into ARR.
 
-How customers are billed: Kite Freight
+How customers are billed: Harbor & Co receipt, last reviewed 14 September 2026. No owner named since
 Expansion, contraction, and churn definitions they want to use: unsigned draft, 8 pages, no signature date
+Segments that should not be mixed: Operating cash, recorded 14 September 2026. No supporting file attached
 The decision the pack supports: A finance lead wants a board slide for net retention, but implementation fees have been folded into ARR
 ```
 

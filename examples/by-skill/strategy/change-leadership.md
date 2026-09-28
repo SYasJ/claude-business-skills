@@ -23,6 +23,7 @@ Finance is moving the company from monthly spreadsheets to a shared close calend
 The change in concrete terms: requested 14 September 2026. Not yet approved
 Who must work differently: Mara Chen, founder
 What they lose or must learn: Finance is moving the company from monthly spreadsheets to a shared close calendar and managers are ignoring it
+Sponsor and timing: open item, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -41,6 +42,7 @@ Names Tuesday behaviors, manager support, the loss of local flexibility, and one
 | The change in concrete terms | requested 14 September 2026. Not yet approved | Needs confirmation |
 | Who must work differently | Mara Chen, founder | Carried into the draft |
 | What they lose or must learn | Finance is moving the company from monthly spreadsheets to a shared close calendar and managers are ignoring it | Carried into the draft |
+| Sponsor and timing | open item, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

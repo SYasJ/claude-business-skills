@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Sales wants to call twenty unpaid pilots a beta and quote them on the website.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+The risk the beta must retire: Activation checklist is open. No score in the file
+Participant criteria: Jonah Park plus two others named in the thread. No distribution list attached
+Support capacity: two people, no overtime figure
+Exit criteria: their existing list, 6 lines. Two lines have no owner
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A plan with a learning goal, a cap matched to support capacity, and a ban on pub
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| The risk the beta must retire | Activation checklist is open. No score in the file | Needs confirmation |
+| Participant criteria | Jonah Park plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Support capacity | two people, no overtime figure | Carried into the draft |
+| Exit criteria | their existing list, 6 lines. Two lines have no owner | Needs confirmation |
 
 **How this draft was built**
 

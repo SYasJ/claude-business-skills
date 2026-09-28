@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A triage plan answers newsletters before a customer blocked on a decision.
 
-week: 14 Sep 2026
-calendar: the meetings they listed
-dissent: kept if it was said
-monitoring: not recommended
+The messages or summaries: Friday review block, recorded 14 September 2026. No supporting file attached
+Deadlines they contain: 30 September 2026
+Your role: Q4 objective 2, recorded 14 September 2026. No supporting file attached
+What can be delegated: Q4 objective 2, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome

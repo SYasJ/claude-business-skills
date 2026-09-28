@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A planner gives the scarce item to the loudest salesperson's account.
 
-sku: 1044
-supplier: Redline Parts
-lead time: their number
-alternate: none
+Available quantity: 35 in the last period. No prior period attached, so no trend
+Demand by customer or channel: 35 in the last period. No prior period attached, so no trend
+The allocation rule they want: their one-page rule dated 2 Mar 2026. No exception log since
+Contractual priorities they named: unsigned draft, 8 pages, no signature date
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Applies a written rule, records exceptions, and tells affected customers the tru
 
 | Input | Value | Status |
 | --- | --- | --- |
-| sku | 1044 | Needs confirmation |
-| supplier | Redline Parts | Carried into the draft |
-| lead time | their number | Carried into the draft |
-| alternate | none | Needs confirmation |
+| Available quantity | 35 in the last period. No prior period attached, so no trend | Needs confirmation |
+| Demand by customer or channel | 35 in the last period. No prior period attached, so no trend | Carried into the draft |
+| The allocation rule they want | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Contractual priorities they named | unsigned draft, 8 pages, no signature date | Needs confirmation |
 
 **How this draft was built**
 

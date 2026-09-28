@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A year-end count is short of the GL, and the warehouse says some goods were shipped but still in the system.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Count and GL figures: 40 in the last period. No prior period attached, so no trend
+Costing method they use: CAD 36 direct. Overhead not in this line
+Slow or damaged stock they know about: Undeposited funds, recorded 14 September 2026. No supporting file attached
+Cut-off concerns: Operating cash. Stated in the ask, not documented anywhere else
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Isolates the shipped-not-relieved population and asks for cut-off evidence befor
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| Count and GL figures | 40 in the last period. No prior period attached, so no trend | Needs confirmation |
+| Costing method they use | CAD 36 direct. Overhead not in this line | Carried into the draft |
+| Slow or damaged stock they know about | Undeposited funds, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Cut-off concerns | Operating cash. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

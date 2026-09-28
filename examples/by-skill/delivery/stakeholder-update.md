@@ -22,6 +22,7 @@ A client update draft says the launch is on track after scope was cut.
 
 What changed: requested 14 September 2026. Not yet approved
 Who is affected: Owen Blake, delivery lead
+What you need from them: Change request 118, last reviewed 14 September 2026. No owner named since
 What must not be overclaimed: the draft sentence is broader than the note
 ```
 
@@ -40,7 +41,8 @@ States the cut and asks the client to confirm the reduced scope.
 | --- | --- | --- |
 | What changed | requested 14 September 2026. Not yet approved | Needs confirmation |
 | Who is affected | Owen Blake, delivery lead | Carried into the draft |
-| What must not be overclaimed | the draft sentence is broader than the note | Carried into the draft |
+| What you need from them | Change request 118, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| What must not be overclaimed | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

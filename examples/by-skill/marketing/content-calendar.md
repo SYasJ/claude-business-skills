@@ -20,9 +20,10 @@ Needed by: 30 September 2026
 
 A founder wants daily posts, and the only writer has four hours a week.
 
-Buyer questions already heard: Harbor & Co
+Buyer questions already heard: A founder wants daily posts, and the only writer has four hours a week
 Capacity in pieces per week: two people, no overtime figure
 Offers the content should support: CAD 49, dates not set, cap not set
+Channels that are actually maintained: plain, for people who already know the context. No house guide attached
 ```
 
 ## Example outcome
@@ -35,13 +36,13 @@ A calendar of one reviewed piece a week, based on real buyer questions, with rep
 
 **Checklist**
 
-- [x] **Buyer questions already heard** — Harbor & Co  
+- [x] **Buyer questions already heard** — A founder wants daily posts, and the only writer has four hours a week  
       Evidenced in the file
 - [x] **Capacity in pieces per week** — two people, no overtime figure  
       Evidenced in the file
 - [x] **Offers the content should support** — CAD 49, dates not set, cap not set  
       Evidenced in the file
-- [ ] **Channels that are actually maintained** — Fall service page. Lena Ortiz noted it on 14 September 2026. No second file for this line.  
+- [ ] **Channels that are actually maintained** — plain, for people who already know the context. No house guide attached  
       Open — nothing in the file closes this
 
 **The gates this list enforces, in order**

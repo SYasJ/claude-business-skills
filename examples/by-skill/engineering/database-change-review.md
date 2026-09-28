@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A migration adds a NOT NULL column with a default on a table of unknown size and has no rollback.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The change: requested 14 September 2026. Not yet approved
+Table size and traffic if known: 65 in the last period. No prior period attached, so no trend
+Rollback idea: A migration adds a NOT NULL column with a default on a table of unknown size and has no rollback. Stated once, in the ask. Not written down anywhere else
+Data correctness risk: Checkout service is open. No score in the file
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Marks risk unknown, requires a batched plan, and rejects credential pasting.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The change | requested 14 September 2026. Not yet approved | Needs confirmation |
+| Table size and traffic if known | 65 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Rollback idea | A migration adds a NOT NULL column with a default on a table of unknown size and has no rollback. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Data correctness risk | Checkout service is open. No score in the file | Needs confirmation |
 
 **How this draft was built**
 

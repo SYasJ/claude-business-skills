@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team chose a queue technology in a meeting and nobody wrote why the simpler option lost.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The decision: A team chose a queue technology in a meeting and nobody wrote why the simpler option lost
+The context: Checkout service, recorded 14 September 2026. No supporting file attached
+Alternatives: two deals cited from memory. Neither has a written loss reason
+Consequences: Invoice job. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A one-page ADR with the rejected option, consequences, and status left as propos
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The decision | A team chose a queue technology in a meeting and nobody wrote why the simpler option lost | Needs confirmation |
+| The context | Checkout service, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Alternatives | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| Consequences | Invoice job. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

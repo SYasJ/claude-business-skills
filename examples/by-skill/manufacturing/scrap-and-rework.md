@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Most scrap is coded 'other' and the team still wants a root cause.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+Scrap quantities and reasons: Line 2. Partly documented: the what is written down, the who is not
+Cost if known: CAD 27 direct. Overhead not in this line
+Where it is found: Lot 26-0914, recorded 14 September 2026. No supporting file attached
+The owner of the top reason: Gus Moretti, plant manager
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Makes the dumping code the first problem and assigns an owner to fix the codes.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| Scrap quantities and reasons | Line 2. Partly documented: the what is written down, the who is not | Needs confirmation |
+| Cost if known | CAD 27 direct. Overhead not in this line | Carried into the draft |
+| Where it is found | Lot 26-0914, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The owner of the top reason | Gus Moretti, plant manager | Needs confirmation |
 
 **How this draft was built**
 

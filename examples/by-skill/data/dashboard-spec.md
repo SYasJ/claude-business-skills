@@ -23,6 +23,7 @@ A leader wants 30 tiles on one page and cannot name the Monday decision.
 The decisions the dashboard must support: A leader wants 30 tiles on one page and cannot name the Monday decision
 The metrics and their definitions: plan 180, actual 95
 Who will use it and how often: Noah Berger, data lead
+Known data delays: customers. Stated in the ask, not documented anywhere else
 ```
 
 ## Example outcome
@@ -41,6 +42,7 @@ A spec of a few decision tiles, each with a source, a lag, and an owner.
 | The decisions the dashboard must support | A leader wants 30 tiles on one page and cannot name the Monday decision | Needs confirmation |
 | The metrics and their definitions | plan 180, actual 95 | Carried into the draft |
 | Who will use it and how often | Noah Berger, data lead | Carried into the draft |
+| Known data delays | customers. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

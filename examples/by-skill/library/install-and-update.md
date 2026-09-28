@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A user wants one command that downloads and executes an unknown installer.
 
-folder: one SKILL.md
-description: says when to use it
-network: none
-author: Yasir Jilani
+The tool: the one named in the ask. Version and owner not recorded
+The domain: plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached
+Whether the install is user-level or project-level: plugins/finance/cash-flow-forecast. Partly documented: the what is written down, the who is not
+Whether they want a dry run: plugins/finance/cash-flow-forecast. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Uses the local Python installer, names the domain, and starts with a dry run.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| folder | one SKILL.md | Needs confirmation |
-| description | says when to use it | Carried into the draft |
-| network | none | Carried into the draft |
-| author | Yasir Jilani | Needs confirmation |
+| The tool | the one named in the ask. Version and owner not recorded | Needs confirmation |
+| The domain | plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Whether the install is user-level or project-level | plugins/finance/cash-flow-forecast. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Whether they want a dry run | plugins/finance/cash-flow-forecast. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

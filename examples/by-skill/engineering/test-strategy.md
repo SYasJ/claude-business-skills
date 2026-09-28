@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team argues about coverage percent while a refund path has no test.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The change and its risk: Checkout service is open. No score in the file
+Existing tests: Invoice job, last reviewed 14 September 2026. No owner named since
+What has broken before: Status page, last reviewed 14 September 2026. No owner named since
+Time available: five working days, due 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Prioritizes the refund path and treats the coverage number as secondary.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The change and its risk | Checkout service is open. No score in the file | Needs confirmation |
+| Existing tests | Invoice job, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| What has broken before | Status page, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Time available | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Several balance-sheet accounts have no named preparer, and cash recs live in one person's inbox.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Material balance-sheet accounts: one file, dated 14 September 2026. No earlier version attached for comparison
+Current reconcilers: Undeposited funds and one other, both unconfirmed as of 14 September 2026
+How old open items get: Undeposited funds, last reviewed 14 September 2026. No owner named since
+Reviewer: Priya Shah. No second reviewer named
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Assigns owners, defines a proper recon, and moves evidence to a shared location 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| Material balance-sheet accounts | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| Current reconcilers | Undeposited funds and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| How old open items get | Undeposited funds, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Reviewer | Priya Shah. No second reviewer named | Needs confirmation |
 
 **How this draft was built**
 

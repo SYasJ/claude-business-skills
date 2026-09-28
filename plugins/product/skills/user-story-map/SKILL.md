@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team has 80 tickets and wants a release that builds the admin console before the user can finish the core job.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+The user and the job: Activation checklist, recorded 14 September 2026. No supporting file attached
+The backbone steps they take: Activation checklist; Trial day-3 email. Both unassigned as of 14 September 2026
+Candidate stories: 30 September 2026
+The first release goal: A team has 80 tickets and wants a release that builds the admin console before the user can finish the core job. Stated once, in the ask. Not written down anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A map whose first slice completes the core job thinly, and parks the admin conso
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| The user and the job | Activation checklist, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The backbone steps they take | Activation checklist; Trial day-3 email. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Candidate stories | 30 September 2026 | Carried into the draft |
+| The first release goal | A team has 80 tickets and wants a release that builds the admin console before the user can finish the core job. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 
 **How this draft was built**
 

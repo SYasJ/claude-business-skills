@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A manager wants an OEE of 85 quoted to a customer, and downtime is not recorded.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+Availability, performance, and quality data they have: 60 in the last period. No prior period attached, so no trend
+The biggest loss they see: Line 2, recorded 14 September 2026. No supporting file attached
+The time window: five working days, due 30 September 2026
+The owner: Gus Moretti, plant manager
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Refuses the number and starts a downtime record before any customer claim.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| Availability, performance, and quality data they have | 60 in the last period. No prior period attached, so no trend | Needs confirmation |
+| The biggest loss they see | Line 2, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The time window | five working days, due 30 September 2026 | Carried into the draft |
+| The owner | Gus Moretti, plant manager | Needs confirmation |
 
 **How this draft was built**
 

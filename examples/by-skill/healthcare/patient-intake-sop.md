@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An intake script asks the front desk to decide if chest pain can wait.
 
-clinic: Cedar, Tuesday list
-diagnosis: not in this note
-roster: the one attached
-advice to a patient: not written
+The visit types: Tuesday clinic, recorded 14 September 2026. No supporting file attached
+Data they truly need: Tuesday clinic. Partly documented: the what is written down, the who is not
+Their privacy rules: email and billing address. They said no health data
+Escalation to a clinician: Tuesday clinic, first seen 14 September 2026. No root cause recorded yet
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Stops and escalates urgent symptoms to a clinician instead of scoring them at th
 
 | Input | Value | Status |
 | --- | --- | --- |
-| clinic | Cedar, Tuesday list | Needs confirmation |
-| diagnosis | not in this note | Carried into the draft |
-| roster | the one attached | Carried into the draft |
-| advice to a patient | not written | Needs confirmation |
+| The visit types | Tuesday clinic, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Data they truly need | Tuesday clinic. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Their privacy rules | email and billing address. They said no health data | Carried into the draft |
+| Escalation to a clinician | Tuesday clinic, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
 
 **How this draft was built**
 

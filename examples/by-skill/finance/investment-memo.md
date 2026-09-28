@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A product leader wants headcount for a new segment and has three design-partner conversations, none paid.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+The bet: Operating cash, recorded 14 September 2026. No supporting file attached
+Cash and people required: Payroll 15 September. Partly documented: the what is written down, the who is not
+Evidence already in hand: one PDF, 2 pages, dated 14 September 2026
+What failure looks like: Operating cash, first seen 14 September 2026. No root cause recorded yet
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Calls the conversations evidence of interest, not of demand, and stages spend be
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cash | the counted figure in the ask, one entity | Needs confirmation |
-| maybe receipt | not in the bank | Carried into the draft |
-| buffer | the one they named | Carried into the draft |
-| new spend | not in the base case | Needs confirmation |
+| The bet | Operating cash, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Cash and people required | Payroll 15 September. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Evidence already in hand | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| What failure looks like | Operating cash, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
 
 **How this draft was built**
 

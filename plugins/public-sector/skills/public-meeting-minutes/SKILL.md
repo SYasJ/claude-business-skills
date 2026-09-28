@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Minutes say a motion passed unanimously though a dissent was recorded.
 
-record: the agenda or request
-vote: not implied if it has not happened
-names: public record only
-deadline: the posted one
+The agenda: Council agenda item 6, recorded 14 September 2026. No supporting file attached
+Motions and votes they recorded: one file, dated 14 September 2026. No earlier version attached for comparison
+Conflicts declared: Council agenda item 6. Stated in the ask, not documented anywhere else
+The approver: Pat Nguyen. They have not signed
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Minutes that include the dissent and wait for the clerk's approval.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| record | the agenda or request | Needs confirmation |
-| vote | not implied if it has not happened | Carried into the draft |
-| names | public record only | Carried into the draft |
-| deadline | the posted one | Needs confirmation |
+| The agenda | Council agenda item 6, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Motions and votes they recorded | one file, dated 14 September 2026. No earlier version attached for comparison | Carried into the draft |
+| Conflicts declared | Council agenda item 6. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The approver | Pat Nguyen. They have not signed | Needs confirmation |
 
 **How this draft was built**
 

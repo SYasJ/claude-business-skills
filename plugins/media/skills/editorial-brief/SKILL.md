@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A brief says to write a quote from a CEO who has not spoken.
 
-document: the statement in the folder
-unnamed quote: not used
-deadline: the board time
-unknown: stays unknown
+The reader: Jonah Ellis plus two others named in the thread. No distribution list attached
+The news or point: A brief says to write a quote from a CEO who has not spoken
+Sources on hand: note from Jonah Ellis, 14 September 2026. No outside report
+What is off the record: one file, dated 14 September 2026. No earlier version attached for comparison
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ Replaces the quote with a request for a real interview.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| document | the statement in the folder | Needs confirmation |
-| unnamed quote | not used | Carried into the draft |
-| deadline | the board time | Carried into the draft |
-| unknown | stays unknown | Needs confirmation |
+| The reader | Jonah Ellis plus two others named in the thread. No distribution list attached | Needs confirmation |
+| The news or point | A brief says to write a quote from a CEO who has not spoken | Carried into the draft |
+| Sources on hand | note from Jonah Ellis, 14 September 2026. No outside report | Carried into the draft |
+| What is off the record | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
 
 **How this draft was built**
 

@@ -23,6 +23,7 @@ A run of show promises a speaker who has not confirmed.
 The guest promise: none written down beyond the ask
 Cues and times: five working days, due 30 September 2026
 Owners: Sofia Alvarez, front office manager
+The backup if a cue fails: Friday dinner service, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -41,6 +42,7 @@ Marks the speaker unconfirmed and names a backup cue.
 | The guest promise | none written down beyond the ask | Needs confirmation |
 | Cues and times | five working days, due 30 September 2026 | Carried into the draft |
 | Owners | Sofia Alvarez, front office manager | Carried into the draft |
+| The backup if a cue fails | Friday dinner service, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

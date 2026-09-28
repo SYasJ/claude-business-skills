@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Staff want to skip an identity step because the customer is in a hurry.
 
-run: 14 Sep 2026
-changed payee: email this morning, not verified
-password: not collected
-hold: that line
+Their required steps: Payment run 14 Sep; Account opening file 221. Both unassigned as of 14 September 2026
+What is complete: Liquidity ladder, last reviewed 14 September 2026. No owner named since
+Exceptions: Payment run 14 Sep is open. Account opening file 221 was raised verbally and never logged
+The reviewer: Priya Shah. No second reviewer named
 ```
 
 ## Example outcome
@@ -36,11 +36,11 @@ Keeps the step and routes any exception to the compliance owner.
 
 **Checklist**
 
-- [x] **Their required steps** — Kite Freight. Priya Shah noted it on 14 September 2026. No second file for this line.  
+- [x] **Their required steps** — Payment run 14 Sep; Account opening file 221. Both unassigned as of 14 September 2026  
       Evidenced in the file
-- [x] **What is complete** — Kite Freight. Priya Shah noted it on 14 September 2026. No second file for this line.  
+- [x] **What is complete** — Liquidity ladder, last reviewed 14 September 2026. No owner named since  
       Evidenced in the file
-- [x] **Exceptions** — Kite Freight. Priya Shah noted it on 14 September 2026. No second file for this line.  
+- [x] **Exceptions** — Payment run 14 Sep is open. Account opening file 221 was raised verbally and never logged  
       Evidenced in the file
 - [ ] **The reviewer** — Priya Shah. No second reviewer named  
       Open — nothing in the file closes this

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A dependency has already missed its date and is still labeled a risk.
 
-milestone: the customer date
-status: slipped
-completed tasks: do not replace the slip
-decision: needed
+Current worries: RAID item 12 and one other, both unconfirmed as of 14 September 2026
+Owners: Owen Blake, delivery lead
+Dates: 30 September 2026
+Which items are already issues: Change request 118. Stated in the ask, not documented anywhere else
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Reclassifies it as an issue, names the owner, and shows the delivery impact.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| milestone | the customer date | Needs confirmation |
-| status | slipped | Carried into the draft |
-| completed tasks | do not replace the slip | Carried into the draft |
-| decision | needed | Needs confirmation |
+| Current worries | RAID item 12 and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
+| Owners | Owen Blake, delivery lead | Carried into the draft |
+| Dates | 30 September 2026 | Carried into the draft |
+| Which items are already issues | Change request 118. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

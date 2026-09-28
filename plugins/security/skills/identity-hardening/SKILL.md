@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Contractors keep admin access for months after the contract ends.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+The identity provider they use: Access review Q3, recorded 14 September 2026. No supporting file attached
+Who has admin: Aisha Rahman, engineering lead
+Joiner and leaver process: email to Aisha Rahman. No written steps after 1 Sep 2026
+Exceptions they know about: Access review Q3 is open. Endpoint patch ring 2 was raised verbally and never logged
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Ties leaver dates to access removal and refuses any request for live codes.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| The identity provider they use | Access review Q3, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Who has admin | Aisha Rahman, engineering lead | Carried into the draft |
+| Joiner and leaver process | email to Aisha Rahman. No written steps after 1 Sep 2026 | Carried into the draft |
+| Exceptions they know about | Access review Q3 is open. Endpoint patch ring 2 was raised verbally and never logged | Needs confirmation |
 
 **How this draft was built**
 

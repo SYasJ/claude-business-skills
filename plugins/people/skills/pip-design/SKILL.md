@@ -104,6 +104,7 @@ A manager wants a PIP because a teammate 'is not a culture fit' and cannot name 
 
 The gap, in observable terms: Jordan Hale is missing a source
 Support already offered: CAD 79, dates not set, cap not set
+The standard for the role: their one-page rule dated 2 Mar 2026. No exception log since
 Duration and reviewer: Chris Adeyemi. No second reviewer named
 ```
 
@@ -122,7 +123,8 @@ Stops the PIP until an observable gap exists, and refuses a plan built to force 
 | --- | --- | --- |
 | The gap, in observable terms | Jordan Hale is missing a source | Needs confirmation |
 | Support already offered | CAD 79, dates not set, cap not set | Carried into the draft |
-| Duration and reviewer | Chris Adeyemi. No second reviewer named | Carried into the draft |
+| The standard for the role | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Duration and reviewer | Chris Adeyemi. No second reviewer named | Needs confirmation |
 
 **How this draft was built**
 

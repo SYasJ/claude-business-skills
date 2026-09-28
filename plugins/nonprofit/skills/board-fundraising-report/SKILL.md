@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A report counts a dinner conversation as committed revenue.
 
-program: the one they run
-measured outcome: no
-ask: one
-story: not invented
+Cash received: Donor list segment B. Partly documented: the what is written down, the who is not
+Pledges: Donor list segment B, last reviewed 14 September 2026. No owner named since
+Restrictions: Literacy program, last reviewed 14 September 2026. No owner named since
+The goal: A report counts a dinner conversation as committed revenue. Stated once, in the ask. Not written down anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Moves the conversation to a prospect note and keeps cash and pledges apart.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| program | the one they run | Needs confirmation |
-| measured outcome | no | Carried into the draft |
-| ask | one | Carried into the draft |
-| story | not invented | Needs confirmation |
+| Cash received | Donor list segment B. Partly documented: the what is written down, the who is not | Needs confirmation |
+| Pledges | Donor list segment B, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Restrictions | Literacy program, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The goal | A report counts a dinner conversation as committed revenue. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 
 **How this draft was built**
 

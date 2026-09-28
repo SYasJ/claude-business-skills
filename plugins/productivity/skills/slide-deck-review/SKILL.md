@@ -104,10 +104,10 @@ Needed by: 30 September 2026
 
 Slide 7 says 'customers love us' with no data and a smiley face.
 
-week: 14 Sep 2026
-calendar: the meetings they listed
-dissent: kept if it was said
-monitoring: not recommended
+The deck content or a summary of each slide: one file, dated 14 September 2026. No earlier version attached for comparison
+The audience: people who already buy from Northline Studio
+The ask at the end: Slide 7 says 'customers love us' with no data and a smiley face. Stated once, in the ask. Not written down anywhere else
+Any timing constraints: no extra headcount, and no result that is not in this file
 ```
 
 ### Example outcome
@@ -123,10 +123,10 @@ Proposes one customer quote or an NPS number, or removing the slide if neither e
 
 | Input | Value | Status |
 | --- | --- | --- |
-| week | 14 Sep 2026 | Needs confirmation |
-| calendar | the meetings they listed | Carried into the draft |
-| dissent | kept if it was said | Carried into the draft |
-| monitoring | not recommended | Needs confirmation |
+| The deck content or a summary of each slide | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| The audience | people who already buy from Northline Studio | Carried into the draft |
+| The ask at the end | Slide 7 says 'customers love us' with no data and a smiley face. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Any timing constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

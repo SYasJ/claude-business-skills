@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 An operator wants a 12-month view that shows why a profitable year can still run out of cash.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+Historical statements or the fact that they are unavailable: Operating cash. Partly documented: the what is written down, the who is not
+Forecast horizon: 13 weeks
+Debt, capex, and working-capital drivers: Operating cash; Harbor & Co receipt. Both unassigned as of 14 September 2026
+What decision the model must support: An operator wants a 12-month view that shows why a profitable year can still run out of cash
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A linked sketch where the cash gap is explained by receivables and capex, with e
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cash | the counted figure in the ask, one entity | Needs confirmation |
-| maybe receipt | not in the bank | Carried into the draft |
-| buffer | the one they named | Carried into the draft |
-| new spend | not in the base case | Needs confirmation |
+| Historical statements or the fact that they are unavailable | Operating cash. Partly documented: the what is written down, the who is not | Needs confirmation |
+| Forecast horizon | 13 weeks | Carried into the draft |
+| Debt, capex, and working-capital drivers | Operating cash; Harbor & Co receipt. Both unassigned as of 14 September 2026 | Carried into the draft |
+| What decision the model must support | An operator wants a 12-month view that shows why a profitable year can still run out of cash | Needs confirmation |
 
 **How this draft was built**
 

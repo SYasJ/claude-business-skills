@@ -103,6 +103,7 @@ Needed by: 30 September 2026
 
 A stakeholder hands over a feature list and asks for a brief by tomorrow.
 
+The user and the situation: Activation checklist, recorded 14 September 2026. No supporting file attached
 Evidence of the problem: one PDF, 2 pages, dated 14 September 2026
 The business constraint: no extra headcount, and no result that is not in this file
 What is already known to be out of scope: anything not named in the ask
@@ -121,9 +122,10 @@ Restates the missing problem evidence and refuses to pretend the feature list is
 
 | Input | Value | Status |
 | --- | --- | --- |
-| Evidence of the problem | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
+| The user and the situation | Activation checklist, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Evidence of the problem | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
 | The business constraint | no extra headcount, and no result that is not in this file | Carried into the draft |
-| What is already known to be out of scope | anything not named in the ask | Carried into the draft |
+| What is already known to be out of scope | anything not named in the ask | Needs confirmation |
 
 **How this draft was built**
 

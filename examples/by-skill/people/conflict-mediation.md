@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Two leads are blocking each other's releases, and one has started insulting the other in public channels.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The work that is suffering: Jordan Hale; Sam Okonkwo. Both unassigned as of 14 September 2026
+Each person's stated concern, if known: Jordan Hale, last reviewed 14 September 2026. No owner named since
+What the manager has already tried: Open coordinator role, last reviewed 14 September 2026. No owner named since
+Safety issues, if any: Open coordinator role. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Addresses the work blockage, moves insults out of public channels, and routes po
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The work that is suffering | Jordan Hale; Sam Okonkwo. Both unassigned as of 14 September 2026 | Needs confirmation |
+| Each person's stated concern, if known | Jordan Hale, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| What the manager has already tried | Open coordinator role, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Safety issues, if any | Open coordinator role. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

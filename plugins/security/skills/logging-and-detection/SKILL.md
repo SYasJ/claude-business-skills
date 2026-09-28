@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team wants an alert on data export but also asks to log every keystroke of a department.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+The abuse or failure to detect: Access review Q3, first seen 14 September 2026. No root cause recorded yet
+The logs they already have: one file, dated 14 September 2026. No earlier version attached for comparison
+Who responds: Aisha Rahman, engineering lead
+Privacy limits: email and billing address. They said no health data
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Refuses the keystroke surveillance.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| The abuse or failure to detect | Access review Q3, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| The logs they already have | one file, dated 14 September 2026. No earlier version attached for comparison | Carried into the draft |
+| Who responds | Aisha Rahman, engineering lead | Carried into the draft |
+| Privacy limits | email and billing address. They said no health data | Needs confirmation |
 
 **How this draft was built**
 

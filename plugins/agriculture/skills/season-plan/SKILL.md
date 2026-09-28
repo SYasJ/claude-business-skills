@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A plan adds a crop the only operator cannot harvest in the same week as the existing one.
 
-week: 14 Sep 2026
-cash: their figure
-treatment: not prescribed here
-sheet: theirs
+Fields or enterprises: North quarter, 140 acres, last reviewed 14 September 2026. No owner named since
+Labor: Input invoice 442 and one other, both unconfirmed as of 14 September 2026
+Cash constraints: no extra headcount, and no result that is not in this file
+Rotation or withdrawal limits they already follow: Input invoice 442, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ Shows the labor clash and asks which enterprise to cut.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| week | 14 Sep 2026 | Needs confirmation |
-| cash | their figure | Carried into the draft |
-| treatment | not prescribed here | Carried into the draft |
-| sheet | theirs | Needs confirmation |
+| Fields or enterprises | North quarter, 140 acres, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Labor | Input invoice 442 and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Cash constraints | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Rotation or withdrawal limits they already follow | Input invoice 442, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

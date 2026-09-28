@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A two-hour workshop has no decision and six get-to-know-you games.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+The artifact the room must leave with: Module 2 lesson plan, recorded 14 September 2026. No supporting file attached
+Participants: Mark Ellison plus two others named in the thread. No distribution list attached
+Time: five working days, due 30 September 2026
+Sensitive topics: email and billing address only. They stated no health or payment data
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A plan aimed at one recorded decision, with a dissent line and owners.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| The artifact the room must leave with | Module 2 lesson plan, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Participants | Mark Ellison plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Time | five working days, due 30 September 2026 | Carried into the draft |
+| Sensitive topics | email and billing address only. They stated no health or payment data | Needs confirmation |
 
 **How this draft was built**
 

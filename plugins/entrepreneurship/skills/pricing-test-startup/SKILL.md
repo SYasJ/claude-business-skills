@@ -106,6 +106,7 @@ A test shows a 50 percent discount timer that resets for every visitor.
 The offer: CAD 180, dates not set, cap not set
 The prices to test: CAD 180
 The buyer: Kite Freight
+What must be disclosed: two deals cited from memory. Neither has a written loss reason
 ```
 
 ### Example outcome
@@ -124,6 +125,7 @@ Removes the fake timer and counts paid commitments only.
 | The offer | CAD 180, dates not set, cap not set | Needs confirmation |
 | The prices to test | CAD 180 | Carried into the draft |
 | The buyer | Kite Freight | Carried into the draft |
+| What must be disclosed | two deals cited from memory. Neither has a written loss reason | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,7 +103,8 @@ Needed by: 30 September 2026
 
 A map shows effortless onboarding while support tickets cluster on setup.
 
-The job the customer is trying to finish: Kite Freight
+The job the customer is trying to finish: the shopper solving one task in one trip. Not segmented further in the file
+Stages they actually pass: Ticket 4412, last reviewed 14 September 2026. No owner named since
 Evidence of pain: one PDF, 2 pages, dated 14 September 2026
 Backstage teams: two people on shift, one off
 ```
@@ -121,9 +122,10 @@ Includes the setup failure and picks that moment to fix.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The job the customer is trying to finish | Kite Freight | Needs confirmation |
+| The job the customer is trying to finish | the shopper solving one task in one trip. Not segmented further in the file | Needs confirmation |
+| Stages they actually pass | Ticket 4412, last reviewed 14 September 2026. No owner named since | Carried into the draft |
 | Evidence of pain | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
-| Backstage teams | two people on shift, one off | Carried into the draft |
+| Backstage teams | two people on shift, one off | Needs confirmation |
 
 **How this draft was built**
 

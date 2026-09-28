@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A biller wants a higher code because the visit 'felt complex' though the note does not support it.
 
-clinic: Cedar, Tuesday list
-diagnosis: not in this note
-roster: the one attached
-advice to a patient: not written
+The services they say were provided: the one named in the ask. Version and owner not recorded
+The codes they are considering: Tuesday clinic, recorded 14 September 2026. No supporting file attached
+Payer edits they supplied: Tuesday clinic, last reviewed 14 September 2026. No owner named since
+The documentation present: one PDF, 2 pages, dated 14 September 2026
 ```
 
 ### Example outcome
@@ -118,11 +118,11 @@ Keeps the supported code and sends the complexity question to a coder with the n
 
 **Checklist**
 
-- [x] **The services they say were provided** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **The services they say were provided** — the one named in the ask. Version and owner not recorded  
       Evidenced in the file
-- [x] **The codes they are considering** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **The codes they are considering** — Tuesday clinic, recorded 14 September 2026. No supporting file attached  
       Evidenced in the file
-- [x] **Payer edits they supplied** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **Payer edits they supplied** — Tuesday clinic, last reviewed 14 September 2026. No owner named since  
       Evidenced in the file
 - [ ] **The documentation present** — one PDF, 2 pages, dated 14 September 2026  
       Open — nothing in the file closes this

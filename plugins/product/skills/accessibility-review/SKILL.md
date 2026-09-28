@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A checkout cannot be completed by keyboard, and the team wants a statement saying the product is accessible.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+The flow: the one named in the ask. Version and owner not recorded
+Known barriers: Activation checklist is open. Trial day-3 email was raised verbally and never logged
+The standard the team says it targets: 140
+User impact already reported: one file, dated 14 September 2026. No earlier version attached for comparison
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Blocks the statement, names the keyboard barrier, and lists the fix and retest.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| The flow | the one named in the ask. Version and owner not recorded | Needs confirmation |
+| Known barriers | Activation checklist is open. Trial day-3 email was raised verbally and never logged | Carried into the draft |
+| The standard the team says it targets | 140 | Carried into the draft |
+| User impact already reported | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
 
 **How this draft was built**
 

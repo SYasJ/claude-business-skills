@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A campaign color is about to become a global brand token after one banner.
 
-screens: 8, dated 10 Sep 2026
-job: the task in the ask
-accessibility pass: not done
-assets: theirs only
+The style in question: A campaign color is about to become a global brand token after one banner
+Where it is used: Empty-state copy, recorded 14 September 2026. No supporting file attached
+Existing tokens: Empty-state copy, last reviewed 14 September 2026. No owner named since
+The owner of the system: Lena Ortiz, design lead
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Keeps the campaign color local until reuse is real.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| screens | 8, dated 10 Sep 2026 | Needs confirmation |
-| job | the task in the ask | Carried into the draft |
-| accessibility pass | not done | Carried into the draft |
-| assets | theirs only | Needs confirmation |
+| The style in question | A campaign color is about to become a global brand token after one banner | Needs confirmation |
+| Where it is used | Empty-state copy, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Existing tokens | Empty-state copy, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The owner of the system | Lena Ortiz, design lead | Needs confirmation |
 
 **How this draft was built**
 

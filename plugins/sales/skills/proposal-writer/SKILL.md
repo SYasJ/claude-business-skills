@@ -103,7 +103,7 @@ Needed by: 30 September 2026
 
 A seller wants a proposal for a buyer who has not confirmed the problem or the budget.
 
-The buyer's stated problem: Redline Parts
+The buyer's stated problem: A seller wants a proposal for a buyer who has not confirmed the problem or the budget. Stated once, in the ask. Not written down anywhere else
 The offer and what is out of scope: anything not named in the ask
 Proof you actually have: one customer email, 14 September 2026, no attachment beyond that
 Price and terms the user can stand behind: CAD 180
@@ -122,7 +122,7 @@ Refuses invented ROI and lists the two facts still required before price is pres
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The buyer's stated problem | Redline Parts | Needs confirmation |
+| The buyer's stated problem | A seller wants a proposal for a buyer who has not confirmed the problem or the budget. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 | The offer and what is out of scope | anything not named in the ask | Carried into the draft |
 | Proof you actually have | one customer email, 14 September 2026, no attachment beyond that | Carried into the draft |
 | Price and terms the user can stand behind | CAD 180 | Needs confirmation |

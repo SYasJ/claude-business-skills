@@ -103,8 +103,9 @@ Needed by: 30 September 2026
 
 A buyer asks for treatment records and the draft invents dates to look complete.
 
-The asker's list: Kite Freight; Bright Axle; open item
-Gaps they know: Kite Freight is missing a source
+The records they keep: one file, dated 14 September 2026. No earlier version attached for comparison
+The asker's list: North quarter, 140 acres; Input invoice 442; Harvest window
+Gaps they know: North quarter, 140 acres is missing a source
 The period: month ending 14 September 2026
 ```
 
@@ -121,9 +122,10 @@ Lists the gap and refuses the invented dates.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The asker's list | Kite Freight; Bright Axle; open item | Needs confirmation |
-| Gaps they know | Kite Freight is missing a source | Carried into the draft |
-| The period | month ending 14 September 2026 | Carried into the draft |
+| The records they keep | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| The asker's list | North quarter, 140 acres; Input invoice 442; Harvest window | Carried into the draft |
+| Gaps they know | North quarter, 140 acres is missing a source | Carried into the draft |
+| The period | month ending 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

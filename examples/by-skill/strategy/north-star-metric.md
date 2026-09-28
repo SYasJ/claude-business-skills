@@ -20,7 +20,7 @@ Needed by: 30 September 2026
 
 A marketplace is debating GMV versus successful jobs completed as the company metric.
 
-How the customer gets value: Redline Parts
+How the customer gets value: Lantern Inn, last reviewed 14 September 2026. No owner named since
 Current candidate metrics and their definitions: plan 120, actual 80
 Known ways the metric could be gamed: plan 120, actual 80
 Who will own it: Mara Chen, founder

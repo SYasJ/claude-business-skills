@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A founder pasted a vendor SaaS agreement and wants to know what could hurt them before signing.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+The contract text or a faithful summary the user pasted: unsigned draft, 8 pages, no signature date
+Which side the user is on: Vendor terms. Stated in the ask, not documented anywhere else
+The deal they think they are making: Harbor renewal, recorded 14 September 2026. No supporting file attached
+Must-have points they already know: A founder pasted a vendor SaaS agreement and wants to know what could hurt them before signing. Stated once, in the ask. Not written down anywhere else
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ A memo quoting specific clauses, separating business choices from counsel questi
 
 | Input | Value | Status |
 | --- | --- | --- |
-| name | Lumen Ledger, word mark, no logo | Needs confirmation |
-| goods | bookkeeping software for independent shops | Carried into the draft |
-| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
-| register search | not in the file | Needs confirmation |
+| The contract text or a faithful summary the user pasted | unsigned draft, 8 pages, no signature date | Needs confirmation |
+| Which side the user is on | Vendor terms. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The deal they think they are making | Harbor renewal, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Must-have points they already know | A founder pasted a vendor SaaS agreement and wants to know what could hurt them before signing. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 
 **How this draft was built**
 

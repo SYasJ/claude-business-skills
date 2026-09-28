@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team wants to scale spend after 12 clicks because one ad 'feels better'.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The offer: CAD 49, dates not set, cap not set
+The audience hypothesis: people who already buy from Fieldnote
+Spend cap: Email to lapsed buyers, recorded 14 September 2026. No supporting file attached
+The conversion event that matters: Fall service page, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A brief with a stop rule and a minimum evidence line before scale, plus a claim 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The offer | CAD 49, dates not set, cap not set | Needs confirmation |
+| The audience hypothesis | people who already buy from Fieldnote | Carried into the draft |
+| Spend cap | Email to lapsed buyers, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The conversion event that matters | Fall service page, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

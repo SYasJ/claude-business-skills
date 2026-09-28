@@ -20,7 +20,8 @@ Needed by: 30 September 2026
 
 An account manager owns a renewal and wants a strategic plan, but the only known goal is 'get through this year's audit'.
 
-The customer's stated goals: Kite Freight
+The customer's stated goals: An account manager owns a renewal and wants a strategic plan, but the only known goal is 'get through this year's audit'. Stated once, in the ask. Not written down anywhere else
+Current products and stakeholders: Samir Qureshi plus two others named in the thread. No distribution list attached
 Whitespace you can evidence: one PDF, 2 pages, dated 14 September 2026
 Risks to the relationship: Harbor Goods is open. No score in the file
 ```
@@ -38,9 +39,10 @@ A plan anchored on the audit goal, with one evidenced expansion idea and the res
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The customer's stated goals | Kite Freight | Needs confirmation |
+| The customer's stated goals | An account manager owns a renewal and wants a strategic plan, but the only known goal is 'get through this year's audit'. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Current products and stakeholders | Samir Qureshi plus two others named in the thread. No distribution list attached | Carried into the draft |
 | Whitespace you can evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
-| Risks to the relationship | Harbor Goods is open. No score in the file | Carried into the draft |
+| Risks to the relationship | Harbor Goods is open. No score in the file | Needs confirmation |
 
 **How this draft was built**
 

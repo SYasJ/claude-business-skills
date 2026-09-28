@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An engineer wants six weeks to rewrite a billing module before adding a small fee change.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The pain: bugs, change fear, or incidents: bugs: in the file; change fear: not in the file; incidents: open
+The boundaries of the code: Checkout service, recorded 14 September 2026. No supporting file attached
+Tests that exist: Status page, recorded 14 September 2026. No supporting file attached
+Deadline pressure: 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Adds characterization tests and a smaller slice that unblocks the fee change, an
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The pain: bugs, change fear, or incidents | bugs: in the file; change fear: not in the file; incidents: open | Needs confirmation |
+| The boundaries of the code | Checkout service, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Tests that exist | Status page, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Deadline pressure | 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

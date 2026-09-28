@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A spec adds a property for a user's full home address to measure a button click.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+The decision the data must support: A spec adds a property for a user's full home address to measure a button click
+The user actions that matter: Activation checklist; Trial day-3 email. Both unassigned as of 14 September 2026
+Existing events: Trial day-3 email, last reviewed 14 September 2026. No owner named since
+Privacy limits they already follow: email and billing address. They said no health data
 ```
 
 ### Example outcome

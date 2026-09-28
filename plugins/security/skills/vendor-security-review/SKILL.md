@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team wants to send customer files to a tool because its website says 'enterprise grade'.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+The data the vendor will see: Access review Q3, recorded 14 September 2026. No supporting file attached
+Their claims and documents: one PDF, 2 pages, dated 14 September 2026
+The use case: Access review Q3, recorded 14 September 2026. No supporting file attached
+The deadline: 30 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Lists unanswered questions and refuses to treat the slogan as a control.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| The data the vendor will see | Access review Q3, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Their claims and documents | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The use case | Access review Q3, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The deadline | 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

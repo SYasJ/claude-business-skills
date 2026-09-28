@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team wants three hires because the queue is long, and approvals sit for two days.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+Demand they expect: 70 in the last period. No prior period attached, so no trend
+Current throughput: 70 in the last period. No prior period attached, so no trend
+The constraint: no extra headcount, and no result that is not in this file
+Time horizon: 13 weeks
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Tests the approval wait before treating hires as the answer.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| Demand they expect | 70 in the last period. No prior period attached, so no trend | Needs confirmation |
+| Current throughput | 70 in the last period. No prior period attached, so no trend | Carried into the draft |
+| The constraint | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Time horizon | 13 weeks | Needs confirmation |
 
 **How this draft was built**
 

@@ -106,6 +106,7 @@ A memo announces 'exciting operating model evolution' and never says whose work 
 The change: requested 14 September 2026. Not yet approved
 The audience: people who already buy from Harbor Goods
 What they will lose or must do: A memo announces 'exciting operating model evolution' and never says whose work changes
+The speaker: Tuesday shift, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -124,6 +125,7 @@ Says whose work changes, who will answer questions, and what stays the same.
 | The change | requested 14 September 2026. Not yet approved | Needs confirmation |
 | The audience | people who already buy from Harbor Goods | Carried into the draft |
 | What they will lose or must do | A memo announces 'exciting operating model evolution' and never says whose work changes | Carried into the draft |
+| The speaker | Tuesday shift, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

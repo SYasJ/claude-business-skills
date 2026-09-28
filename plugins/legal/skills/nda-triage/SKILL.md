@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A partnership conversation came with a one-way NDA that also assigns IP improvements to the other side.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+The NDA text: Harbor renewal, recorded 14 September 2026. No supporting file attached
+Who discloses what: Elena Voss, operations lead
+The purpose of the talks: A partnership conversation came with a one-way NDA that also assigns IP improvements to the other side. Stated once, in the ask. Not written down anywhere else
+The user's non-negotiables, if any: Harbor renewal, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Flag the IP assignment as unexpected, quotes it, and sends that clause to counse
 
 | Input | Value | Status |
 | --- | --- | --- |
-| name | Lumen Ledger, word mark, no logo | Needs confirmation |
-| goods | bookkeeping software for independent shops | Carried into the draft |
-| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
-| register search | not in the file | Needs confirmation |
+| The NDA text | Harbor renewal, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Who discloses what | Elena Voss, operations lead | Carried into the draft |
+| The purpose of the talks | A partnership conversation came with a one-way NDA that also assigns IP improvements to the other side. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| The user's non-negotiables, if any | Harbor renewal, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

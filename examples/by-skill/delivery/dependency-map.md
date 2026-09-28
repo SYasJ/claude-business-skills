@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A Gantt chart shows a vendor delivery with no named vendor owner.
 
-milestone: the customer date
-status: slipped
-completed tasks: do not replace the slip
-decision: needed
+The work packages: Milestone 3 handover; RAID item 12. Both unassigned as of 14 September 2026
+External teams or vendors: two people on shift, one off
+Dates they have given: 30 September 2026
+The consequence of a slip: Milestone 3 handover, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Marks the date unconfirmed and assigns an internal owner to chase it.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| milestone | the customer date | Needs confirmation |
-| status | slipped | Carried into the draft |
-| completed tasks | do not replace the slip | Carried into the draft |
-| decision | needed | Needs confirmation |
+| The work packages | Milestone 3 handover; RAID item 12. Both unassigned as of 14 September 2026 | Needs confirmation |
+| External teams or vendors | two people on shift, one off | Carried into the draft |
+| Dates they have given | 30 September 2026 | Carried into the draft |
+| The consequence of a slip | Milestone 3 handover, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

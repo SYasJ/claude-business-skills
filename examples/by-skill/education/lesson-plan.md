@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A 40-minute plan has 30 slides and no task.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+The learners: Module 2 lesson plan, recorded 14 September 2026. No supporting file attached
+The objective: A 40-minute plan has 30 slides and no task. Stated once, in the ask. Not written down anywhere else
+Time available: five working days, due 30 September 2026
+Materials they have: Rubric draft, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A plan with one objective, one practice task, and a check, with slides cut to fi
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| The learners | Module 2 lesson plan, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The objective | A 40-minute plan has 30 slides and no task. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Time available | five working days, due 30 September 2026 | Carried into the draft |
+| Materials they have | Rubric draft, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

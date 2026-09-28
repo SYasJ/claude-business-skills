@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A revenue query joins invoices to line items and sums invoice totals.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The query: orders_daily, recorded 14 September 2026. No supporting file attached
+The intended grain and metric: plan 160, actual 95
+The tables they say exist: orders_daily, recorded 14 September 2026. No supporting file attached
+Whether the query will mutate data: orders_daily. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Flag the double count, asks for the grain, and does not request database passwor
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The query | orders_daily, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The intended grain and metric | plan 160, actual 95 | Carried into the draft |
+| The tables they say exist | orders_daily, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Whether the query will mutate data | orders_daily. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

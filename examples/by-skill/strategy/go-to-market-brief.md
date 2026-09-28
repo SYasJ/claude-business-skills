@@ -21,7 +21,7 @@ Needed by: 30 September 2026
 A product is ready for a design-partner release and the teams disagree on who the buyer is.
 
 The offer: CAD 49, dates not set, cap not set
-The buyer and the trigger event: Kite Freight
+The buyer and the trigger event: Kite Freight, recorded 14 September 2026. No supporting file attached
 The channel the team can actually staff: two people on shift, one off
 The date and the success signal: 30 September 2026
 ```
@@ -40,7 +40,7 @@ A brief with one buyer, one staffed channel, enablement limits, and a 60-day kil
 | Input | Value | Status |
 | --- | --- | --- |
 | The offer | CAD 49, dates not set, cap not set | Needs confirmation |
-| The buyer and the trigger event | Kite Freight | Carried into the draft |
+| The buyer and the trigger event | Kite Freight, recorded 14 September 2026. No supporting file attached | Carried into the draft |
 | The channel the team can actually staff | two people on shift, one off | Carried into the draft |
 | The date and the success signal | 30 September 2026 | Needs confirmation |
 

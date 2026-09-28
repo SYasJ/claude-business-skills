@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A brief says 'write something inspiring about the quarter' with no reader or ask.
 
-week: 14 Sep 2026
-calendar: the meetings they listed
-dissent: kept if it was said
-monitoring: not recommended
+The reader: Mara Chen plus two others named in the thread. No distribution list attached
+The point: A brief says 'write something inspiring about the quarter' with no reader or ask. Stated once, in the ask. Not written down anywhere else
+The length: plain, for people who already know the context. No house guide attached
+The action you want: Friday review block; Inbox triage batch. Both unassigned as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Names the reader, one point, and the action, or stops until those exist.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| week | 14 Sep 2026 | Needs confirmation |
-| calendar | the meetings they listed | Carried into the draft |
-| dissent | kept if it was said | Carried into the draft |
-| monitoring | not recommended | Needs confirmation |
+| The reader | Mara Chen plus two others named in the thread. No distribution list attached | Needs confirmation |
+| The point | A brief says 'write something inspiring about the quarter' with no reader or ask. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| The length | plain, for people who already know the context. No house guide attached | Carried into the draft |
+| The action you want | Friday review block; Inbox triage batch. Both unassigned as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

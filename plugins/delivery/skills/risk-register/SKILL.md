@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A register contains 'resources' and 'communication' and nothing a sponsor can act on.
 
-milestone: the customer date
-status: slipped
-completed tasks: do not replace the slip
-decision: needed
+The risks the team can describe: Milestone 3 handover is open. No score in the file
+Likelihood and impact in their scale: Change request 118, last reviewed 14 September 2026. No owner named since
+Current responses: RAID item 12 and one other, both unconfirmed as of 14 September 2026
+Owners: Owen Blake, delivery lead
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A shorter register of specific events, each with an owner and a response.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| milestone | the customer date | Needs confirmation |
-| status | slipped | Carried into the draft |
-| completed tasks | do not replace the slip | Carried into the draft |
-| decision | needed | Needs confirmation |
+| The risks the team can describe | Milestone 3 handover is open. No score in the file | Needs confirmation |
+| Likelihood and impact in their scale | Change request 118, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Current responses | RAID item 12 and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Owners | Owen Blake, delivery lead | Needs confirmation |
 
 **How this draft was built**
 

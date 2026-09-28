@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An MVP list includes billing, admin, and a marketplace before one user has paid.
 
-paying names: only those given
-cash: bank figure, not a maybe
-ask: the one they wrote
-copied line: cut
+The riskiest question: First four paying accounts is open. No score in the file
+The full idea: An MVP list includes billing, admin, and a marketplace before one user has paid. Stated once, in the ask. Not written down anywhere else
+What can be done manually: Landing page test, last reviewed 14 September 2026. No owner named since
+The time box: five working days, due 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Tests payment or the core job manually and parks the rest.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| paying names | only those given | Needs confirmation |
-| cash | bank figure, not a maybe | Carried into the draft |
-| ask | the one they wrote | Carried into the draft |
-| copied line | cut | Needs confirmation |
+| The riskiest question | First four paying accounts is open. No score in the file | Needs confirmation |
+| The full idea | An MVP list includes billing, admin, and a marketplace before one user has paid. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| What can be done manually | Landing page test, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The time box | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

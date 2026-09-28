@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A brief gives 8 facings to a slow-selling line because the vendor paid for placement but does not disclose that.
 
-store: Harbor Goods, Airdrie
-price: shelf price
-stock: the count
-review: not invented
+The category: SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached
+Items competing for space: SKU 1044 cabin filter, last reviewed 14 September 2026. No owner named since
+Sales data they have: Returns desk log, last reviewed 14 September 2026. No owner named since
+Store layout constraints: no extra headcount, and no result that is not in this file
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Uses their sales data and labels any placement that is not data-driven.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| store | Harbor Goods, Airdrie | Needs confirmation |
-| price | shelf price | Carried into the draft |
-| stock | the count | Carried into the draft |
-| review | not invented | Needs confirmation |
+| The category | SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Items competing for space | SKU 1044 cabin filter, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Sales data they have | Returns desk log, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Store layout constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A note calls the supplier negligent and does not describe the defect.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+The defect evidence: one PDF, 2 pages, dated 14 September 2026
+Lot information: plain, for people who already know the context. No house guide attached
+Containment: Gauge 7, last reviewed 14 September 2026. No owner named since
+What you are asking the supplier to do: Cedar Clinic, lead time 14 days
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Describes the defect, requests containment by a date, and removes the insult.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| The defect evidence | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
+| Lot information | plain, for people who already know the context. No house guide attached | Carried into the draft |
+| Containment | Gauge 7, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| What you are asking the supplier to do | Cedar Clinic, lead time 14 days | Needs confirmation |
 
 **How this draft was built**
 

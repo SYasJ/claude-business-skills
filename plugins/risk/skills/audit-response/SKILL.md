@@ -102,6 +102,7 @@ Needed by: 30 September 2026
 
 A draft response describes a monthly review that exists only in the policy, not in practice.
 
+The request or finding: Control 7.2 access review, recorded 14 September 2026. No supporting file attached
 The evidence: one PDF, 2 pages, dated 14 September 2026
 The process owner: Priya Shah, controller
 The due date: 30 September 2026
@@ -120,9 +121,10 @@ Tells the truth about the gap and commits to an owned fix instead of a fictional
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The evidence | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
+| The request or finding | Control 7.2 access review, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
 | The process owner | Priya Shah, controller | Carried into the draft |
-| The due date | 30 September 2026 | Carried into the draft |
+| The due date | 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

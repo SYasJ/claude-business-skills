@@ -104,6 +104,7 @@ Needed by: 30 September 2026
 The company tracks NPS and wants the number up, with no operational input on the tree.
 
 The relationship metric they use: plan 160, actual 90
+Operational inputs they can measure weekly: Ticket 4418, recorded 14 September 2026. No supporting file attached
 Owners: Rita Santos, support lead
 Known gaming risks: Ticket 4412 is open. No score in the file
 ```

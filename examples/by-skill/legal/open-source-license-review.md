@@ -22,6 +22,7 @@ A release candidate includes a library the scan labels as a reciprocal license, 
 
 The components and versions they listed: Harbor renewal; Contractor NDA; Vendor terms
 How the component is used: linked, modified, or distributed: linked: in the file; modified: not in the file; distributed: open
+The product's distribution model: Harbor renewal, recorded 14 September 2026. No supporting file attached
 Licenses they already identified: MIT on two files. One file has no header
 ```
 
@@ -40,7 +41,8 @@ Isolates that component, states the usage, and sends the obligation question to 
 | --- | --- | --- |
 | The components and versions they listed | Harbor renewal; Contractor NDA; Vendor terms | Needs confirmation |
 | How the component is used: linked, modified, or distributed | linked: in the file; modified: not in the file; distributed: open | Carried into the draft |
-| Licenses they already identified | MIT on two files. One file has no header | Carried into the draft |
+| The product's distribution model | Harbor renewal, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Licenses they already identified | MIT on two files. One file has no header | Needs confirmation |
 
 **How this draft was built**
 

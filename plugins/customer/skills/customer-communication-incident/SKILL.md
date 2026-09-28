@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A draft blames a vendor and promises a fix in 15 minutes without engineering confirmation.
 
-ticket: 4412, 14 Sep 2026
-customer words: in the ticket
-exception: not approved
-card or password: not collected
+Known impact: Ticket 4418. Stated in the ask, not documented anywhere else
+Unknowns: Ticket 4412 is open. Ticket 4418 was raised verbally and never logged
+Next update time: five working days, due 30 September 2026
+Approver: Rita Santos. They have not signed
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Removes the blame and the unconfirmed clock, and commits to a next update time.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| ticket | 4412, 14 Sep 2026 | Needs confirmation |
-| customer words | in the ticket | Carried into the draft |
-| exception | not approved | Carried into the draft |
-| card or password | not collected | Needs confirmation |
+| Known impact | Ticket 4418. Stated in the ask, not documented anywhere else | Needs confirmation |
+| Unknowns | Ticket 4412 is open. Ticket 4418 was raised verbally and never logged | Carried into the draft |
+| Next update time | five working days, due 30 September 2026 | Carried into the draft |
+| Approver | Rita Santos. They have not signed | Needs confirmation |
 
 **How this draft was built**
 

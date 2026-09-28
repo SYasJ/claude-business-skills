@@ -102,6 +102,7 @@ Needed by: 30 September 2026
 
 A manager asks to add a symptom the clinician did not record so a claim pays more.
 
+Their template: their existing list, 6 lines. Two lines have no owner
 The note or a description of gaps: Tuesday clinic is missing a source
 Who signs: Dr. Helen Cho, clinic director
 The handoff risk: Tuesday clinic is open. No score in the file
@@ -120,9 +121,10 @@ Are truly missing.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The note or a description of gaps | Tuesday clinic is missing a source | Needs confirmation |
+| Their template | their existing list, 6 lines. Two lines have no owner | Needs confirmation |
+| The note or a description of gaps | Tuesday clinic is missing a source | Carried into the draft |
 | Who signs | Dr. Helen Cho, clinic director | Carried into the draft |
-| The handoff risk | Tuesday clinic is open. No score in the file | Carried into the draft |
+| The handoff risk | Tuesday clinic is open. No score in the file | Needs confirmation |
 
 **How this draft was built**
 

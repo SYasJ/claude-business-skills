@@ -103,9 +103,10 @@ Needed by: 30 September 2026
 
 A customer asks for a refund and the draft apologizes for three paragraphs without stating the refund rule.
 
-The customer's question: Cedar Clinic
+The customer's question: A customer asks for a refund and the draft apologizes for three paragraphs without stating the refund rule
 The policy that applies: their one-page rule dated 2 Mar 2026. No exception log
 What the agent can offer: CAD 180, dates not set, cap not set
+The tone: plain, for people who already know the context. No house guide attached
 ```
 
 ### Example outcome

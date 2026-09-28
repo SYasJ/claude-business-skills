@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The register net book value does not match the GL, and several laptops are still depreciating after people left.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Register and GL balances: Undeposited funds, recorded 14 September 2026. No supporting file attached
+Capitalization threshold: their one-page rule dated 2 Mar 2026. No exception log since
+Recent additions and disposals: Sales tax payable. Partly documented: the what is written down, the who is not
+Useful lives they claim to use: the draft sentence is broader than the note
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Leads with the tie-out break, lists disposal questions, and proposes sample chec
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| Register and GL balances | Undeposited funds, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Capitalization threshold | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Recent additions and disposals | Sales tax payable. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Useful lives they claim to use | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

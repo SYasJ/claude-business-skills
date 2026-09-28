@@ -104,10 +104,10 @@ Needed by: 30 September 2026
 
 The CEO needs a pre-read asking the board to approve a hiring pause until a renewal lands.
 
-decision: the one in the ask
-options: two, named
-evidence: the file only
-unowned idea: parked
+The decision or update type: The CEO needs a pre-read asking the board to approve a hiring pause until a renewal lands
+The ask, if any, including amount and timing: The CEO needs a pre-read asking the board to approve a hiring pause until a renewal lands. Stated once, in the ask. Not written down anywhere else
+Facts, misses, and risks the user can support: Harbor & Co is open. No score in the file
+What the board already knows: open item, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -123,10 +123,10 @@ A two-page memo with the ask, the cash implication, two alternatives, and the de
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| options | two, named | Carried into the draft |
-| evidence | the file only | Carried into the draft |
-| unowned idea | parked | Needs confirmation |
+| The decision or update type | The CEO needs a pre-read asking the board to approve a hiring pause until a renewal lands | Needs confirmation |
+| The ask, if any, including amount and timing | The CEO needs a pre-read asking the board to approve a hiring pause until a renewal lands. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Facts, misses, and risks the user can support | Harbor & Co is open. No score in the file | Carried into the draft |
+| What the board already knows | open item, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

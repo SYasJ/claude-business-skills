@@ -105,10 +105,9 @@ Needed by: 30 September 2026
 
 A user wants to look up a price from a table and cannot remember whether to use VLOOKUP or INDEX MATCH.
 
-week: 14 Sep 2026
-calendar: the meetings they listed
-dissent: kept if it was said
-monitoring: not recommended
+What the formula should return: Q4 objective 2, last reviewed 14 September 2026. No owner named since
+The column and row structure they described: Friday review block, recorded 14 September 2026. No supporting file attached
+An example of the input and expected output if they have one: Q4 objective 2. Partly documented: the what is written down, the who is not
 ```
 
 ### Example outcome
@@ -124,10 +123,9 @@ Both formulas with the user's column letters, a plain explanation of when each b
 
 | Input | Value | Status |
 | --- | --- | --- |
-| week | 14 Sep 2026 | Needs confirmation |
-| calendar | the meetings they listed | Carried into the draft |
-| dissent | kept if it was said | Carried into the draft |
-| monitoring | not recommended | Needs confirmation |
+| What the formula should return | Q4 objective 2, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| The column and row structure they described | Friday review block, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| An example of the input and expected output if they have one | Q4 objective 2. Partly documented: the what is written down, the who is not | Carried into the draft |
 
 **How this draft was built**
 

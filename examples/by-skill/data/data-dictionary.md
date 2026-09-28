@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A field called status has values 1, 2, and 9, and nobody agrees what 9 means.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The field and table: orders_daily, recorded 14 September 2026. No supporting file attached
+The business meaning: orders_daily, recorded 14 September 2026. No supporting file attached
+Known null or sentinel values: customers. Stated in the ask, not documented anywhere else
+The owner: Noah Berger, data lead
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Records the known values, marks 9 as unresolved, and names the owner who must de
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The field and table | orders_daily, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The business meaning | orders_daily, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Known null or sentinel values | customers. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The owner | Noah Berger, data lead | Needs confirmation |
 
 **How this draft was built**
 

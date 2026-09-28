@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team wants to mark a safety failure as low severity so the FMEA looks acceptable.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+The process steps: email to Gus Moretti. No written steps after 1 Sep 2026
+Failures they have seen: Line 2, first seen 14 September 2026. No root cause recorded yet
+Current controls: their one-page rule dated 2 Mar 2026. No exception log since
+Their scoring scale if any: Lot 26-0914, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Notes that keep the high severity and assign an action instead of editing the sc
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| The process steps | email to Gus Moretti. No written steps after 1 Sep 2026 | Needs confirmation |
+| Failures they have seen | Line 2, first seen 14 September 2026. No root cause recorded yet | Carried into the draft |
+| Current controls | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Their scoring scale if any | Lot 26-0914, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

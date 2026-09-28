@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A script opens by telling the customer they are making a mistake.
 
-ticket: 4412, 14 Sep 2026
-customer words: in the ticket
-exception: not approved
-card or password: not collected
+What you already know: Ticket 4420, last reviewed 14 September 2026. No owner named since
+What the team suspects: two people on shift, one off
+Who will talk: Rita Santos, support lead
+What remedy is still possible: Ticket 4420, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Asks for the decision moment first and holds any save offer until after.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| ticket | 4412, 14 Sep 2026 | Needs confirmation |
-| customer words | in the ticket | Carried into the draft |
-| exception | not approved | Carried into the draft |
-| card or password | not collected | Needs confirmation |
+| What you already know | Ticket 4420, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| What the team suspects | two people on shift, one off | Carried into the draft |
+| Who will talk | Rita Santos, support lead | Carried into the draft |
+| What remedy is still possible | Ticket 4420, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

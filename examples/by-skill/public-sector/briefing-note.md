@@ -21,7 +21,8 @@ Needed by: 30 September 2026
 A brief omits a known cost because it would be unpopular.
 
 The decision: A brief omits a known cost because it would be unpopular
-The options: keep Cedar Clinic, or stop. No third option written
+The facts they can publish: Council agenda item 6, recorded 14 September 2026. No supporting file attached
+The options: keep Council agenda item 6, or stop. No third option written
 The audience: people who already buy from Town of Airdrie
 ```
 
@@ -39,8 +40,9 @@ Includes the cost and a plain recommendation.
 | Input | Value | Status |
 | --- | --- | --- |
 | The decision | A brief omits a known cost because it would be unpopular | Needs confirmation |
-| The options | keep Cedar Clinic, or stop. No third option written | Carried into the draft |
-| The audience | people who already buy from Town of Airdrie | Carried into the draft |
+| The facts they can publish | Council agenda item 6, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The options | keep Council agenda item 6, or stop. No third option written | Carried into the draft |
+| The audience | people who already buy from Town of Airdrie | Needs confirmation |
 
 **How this draft was built**
 

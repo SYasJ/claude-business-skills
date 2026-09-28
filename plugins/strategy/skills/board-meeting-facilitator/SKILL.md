@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A chair has 90 minutes and three decisions: a budget revision, a key hire, and a customer concentration risk.
 
-decision: the one in the ask
-options: two, named
-evidence: the file only
-unowned idea: parked
+Meeting length: plain, for people who already know the context. No house guide attached
+Decisions required: A chair has 90 minutes and three decisions: a budget revision, a key hire, and a customer concentration risk
+Materials already prepared: Lumen Ledger, recorded 14 September 2026. No supporting file attached
+Attendees and anyone recused: Mara Chen plus two others named in the thread. No distribution list attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Records the ask, the vote line, and actions.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| options | two, named | Carried into the draft |
-| evidence | the file only | Carried into the draft |
-| unowned idea | parked | Needs confirmation |
+| Meeting length | plain, for people who already know the context. No house guide attached | Needs confirmation |
+| Decisions required | A chair has 90 minutes and three decisions: a budget revision, a key hire, and a customer concentration risk | Carried into the draft |
+| Materials already prepared | Lumen Ledger, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Attendees and anyone recused | Mara Chen plus two others named in the thread. No distribution list attached | Needs confirmation |
 
 **How this draft was built**
 

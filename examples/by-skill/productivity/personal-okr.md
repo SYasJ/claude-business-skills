@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A plan adds a daily two-hour course on top of a 50-hour job with no time removed.
 
-week: 14 Sep 2026
-calendar: the meetings they listed
-dissent: kept if it was said
-monitoring: not recommended
+The outcomes that matter: A plan adds a daily two-hour course on top of a 50-hour job with no time removed. Stated once, in the ask. Not written down anywhere else
+Time available: five working days, due 30 September 2026
+Existing commitments: Inbox triage batch, last reviewed 14 September 2026. No owner named since
+How you will review: Inbox triage batch, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Fits the real week and names a review.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| week | 14 Sep 2026 | Needs confirmation |
-| calendar | the meetings they listed | Carried into the draft |
-| dissent | kept if it was said | Carried into the draft |
-| monitoring | not recommended | Needs confirmation |
+| The outcomes that matter | A plan adds a daily two-hour course on top of a 50-hour job with no time removed. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Time available | five working days, due 30 September 2026 | Carried into the draft |
+| Existing commitments | Inbox triage batch, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| How you will review | Inbox triage batch, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Bonus accruals are booked differently by two entities, and neither documents the driver.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Types of accruals they actually book: Undeposited funds. Partly documented: the what is written down, the who is not
+Materiality: Undeposited funds, recorded 14 September 2026. No supporting file attached
+Who approves estimates: Priya Shah, controller
+Reversal practice today: Operating cash and one other, both unconfirmed as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A short draft policy covering their actual accruals, evidence, reversal, and an 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| Types of accruals they actually book | Undeposited funds. Partly documented: the what is written down, the who is not | Needs confirmation |
+| Materiality | Undeposited funds, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Who approves estimates | Priya Shah, controller | Carried into the draft |
+| Reversal practice today | Operating cash and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

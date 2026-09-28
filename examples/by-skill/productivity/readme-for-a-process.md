@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A README includes a personal access token so others can run a report.
 
-week: 14 Sep 2026
-calendar: the meetings they listed
-dissent: kept if it was said
-monitoring: not recommended
+The trigger: Friday review block, recorded 14 September 2026. No supporting file attached
+The steps: Friday review block; Inbox triage batch. Both unassigned as of 14 September 2026
+The tools: the one named in the ask. Version and owner not recorded
+The failure mode: Friday review block, first seen 14 September 2026. No root cause recorded yet
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Removes the token, names the secret store, and keeps the real steps.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| week | 14 Sep 2026 | Needs confirmation |
-| calendar | the meetings they listed | Carried into the draft |
-| dissent | kept if it was said | Carried into the draft |
-| monitoring | not recommended | Needs confirmation |
+| The trigger | Friday review block, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The steps | Friday review block; Inbox triage batch. Both unassigned as of 14 September 2026 | Carried into the draft |
+| The tools | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| The failure mode | Friday review block, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
 
 **How this draft was built**
 

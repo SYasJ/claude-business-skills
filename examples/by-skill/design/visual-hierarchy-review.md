@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A hero image buries the price and the purchase action.
 
-screens: 8, dated 10 Sep 2026
-job: the task in the ask
-accessibility pass: not done
-assets: theirs only
+The primary action: Checkout screen v4; Empty-state copy. Both unassigned as of 14 September 2026
+The key fact: Checkout screen v4, recorded 14 September 2026. No supporting file attached
+The layout: Checkout screen v4, recorded 14 September 2026. No supporting file attached
+Brand constraints: no extra headcount, and no result that is not in this file
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Brings the price and action forward and leaves the brand system alone.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| screens | 8, dated 10 Sep 2026 | Needs confirmation |
-| job | the task in the ask | Carried into the draft |
-| accessibility pass | not done | Carried into the draft |
-| assets | theirs only | Needs confirmation |
+| The primary action | Checkout screen v4; Empty-state copy. Both unassigned as of 14 September 2026 | Needs confirmation |
+| The key fact | Checkout screen v4, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The layout | Checkout screen v4, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Brand constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

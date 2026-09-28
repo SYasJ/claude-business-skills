@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A customer asks how to describe the loss so the payout is higher than the damage.
 
-folder: the claim file they have
-coverage opinion: not given
-missing doc: named
-handler: licensed owner
+The reported facts: one file, dated 14 September 2026. No earlier version attached for comparison
+Documents on hand: one PDF, 2 pages, dated 14 September 2026
+The policy form they have: their one-page rule dated 2 Mar 2026. No exception log
+The handler: Claim file 8841, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -118,13 +118,13 @@ Refuses the inflation and lists the facts the handler still needs.
 
 **Checklist**
 
-- [x] **The reported facts** — Redline Parts. Priya Shah noted it on 14 September 2026. No second file for this line.  
+- [x] **The reported facts** — one file, dated 14 September 2026. No earlier version attached for comparison  
       Evidenced in the file
 - [x] **Documents on hand** — one PDF, 2 pages, dated 14 September 2026  
       Evidenced in the file
 - [x] **The policy form they have** — their one-page rule dated 2 Mar 2026. No exception log  
       Evidenced in the file
-- [ ] **The handler** — Redline Parts. Priya Shah noted it on 14 September 2026. No second file for this line.  
+- [ ] **The handler** — Claim file 8841, recorded 14 September 2026. No supporting file attached  
       Open — nothing in the file closes this
 
 **The gates this list enforces, in order**

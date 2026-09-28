@@ -103,6 +103,7 @@ Needed by: 30 September 2026
 
 A carrier missed a pickup and the draft tells the customer the order is on time.
 
+The shipment: SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached
 The promise made: none written down beyond the ask
 Options and costs they have: CAD 36 direct. Overhead not in this line
 Who must be told: Diane Cho, supply lead
@@ -121,9 +122,10 @@ States the miss, lists real options, and removes the on-time claim.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The promise made | none written down beyond the ask | Needs confirmation |
+| The shipment | SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The promise made | none written down beyond the ask | Carried into the draft |
 | Options and costs they have | CAD 36 direct. Overhead not in this line | Carried into the draft |
-| Who must be told | Diane Cho, supply lead | Carried into the draft |
+| Who must be told | Diane Cho, supply lead | Needs confirmation |
 
 **How this draft was built**
 

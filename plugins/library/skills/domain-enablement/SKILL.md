@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A finance analyst is told to enable engineering, healthcare, and security plugins on day one.
 
-folder: one SKILL.md
-description: says when to use it
-network: none
-author: Yasir Jilani
+The role: plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached
+The repeated tasks: A finance analyst is told to enable engineering, healthcare, and security plugins on day one. Stated once, in the ask. Not written down anywhere else
+The tool they use: the one named in the ask. Version and owner not recorded
+Sensitivity of the work: plugins/finance/cash-flow-forecast; MANIFEST.sha256. Both unassigned as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Enables finance, names three starter skills, and leaves the other plugins off.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| folder | one SKILL.md | Needs confirmation |
-| description | says when to use it | Carried into the draft |
-| network | none | Carried into the draft |
-| author | Yasir Jilani | Needs confirmation |
+| The role | plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The repeated tasks | A finance analyst is told to enable engineering, healthcare, and security plugins on day one. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| The tool they use | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| Sensitivity of the work | plugins/finance/cash-flow-forecast; MANIFEST.sha256. Both unassigned as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

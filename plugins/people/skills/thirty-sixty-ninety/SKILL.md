@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A new team lead wants a 30-60-90 before day one, and the team has a late monthly close.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+Role outcomes: A new team lead wants a 30-60-90 before day one, and the team has a late monthly close. Stated once, in the ask. Not written down anywhere else
+What the team most needs in the first quarter: two people on shift, one off
+Known landmines: Sam Okonkwo. Stated in the ask, not documented anywhere else
+How success will be judged: Sam Okonkwo, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A plan whose 90-day result is a close improvement the manager can observe, with 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| Role outcomes | A new team lead wants a 30-60-90 before day one, and the team has a late monthly close. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| What the team most needs in the first quarter | two people on shift, one off | Carried into the draft |
+| Known landmines | Sam Okonkwo. Stated in the ask, not documented anywhere else | Carried into the draft |
+| How success will be judged | Sam Okonkwo, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

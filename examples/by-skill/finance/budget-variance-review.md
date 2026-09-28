@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Marketing is 18 percent over budget and the CMO says it is timing of an event invoice.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+Budget and actuals for the period: month ending 14 September 2026
+The user's explanation of one-off items: Operating cash, recorded 14 September 2026. No supporting file attached
+Materiality threshold: their one-page rule dated 2 Mar 2026. No exception log since
+Who needs the review: Mara Chen, founder
 ```
 
 ## Example outcome

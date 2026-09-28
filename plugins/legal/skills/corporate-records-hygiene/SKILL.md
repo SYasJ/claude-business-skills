@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A financing is six weeks away and the founder cannot find signed founder stock documents.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+Entities they listed: Harbor renewal; Contractor NDA; Vendor terms
+Records they can find: one file, dated 14 September 2026. No earlier version attached for comparison
+Known gaps: Harbor renewal is missing a source
+Upcoming transaction that needs the records: one file, dated 14 September 2026. No earlier version attached for comparison
 ```
 
 ### Example outcome
@@ -121,11 +121,11 @@ Prioritizes the missing stock documents and does not invent replacement signatur
 
 - [x] **Entities they listed** — Harbor renewal; Contractor NDA; Vendor terms  
       Evidenced in the file
-- [x] **Records they can find** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+- [x] **Records they can find** — one file, dated 14 September 2026. No earlier version attached for comparison  
       Evidenced in the file
 - [x] **Known gaps** — Harbor renewal is missing a source  
       Evidenced in the file
-- [ ] **Upcoming transaction that needs the records** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+- [ ] **Upcoming transaction that needs the records** — one file, dated 14 September 2026. No earlier version attached for comparison  
       Open — nothing in the file closes this
 
 **The gates this list enforces, in order**

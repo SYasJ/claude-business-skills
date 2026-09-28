@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A report lists themes and the user has not provided the supporting lines.
 
-site: one
-sample: the count they gave
-missing file: named in the ask
-unopened citation: not used
+The question: A report lists themes and the user has not provided the supporting lines
+The transcripts or notes they have: one file, dated 14 September 2026. No earlier version attached for comparison
+Whether a second coder exists: Interview set A. Partly documented: the what is written down, the who is not
+The decision: A report lists themes and the user has not provided the supporting lines
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Blocks the report until each theme has a supplied excerpt.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | one | Needs confirmation |
-| sample | the count they gave | Carried into the draft |
-| missing file | named in the ask | Carried into the draft |
-| unopened citation | not used | Needs confirmation |
+| The question | A report lists themes and the user has not provided the supporting lines | Needs confirmation |
+| The transcripts or notes they have | one file, dated 14 September 2026. No earlier version attached for comparison | Carried into the draft |
+| Whether a second coder exists | Interview set A. Partly documented: the what is written down, the who is not | Carried into the draft |
+| The decision | A report lists themes and the user has not provided the supporting lines | Needs confirmation |
 
 **How this draft was built**
 

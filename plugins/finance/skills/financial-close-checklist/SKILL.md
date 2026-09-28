@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The close takes 15 business days and three reconciliations always land on the last afternoon.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+Current close calendar: two deals cited from memory. Neither has a written loss reason
+Late or repeated tasks: The close takes 15 business days and three reconciliations always land on the last afternoon. Stated once, in the ask. Not written down anywhere else
+Systems involved: the one named in the ask. Version and owner not recorded
+Who signs off: Mara Chen, founder
 ```
 
 ### Example outcome
@@ -119,11 +119,11 @@ A sequenced checklist, earlier starts for the late reconciliations, and two meas
 
 **Checklist**
 
-- [x] **Current close calendar** — Operating cash. Mara Chen noted it on 14 September 2026. No second file for this line.  
+- [x] **Current close calendar** — two deals cited from memory. Neither has a written loss reason  
       Evidenced in the file
-- [x] **Late or repeated tasks** — Operating cash. Mara Chen noted it on 14 September 2026. No second file for this line.  
+- [x] **Late or repeated tasks** — The close takes 15 business days and three reconciliations always land on the last afternoon. Stated once, in the ask. Not written down anywhere else  
       Evidenced in the file
-- [x] **Systems involved** — Operating cash. Mara Chen noted it on 14 September 2026. No second file for this line.  
+- [x] **Systems involved** — the one named in the ask. Version and owner not recorded  
       Evidenced in the file
 - [ ] **Who signs off** — Mara Chen, founder  
       Open — nothing in the file closes this

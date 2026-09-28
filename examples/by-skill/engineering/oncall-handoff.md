@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The outgoing engineer writes 'should be fine' after a migration that has not been verified.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+Open incidents: Checkout service, first seen 14 September 2026. No root cause recorded yet
+Fragile systems: the one named in the ask. Version and owner not recorded
+Recent changes: requested 14 September 2026. Not yet approved
+Escalation path: Checkout service, first seen 14 September 2026. No root cause recorded yet
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Lists the unverified migration, the check to run, and the escalation owner.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| Open incidents | Checkout service, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| Fragile systems | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| Recent changes | requested 14 September 2026. Not yet approved | Carried into the draft |
+| Escalation path | Checkout service, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
 
 **How this draft was built**
 

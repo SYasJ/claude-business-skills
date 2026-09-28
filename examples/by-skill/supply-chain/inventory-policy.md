@@ -22,6 +22,7 @@ A buyer wants six weeks of safety stock because it feels safe, with a two-week l
 
 Service target: 160
 Lead time: 28 days
+Demand variability if known: 40 in the last period. No prior period attached, so no trend
 Cost of a miss they described: CAD 36 direct. Overhead not in this line
 ```
 
@@ -40,7 +41,8 @@ Asks for the service target and variability before accepting six weeks.
 | --- | --- | --- |
 | Service target | 160 | Needs confirmation |
 | Lead time | 28 days | Carried into the draft |
-| Cost of a miss they described | CAD 36 direct. Overhead not in this line | Carried into the draft |
+| Demand variability if known | 40 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Cost of a miss they described | CAD 36 direct. Overhead not in this line | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,6 +103,7 @@ Needed by: 30 September 2026
 
 Notes say the team agreed though two people dissented.
 
+The purpose: Notes say the team agreed though two people dissented. Stated once, in the ask. Not written down anywhere else
 Decisions heard: Notes say the team agreed though two people dissented
 Owners: Mara Chen, founder
 Open questions: Notes say the team agreed though two people dissented
@@ -121,9 +122,10 @@ Notes that record the dissent and assign owners only to real actions.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| Decisions heard | Notes say the team agreed though two people dissented | Needs confirmation |
+| The purpose | Notes say the team agreed though two people dissented. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Decisions heard | Notes say the team agreed though two people dissented | Carried into the draft |
 | Owners | Mara Chen, founder | Carried into the draft |
-| Open questions | Notes say the team agreed though two people dissented | Carried into the draft |
+| Open questions | Notes say the team agreed though two people dissented | Needs confirmation |
 
 **How this draft was built**
 

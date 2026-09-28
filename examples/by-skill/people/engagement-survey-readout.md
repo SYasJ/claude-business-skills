@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A 12-person team had a low score and three comments, and a leader wants to name the complainer.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The results they have: Jordan Hale, recorded 14 September 2026. No supporting file attached
+Response rate and slice sizes: 40 in the last period. No prior period attached, so no trend
+Last cycle's actions: Jordan Hale; Sam Okonkwo. Both unassigned as of 14 September 2026
+What leadership can actually change: requested 14 September 2026. Not yet approved
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Refuses identification, treats the sample carefully, and proposes one owned acti
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The results they have | Jordan Hale, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Response rate and slice sizes | 40 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Last cycle's actions | Jordan Hale; Sam Okonkwo. Both unassigned as of 14 September 2026 | Carried into the draft |
+| What leadership can actually change | requested 14 September 2026. Not yet approved | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Patients wait 70 minutes and the draft response tells staff to smile more.
 
-clinic: Cedar, Tuesday list
-diagnosis: not in this note
-roster: the one attached
-advice to a patient: not written
+The complaint or observation: Tuesday clinic, first seen 14 September 2026. No root cause recorded yet
+Wait data if any: Tuesday clinic. Stated in the ask, not documented anywhere else
+What staff can change: two people on shift
+Privacy constraints: no extra headcount, and no result that is not in this file
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Treats the wait as a capacity problem and limits the script to truthful status u
 
 | Input | Value | Status |
 | --- | --- | --- |
-| clinic | Cedar, Tuesday list | Needs confirmation |
-| diagnosis | not in this note | Carried into the draft |
-| roster | the one attached | Carried into the draft |
-| advice to a patient | not written | Needs confirmation |
+| The complaint or observation | Tuesday clinic, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| Wait data if any | Tuesday clinic. Stated in the ask, not documented anywhere else | Carried into the draft |
+| What staff can change | two people on shift | Carried into the draft |
+| Privacy constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A review suggests not reporting a minor crash so the score stays clean.
 
-lane: the one in the ask
-tally: their count
-limit: the one they stated
-concealment: not advised
+The incidents: Calgary-Edmonton lane, first seen 14 September 2026. No root cause recorded yet
+The pattern they see: Calgary-Edmonton lane, recorded 14 September 2026. No supporting file attached
+Current controls: their one-page rule dated 2 Mar 2026. No exception log since
+The owner: Luis Ortega, dispatch lead
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Refuses the non-report and assigns a control for the actual pattern.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| lane | the one in the ask | Needs confirmation |
-| tally | their count | Carried into the draft |
-| limit | the one they stated | Carried into the draft |
-| concealment | not advised | Needs confirmation |
+| The incidents | Calgary-Edmonton lane, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| The pattern they see | Calgary-Edmonton lane, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Current controls | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| The owner | Luis Ortega, dispatch lead | Needs confirmation |
 
 **How this draft was built**
 

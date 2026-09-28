@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A mock uses placeholder color as the only label.
 
-screens: 8, dated 10 Sep 2026
-job: the task in the ask
-accessibility pass: not done
-assets: theirs only
+The flow: the one named in the ask. Version and owner not recorded
+Text and controls: their one-page rule dated 2 Mar 2026. No exception log since
+Known barriers: Checkout screen v4 is open. Empty-state copy was raised verbally and never logged
+The target they claim: 140
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Requires a visible label and refuses a conformance claim.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| screens | 8, dated 10 Sep 2026 | Needs confirmation |
-| job | the task in the ask | Carried into the draft |
-| accessibility pass | not done | Carried into the draft |
-| assets | theirs only | Needs confirmation |
+| The flow | the one named in the ask. Version and owner not recorded | Needs confirmation |
+| Text and controls | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Known barriers | Checkout screen v4 is open. Empty-state copy was raised verbally and never logged | Carried into the draft |
+| The target they claim | 140 | Needs confirmation |
 
 **How this draft was built**
 

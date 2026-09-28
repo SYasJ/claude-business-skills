@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Sales wants every prospect request placed on next quarter's roadmap.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+The outcomes: Sales wants every prospect request placed on next quarter's roadmap. Stated once, in the ask. Not written down anywhere else
+The sequence and why: Sales wants every prospect request placed on next quarter's roadmap
+Dates that are actually committed: 30 September 2026
+What is not on the roadmap: Usage limit warning, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Keeps uncommitted requests in later or off-roadmap, with the reason.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| The outcomes | Sales wants every prospect request placed on next quarter's roadmap. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The sequence and why | Sales wants every prospect request placed on next quarter's roadmap | Carried into the draft |
+| Dates that are actually committed | 30 September 2026 | Carried into the draft |
+| What is not on the roadmap | Usage limit warning, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

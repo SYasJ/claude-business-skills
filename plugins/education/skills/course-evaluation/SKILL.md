@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A leader wants to remove a trainer because one unnamed comment was harsh and the response rate was low.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+The results: Module 2 lesson plan, recorded 14 September 2026. No supporting file attached
+Response rate: 30 in the last period. No prior period attached, so no trend
+The objectives: A leader wants to remove a trainer because one unnamed comment was harsh and the response rate was low. Stated once, in the ask. Not written down anywhere else
+Comments they pasted: Module 2 lesson plan, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Refuses the removal, states the sample limit, and proposes one evidence-based ch
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| The results | Module 2 lesson plan, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Response rate | 30 in the last period. No prior period attached, so no trend | Carried into the draft |
+| The objectives | A leader wants to remove a trainer because one unnamed comment was harsh and the response rate was low. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Comments they pasted | Module 2 lesson plan, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

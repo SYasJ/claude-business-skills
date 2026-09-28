@@ -103,8 +103,9 @@ Needed by: 30 September 2026
 
 A deal is forecast for this month, and the only contact is a manager who likes the product but cannot sign.
 
-The economic buyer if known: Cedar Clinic
-The decision process as told by the buyer: Cedar Clinic
+The opportunity notes: one file, dated 14 September 2026. No earlier version attached for comparison
+The economic buyer if known: Harbor Goods, recorded 14 September 2026. No supporting file attached
+The decision process as told by the buyer: A deal is forecast for this month, and the only contact is a manager who likes the product but cannot sign
 The close date the seller hopes for: 30 September 2026
 ```
 
@@ -121,9 +122,10 @@ Marks economic buyer and process as missing and refuses to call the deal committ
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The economic buyer if known | Cedar Clinic | Needs confirmation |
-| The decision process as told by the buyer | Cedar Clinic | Carried into the draft |
-| The close date the seller hopes for | 30 September 2026 | Carried into the draft |
+| The opportunity notes | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| The economic buyer if known | Harbor Goods, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The decision process as told by the buyer | A deal is forecast for this month, and the only contact is a manager who likes the product but cannot sign | Carried into the draft |
+| The close date the seller hopes for | 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

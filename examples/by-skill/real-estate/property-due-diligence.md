@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The checklist is marked complete though no survey was received.
 
-address: the one in the ask
-rent roll: their sheet
-comp: not invented
-legal review: not done here
+The deal type: Unit 4B lease, recorded 14 September 2026. No supporting file attached
+Documents in hand: one PDF, 2 pages, dated 14 September 2026
+Known red flags: Rent roll, 12 units. Stated in the ask, not documented anywhere else
+The decision date: The checklist is marked complete though no survey was received
 ```
 
 ## Example outcome
@@ -36,11 +36,11 @@ Keeps the survey open and refuses a clean conclusion.
 
 **Checklist**
 
-- [x] **The deal type** — Redline Parts. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **The deal type** — Unit 4B lease, recorded 14 September 2026. No supporting file attached  
       Evidenced in the file
 - [x] **Documents in hand** — one PDF, 2 pages, dated 14 September 2026  
       Evidenced in the file
-- [x] **Known red flags** — Redline Parts. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **Known red flags** — Rent roll, 12 units. Stated in the ask, not documented anywhere else  
       Evidenced in the file
 - [ ] **The decision date** — The checklist is marked complete though no survey was received  
       Open — nothing in the file closes this

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A buyer says 'you are too expensive' before any outcome has been quantified.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+The objection in the buyer's words: Harbor Goods is open. Cedar Clinic was raised verbally and never logged
+Evidence you really have: one PDF, 2 pages, dated 14 September 2026
+What you still do not know: Redline Parts, last reviewed 14 September 2026. No owner named since
+The next step you want: Harbor Goods; Cedar Clinic. Both unassigned as of 14 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Treats the comment as unquantified, asks what it is being compared with, and doe
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| The objection in the buyer's words | Harbor Goods is open. Cedar Clinic was raised verbally and never logged | Needs confirmation |
+| Evidence you really have | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| What you still do not know | Redline Parts, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The next step you want | Harbor Goods; Cedar Clinic. Both unassigned as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

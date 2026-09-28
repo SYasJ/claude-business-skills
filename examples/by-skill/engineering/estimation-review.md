@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A stakeholder wants a date for a rewrite with no scope and no prior art.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The work as scoped: this decision only
+Similar work they have done: Checkout service; Invoice job. Both unassigned as of 14 September 2026
+Unknowns: Checkout service is open. Invoice job was raised verbally and never logged
+Who is doing it: Aisha Rahman, engineering lead
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Refuses the date, proposes a scoped spike, and offers a range only after that sp
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The work as scoped | this decision only | Needs confirmation |
+| Similar work they have done | Checkout service; Invoice job. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Unknowns | Checkout service is open. Invoice job was raised verbally and never logged | Carried into the draft |
+| Who is doing it | Aisha Rahman, engineering lead | Needs confirmation |
 
 **How this draft was built**
 

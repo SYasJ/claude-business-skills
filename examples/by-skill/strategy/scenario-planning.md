@@ -21,6 +21,7 @@ Needed by: 30 September 2026
 A services firm wants to know how to plan hiring if a key public-sector contract is delayed by two quarters.
 
 The decision the scenarios inform: A services firm wants to know how to plan hiring if a key public-sector contract is delayed by two quarters
+Two or three uncertainties that actually matter: Fieldnote, recorded 14 September 2026. No supporting file attached
 Time horizon: 13 weeks
 Facts and constraints already known: no extra headcount, and no result that is not in this file
 ```
@@ -39,8 +40,9 @@ Three named scenarios, the signposts for each, and a hiring move tied to the del
 | Input | Value | Status |
 | --- | --- | --- |
 | The decision the scenarios inform | A services firm wants to know how to plan hiring if a key public-sector contract is delayed by two quarters | Needs confirmation |
+| Two or three uncertainties that actually matter | Fieldnote, recorded 14 September 2026. No supporting file attached | Carried into the draft |
 | Time horizon | 13 weeks | Carried into the draft |
-| Facts and constraints already known | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Facts and constraints already known | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

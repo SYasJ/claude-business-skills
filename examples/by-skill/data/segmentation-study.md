@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A model produced eight clusters and the team cannot say what they would do differently for any of them.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The action the segment must change: requested 14 September 2026. Not yet approved
+Available fields: customers. Stated in the ask, not documented anywhere else
+Sample limits: active_accounts, recorded 14 September 2026. No supporting file attached
+Segments they already use: orders_daily, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Collapses to a few actionable rules and parks the rest as unusable.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The action the segment must change | requested 14 September 2026. Not yet approved | Needs confirmation |
+| Available fields | customers. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Sample limits | active_accounts, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Segments they already use | orders_daily, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

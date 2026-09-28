@@ -22,6 +22,7 @@ Sales and finance report different revenue for the same month and both call it b
 
 The decision the metric serves: plan 180, actual 75
 The source table or report they trust: note from Noah Berger, 14 September 2026. No outside report
+Inclusion and exclusion rules they already use: orders_daily is open. customers was raised verbally and never logged
 The owner: Noah Berger, data lead
 ```
 

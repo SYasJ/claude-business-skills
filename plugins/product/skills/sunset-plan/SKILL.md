@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Engineering wants to delete an API next week that three customers still call.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+What is being retired: Usage limit warning, last reviewed 14 September 2026. No owner named since
+Who uses it, if known: Jonah Park, product manager
+The replacement, if any: Activation checklist, recorded 14 September 2026. No supporting file attached
+Contractual constraints the user mentioned: no extra headcount, and no result that is not in this file
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Blocks the deletion until notice and a migration owner exist, and flags contract
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| What is being retired | Usage limit warning, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Who uses it, if known | Jonah Park, product manager | Carried into the draft |
+| The replacement, if any | Activation checklist, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Contractual constraints the user mentioned | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

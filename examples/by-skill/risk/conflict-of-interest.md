@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An employee wants the disclosure to omit that their sibling owns the bidding vendor.
 
-event: the one in the ask, not a one-word label
-owner: blank
-control: not named
-score: not invented
+The interest: Control 7.2 access review, recorded 14 September 2026. No supporting file attached
+The decision or process it touches: An employee wants the disclosure to omit that their sibling owns the bidding vendor
+Who else knows: Priya Shah, controller
+The review path: Control 7.2 access review, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome

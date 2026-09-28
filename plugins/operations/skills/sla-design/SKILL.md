@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Sales promises a one-hour response and the queue currently averages a day.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The promise customers already hear: none written down beyond the ask
+Current performance if known: 70 in the last period. No prior period attached, so no trend
+Staffing: two people on shift
+Exceptions: Tuesday shift is open. SOP 118 receiving was raised verbally and never logged
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Exposes the gap and proposes either a truthful promise or a staffed path, with n
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The promise customers already hear | none written down beyond the ask | Needs confirmation |
+| Current performance if known | 70 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Staffing | two people on shift | Carried into the draft |
+| Exceptions | Tuesday shift is open. SOP 118 receiving was raised verbally and never logged | Needs confirmation |
 
 **How this draft was built**
 

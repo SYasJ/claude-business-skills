@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A syllabus lists readings for fifteen weeks and one grade at the end.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+Outcomes: A syllabus lists readings for fifteen weeks and one grade at the end. Stated once, in the ask. Not written down anywhere else
+Assessment list: Module 2 lesson plan; Rubric draft; Thursday workshop
+Schedule constraints: no extra headcount, and no result that is not in this file
+Policies they want included: Thursday workshop, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Maps assessments to outcomes and refuses to invent a university policy.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| Outcomes | A syllabus lists readings for fifteen weeks and one grade at the end. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Assessment list | Module 2 lesson plan; Rubric draft; Thursday workshop | Carried into the draft |
+| Schedule constraints | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Policies they want included | Thursday workshop, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

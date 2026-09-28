@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A draft tells a patient to double a medicine because the refill is late.
 
-clinic: Cedar, Tuesday list
-diagnosis: not in this note
-roster: the one attached
-advice to a patient: not written
+The purpose: A draft tells a patient to double a medicine because the refill is late. Stated once, in the ask. Not written down anywhere else
+Facts a clinician confirmed: Thursday clinic and one other, both unconfirmed as of 14 September 2026
+The reading level they want: Tuesday clinic, recorded 14 September 2026. No supporting file attached
+The approval owner: Dr. Helen Cho, clinic director
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Removes the dose change, explains the operational status, and waits for clinicia
 
 | Input | Value | Status |
 | --- | --- | --- |
-| clinic | Cedar, Tuesday list | Needs confirmation |
-| diagnosis | not in this note | Carried into the draft |
-| roster | the one attached | Carried into the draft |
-| advice to a patient | not written | Needs confirmation |
+| The purpose | A draft tells a patient to double a medicine because the refill is late. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Facts a clinician confirmed | Thursday clinic and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| The reading level they want | Tuesday clinic, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The approval owner | Dr. Helen Cho, clinic director | Needs confirmation |
 
 **How this draft was built**
 

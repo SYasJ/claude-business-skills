@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A plan logs the full Authorization header to 'make debugging easier'.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The user-facing failure you must detect: Checkout service, first seen 14 September 2026. No root cause recorded yet
+Existing signals: Invoice job, last reviewed 14 September 2026. No owner named since
+Cardinality and privacy limits: email and billing address. They said no health data
+Who is on call: Aisha Rahman, engineering lead
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Forbids that header, specifies a request id, and pages only on user-facing error
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The user-facing failure you must detect | Checkout service, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| Existing signals | Invoice job, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Cardinality and privacy limits | email and billing address. They said no health data | Carried into the draft |
+| Who is on call | Aisha Rahman, engineering lead | Needs confirmation |
 
 **How this draft was built**
 

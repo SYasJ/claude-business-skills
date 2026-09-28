@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A dispatcher is told to log a break that did not happen so the route stays legal on paper.
 
-lane: the one in the ask
-tally: their count
-limit: the one they stated
-concealment: not advised
+Orders: Load tally 118, last reviewed 14 September 2026. No owner named since
+Hours rules they follow: two people, 8 hours each
+Equipment limits: Hours-of-service log, last reviewed 14 September 2026. No owner named since
+Known delays: Load tally 118. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ Refuses the false log and shows which order must move instead.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| lane | the one in the ask | Needs confirmation |
-| tally | their count | Carried into the draft |
-| limit | the one they stated | Carried into the draft |
-| concealment | not advised | Needs confirmation |
+| Orders | Load tally 118, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Hours rules they follow | two people, 8 hours each | Carried into the draft |
+| Equipment limits | Hours-of-service log, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Known delays | Load tally 118. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

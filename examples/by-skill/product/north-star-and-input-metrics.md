@@ -20,6 +20,7 @@ Needed by: 30 September 2026
 
 A team wants to optimize signups, but activated users are the ones who finish a first export.
 
+The user value moment: Activation checklist, recorded 14 September 2026. No supporting file attached
 Candidate metrics and definitions: plan 120, actual 80
 What the team can change: two people on shift, one off
 Known ways to game the metric: plan 120, actual 80

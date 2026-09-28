@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A draft says the unit rents for a number the owner has not achieved.
 
-address: the one in the ask
-rent roll: their sheet
-comp: not invented
-legal review: not done here
+Confirmed features: Unit 4B lease. Stated in the ask, not documented anywhere else
+Known defects they disclosed: two deals cited from memory. Neither has a written loss reason
+The audience: people who already buy from Cedar Street Properties
+Claims they must not make: the draft sentence is broader than the note
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Removes the invented rent and lists defects the owner already disclosed.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| address | the one in the ask | Needs confirmation |
-| rent roll | their sheet | Carried into the draft |
-| comp | not invented | Carried into the draft |
-| legal review | not done here | Needs confirmation |
+| Confirmed features | Unit 4B lease. Stated in the ask, not documented anywhere else | Needs confirmation |
+| Known defects they disclosed | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| The audience | people who already buy from Cedar Street Properties | Carried into the draft |
+| Claims they must not make | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

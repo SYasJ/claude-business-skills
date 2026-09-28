@@ -20,7 +20,7 @@ Needed by: 30 September 2026
 
 A proposal promises a 20 percent savings number before any baseline exists.
 
-The client decision: Redline Parts
+The client decision: A proposal promises a 20 percent savings number before any baseline exists
 Evidence you can access: one PDF, 2 pages, dated 14 September 2026
 Time: five working days, due 30 September 2026
 Out-of-scope items: this decision only
@@ -39,7 +39,7 @@ Replaces the number with a baseline task and a decision.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The client decision | Redline Parts | Needs confirmation |
+| The client decision | A proposal promises a 20 percent savings number before any baseline exists | Needs confirmation |
 | Evidence you can access | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
 | Time | five working days, due 30 September 2026 | Carried into the draft |
 | Out-of-scope items | this decision only | Needs confirmation |

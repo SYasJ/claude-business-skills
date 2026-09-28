@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A sponsor wants a fixed date, fixed scope, and fixed cost with no contingency.
 
-milestone: the customer date
-status: slipped
-completed tasks: do not replace the slip
-decision: needed
+The outcome: A sponsor wants a fixed date, fixed scope, and fixed cost with no contingency. Stated once, in the ask. Not written down anywhere else
+The sponsor: Milestone 3 handover, recorded 14 September 2026. No supporting file attached
+The constraint: no extra headcount, and no result that is not in this file
+Known non-goals: A sponsor wants a fixed date, fixed scope, and fixed cost with no contingency. Stated once, in the ask. Not written down anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Forces a binding constraint and writes the non-goals.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| milestone | the customer date | Needs confirmation |
-| status | slipped | Carried into the draft |
-| completed tasks | do not replace the slip | Carried into the draft |
-| decision | needed | Needs confirmation |
+| The outcome | A sponsor wants a fixed date, fixed scope, and fixed cost with no contingency. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The sponsor | Milestone 3 handover, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The constraint | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Known non-goals | A sponsor wants a fixed date, fixed scope, and fixed cost with no contingency. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 
 **How this draft was built**
 

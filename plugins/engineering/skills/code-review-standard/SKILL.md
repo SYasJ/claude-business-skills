@@ -104,6 +104,7 @@ Needed by: 30 September 2026
 A PR changes an authorization check and has no test for the denied path.
 
 The change and its stated intent: requested 14 September 2026. Not yet approved
+Tests included or missing: Status page, recorded 14 September 2026. No supporting file attached
 Risky areas: data, auth, migrations: data: in the file; auth: not in the file; migrations: open
 Team conventions the user pointed to: two people on shift, one off
 ```
@@ -122,8 +123,9 @@ Blocks on the missing denied-path test and does not suggest skipping the check.
 | Input | Value | Status |
 | --- | --- | --- |
 | The change and its stated intent | requested 14 September 2026. Not yet approved | Needs confirmation |
+| Tests included or missing | Status page, recorded 14 September 2026. No supporting file attached | Carried into the draft |
 | Risky areas: data, auth, migrations | data: in the file; auth: not in the file; migrations: open | Carried into the draft |
-| Team conventions the user pointed to | two people on shift, one off | Carried into the draft |
+| Team conventions the user pointed to | two people on shift, one off | Needs confirmation |
 
 **How this draft was built**
 

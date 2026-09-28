@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A leadership team has 22 active initiatives and 9 managers, and wants a portfolio cut before annual planning.
 
-decision: the one in the ask
-options: two, named
-evidence: the file only
-unowned idea: parked
+The list of initiatives: Cedar Clinic; Lantern Inn; open item
+The scarce resource: people, cash, or attention: people: in the file; cash: not in the file; attention: open
+Strategy bets: 65 in the last period. No prior period attached, so no trend
+Which items are truly mandatory: open item. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A continue, pause, and stop list tied to manager capacity, with the reason each 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| options | two, named | Carried into the draft |
-| evidence | the file only | Carried into the draft |
-| unowned idea | parked | Needs confirmation |
+| The list of initiatives | Cedar Clinic; Lantern Inn; open item | Needs confirmation |
+| The scarce resource: people, cash, or attention | people: in the file; cash: not in the file; attention: open | Carried into the draft |
+| Strategy bets | 65 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Which items are truly mandatory | open item. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 An installer asks the user to run a remote script and paste an API key to 'activate' free skills.
 
-folder: one SKILL.md
-description: says when to use it
-network: none
-author: Yasir Jilani
+The files or an inventory: 50 on hand
+Install instructions: plugins/finance/cash-flow-forecast, last reviewed 14 September 2026. No owner named since
+Network behavior: plugins/finance/cash-flow-forecast; MANIFEST.sha256. Both unassigned as of 14 September 2026
+Claims of affiliation: the draft sentence is broader than the note
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Names the remote script and the key request.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| folder | one SKILL.md | Needs confirmation |
-| description | says when to use it | Carried into the draft |
-| network | none | Carried into the draft |
-| author | Yasir Jilani | Needs confirmation |
+| The files or an inventory | 50 on hand | Needs confirmation |
+| Install instructions | plugins/finance/cash-flow-forecast, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Network behavior | plugins/finance/cash-flow-forecast; MANIFEST.sha256. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Claims of affiliation | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A new analyst starts Monday and the current plan is a folder of 40 documents.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+Role outcomes: A new analyst starts Monday and the current plan is a folder of 40 documents. Stated once, in the ask. Not written down anywhere else
+Start date: 30 September 2026
+Tools and access they truly need: the one named in the ask. Version and owner not recorded
+The buddy or manager: Jordan Hale, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A four-week plan with one week-one deliverable, a short access list, and two man
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| Role outcomes | A new analyst starts Monday and the current plan is a folder of 40 documents. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Start date | 30 September 2026 | Carried into the draft |
+| Tools and access they truly need | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| The buddy or manager | Jordan Hale, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

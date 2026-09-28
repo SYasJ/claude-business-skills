@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The plan repeats last year's hockey stick and actuals have missed it three times.
 
-sku: 1044
-supplier: Redline Parts
-lead time: their number
-alternate: none
+The forecast: plan 130, no second scenario attached
+Recent actuals: Calgary-Edmonton lane. Partly documented: the what is written down, the who is not
+Known events: Redline Parts. Stated in the ask, not documented anywhere else
+Who owns the number: Diane Cho, supply lead
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Flag the bias and refuses to treat the hockey stick as the base.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| sku | 1044 | Needs confirmation |
-| supplier | Redline Parts | Carried into the draft |
-| lead time | their number | Carried into the draft |
-| alternate | none | Needs confirmation |
+| The forecast | plan 130, no second scenario attached | Needs confirmation |
+| Recent actuals | Calgary-Edmonton lane. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Known events | Redline Parts. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Who owns the number | Diane Cho, supply lead | Needs confirmation |
 
 **How this draft was built**
 

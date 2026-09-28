@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A wireframe shows a full dashboard and no empty state for a new account.
 
-screens: 8, dated 10 Sep 2026
-job: the task in the ask
-accessibility pass: not done
-assets: theirs only
+The task: A wireframe shows a full dashboard and no empty state for a new account. Stated once, in the ask. Not written down anywhere else
+The content priority: Checkout screen v4, recorded 14 September 2026. No supporting file attached
+States: empty, error, success: empty: in the file; error: not in the file; success: open
+Constraints: no extra headcount, and no result that is not in this file
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Adds the empty state and names the primary action.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| screens | 8, dated 10 Sep 2026 | Needs confirmation |
-| job | the task in the ask | Carried into the draft |
-| accessibility pass | not done | Carried into the draft |
-| assets | theirs only | Needs confirmation |
+| The task | A wireframe shows a full dashboard and no empty state for a new account. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The content priority | Checkout screen v4, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| States: empty, error, success | empty: in the file; error: not in the file; success: open | Carried into the draft |
+| Constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

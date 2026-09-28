@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team has 60 debt tickets and wants them all in next sprint alongside a launch.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The debt items: Checkout service, recorded 14 September 2026. No supporting file attached
+The incidents or delays they cause: Checkout service, first seen 14 September 2026. No root cause recorded yet
+Team capacity: two people on shift, one off
+Upcoming product bets: Status page and one other, both unconfirmed as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Keeps the debt tied to launch risk, parks the rest, and makes the capacity trade
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The debt items | Checkout service, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The incidents or delays they cause | Checkout service, first seen 14 September 2026. No root cause recorded yet | Carried into the draft |
+| Team capacity | two people on shift, one off | Carried into the draft |
+| Upcoming product bets | Status page and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

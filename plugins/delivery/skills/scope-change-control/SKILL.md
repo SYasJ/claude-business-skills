@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A stakeholder adds a report and says it is tiny, with no estimate.
 
-milestone: the customer date
-status: slipped
-completed tasks: do not replace the slip
-decision: needed
+The requested change: requested 14 September 2026. Not yet approved
+The current baseline: Milestone 3 handover, recorded 14 September 2026. No supporting file attached
+The impact on date, cost, or scope: CAD 18 direct. Overhead not in this line
+The decider: Milestone 3 handover, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Refuses the silent add and offers a trade against the baseline.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| milestone | the customer date | Needs confirmation |
-| status | slipped | Carried into the draft |
-| completed tasks | do not replace the slip | Carried into the draft |
-| decision | needed | Needs confirmation |
+| The requested change | requested 14 September 2026. Not yet approved | Needs confirmation |
+| The current baseline | Milestone 3 handover, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The impact on date, cost, or scope | CAD 18 direct. Overhead not in this line | Carried into the draft |
+| The decider | Milestone 3 handover, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

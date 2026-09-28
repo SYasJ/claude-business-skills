@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An abstract assumes a five-year renewal the lease only mentions as a negotiation.
 
-address: the one in the ask
-rent roll: their sheet
-comp: not invented
-legal review: not done here
+The lease text: Unit 4B lease, recorded 14 September 2026. No supporting file attached
+The questions they need answered: An abstract assumes a five-year renewal the lease only mentions as a negotiation
+Amendments they have: Rent roll, 12 units. Stated in the ask, not documented anywhere else
+Who will rely on it: Helen Cho, property manager
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Marks renewal as unwritten and lists the counsel question.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| address | the one in the ask | Needs confirmation |
-| rent roll | their sheet | Carried into the draft |
-| comp | not invented | Carried into the draft |
-| legal review | not done here | Needs confirmation |
+| The lease text | Unit 4B lease, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The questions they need answered | An abstract assumes a five-year renewal the lease only mentions as a negotiation | Carried into the draft |
+| Amendments they have | Rent roll, 12 units. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Who will rely on it | Helen Cho, property manager | Needs confirmation |
 
 **How this draft was built**
 

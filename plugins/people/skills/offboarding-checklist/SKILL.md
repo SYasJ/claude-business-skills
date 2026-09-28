@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A specialist with sole access to a billing tool is leaving in ten days.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+Last day: Open coordinator role, last reviewed 14 September 2026. No owner named since
+Role and critical knowledge: Jordan Hale and one other, both unconfirmed as of 14 September 2026
+Systems the user says they can access: the one named in the ask. Version and owner not recorded
+Whether the exit is voluntary, as stated: Jordan Hale. Partly documented: the what is written down, the who is not
 ```
 
 ### Example outcome
@@ -119,13 +119,13 @@ Transfers knowledge, schedules access removal without password sharing, and name
 
 **Checklist**
 
-- [x] **Last day** — Jordan Hale. Chris Adeyemi noted it on 14 September 2026. No second file for this line.  
+- [x] **Last day** — Open coordinator role, last reviewed 14 September 2026. No owner named since  
       Evidenced in the file
-- [x] **Role and critical knowledge** — Jordan Hale. Chris Adeyemi noted it on 14 September 2026. No second file for this line.  
+- [x] **Role and critical knowledge** — Jordan Hale and one other, both unconfirmed as of 14 September 2026  
       Evidenced in the file
-- [x] **Systems the user says they can access** — Jordan Hale. Chris Adeyemi noted it on 14 September 2026. No second file for this line.  
+- [x] **Systems the user says they can access** — the one named in the ask. Version and owner not recorded  
       Evidenced in the file
-- [ ] **Whether the exit is voluntary, as stated** — Jordan Hale. Chris Adeyemi noted it on 14 September 2026. No second file for this line.  
+- [ ] **Whether the exit is voluntary, as stated** — Jordan Hale. Partly documented: the what is written down, the who is not  
       Open — nothing in the file closes this
 
 **The gates this list enforces, in order**

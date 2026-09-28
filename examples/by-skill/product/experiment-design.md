@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team wants to ship the winner of a three-day test on a rare flow.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+The hypothesis: A team wants to ship the winner of a three-day test on a rare flow. Stated once, in the ask. Not written down anywhere else
+The change: requested 14 September 2026. Not yet approved
+The primary metric and guardrail: plan 180, actual 90
+The available sample: Activation checklist, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Labels the work a probe, adds a guardrail, and refuses a conclusive ship decisio
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| The hypothesis | A team wants to ship the winner of a three-day test on a rare flow. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The change | requested 14 September 2026. Not yet approved | Carried into the draft |
+| The primary metric and guardrail | plan 180, actual 90 | Carried into the draft |
+| The available sample | Activation checklist, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

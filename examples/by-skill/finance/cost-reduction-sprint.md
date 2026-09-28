@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A company needs to remove a stated monthly amount within 60 days and has already ruled out layoffs.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+Cost baseline by category: CAD 27 direct. Overhead not in this line
+What must not be cut, in the user's words: Payroll 15 September, last reviewed 14 September 2026. No owner named since
+Contracts and notice periods if known: month ending 14 September 2026
+Service or quality lines they will not cross: the one named in the ask. Version and owner not recorded
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A sprint list of stops and renegotiations, run-rate versus one-time savings, and
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cash | the counted figure in the ask, one entity | Needs confirmation |
-| maybe receipt | not in the bank | Carried into the draft |
-| buffer | the one they named | Carried into the draft |
-| new spend | not in the base case | Needs confirmation |
+| Cost baseline by category | CAD 27 direct. Overhead not in this line | Needs confirmation |
+| What must not be cut, in the user's words | Payroll 15 September, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Contracts and notice periods if known | month ending 14 September 2026 | Carried into the draft |
+| Service or quality lines they will not cross | the one named in the ask. Version and owner not recorded | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A briefing uses one loud customer's words as if they were the whole base.
 
-ticket: 4412, 14 Sep 2026
-customer words: in the ticket
-exception: not approved
-card or password: not collected
+The sources: note from Rita Santos, 14 September 2026. No outside report
+The decision: A briefing uses one loud customer's words as if they were the whole base
+Sample sizes: Ticket 4420, recorded 14 September 2026. No supporting file attached
+Quotes they can share: Ticket 4420. Stated in the ask, not documented anywhere else
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Labels the sample and refuses to generalize from one voice.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| ticket | 4412, 14 Sep 2026 | Needs confirmation |
-| customer words | in the ticket | Carried into the draft |
-| exception | not approved | Carried into the draft |
-| card or password | not collected | Needs confirmation |
+| The sources | note from Rita Santos, 14 September 2026. No outside report | Needs confirmation |
+| The decision | A briefing uses one loud customer's words as if they were the whole base | Carried into the draft |
+| Sample sizes | Ticket 4420, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Quotes they can share | Ticket 4420. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

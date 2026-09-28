@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A table has effect sizes the user never found in the papers.
 
-site: one
-sample: the count they gave
-missing file: named in the ask
-unopened citation: not used
+The question: A table has effect sizes the user never found in the papers
+The sources they have: note from Dr. Nia Okonkwo, 14 September 2026. No outside report
+The fields to extract: Interview set A, recorded 14 September 2026. No supporting file attached
+Inclusion status: Interview set A. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A table with those cells marked unknown and a warning against a numeric conclusi
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | one | Needs confirmation |
-| sample | the count they gave | Carried into the draft |
-| missing file | named in the ask | Carried into the draft |
-| unopened citation | not used | Needs confirmation |
+| The question | A table has effect sizes the user never found in the papers | Needs confirmation |
+| The sources they have | note from Dr. Nia Okonkwo, 14 September 2026. No outside report | Carried into the draft |
+| The fields to extract | Interview set A, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Inclusion status | Interview set A. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

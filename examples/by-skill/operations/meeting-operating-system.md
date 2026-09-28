@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A weekly meeting has 18 people and has not made a decision in a month.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The meeting's supposed purpose: A weekly meeting has 18 people and has not made a decision in a month. Stated once, in the ask. Not written down anywhere else
+Who attends: Diane Cho, operations manager
+What decisions stall: A weekly meeting has 18 people and has not made a decision in a month
+The pre-read if any: Tuesday shift, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Cuts attendees, requires a pre-read, and cancels the meeting if no decision rema
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The meeting's supposed purpose | A weekly meeting has 18 people and has not made a decision in a month. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Who attends | Diane Cho, operations manager | Carried into the draft |
+| What decisions stall | A weekly meeting has 18 people and has not made a decision in a month | Carried into the draft |
+| The pre-read if any | Tuesday shift, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

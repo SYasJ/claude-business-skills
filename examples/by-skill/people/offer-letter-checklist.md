@@ -20,6 +20,7 @@ Needed by: 30 September 2026
 
 A manager told a candidate a number on a call, and finance has not approved the band.
 
+Role and level: Jordan Hale and one other, both unconfirmed as of 14 September 2026
 Compensation parts the company intends: base CAD 60,000. Bonus line blank
 Start date and contingencies: 30 September 2026
 Approver: Chris Adeyemi. They have not signed
@@ -35,7 +36,7 @@ Blocks the letter until the band is approved and lists the verbal number as not 
 
 **Checklist**
 
-- [x] **Role and level** — Jordan Hale. Chris Adeyemi noted it on 14 September 2026. No second file for this line.  
+- [x] **Role and level** — Jordan Hale and one other, both unconfirmed as of 14 September 2026  
       Evidenced in the file
 - [x] **Compensation parts the company intends** — base CAD 60,000. Bonus line blank  
       Evidenced in the file

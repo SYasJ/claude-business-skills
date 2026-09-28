@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A contact form requires a social security number.
 
-screens: 8, dated 10 Sep 2026
-job: the task in the ask
-accessibility pass: not done
-assets: theirs only
+The purpose of the form: A contact form requires a social security number. Stated once, in the ask. Not written down anywhere else
+Fields: Checkout screen v4, last reviewed 14 September 2026. No owner named since
+Error states: Checkout screen v4, first seen 14 September 2026. No root cause recorded yet
+What submit commits the user to: Colour contrast audit, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Removes the number, states the real purpose, and specifies a useful error.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| screens | 8, dated 10 Sep 2026 | Needs confirmation |
-| job | the task in the ask | Carried into the draft |
-| accessibility pass | not done | Carried into the draft |
-| assets | theirs only | Needs confirmation |
+| The purpose of the form | A contact form requires a social security number. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Fields | Checkout screen v4, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Error states | Checkout screen v4, first seen 14 September 2026. No root cause recorded yet | Carried into the draft |
+| What submit commits the user to | Colour contrast audit, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A report claims savings because the department stopped the service.
 
-quotes: only those attached
-missing term: blank
-authority: their limit
-award: not made here
+The baseline: Quote set, 3 vendors, recorded 14 September 2026. No supporting file attached
+The new price: CAD 49
+Volume: 55 in the last period. No prior period attached, so no trend
+One-time versus run-rate: five working days, due 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Refuses the savings claim or labels it a service cut.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| quotes | only those attached | Needs confirmation |
-| missing term | blank | Carried into the draft |
-| authority | their limit | Carried into the draft |
-| award | not made here | Needs confirmation |
+| The baseline | Quote set, 3 vendors, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The new price | CAD 49 | Carried into the draft |
+| Volume | 55 in the last period. No prior period attached, so no trend | Carried into the draft |
+| One-time versus run-rate | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

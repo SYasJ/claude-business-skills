@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A CAPA closes because operators signed a training sheet, and the defect is still appearing.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+The problem statement: A CAPA closes because operators signed a training sheet, and the defect is still appearing. Stated once, in the ask. Not written down anywhere else
+Evidence: one PDF, 2 pages, dated 14 September 2026
+Suspected cause: Lot 26-0914 and one other, both unconfirmed as of 14 September 2026
+How effectiveness will be checked: Lot 26-0914, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Keeps the CAPA open until the defect measure moves, and looks past the training 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| The problem statement | A CAPA closes because operators signed a training sheet, and the defect is still appearing. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| Suspected cause | Lot 26-0914 and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| How effectiveness will be checked | Lot 26-0914, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

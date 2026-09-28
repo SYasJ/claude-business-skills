@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Leadership wants a number that is 30 percent above the deals with a real buyer process.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+Opportunities proposed for commit: Harbor Goods, last reviewed 14 September 2026. No owner named since
+Evidence for each: one PDF, 2 pages, dated 14 September 2026
+Historical slippage the user admits: Harbor Goods. Partly documented: the what is written down, the who is not
+The number leadership already hopes for: Harbor Goods, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A forecast range, a clear gap to the hoped-for number, and two inspections, with
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| Opportunities proposed for commit | Harbor Goods, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Evidence for each | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| Historical slippage the user admits | Harbor Goods. Partly documented: the what is written down, the who is not | Carried into the draft |
+| The number leadership already hopes for | Harbor Goods, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

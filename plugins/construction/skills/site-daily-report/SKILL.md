@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A draft says the slab was poured though the crew was rained out.
 
-site: Birch, Cochrane
-safety item: stays open
-quantity: their takeoff
-date: the look-ahead
+Work performed: Birch site, Cochrane; Takeoff rev C. Both unassigned as of 14 September 2026
+Crew and deliveries they counted: 25 in the last period. No prior period attached, so no trend
+Safety notes: one file, dated 14 September 2026. No earlier version attached for comparison
+Weather they observed: Two-week look-ahead, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Records the rain delay and leaves the pour unclaimed.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | Birch, Cochrane | Needs confirmation |
-| safety item | stays open | Carried into the draft |
-| quantity | their takeoff | Carried into the draft |
-| date | the look-ahead | Needs confirmation |
+| Work performed | Birch site, Cochrane; Takeoff rev C. Both unassigned as of 14 September 2026 | Needs confirmation |
+| Crew and deliveries they counted | 25 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Safety notes | one file, dated 14 September 2026. No earlier version attached for comparison | Carried into the draft |
+| Weather they observed | Two-week look-ahead, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

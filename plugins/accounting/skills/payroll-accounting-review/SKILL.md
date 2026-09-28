@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The payroll register and the wage expense account have not matched for two months.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Payroll register totals: CAD 70,000 on the 1st and the 15th
+Ledger accounts used: 30 in the last period. No prior period attached, so no trend
+Remittances due: Undeposited funds and one other, both unconfirmed as of 14 September 2026
+Known off-cycle payments: Undeposited funds. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A tie-out of gross-to-journal, a mapping question on liabilities, and a control 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| Payroll register totals | CAD 70,000 on the 1st and the 15th | Needs confirmation |
+| Ledger accounts used | 30 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Remittances due | Undeposited funds and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Known off-cycle payments | Undeposited funds. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

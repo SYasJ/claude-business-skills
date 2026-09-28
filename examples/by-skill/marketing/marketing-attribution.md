@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team wants to cut content because last-touch credits it with little revenue, while sales says content starts most conversations.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The attribution rule they use: their one-page rule dated 2 Mar 2026. No exception log since
+The data they actually have: Fall service page, recorded 14 September 2026. No supporting file attached
+The decision they want to make: A team wants to cut content because last-touch credits it with little revenue, while sales says content starts most conversations
+Known tracking gaps: Fall service page is missing a source
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Refuses the causal cut, names the tracking gap, and proposes a cleaner test.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The attribution rule they use | their one-page rule dated 2 Mar 2026. No exception log since | Needs confirmation |
+| The data they actually have | Fall service page, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The decision they want to make | A team wants to cut content because last-touch credits it with little revenue, while sales says content starts most conversations | Carried into the draft |
+| Known tracking gaps | Fall service page is missing a source | Needs confirmation |
 
 **How this draft was built**
 

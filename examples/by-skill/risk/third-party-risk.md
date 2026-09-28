@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A design tool and a payroll processor are put through an identical unread checklist.
 
-event: the one in the ask, not a one-word label
-owner: blank
-control: not named
-score: not invented
+The service: the one named in the ask. Version and owner not recorded
+Data and access involved: Control 7.2 access review. Partly documented: the what is written down, the who is not
+Their evidence: one PDF, 2 pages, dated 14 September 2026
+The business owner: Priya Shah, controller
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Deepens the payroll review, lightens the design-tool review, and names the owner
 
 | Input | Value | Status |
 | --- | --- | --- |
-| event | the one in the ask, not a one-word label | Needs confirmation |
-| owner | blank | Carried into the draft |
-| control | not named | Carried into the draft |
-| score | not invented | Needs confirmation |
+| The service | the one named in the ask. Version and owner not recorded | Needs confirmation |
+| Data and access involved | Control 7.2 access review. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Their evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The business owner | Priya Shah, controller | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A key was committed and the user pastes it into chat asking if it looks real.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+Where the secret was seen: Endpoint patch ring 2, recorded 14 September 2026. No supporting file attached
+What system it opens: the one named in the ask. Version and owner not recorded
+Who can rotate it: Aisha Rahman, engineering lead
+Whether it was exposed: Access review Q3. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Do not repeat the key, tells them to rotate it, and describes a store reference.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| Where the secret was seen | Endpoint patch ring 2, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| What system it opens | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| Who can rotate it | Aisha Rahman, engineering lead | Carried into the draft |
+| Whether it was exposed | Access review Q3. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A page has a countdown timer that resets every visit and three equal buttons.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The page copy or a description: Fall service page, recorded 14 September 2026. No supporting file attached
+The audience: people who already buy from Fieldnote
+The action: Fall service page; Email to lapsed buyers. Both unassigned as of 14 September 2026
+Proof available: one customer email, 14 September 2026, no attachment beyond that
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Removes the fake timer, picks one action, and pairs the main claim with real pro
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The page copy or a description | Fall service page, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The audience | people who already buy from Fieldnote | Carried into the draft |
+| The action | Fall service page; Email to lapsed buyers. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Proof available | one customer email, 14 September 2026, no attachment beyond that | Needs confirmation |
 
 **How this draft was built**
 

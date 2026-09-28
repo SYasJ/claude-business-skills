@@ -20,8 +20,9 @@ Needed by: 30 September 2026
 
 Errors rose after a tool change that hides the needed field, and the draft recommends a full-day course.
 
-The performance gap: Redline Parts is missing a source
+The performance gap: Module 2 lesson plan is missing a source
 Evidence: one PDF, 2 pages, dated 14 September 2026
+What training already exists: Thursday workshop, last reviewed 14 September 2026. No owner named since
 Constraints on the job: no extra headcount, and no result that is not in this file
 ```
 
@@ -38,9 +39,10 @@ Fixes the field first and limits training to the people who still lack the skill
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The performance gap | Redline Parts is missing a source | Needs confirmation |
+| The performance gap | Module 2 lesson plan is missing a source | Needs confirmation |
 | Evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
-| Constraints on the job | no extra headcount, and no result that is not in this file | Carried into the draft |
+| What training already exists | Thursday workshop, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Constraints on the job | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

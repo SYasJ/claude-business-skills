@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A startup collects account email and product usage and wants a website privacy notice tomorrow.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+What data they collect, in their words: Vendor terms, last reviewed 14 September 2026. No owner named since
+Why they collect it: A startup collects account email and product usage and wants a website privacy notice tomorrow
+Who they share it with: Elena Voss, operations lead
+Where the notice will appear: Contractor NDA, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A plain draft covering only those categories, with retention left as a placehold
 
 | Input | Value | Status |
 | --- | --- | --- |
-| name | Lumen Ledger, word mark, no logo | Needs confirmation |
-| goods | bookkeeping software for independent shops | Carried into the draft |
-| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
-| register search | not in the file | Needs confirmation |
+| What data they collect, in their words | Vendor terms, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Why they collect it | A startup collects account email and product usage and wants a website privacy notice tomorrow | Carried into the draft |
+| Who they share it with | Elena Voss, operations lead | Carried into the draft |
+| Where the notice will appear | Contractor NDA, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A weekly plan has 40 tasks and 30 hours of existing meetings.
 
-week: 14 Sep 2026
-calendar: the meetings they listed
-dissent: kept if it was said
-monitoring: not recommended
+Open commitments: Friday review block and one other, both unconfirmed as of 14 September 2026
+Calendar: Inbox triage batch. Partly documented: the what is written down, the who is not
+Waiting-for items: Friday review block. Stated in the ask, not documented anywhere else
+The outcomes that matter: A weekly plan has 40 tasks and 30 hours of existing meetings. Stated once, in the ask. Not written down anywhere else
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Cuts to a few outcomes and schedules them in the remaining time.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| week | 14 Sep 2026 | Needs confirmation |
-| calendar | the meetings they listed | Carried into the draft |
-| dissent | kept if it was said | Carried into the draft |
-| monitoring | not recommended | Needs confirmation |
+| Open commitments | Friday review block and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
+| Calendar | Inbox triage batch. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Waiting-for items | Friday review block. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The outcomes that matter | A weekly plan has 40 tasks and 30 hours of existing meetings. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 
 **How this draft was built**
 

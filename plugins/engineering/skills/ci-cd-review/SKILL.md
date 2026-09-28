@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A pipeline file contains a copied cloud key and deploys even when tests fail.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The pipeline description or config the user shared: the one named in the ask. Version and owner not recorded
+Environments: the one named in the ask. Version and owner not recorded
+Who can deploy: Aisha Rahman, engineering lead
+Secret handling as described: Invoice job and one other, both unconfirmed as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Requires the key to be removed and rotated, and blocks deploy-on-red. Do not rep
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The pipeline description or config the user shared | the one named in the ask. Version and owner not recorded | Needs confirmation |
+| Environments | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| Who can deploy | Aisha Rahman, engineering lead | Carried into the draft |
+| Secret handling as described | Invoice job and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

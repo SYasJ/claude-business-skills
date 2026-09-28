@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A manager wants to delete drafts because a request might cover them.
 
-record: the agenda or request
-vote: not implied if it has not happened
-names: public record only
-deadline: the posted one
+The request: Council agenda item 6, recorded 14 September 2026. No supporting file attached
+Systems that may hold records: one file, dated 14 September 2026. No earlier version attached for comparison
+Their exemption list if any: Council agenda item 6; Posted comment period; Records request 92
+The officer: Council agenda item 6, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ Forbids deletion and lists locations for the officer to decide.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| record | the agenda or request | Needs confirmation |
-| vote | not implied if it has not happened | Carried into the draft |
-| names | public record only | Carried into the draft |
-| deadline | the posted one | Needs confirmation |
+| The request | Council agenda item 6, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Systems that may hold records | one file, dated 14 September 2026. No earlier version attached for comparison | Carried into the draft |
+| Their exemption list if any | Council agenda item 6; Posted comment period; Records request 92 | Carried into the draft |
+| The officer | Council agenda item 6, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

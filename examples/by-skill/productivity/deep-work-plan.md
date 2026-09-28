@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A focus plan depends on coworkers never messaging, with no defer rule.
 
-week: 14 Sep 2026
-calendar: the meetings they listed
-dissent: kept if it was said
-monitoring: not recommended
+The outcome of the block: A focus plan depends on coworkers never messaging, with no defer rule. Stated once, in the ask. Not written down anywhere else
+Available time: five working days, due 30 September 2026
+Known interruptions: Inbox triage batch. Stated in the ask, not documented anywhere else
+The environment: the one named in the ask. Version and owner not recorded
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A plan with a done statement, a defer rule for mail, and no monitoring of others
 
 | Input | Value | Status |
 | --- | --- | --- |
-| week | 14 Sep 2026 | Needs confirmation |
-| calendar | the meetings they listed | Carried into the draft |
-| dissent | kept if it was said | Carried into the draft |
-| monitoring | not recommended | Needs confirmation |
+| The outcome of the block | A focus plan depends on coworkers never messaging, with no defer rule. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Available time | five working days, due 30 September 2026 | Carried into the draft |
+| Known interruptions | Inbox triage batch. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The environment | the one named in the ask. Version and owner not recorded | Needs confirmation |
 
 **How this draft was built**
 

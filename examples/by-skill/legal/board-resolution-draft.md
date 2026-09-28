@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The board is asked to approve a bank account change, and one director works for the bank.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+The exact decision: The board is asked to approve a bank account change, and one director works for the bank
+The approving body: Harbor renewal, recorded 14 September 2026. No supporting file attached
+Any recusal the user mentioned: Contractor NDA. Partly documented: the what is written down, the who is not
+Supporting paper already prepared: Contractor NDA, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A narrow draft authorizing the account change, noting the recusal, and waiting f
 
 | Input | Value | Status |
 | --- | --- | --- |
-| name | Lumen Ledger, word mark, no logo | Needs confirmation |
-| goods | bookkeeping software for independent shops | Carried into the draft |
-| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
-| register search | not in the file | Needs confirmation |
+| The exact decision | The board is asked to approve a bank account change, and one director works for the bank | Needs confirmation |
+| The approving body | Harbor renewal, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Any recusal the user mentioned | Contractor NDA. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Supporting paper already prepared | Contractor NDA, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

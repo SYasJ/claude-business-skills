@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A contractor built the first version before any agreement existed, and the company is raising money.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+Roles involved: Elena Voss plus two others named in the thread. No distribution list attached
+Agreements they have signed, as described: Vendor terms. Partly documented: the what is written down, the who is not
+The work product at issue: Harbor renewal; Contractor NDA. Both unassigned as of 14 September 2026
+Any open-source components they mentioned: note from Elena Voss, 14 September 2026. No outside report
 ```
 
 ## Example outcome
@@ -36,11 +36,11 @@ Marks that work as an open ownership gap and lists the document counsel would ne
 
 **Checklist**
 
-- [x] **Roles involved** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+- [x] **Roles involved** — Elena Voss plus two others named in the thread. No distribution list attached  
       Evidenced in the file
-- [x] **Agreements they have signed, as described** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+- [x] **Agreements they have signed, as described** — Vendor terms. Partly documented: the what is written down, the who is not  
       Evidenced in the file
-- [x] **The work product at issue** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+- [x] **The work product at issue** — Harbor renewal; Contractor NDA. Both unassigned as of 14 September 2026  
       Evidenced in the file
 - [ ] **Any open-source components they mentioned** — note from Elena Voss, 14 September 2026. No outside report  
       Open — nothing in the file closes this

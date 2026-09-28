@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A finance SOP says 'process the file' and the file location lives in one person's head.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The outcome of the process: email to Diane Cho. No written steps after 1 Sep 2026
+The steps as performed today: Tuesday shift; SOP 118 receiving. Both unassigned as of 14 September 2026
+Exceptions: Tuesday shift is open. SOP 118 receiving was raised verbally and never logged
+The owner: Diane Cho, operations manager
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A procedure with the trigger, the check, a stop condition, and an owner.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The outcome of the process | email to Diane Cho. No written steps after 1 Sep 2026 | Needs confirmation |
+| The steps as performed today | Tuesday shift; SOP 118 receiving. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Exceptions | Tuesday shift is open. SOP 118 receiving was raised verbally and never logged | Carried into the draft |
+| The owner | Diane Cho, operations manager | Needs confirmation |
 
 **How this draft was built**
 

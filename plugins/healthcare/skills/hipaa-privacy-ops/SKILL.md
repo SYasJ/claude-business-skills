@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A scheduler wants standing access to full clinical notes 'just in case'.
 
-clinic: Cedar, Tuesday list
-diagnosis: not in this note
-roster: the one attached
-advice to a patient: not written
+Who can open a chart: Dr. Helen Cho, clinic director
+The reason they need it: Tuesday clinic, recorded 14 September 2026. No supporting file attached
+How incidents are reported: one file, dated 14 September 2026. No earlier version attached for comparison
+Known gaps: Tuesday clinic is missing a source
 ```
 
 ### Example outcome
@@ -121,9 +121,9 @@ Limits access to the scheduling need and refuses a compliance badge.
 
 - [x] **Who can open a chart** — Dr. Helen Cho, clinic director  
       Evidenced in the file
-- [x] **The reason they need it** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **The reason they need it** — Tuesday clinic, recorded 14 September 2026. No supporting file attached  
       Evidenced in the file
-- [x] **How incidents are reported** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **How incidents are reported** — one file, dated 14 September 2026. No earlier version attached for comparison  
       Evidenced in the file
 - [ ] **Known gaps** — Tuesday clinic is missing a source  
       Open — nothing in the file closes this

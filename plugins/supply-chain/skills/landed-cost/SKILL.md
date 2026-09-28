@@ -105,6 +105,7 @@ A cheaper invoice price is recommended, and nobody added international freight.
 
 Invoice cost: CAD 44 direct. Overhead not in this line
 Freight, duty, and fees they know: CAD 180, from their sheet, not a guess
+Volume: 70 in the last period. No prior period attached, so no trend
 The alternative source: note from Diane Cho, 14 September 2026. No outside report
 ```
 
@@ -123,7 +124,8 @@ Holds the recommendation until freight is included or explicitly unknown.
 | --- | --- | --- |
 | Invoice cost | CAD 44 direct. Overhead not in this line | Needs confirmation |
 | Freight, duty, and fees they know | CAD 180, from their sheet, not a guess | Carried into the draft |
-| The alternative source | note from Diane Cho, 14 September 2026. No outside report | Carried into the draft |
+| Volume | 70 in the last period. No prior period attached, so no trend | Carried into the draft |
+| The alternative source | note from Diane Cho, 14 September 2026. No outside report | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The control is 'management reviews revenue' with no sample and no sign-off.
 
-event: the one in the ask, not a one-word label
-owner: blank
-control: not named
-score: not invented
+The failure to prevent: Control 7.2 access review, first seen 14 September 2026. No root cause recorded yet
+How the work happens today: Control 7.2 access review; Vendor Redline Parts. Both unassigned as of 14 September 2026
+Who can perform the control: Priya Shah, controller
+Evidence available: one PDF, 2 pages, dated 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Names the sample, the reviewer, and the evidence left behind.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| event | the one in the ask, not a one-word label | Needs confirmation |
-| owner | blank | Carried into the draft |
-| control | not named | Carried into the draft |
-| score | not invented | Needs confirmation |
+| The failure to prevent | Control 7.2 access review, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| How the work happens today | Control 7.2 access review; Vendor Redline Parts. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Who can perform the control | Priya Shah, controller | Carried into the draft |
+| Evidence available | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

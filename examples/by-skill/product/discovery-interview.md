@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A founder wants interview questions that ask customers to rate a feature idea from one to ten.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+The decision the interview must inform: A founder wants interview questions that ask customers to rate a feature idea from one to ten
+Who to talk to: Jonah Park, product manager
+Hypotheses: Usage limit warning, recorded 14 September 2026. No supporting file attached
+What you must not pitch: Usage limit warning, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Replaces the rating with questions about the last time the problem occurred.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| The decision the interview must inform | A founder wants interview questions that ask customers to rate a feature idea from one to ten | Needs confirmation |
+| Who to talk to | Jonah Park, product manager | Carried into the draft |
+| Hypotheses | Usage limit warning, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| What you must not pitch | Usage limit warning, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

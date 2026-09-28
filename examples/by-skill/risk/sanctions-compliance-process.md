@@ -20,6 +20,7 @@ Needed by: 30 September 2026
 
 Sales wants to tweak a customer name so the screening tool stops flagging it.
 
+The match information they are allowed to share: plain, for people who already know the context. No house guide attached
 Their escalation policy: their one-page rule dated 2 Mar 2026. No exception log
 The business process paused: email to Priya Shah. No written steps after 1 Sep 2026
 The compliance owner: Priya Shah, controller
@@ -38,9 +39,10 @@ A refusal of the tweak, a pause recommendation, and a handoff to the compliance 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| Their escalation policy | their one-page rule dated 2 Mar 2026. No exception log | Needs confirmation |
+| The match information they are allowed to share | plain, for people who already know the context. No house guide attached | Needs confirmation |
+| Their escalation policy | their one-page rule dated 2 Mar 2026. No exception log | Carried into the draft |
 | The business process paused | email to Priya Shah. No written steps after 1 Sep 2026 | Carried into the draft |
-| The compliance owner | Priya Shah, controller | Carried into the draft |
+| The compliance owner | Priya Shah, controller | Needs confirmation |
 
 **How this draft was built**
 

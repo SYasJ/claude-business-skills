@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team wants a page targeting a high-volume keyword that does not match the product.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The query or topic: Fall service page, recorded 14 September 2026. No supporting file attached
+What the searcher is trying to do: Local search ad, last reviewed 14 September 2026. No owner named since
+Proof and sources the company has: one customer email, 14 September 2026, no attachment beyond that
+The page's business job: Fall service page, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Either resets the intent or recommends not writing the page, instead of stuffing
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The query or topic | Fall service page, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| What the searcher is trying to do | Local search ad, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Proof and sources the company has | one customer email, 14 September 2026, no attachment beyond that | Carried into the draft |
+| The page's business job | Fall service page, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

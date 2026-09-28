@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A review adds five new ideas while payroll is the unresolved issue.
 
-paying names: only those given
-cash: bank figure, not a maybe
-ask: the one they wrote
-copied line: cut
+Cash facts: CAD 220,000 counted 14 September 2026
+Pipeline or user facts: the one named in the ask. Version and owner not recorded
+The bottleneck: First four paying accounts, recorded 14 September 2026. No supporting file attached
+The team's capacity: two people on shift, one off
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Keeps payroll as the bottleneck and parks the new ideas.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| paying names | only those given | Needs confirmation |
-| cash | bank figure, not a maybe | Carried into the draft |
-| ask | the one they wrote | Carried into the draft |
-| copied line | cut | Needs confirmation |
+| Cash facts | CAD 220,000 counted 14 September 2026 | Needs confirmation |
+| Pipeline or user facts | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| The bottleneck | First four paying accounts, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The team's capacity | two people on shift, one off | Needs confirmation |
 
 **How this draft was built**
 

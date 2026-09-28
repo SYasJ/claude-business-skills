@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A shared admin login is still used after three people left the company.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+The system: the one named in the ask. Version and owner not recorded
+The access list they exported: Access review Q3; Endpoint patch ring 2; Phishing report 4412
+The roles that are still justified: Aisha Rahman plus two others named in the thread. No distribution list attached
+Leavers they know about: Phishing report 4412 and one other, both unconfirmed as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Recommends unique accounts, lists the leavers for removal, and does not request 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| The system | the one named in the ask. Version and owner not recorded | Needs confirmation |
+| The access list they exported | Access review Q3; Endpoint patch ring 2; Phishing report 4412 | Carried into the draft |
+| The roles that are still justified | Aisha Rahman plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Leavers they know about | Phishing report 4412 and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

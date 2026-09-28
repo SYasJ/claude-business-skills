@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A workshop list says 'cyber' and 'talent' with no scenario.
 
-event: the one in the ask, not a one-word label
-owner: blank
-control: not named
-score: not invented
+The objective at risk: Control 7.2 access review is open. No score in the file
+Scenarios they can describe: Control 7.2 access review. Partly documented: the what is written down, the who is not
+Existing controls: their one-page rule dated 2 Mar 2026. No exception log since
+Their scale: Vendor Redline Parts, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Rewrites those into specific events or drops them until a scenario exists.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| event | the one in the ask, not a one-word label | Needs confirmation |
-| owner | blank | Carried into the draft |
-| control | not named | Carried into the draft |
-| score | not invented | Needs confirmation |
+| The objective at risk | Control 7.2 access review is open. No score in the file | Needs confirmation |
+| Scenarios they can describe | Control 7.2 access review. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Existing controls | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Their scale | Vendor Redline Parts, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

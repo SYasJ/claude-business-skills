@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A founder wants a pitch saying the company 'leads the market' with no data and no spokesperson.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The news: A founder wants a pitch saying the company 'leads the market' with no data and no spokesperson
+Why a reader would care: A founder wants a pitch saying the company 'leads the market' with no data and no spokesperson
+Spokesperson: Local search ad. Partly documented: the what is written down, the who is not
+Facts that can be checked: Email to lapsed buyers and one other, both unconfirmed as of 14 September 2026
 ```
 
 ## Example outcome

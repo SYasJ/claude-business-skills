@@ -103,6 +103,7 @@ Needed by: 30 September 2026
 
 A COO wants to know which weekly numbers explain monthly gross margin.
 
+The top outcome: A COO wants to know which weekly numbers explain monthly gross margin. Stated once, in the ask. Not written down anywhere else
 The operating levers the team controls: two people on shift, one off
 Metrics they can actually extract: plan 150, actual 85
 Owners: Mara Chen, founder
@@ -121,9 +122,10 @@ A tree from gross margin to a few owned drivers, with data gaps called out and a
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The operating levers the team controls | two people on shift, one off | Needs confirmation |
+| The top outcome | A COO wants to know which weekly numbers explain monthly gross margin. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The operating levers the team controls | two people on shift, one off | Carried into the draft |
 | Metrics they can actually extract | plan 150, actual 85 | Carried into the draft |
-| Owners | Mara Chen, founder | Carried into the draft |
+| Owners | Mara Chen, founder | Needs confirmation |
 
 **How this draft was built**
 

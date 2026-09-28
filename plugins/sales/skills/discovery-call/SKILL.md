@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A salesperson has 30 minutes with an operations lead and usually spends 25 of them on slides.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+What you already know about the account: 25 in the last period. No prior period attached, so no trend
+The meeting length: plain, for people who already know the context. No house guide attached
+The offer you might eventually discuss: CAD 120, dates not set, cap not set
+Any claim you must not make: the draft sentence is broader than the note
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Separates facts from guesses.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| What you already know about the account | 25 in the last period. No prior period attached, so no trend | Needs confirmation |
+| The meeting length | plain, for people who already know the context. No house guide attached | Carried into the draft |
+| The offer you might eventually discuss | CAD 120, dates not set, cap not set | Carried into the draft |
+| Any claim you must not make | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

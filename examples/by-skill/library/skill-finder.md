@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A user asks for a cash view and also wants a full corporate strategy loaded.
 
-folder: one SKILL.md
-description: says when to use it
-network: none
-author: Yasir Jilani
+The task: A user asks for a cash view and also wants a full corporate strategy loaded. Stated once, in the ask. Not written down anywhere else
+The domain: plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached
+Whether a regulated professional must review: plugins/finance/cash-flow-forecast. Partly documented: the what is written down, the who is not
+Skills already loaded: 50 in the last period. No prior period attached, so no trend
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A recommendation of cash-flow-forecast only, with strategy skills named as unnec
 
 | Input | Value | Status |
 | --- | --- | --- |
-| folder | one SKILL.md | Needs confirmation |
-| description | says when to use it | Carried into the draft |
-| network | none | Carried into the draft |
-| author | Yasir Jilani | Needs confirmation |
+| The task | A user asks for a cash view and also wants a full corporate strategy loaded. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The domain | plugins/finance/cash-flow-forecast, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Whether a regulated professional must review | plugins/finance/cash-flow-forecast. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Skills already loaded | 50 in the last period. No prior period attached, so no trend | Needs confirmation |
 
 **How this draft was built**
 

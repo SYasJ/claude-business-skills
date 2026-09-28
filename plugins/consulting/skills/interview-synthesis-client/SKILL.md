@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A synthesis says the CFO demanded a cut, and the note was anonymous and less specific.
 
-decision: the one in the ask
-evidence: notes only
-out of scope: named
-finding: not promised
+The notes: one file, dated 14 September 2026. No earlier version attached for comparison
+The decision: A synthesis says the CFO demanded a cut, and the note was anonymous and less specific
+Who was not interviewed: Elena Voss, engagement manager
+Confidentiality limits: email and billing address only. They stated no health or payment data
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Keeps the anonymity rule and narrows the claim to the words in the note.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| evidence | notes only | Carried into the draft |
-| out of scope | named | Carried into the draft |
-| finding | not promised | Needs confirmation |
+| The notes | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| The decision | A synthesis says the CFO demanded a cut, and the note was anonymous and less specific | Carried into the draft |
+| Who was not interviewed | Elena Voss, engagement manager | Carried into the draft |
+| Confidentiality limits | email and billing address only. They stated no health or payment data | Needs confirmation |
 
 **How this draft was built**
 

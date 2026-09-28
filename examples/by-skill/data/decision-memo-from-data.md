@@ -21,6 +21,7 @@ Needed by: 30 September 2026
 Leadership must cut one of two channels, and the data shows correlation, not incrementality.
 
 The decision: Leadership must cut one of two channels, and the data shows correlation, not incrementality
+The data: orders_daily, recorded 14 September 2026. No supporting file attached
 The options: keep orders_daily, or stop. No third option written
 The constraints: no extra headcount, and no result that is not in this file
 ```
@@ -39,8 +40,9 @@ Recommends a reversible cut or a test, and refuses a causal claim the data canno
 | Input | Value | Status |
 | --- | --- | --- |
 | The decision | Leadership must cut one of two channels, and the data shows correlation, not incrementality | Needs confirmation |
+| The data | orders_daily, recorded 14 September 2026. No supporting file attached | Carried into the draft |
 | The options | keep orders_daily, or stop. No third option written | Carried into the draft |
-| The constraints | no extra headcount, and no result that is not in this file | Carried into the draft |
+| The constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

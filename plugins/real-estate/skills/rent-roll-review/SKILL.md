@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A roll shows full occupancy while three units are marked 'free rent' with no end date.
 
-address: the one in the ask
-rent roll: their sheet
-comp: not invented
-legal review: not done here
+The rent roll: Unit 4B lease, recorded 14 September 2026. No supporting file attached
+What a row is supposed to mean: Offer comparison sheet, last reviewed 14 September 2026. No owner named since
+Known concessions: Rent roll, 12 units. Stated in the ask, not documented anywhere else
+The questions of the reader: A roll shows full occupancy while three units are marked 'free rent' with no end date
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Separates free rent from paying occupancy and flags the missing end dates.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| address | the one in the ask | Needs confirmation |
-| rent roll | their sheet | Carried into the draft |
-| comp | not invented | Carried into the draft |
-| legal review | not done here | Needs confirmation |
+| The rent roll | Unit 4B lease, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| What a row is supposed to mean | Offer comparison sheet, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Known concessions | Rent roll, 12 units. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The questions of the reader | A roll shows full occupancy while three units are marked 'free rent' with no end date | Needs confirmation |
 
 **How this draft was built**
 

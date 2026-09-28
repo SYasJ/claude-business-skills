@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A rep has 200 accounts and ten hours a week for prospecting after live deals.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+The account list: Harbor Goods; Cedar Clinic; Redline Parts
+Fit criteria: their existing list, 6 lines. Two lines have no owner
+Seller capacity: two people, no overtime figure
+Current pipeline already in motion: the one named in the ask. Version and owner not recorded
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Fully works a small set, parks the rest, and fits the ten hours.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| The account list | Harbor Goods; Cedar Clinic; Redline Parts | Needs confirmation |
+| Fit criteria | their existing list, 6 lines. Two lines have no owner | Carried into the draft |
+| Seller capacity | two people, no overtime figure | Carried into the draft |
+| Current pipeline already in motion | the one named in the ask. Version and owner not recorded | Needs confirmation |
 
 **How this draft was built**
 

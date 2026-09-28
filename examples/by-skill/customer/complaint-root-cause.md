@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Complaints rose after a pricing page started hiding a fee.
 
-ticket: 4412, 14 Sep 2026
-customer words: in the ticket
-exception: not approved
-card or password: not collected
+The complaint cluster: Ticket 4412, first seen 14 September 2026. No root cause recorded yet
+Volumes: 40 in the last period. No prior period attached, so no trend
+What agents already do: Ticket 4420, last reviewed 14 September 2026. No owner named since
+Recent changes: requested 14 September 2026. Not yet approved
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Names the hidden fee as the hypothesis to fix and does not blame the customers f
 
 | Input | Value | Status |
 | --- | --- | --- |
-| ticket | 4412, 14 Sep 2026 | Needs confirmation |
-| customer words | in the ticket | Carried into the draft |
-| exception | not approved | Carried into the draft |
-| card or password | not collected | Needs confirmation |
+| The complaint cluster | Ticket 4412, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| Volumes | 40 in the last period. No prior period attached, so no trend | Carried into the draft |
+| What agents already do | Ticket 4420, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Recent changes | requested 14 September 2026. Not yet approved | Needs confirmation |
 
 **How this draft was built**
 

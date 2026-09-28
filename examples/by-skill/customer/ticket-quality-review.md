@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Several tickets ask customers for their password to 'speed up' the fix.
 
-ticket: 4412, 14 Sep 2026
-customer words: in the ticket
-exception: not approved
-card or password: not collected
+The tickets or summaries: Ticket 4412, recorded 14 September 2026. No supporting file attached
+The rubric they use: Ticket 4412, recorded 14 September 2026. No supporting file attached
+Recurring issues: Ticket 4412, last reviewed 14 September 2026. No owner named since
+What agents are allowed to do: Ticket 4420, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Flag the password request as a stop-now finding and names the pattern.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| ticket | 4412, 14 Sep 2026 | Needs confirmation |
-| customer words | in the ticket | Carried into the draft |
-| exception | not approved | Carried into the draft |
-| card or password | not collected | Needs confirmation |
+| The tickets or summaries | Ticket 4412, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The rubric they use | Ticket 4412, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Recurring issues | Ticket 4412, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| What agents are allowed to do | Ticket 4420, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

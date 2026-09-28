@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 An analyst has a retention drop and wants the memo to say a competitor caused it.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The finding: orders_daily, recorded 14 September 2026. No supporting file attached
+The comparison: orders_daily, recorded 14 September 2026. No supporting file attached
+The decision it informs: An analyst has a retention drop and wants the memo to say a competitor caused it
+Caveats: orders_daily is open. customers was raised verbally and never logged
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Reports the drop, refuses the competitor cause without evidence, and names the n
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The finding | orders_daily, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The comparison | orders_daily, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The decision it informs | An analyst has a retention drop and wants the memo to say a competitor caused it | Carried into the draft |
+| Caveats | orders_daily is open. customers was raised verbally and never logged | Needs confirmation |
 
 **How this draft was built**
 

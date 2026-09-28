@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An item asks whether the helpful and innovative service was satisfying.
 
-site: one
-sample: the count they gave
-missing file: named in the ask
-unopened citation: not used
+The decision: An item asks whether the helpful and innovative service was satisfying
+The constructs: Interview set A, recorded 14 September 2026. No supporting file attached
+The population: Interview set A, recorded 14 September 2026. No supporting file attached
+Length they will tolerate: 55 in the last period. No prior period attached, so no trend
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Splits the ideas, removes the leading praise, and cuts unused demographics.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | one | Needs confirmation |
-| sample | the count they gave | Carried into the draft |
-| missing file | named in the ask | Carried into the draft |
-| unopened citation | not used | Needs confirmation |
+| The decision | An item asks whether the helpful and innovative service was satisfying | Needs confirmation |
+| The constructs | Interview set A, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The population | Interview set A, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Length they will tolerate | 55 in the last period. No prior period attached, so no trend | Needs confirmation |
 
 **How this draft was built**
 

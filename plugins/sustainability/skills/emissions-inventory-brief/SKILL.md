@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A report states net zero because one office bought offsets, and no inventory exists.
 
-period: the year they named
-factor: only from their sheet
-certification: not claimed
-estimate: labeled
+Activity data: Scope 2 electricity; Emissions factor sheet. Both unassigned as of 14 September 2026
+Factors they are using: Devon Hale plus two others named in the thread. No distribution list attached
+Organizational boundary: Scope 2 electricity. Partly documented: the what is written down, the who is not
+Known gaps: Scope 2 electricity is missing a source
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Refuses the claim and lists the missing activity data.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | the year they named | Needs confirmation |
-| factor | only from their sheet | Carried into the draft |
-| certification | not claimed | Carried into the draft |
-| estimate | labeled | Needs confirmation |
+| Activity data | Scope 2 electricity; Emissions factor sheet. Both unassigned as of 14 September 2026 | Needs confirmation |
+| Factors they are using | Devon Hale plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Organizational boundary | Scope 2 electricity. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Known gaps | Scope 2 electricity is missing a source | Needs confirmation |
 
 **How this draft was built**
 

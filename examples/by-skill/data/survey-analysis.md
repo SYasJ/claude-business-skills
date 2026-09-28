@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An NPS of 80 from 11 self-selected responses is about to go on a board slide as proof of love.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The questions and results: An NPS of 80 from 11 self-selected responses is about to go on a board slide as proof of love
+Sample size and how people were recruited: active_accounts, recorded 14 September 2026. No supporting file attached
+The decision: An NPS of 80 from 11 self-selected responses is about to go on a board slide as proof of love
+Any open text they provided: customers. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Blocks the board claim, states the bias, and limits the use of the score.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The questions and results | An NPS of 80 from 11 self-selected responses is about to go on a board slide as proof of love | Needs confirmation |
+| Sample size and how people were recruited | active_accounts, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The decision | An NPS of 80 from 11 self-selected responses is about to go on a board slide as proof of love | Carried into the draft |
+| Any open text they provided | customers. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

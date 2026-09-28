@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A payment run includes a new account number received by email this morning.
 
-run: 14 Sep 2026
-changed payee: email this morning, not verified
-password: not collected
-hold: that line
+The run list: Payment run 14 Sep; Account opening file 221; Liquidity ladder
+Approval limits: Account opening file 221. Partly documented: the what is written down, the who is not
+Changed payee details: requested 14 September 2026. Not yet approved
+Exceptions: Payment run 14 Sep is open. Account opening file 221 was raised verbally and never logged
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Holds that item until the verified channel confirms it.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| run | 14 Sep 2026 | Needs confirmation |
-| changed payee | email this morning, not verified | Carried into the draft |
-| password | not collected | Carried into the draft |
-| hold | that line | Needs confirmation |
+| The run list | Payment run 14 Sep; Account opening file 221; Liquidity ladder | Needs confirmation |
+| Approval limits | Account opening file 221. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Changed payee details | requested 14 September 2026. Not yet approved | Carried into the draft |
+| Exceptions | Payment run 14 Sep is open. Account opening file 221 was raised verbally and never logged | Needs confirmation |
 
 **How this draft was built**
 

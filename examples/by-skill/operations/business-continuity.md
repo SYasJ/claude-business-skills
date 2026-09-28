@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The team has a continuity binder and nobody knows who declares the workaround in effect.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The disruption they want to survive: Tuesday shift, recorded 14 September 2026. No supporting file attached
+The critical process: email to Diane Cho. No written steps after 1 Sep 2026
+Manual workaround if any: Tuesday shift; SOP 118 receiving. Both unassigned as of 14 September 2026
+The leader: Tuesday shift, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A plan for one disruption, with a leader, a manual path, and a test date.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The disruption they want to survive | Tuesday shift, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The critical process | email to Diane Cho. No written steps after 1 Sep 2026 | Carried into the draft |
+| Manual workaround if any | Tuesday shift; SOP 118 receiving. Both unassigned as of 14 September 2026 | Carried into the draft |
+| The leader | Tuesday shift, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

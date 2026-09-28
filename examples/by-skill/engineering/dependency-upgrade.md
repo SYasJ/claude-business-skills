@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A bot opened a major upgrade and nobody has read the changelog.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The dependency and versions: Checkout service is open. Invoice job was raised verbally and never logged
+Why the upgrade is happening: A bot opened a major upgrade and nobody has read the changelog
+Breaking changes the user found: requested 14 September 2026. Not yet approved
+How the app is tested: Invoice job, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Blocks the merge until breaking changes are read and a rollback is named.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The dependency and versions | Checkout service is open. Invoice job was raised verbally and never logged | Needs confirmation |
+| Why the upgrade is happening | A bot opened a major upgrade and nobody has read the changelog | Carried into the draft |
+| Breaking changes the user found | requested 14 September 2026. Not yet approved | Carried into the draft |
+| How the app is tested | Invoice job, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

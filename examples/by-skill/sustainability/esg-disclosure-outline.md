@@ -22,7 +22,8 @@ A report outline claims alignment with a standard nobody has mapped.
 
 The audience: people who already buy from Prairie Line Energy
 Metrics they can evidence: one PDF, 2 pages, dated 14 September 2026
-Gaps: Kite Freight is missing a source
+Framework language they already chose: their existing list, 6 lines. Two lines have no owner
+Gaps: Scope 2 electricity is missing a source
 ```
 
 ## Example outcome

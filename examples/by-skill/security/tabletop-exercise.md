@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The team wants a 'realistic' exercise that sends malware to employees.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+The scenario type: Access review Q3, recorded 14 September 2026. No supporting file attached
+Participants: Aisha Rahman plus two others named in the thread. No distribution list attached
+Decisions to practice: The team wants a 'realistic' exercise that sends malware to employees
+Time available: five working days, due 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Practices notification decisions and refuses malware.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| The scenario type | Access review Q3, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Participants | Aisha Rahman plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Decisions to practice | The team wants a 'realistic' exercise that sends malware to employees | Carried into the draft |
+| Time available | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

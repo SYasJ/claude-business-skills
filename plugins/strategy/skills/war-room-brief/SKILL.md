@@ -103,6 +103,7 @@ Needed by: 30 September 2026
 
 A key supplier missed a shipment and three major customers will stock out within a week.
 
+What happened, in facts: open item, last reviewed 14 September 2026. No owner named since
 Who is affected: Mara Chen, founder
 Decisions needed in the next 48 hours: A key supplier missed a shipment and three major customers will stock out within a week
 Who is in charge: Mara Chen, founder
@@ -121,9 +122,10 @@ A 48-hour brief with an owner, the decisions required today, a truthful customer
 
 | Input | Value | Status |
 | --- | --- | --- |
-| Who is affected | Mara Chen, founder | Needs confirmation |
+| What happened, in facts | open item, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Who is affected | Mara Chen, founder | Carried into the draft |
 | Decisions needed in the next 48 hours | A key supplier missed a shipment and three major customers will stock out within a week | Carried into the draft |
-| Who is in charge | Mara Chen, founder | Carried into the draft |
+| Who is in charge | Mara Chen, founder | Needs confirmation |
 
 **How this draft was built**
 

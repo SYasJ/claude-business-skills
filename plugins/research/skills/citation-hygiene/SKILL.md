@@ -103,6 +103,7 @@ Needed by: 30 September 2026
 
 A paragraph says 'studies show' and lists no study the user has.
 
+The draft: one file, dated 14 September 2026. No earlier version attached for comparison
 The sources they have: note from Dr. Nia Okonkwo, 14 September 2026. No outside report
 The citation style if required: no citation attached
 Claims that sound factual: the draft sentence is broader than the note
@@ -121,9 +122,10 @@ Replaces the phrase with an assumption or a request for the actual study.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The sources they have | note from Dr. Nia Okonkwo, 14 September 2026. No outside report | Needs confirmation |
+| The draft | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| The sources they have | note from Dr. Nia Okonkwo, 14 September 2026. No outside report | Carried into the draft |
 | The citation style if required | no citation attached | Carried into the draft |
-| Claims that sound factual | the draft sentence is broader than the note | Carried into the draft |
+| Claims that sound factual | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 A chat is about to tell customers data was stolen before anyone has confirmed access.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+What is known: Phishing report 4412, last reviewed 14 September 2026. No owner named since
+Systems affected: the one named in the ask. Version and owner not recorded
+Who is in charge: Aisha Rahman, engineering lead
+Legal or regulatory contacts they already have: Phishing report 4412 and one other, both unconfirmed as of 14 September 2026
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ Holds the claim, assigns a lead, and forbids log destruction.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| What is known | Phishing report 4412, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Systems affected | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| Who is in charge | Aisha Rahman, engineering lead | Carried into the draft |
+| Legal or regulatory contacts they already have | Phishing report 4412 and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

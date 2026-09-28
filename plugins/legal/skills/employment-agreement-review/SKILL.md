@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 An offer letter is silent on IP and includes a two-year non-compete with no geography.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+The agreement text: Harbor renewal, recorded 14 September 2026. No supporting file attached
+The role and location the user stated: Harbor renewal, recorded 14 September 2026. No supporting file attached
+Whether the person is an employee or contractor in their description: unsigned draft, 8 pages, no signature date
+Concerns HR already has: Harbor renewal and one other, both unconfirmed as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A review list quoting the non-compete, noting the missing IP clause, and handing
 
 | Input | Value | Status |
 | --- | --- | --- |
-| name | Lumen Ledger, word mark, no logo | Needs confirmation |
-| goods | bookkeeping software for independent shops | Carried into the draft |
-| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
-| register search | not in the file | Needs confirmation |
+| The agreement text | Harbor renewal, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The role and location the user stated | Harbor renewal, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Whether the person is an employee or contractor in their description | unsigned draft, 8 pages, no signature date | Carried into the draft |
+| Concerns HR already has | Harbor renewal and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

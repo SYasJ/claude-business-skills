@@ -104,8 +104,9 @@ Needed by: 30 September 2026
 A release is built on a laptop and nobody can list the dependencies.
 
 The inventory or SBOM they have: 20 on hand
+How artifacts are built: Endpoint patch ring 2, last reviewed 14 September 2026. No owner named since
 Who can publish a release: Aisha Rahman, engineering lead
-Known gaps: Kite Freight is missing a source
+Known gaps: Access review Q3 is missing a source
 ```
 
 ### Example outcome
@@ -122,8 +123,9 @@ Makes inventory and a repeatable build the first actions, with no invented compo
 | Input | Value | Status |
 | --- | --- | --- |
 | The inventory or SBOM they have | 20 on hand | Needs confirmation |
+| How artifacts are built | Endpoint patch ring 2, last reviewed 14 September 2026. No owner named since | Carried into the draft |
 | Who can publish a release | Aisha Rahman, engineering lead | Carried into the draft |
-| Known gaps | Kite Freight is missing a source | Carried into the draft |
+| Known gaps | Access review Q3 is missing a source | Needs confirmation |
 
 **How this draft was built**
 

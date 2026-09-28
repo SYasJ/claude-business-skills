@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A 45-minute demo deck has 30 features, and the buyer only asked how exceptions get resolved.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+The buyer's job and problem: A 45-minute demo deck has 30 features, and the buyer only asked how exceptions get resolved. Stated once, in the ask. Not written down anywhere else
+The three things the demo must prove: Harbor Goods, recorded 14 September 2026. No supporting file attached
+Time available: five working days, due 30 September 2026
+Features that are tempting but irrelevant: Harbor Goods, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A storyboard with one exception-resolution scene, two supporting proofs, and the
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| The buyer's job and problem | A 45-minute demo deck has 30 features, and the buyer only asked how exceptions get resolved. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The three things the demo must prove | Harbor Goods, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Time available | five working days, due 30 September 2026 | Carried into the draft |
+| Features that are tempting but irrelevant | Harbor Goods, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

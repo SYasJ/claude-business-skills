@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Prep says to deny an outage that engineering has confirmed.
 
-document: the statement in the folder
-unnamed quote: not used
-deadline: the board time
-unknown: stays unknown
+The point: Prep says to deny an outage that engineering has confirmed. Stated once, in the ask. Not written down anywhere else
+Known facts: Fare change. Stated in the ask, not documented anywhere else
+Likely questions: Prep says to deny an outage that engineering has confirmed
+Off-limit topics: Fare change. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Prep that tells the truth about the outage and refuses the denial script.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| document | the statement in the folder | Needs confirmation |
-| unnamed quote | not used | Carried into the draft |
-| deadline | the board time | Carried into the draft |
-| unknown | stays unknown | Needs confirmation |
+| The point | Prep says to deny an outage that engineering has confirmed. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Known facts | Fare change. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Likely questions | Prep says to deny an outage that engineering has confirmed | Carried into the draft |
+| Off-limit topics | Fare change. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

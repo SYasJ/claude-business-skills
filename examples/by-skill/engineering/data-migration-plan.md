@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A script copies customer records to a new store and the plan says 'check a few rows'.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+Source and target: note from Aisha Rahman, 14 September 2026. No outside report
+Volume if known: 65 in the last period. No prior period attached, so no trend
+Correctness rules: their one-page rule dated 2 Mar 2026. No exception log since
+Downtime tolerance: five working days, due 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Is more than a glance.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| Source and target | note from Aisha Rahman, 14 September 2026. No outside report | Needs confirmation |
+| Volume if known | 65 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Correctness rules | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Downtime tolerance | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

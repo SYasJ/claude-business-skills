@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A program claims a communication outcome and no course assesses it.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+Program outcomes: A program claims a communication outcome and no course assesses it. Stated once, in the ask. Not written down anywhere else
+Courses or modules: Rubric draft, last reviewed 14 September 2026. No owner named since
+Existing assessments: Rubric draft, last reviewed 14 September 2026. No owner named since
+Constraints: no extra headcount, and no result that is not in this file
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Shows the gap and recommends where an assessment should sit.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| Program outcomes | A program claims a communication outcome and no course assesses it. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Courses or modules | Rubric draft, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Existing assessments | Rubric draft, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

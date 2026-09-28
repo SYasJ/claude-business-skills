@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Objectives say 'understand compliance' for a one-hour briefing.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+The performance needed on the job or in the course: 75 in the last period. No prior period attached, so no trend
+The conditions: Module 2 lesson plan, recorded 14 September 2026. No supporting file attached
+The standard they will accept: their one-page rule dated 2 Mar 2026. No exception log since
+The level of the learner: Module 2 lesson plan, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Objectives that name a visible performance, such as spotting a missing control, 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| The performance needed on the job or in the course | 75 in the last period. No prior period attached, so no trend | Needs confirmation |
+| The conditions | Module 2 lesson plan, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The standard they will accept | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| The level of the learner | Module 2 lesson plan, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

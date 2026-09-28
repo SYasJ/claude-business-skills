@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A readout says users love the brand because three people finished a task.
 
-screens: 8, dated 10 Sep 2026
-job: the task in the ask
-accessibility pass: not done
-assets: theirs only
+The tasks: A readout says users love the brand because three people finished a task. Stated once, in the ask. Not written down anywhere else
+What participants did: Lena Ortiz plus two others named in the thread. No distribution list attached
+Severity clues: Empty-state copy. Partly documented: the what is written down, the who is not
+What the test cannot prove: Colour contrast audit, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Reports task completion, refuses the love claim, and ranks blocking issues.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| screens | 8, dated 10 Sep 2026 | Needs confirmation |
-| job | the task in the ask | Carried into the draft |
-| accessibility pass | not done | Carried into the draft |
-| assets | theirs only | Needs confirmation |
+| The tasks | A readout says users love the brand because three people finished a task. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| What participants did | Lena Ortiz plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Severity clues | Empty-state copy. Partly documented: the what is written down, the who is not | Carried into the draft |
+| What the test cannot prove | Colour contrast audit, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

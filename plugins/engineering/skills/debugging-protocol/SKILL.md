@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A bug appears only for one customer, and the draft plan changes three services before reading that customer's error.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The symptom: Checkout service, recorded 14 September 2026. No supporting file attached
+What changed recently: requested 14 September 2026. Not yet approved
+Evidence already collected: one PDF, 2 pages, dated 14 September 2026
+The environment: the one named in the ask. Version and owner not recorded
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A note with one hypothesis, a read-only check, and a ban on disabling auth as a 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The symptom | Checkout service, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| What changed recently | requested 14 September 2026. Not yet approved | Carried into the draft |
+| Evidence already collected | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The environment | the one named in the ask. Version and owner not recorded | Needs confirmation |
 
 **How this draft was built**
 

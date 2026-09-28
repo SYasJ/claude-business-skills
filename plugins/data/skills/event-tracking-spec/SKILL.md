@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A spec adds the user's national ID as a property to count button clicks.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The question the events answer: A spec adds the user's national ID as a property to count button clicks
+The actions to instrument: orders_daily; customers. Both unassigned as of 14 September 2026
+Existing naming rules: their one-page rule dated 2 Mar 2026. No exception log since
+Privacy limits: email and billing address. They said no health data
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Removes the ID, defines the success trigger, and names the verification step.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The question the events answer | A spec adds the user's national ID as a property to count button clicks | Needs confirmation |
+| The actions to instrument | orders_daily; customers. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Existing naming rules | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Privacy limits | email and billing address. They said no health data | Needs confirmation |
 
 **How this draft was built**
 

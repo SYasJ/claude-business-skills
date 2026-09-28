@@ -23,6 +23,7 @@ The CEO stopped reading the monthly pack because it arrives late and repeats the
 Who reads it: Mara Chen, founder
 Decisions the pack should trigger: The CEO stopped reading the monthly pack because it arrives late and repeats the chart dump
 Numbers the team can produce reliably: two people on shift, one off
+What is currently ignored in the old pack: Payroll 15 September, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -41,6 +42,7 @@ A short pack outline with page-one exceptions, source owners, and the old pages 
 | Who reads it | Mara Chen, founder | Needs confirmation |
 | Decisions the pack should trigger | The CEO stopped reading the monthly pack because it arrives late and repeats the chart dump | Carried into the draft |
 | Numbers the team can produce reliably | two people on shift, one off | Carried into the draft |
+| What is currently ignored in the old pack | Payroll 15 September, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

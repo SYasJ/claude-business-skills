@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 An issue is marked closed because the owner said the spreadsheet was updated, with no sample.
 
-event: the one in the ask, not a one-word label
-owner: blank
-control: not named
-score: not invented
+The issue: Control 7.2 access review, recorded 14 September 2026. No supporting file attached
+The failed control or obligation: their one-page rule dated 2 Mar 2026. No exception log since
+The harm: Control 7.2 access review, recorded 14 September 2026. No supporting file attached
+The proposed fix: Control 7.2 access review, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ An open issue until a sample shows the control operating, with a dated owner.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| event | the one in the ask, not a one-word label | Needs confirmation |
-| owner | blank | Carried into the draft |
-| control | not named | Carried into the draft |
-| score | not invented | Needs confirmation |
+| The issue | Control 7.2 access review, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The failed control or obligation | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| The harm | Control 7.2 access review, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The proposed fix | Control 7.2 access review, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

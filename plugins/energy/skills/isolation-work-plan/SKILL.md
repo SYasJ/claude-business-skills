@@ -101,10 +101,10 @@ Needed by: 30 September 2026
 
 A plan says to isolate 'as usual' and skip the test because the crew is experienced.
 
-meter: the one they named
-figure: their sheet
-promised date from elsewhere: not in the file
-owner: superintendent
+The equipment: Feeder 12, recorded 14 September 2026. No supporting file attached
+Isolation points they listed: Feeder 12; Site meter 4; September bill
+The prove-dead step: Feeder 12; Site meter 4. Both unassigned as of 14 September 2026
+The issuer: Feeder 12, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -120,10 +120,10 @@ Blocks the skip and requires named points and the test.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| meter | the one they named | Needs confirmation |
-| figure | their sheet | Carried into the draft |
-| promised date from elsewhere | not in the file | Carried into the draft |
-| owner | superintendent | Needs confirmation |
+| The equipment | Feeder 12, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Isolation points they listed | Feeder 12; Site meter 4; September bill | Carried into the draft |
+| The prove-dead step | Feeder 12; Site meter 4. Both unassigned as of 14 September 2026 | Carried into the draft |
+| The issuer | Feeder 12, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

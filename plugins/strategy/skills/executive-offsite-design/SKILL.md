@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A CEO has one day with the exec team and wants to leave with a focus decision and a hiring principle.
 
-decision: the one in the ask
-options: two, named
-evidence: the file only
-unowned idea: parked
+The decisions the offsite must produce: A CEO has one day with the exec team and wants to leave with a focus decision and a hiring principle
+Attendees: Mara Chen plus two others named in the thread. No distribution list attached
+Length of the offsite: plain, for people who already know the context. No house guide attached
+Sensitive topics the user wants handled carefully: email and billing address only. They stated no health or payment data
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ An agenda with two outcomes, pre-reads, a decision block for each, and a closing
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| options | two, named | Carried into the draft |
-| evidence | the file only | Carried into the draft |
-| unowned idea | parked | Needs confirmation |
+| The decisions the offsite must produce | A CEO has one day with the exec team and wants to leave with a focus decision and a hiring principle | Needs confirmation |
+| Attendees | Mara Chen plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Length of the offsite | plain, for people who already know the context. No house guide attached | Carried into the draft |
+| Sensitive topics the user wants handled carefully | email and billing address only. They stated no health or payment data | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A manager wants an assessment that catches cheaters by using hidden webcams.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+The objectives: A manager wants an assessment that catches cheaters by using hidden webcams. Stated once, in the ask. Not written down anywhere else
+The format: plain, for people who already know the context. No house guide attached
+The time: five working days, due 30 September 2026
+Integrity constraints they care about: no extra headcount, and no result that is not in this file
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Do not require covert cameras.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| The objectives | A manager wants an assessment that catches cheaters by using hidden webcams. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The format | plain, for people who already know the context. No house guide attached | Carried into the draft |
+| The time | five working days, due 30 September 2026 | Carried into the draft |
+| Integrity constraints they care about | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

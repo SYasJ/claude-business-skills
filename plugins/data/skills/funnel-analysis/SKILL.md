@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A funnel shows a huge drop between two events that can fire in either order.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The steps and their definitions: orders_daily; customers. Both unassigned as of 14 September 2026
+Counts they provided: 45 in the last period. No prior period attached, so no trend
+How users are identified: customers, last reviewed 14 September 2026. No owner named since
+Known tracking gaps: orders_daily is missing a source
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Calls the funnel unordered, pauses the product blame, and asks for a sequenced d
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The steps and their definitions | orders_daily; customers. Both unassigned as of 14 September 2026 | Needs confirmation |
+| Counts they provided | 45 in the last period. No prior period attached, so no trend | Carried into the draft |
+| How users are identified | customers, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Known tracking gaps | orders_daily is missing a source | Needs confirmation |
 
 **How this draft was built**
 

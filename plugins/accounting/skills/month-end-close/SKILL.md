@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The controller wants a soft close by day six and cash is still unreconciled on day five.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Period and entities: month ending 14 September 2026
+Open reconciliations: Operating cash and one other, both unconfirmed as of 14 September 2026
+Known judgments: Undeposited funds. Stated in the ask, not documented anywhere else
+Sign-off owner: Priya Shah, controller
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Refuses sign-off on unreconciled cash, lists open judgments, and separates any l
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| Period and entities | month ending 14 September 2026 | Needs confirmation |
+| Open reconciliations | Operating cash and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Known judgments | Undeposited funds. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Sign-off owner | Priya Shah, controller | Needs confirmation |
 
 **How this draft was built**
 

@@ -105,6 +105,7 @@ A supplier is blamed for shortages after the forecast doubled with no notice.
 
 The contracted outcomes: unsigned draft, 8 pages, no signature date
 Recent evidence: one PDF, 2 pages, dated 14 September 2026
+Volumes: 25 in the last period. No prior period attached, so no trend
 The internal owner: Diane Cho, supply lead
 ```
 

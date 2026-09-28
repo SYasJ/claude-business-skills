@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team wants to enable a payments change for everyone and has no way to disable it without a deploy.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The change: requested 14 September 2026. Not yet approved
+The first audience: people who already buy from Fieldnote
+How to disable it: Invoice job, last reviewed 14 September 2026. No owner named since
+What you will watch: Status page, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Starts with a small audience and names a disable path that does not require a he
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The change | requested 14 September 2026. Not yet approved | Needs confirmation |
+| The first audience | people who already buy from Fieldnote | Carried into the draft |
+| How to disable it | Invoice job, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| What you will watch | Status page, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

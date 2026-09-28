@@ -21,6 +21,7 @@ Needed by: 30 September 2026
 A draft claims a partner committed staff, and no letter exists.
 
 The funder's questions: A draft claims a partner committed staff, and no letter exists
+The project facts: Interview set A, recorded 14 September 2026. No supporting file attached
 Evidence of need and capacity: one PDF, 2 pages, dated 14 September 2026
 What they cannot promise: none written down beyond the ask
 ```
@@ -39,8 +40,9 @@ Moves the partner to 'in discussion' or cuts the claim.
 | Input | Value | Status |
 | --- | --- | --- |
 | The funder's questions | A draft claims a partner committed staff, and no letter exists | Needs confirmation |
+| The project facts | Interview set A, recorded 14 September 2026. No supporting file attached | Carried into the draft |
 | Evidence of need and capacity | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
-| What they cannot promise | none written down beyond the ask | Carried into the draft |
+| What they cannot promise | none written down beyond the ask | Needs confirmation |
 
 **How this draft was built**
 

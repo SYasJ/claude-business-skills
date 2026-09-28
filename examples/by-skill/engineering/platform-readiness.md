@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A platform team wants every service to migrate next month, and the quickstart is a stub.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The users inside the company: Checkout service, recorded 14 September 2026. No supporting file attached
+The promised interface: none written down beyond the ask
+Support model: Invoice job, last reviewed 14 September 2026. No owner named since
+Docs and SLOs they claim: the draft sentence is broader than the note
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Blocks the mandate, names the quickstart gap, and recommends one adopting team.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The users inside the company | Checkout service, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The promised interface | none written down beyond the ask | Carried into the draft |
+| Support model | Invoice job, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Docs and SLOs they claim | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

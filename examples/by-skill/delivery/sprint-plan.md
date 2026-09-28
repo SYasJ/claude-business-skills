@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team plans a full sprint while two people are out and the board is already full.
 
-milestone: the customer date
-status: slipped
-completed tasks: do not replace the slip
-decision: needed
+Team capacity: two people on shift, one off
+Candidate work: 30 September 2026
+The sprint goal: A team plans a full sprint while two people are out and the board is already full. Stated once, in the ask. Not written down anywhere else
+Known absences: RAID item 12. Stated in the ask, not documented anywhere else
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Cuts scope to the remaining capacity and states one goal.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| milestone | the customer date | Needs confirmation |
-| status | slipped | Carried into the draft |
-| completed tasks | do not replace the slip | Carried into the draft |
-| decision | needed | Needs confirmation |
+| Team capacity | two people on shift, one off | Needs confirmation |
+| Candidate work | 30 September 2026 | Carried into the draft |
+| The sprint goal | A team plans a full sprint while two people are out and the board is already full. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Known absences | RAID item 12. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A rubric says 'excellent analysis' with no description of what excellent contains.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+The task: A rubric says 'excellent analysis' with no description of what excellent contains. Stated once, in the ask. Not written down anywhere else
+The qualities that matter: Module 2 lesson plan, recorded 14 September 2026. No supporting file attached
+The scale they use: Module 2 lesson plan, recorded 14 September 2026. No supporting file attached
+Examples of strong and weak work if any: Module 2 lesson plan; Rubric draft. Both unassigned as of 14 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A rubric whose top level names the comparisons or evidence a marker must see.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| The task | A rubric says 'excellent analysis' with no description of what excellent contains. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The qualities that matter | Module 2 lesson plan, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The scale they use | Module 2 lesson plan, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Examples of strong and weak work if any | Module 2 lesson plan; Rubric draft. Both unassigned as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

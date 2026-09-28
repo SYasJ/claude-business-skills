@@ -103,6 +103,7 @@ Needed by: 30 September 2026
 
 The day-to-day user replies quickly but has never met procurement, and the seller calls them the champion.
 
+The person the seller thinks is the champion: Harbor Goods, recorded 14 September 2026. No supporting file attached
 Evidence of their influence: one PDF, 2 pages, dated 14 September 2026
 What they have asked for: The day-to-day user replies quickly but has never met procurement, and the seller calls them the champion
 The economic buyer: Redline Parts
@@ -121,9 +122,10 @@ Relabels the user as a coach and names the missing introduction to the economic 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| Evidence of their influence | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
+| The person the seller thinks is the champion | Harbor Goods, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Evidence of their influence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
 | What they have asked for | The day-to-day user replies quickly but has never met procurement, and the seller calls them the champion | Carried into the draft |
-| The economic buyer | Redline Parts | Carried into the draft |
+| The economic buyer | Redline Parts | Needs confirmation |
 
 **How this draft was built**
 

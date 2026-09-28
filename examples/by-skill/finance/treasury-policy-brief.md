@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A controller wants a one-page cash policy after a duplicate payment slipped through.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+Entities and bank relationships the user mentioned: Harbor & Co receipt. Stated in the ask, not documented anywhere else
+Who may approve payments today: Mara Chen, founder
+Surplus cash, if any: Operating cash, recorded 14 September 2026. No supporting file attached
+Risks they have already hit: Operating cash is open. No score in the file
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A policy brief with an approval matrix, an exception path, and no request for cr
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cash | the counted figure in the ask, one entity | Needs confirmation |
-| maybe receipt | not in the bank | Carried into the draft |
-| buffer | the one they named | Carried into the draft |
-| new spend | not in the base case | Needs confirmation |
+| Entities and bank relationships the user mentioned | Harbor & Co receipt. Stated in the ask, not documented anywhere else | Needs confirmation |
+| Who may approve payments today | Mara Chen, founder | Carried into the draft |
+| Surplus cash, if any | Operating cash, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Risks they have already hit | Operating cash is open. No score in the file | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A new form collects date of birth to personalize a color theme.
 
-event: the one in the ask, not a one-word label
-owner: blank
-control: not named
-score: not invented
+The process: email to Priya Shah. No written steps after 1 Sep 2026
+Data elements: Control 7.2 access review. Partly documented: the what is written down, the who is not
+People affected: Issue log item 18, last reviewed 14 September 2026. No owner named since
+Recipients they named: Priya Shah plus two others named in the thread. No distribution list attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Cuts the date of birth and sends any remaining legal question to counsel.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| event | the one in the ask, not a one-word label | Needs confirmation |
-| owner | blank | Carried into the draft |
-| control | not named | Carried into the draft |
-| score | not invented | Needs confirmation |
+| The process | email to Priya Shah. No written steps after 1 Sep 2026 | Needs confirmation |
+| Data elements | Control 7.2 access review. Partly documented: the what is written down, the who is not | Carried into the draft |
+| People affected | Issue log item 18, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Recipients they named | Priya Shah plus two others named in the thread. No distribution list attached | Needs confirmation |
 
 **How this draft was built**
 

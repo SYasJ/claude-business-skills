@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A handoff includes the success screen only for a payment flow.
 
-screens: 8, dated 10 Sep 2026
-job: the task in the ask
-accessibility pass: not done
-assets: theirs only
+The screens: Checkout screen v4, recorded 14 September 2026. No supporting file attached
+States: Empty-state copy and one other, both unconfirmed as of 14 September 2026
+Content: Colour contrast audit, last reviewed 14 September 2026. No owner named since
+Known decisions still open: A handoff includes the success screen only for a payment flow
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Adds failure, empty, and the unauthorized state, and lists open decisions.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| screens | 8, dated 10 Sep 2026 | Needs confirmation |
-| job | the task in the ask | Carried into the draft |
-| accessibility pass | not done | Carried into the draft |
-| assets | theirs only | Needs confirmation |
+| The screens | Checkout screen v4, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| States | Empty-state copy and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Content | Colour contrast audit, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Known decisions still open | A handoff includes the success screen only for a payment flow | Needs confirmation |
 
 **How this draft was built**
 

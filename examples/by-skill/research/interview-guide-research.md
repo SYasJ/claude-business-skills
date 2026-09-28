@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A guide starts by asking participants to agree that the product is essential.
 
-site: one
-sample: the count they gave
-missing file: named in the ask
-unopened citation: not used
+The question: A guide starts by asking participants to agree that the product is essential
+The participant type: Dr. Nia Okonkwo plus two others named in the thread. No distribution list attached
+Consent requirements they stated: their one-page rule dated 2 Mar 2026. No exception log since
+Sensitive topics: email and billing address only. They stated no health or payment data
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Asks for the last real incident and includes their consent step.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | one | Needs confirmation |
-| sample | the count they gave | Carried into the draft |
-| missing file | named in the ask | Carried into the draft |
-| unopened citation | not used | Needs confirmation |
+| The question | A guide starts by asking participants to agree that the product is essential | Needs confirmation |
+| The participant type | Dr. Nia Okonkwo plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Consent requirements they stated | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Sensitive topics | email and billing address only. They stated no health or payment data | Needs confirmation |
 
 **How this draft was built**
 

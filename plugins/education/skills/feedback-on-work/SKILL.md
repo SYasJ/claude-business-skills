@@ -101,10 +101,10 @@ Needed by: 30 September 2026
 
 A teacher wants the assistant to rewrite a student's essay so it will pass.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+The work: Module 2 lesson plan; Rubric draft. Both unassigned as of 14 September 2026
+The rubric or objective: A teacher wants the assistant to rewrite a student's essay so it will pass. Stated once, in the ask. Not written down anywhere else
+The learner's level: Module 2 lesson plan, recorded 14 September 2026. No supporting file attached
+What they may revise: A teacher wants the assistant to rewrite a student's essay so it will pass
 ```
 
 ### Example outcome
@@ -120,10 +120,10 @@ Feedback that points to the rubric gap and shows a small example revision the st
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| The work | Module 2 lesson plan; Rubric draft. Both unassigned as of 14 September 2026 | Needs confirmation |
+| The rubric or objective | A teacher wants the assistant to rewrite a student's essay so it will pass. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| The learner's level | Module 2 lesson plan, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| What they may revise | A teacher wants the assistant to rewrite a student's essay so it will pass | Needs confirmation |
 
 **How this draft was built**
 

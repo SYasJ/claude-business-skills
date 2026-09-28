@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A launch is late because product and marketing both think the other owns the date.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The decision or process: A launch is late because product and marketing both think the other owns the date
+The people involved: Tuesday shift, recorded 14 September 2026. No supporting file attached
+Where work stalls: Tuesday shift; SOP 118 receiving. Both unassigned as of 14 September 2026
+Who is currently blamed: Diane Cho, operations manager
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A RACI with one owner for the date and a short consulted list.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The decision or process | A launch is late because product and marketing both think the other owns the date | Needs confirmation |
+| The people involved | Tuesday shift, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Where work stalls | Tuesday shift; SOP 118 receiving. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Who is currently blamed | Diane Cho, operations manager | Needs confirmation |
 
 **How this draft was built**
 

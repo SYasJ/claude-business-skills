@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The schedule loads 120 hours into an 80-hour cell and the status is on time.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+Demand: 45 in the last period. No prior period attached, so no trend
+Capacity: two people, no overtime figure
+Material constraints: no extra headcount, and no result that is not in this file
+Frozen window if any: two deals cited from memory. Neither has a written loss reason
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Cuts or sequences to 80 hours and names the promise that moves.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| Demand | 45 in the last period. No prior period attached, so no trend | Needs confirmation |
+| Capacity | two people, no overtime figure | Carried into the draft |
+| Material constraints | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Frozen window if any | two deals cited from memory. Neither has a written loss reason | Needs confirmation |
 
 **How this draft was built**
 

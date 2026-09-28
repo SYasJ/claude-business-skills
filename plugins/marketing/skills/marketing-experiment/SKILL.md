@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team wants to test a new headline, a new price, and a new form in one week and then 'see what happens'.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The hypothesis: A team wants to test a new headline, a new price, and a new form in one week and then 'see what happens'. Stated once, in the ask. Not written down anywhere else
+The single change: requested 14 September 2026. Not yet approved
+The event that measures it: Fall service page, recorded 14 September 2026. No supporting file attached
+The sample or spend available: Fall service page, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ The sample may only be directional.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The hypothesis | A team wants to test a new headline, a new price, and a new form in one week and then 'see what happens'. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The single change | requested 14 September 2026. Not yet approved | Carried into the draft |
+| The event that measures it | Fall service page, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The sample or spend available | Fall service page, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

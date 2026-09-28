@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Marketing promises a 99.9 percent uptime on the homepage, and the product team has no status page or credit policy.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+What the customer buys: Vendor terms, last reviewed 14 September 2026. No owner named since
+How they accept terms: Contractor NDA, last reviewed 14 September 2026. No owner named since
+Limits the product really has: Vendor terms. Stated in the ask, not documented anywhere else
+Support and uptime promises marketing already makes: none written down beyond the ask
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Flag the homepage promise as a term that counsel and product must either support
 
 | Input | Value | Status |
 | --- | --- | --- |
-| name | Lumen Ledger, word mark, no logo | Needs confirmation |
-| goods | bookkeeping software for independent shops | Carried into the draft |
-| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
-| register search | not in the file | Needs confirmation |
+| What the customer buys | Vendor terms, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| How they accept terms | Contractor NDA, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Limits the product really has | Vendor terms. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Support and uptime promises marketing already makes | none written down beyond the ask | Needs confirmation |
 
 **How this draft was built**
 

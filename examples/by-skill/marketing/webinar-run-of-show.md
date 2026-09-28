@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A webinar titled as a practical workshop is planned as a 45-minute product pitch.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The audience: people who already buy from Fieldnote
+The one teaching goal: A webinar titled as a practical workshop is planned as a 45-minute product pitch. Stated once, in the ask. Not written down anywhere else
+Speakers: Fall service page. Partly documented: the what is written down, the who is not
+The ask: A webinar titled as a practical workshop is planned as a 45-minute product pitch. Stated once, in the ask. Not written down anywhere else
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Either retitles the session or replaces half the pitch with the promised practic
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The audience | people who already buy from Fieldnote | Needs confirmation |
+| The one teaching goal | A webinar titled as a practical workshop is planned as a 45-minute product pitch. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Speakers | Fall service page. Partly documented: the what is written down, the who is not | Carried into the draft |
+| The ask | A webinar titled as a practical workshop is planned as a 45-minute product pitch. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 
 **How this draft was built**
 

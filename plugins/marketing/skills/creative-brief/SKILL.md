@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A designer received 'make it pop' and a deadline, with the offer still undecided.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The audience and the action: people who already buy from Fieldnote
+The single message: Fall service page, recorded 14 September 2026. No supporting file attached
+Mandatories and brand limits: Fall service page, last reviewed 14 September 2026. No owner named since
+Examples of work they like or dislike: Fall service page; Email to lapsed buyers. Both unassigned as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Blocks production until the offer and the single message are written.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The audience and the action | people who already buy from Fieldnote | Needs confirmation |
+| The single message | Fall service page, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Mandatories and brand limits | Fall service page, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Examples of work they like or dislike | Fall service page; Email to lapsed buyers. Both unassigned as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

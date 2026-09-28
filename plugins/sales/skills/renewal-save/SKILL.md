@@ -103,8 +103,9 @@ Needed by: 30 September 2026
 
 A customer will not renew because nobody completed onboarding, and the rep wants to offer 30 percent off.
 
-What the customer says is wrong: Cedar Clinic
+What the customer says is wrong: Redline Parts, last reviewed 14 September 2026. No owner named since
 Usage or value evidence the user has: one PDF, 2 pages, dated 14 September 2026
+What concessions are authorized: Redline Parts, last reviewed 14 September 2026. No owner named since
 The renewal date: 30 September 2026
 ```
 
@@ -121,9 +122,10 @@ Leads with an onboarding remedy and holds the discount until a commercial proble
 
 | Input | Value | Status |
 | --- | --- | --- |
-| What the customer says is wrong | Cedar Clinic | Needs confirmation |
+| What the customer says is wrong | Redline Parts, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 | Usage or value evidence the user has | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
-| The renewal date | 30 September 2026 | Carried into the draft |
+| What concessions are authorized | Redline Parts, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The renewal date | 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

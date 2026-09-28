@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The company signs a similar SaaS order form every month and keeps conceding auto-renewal by accident.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+The contract type: unsigned draft, 8 pages, no signature date
+Positions the business already cares about: Harbor renewal, recorded 14 September 2026. No supporting file attached
+Past concessions they regret: Harbor renewal. Partly documented: the what is written down, the who is not
+Who may approve a fallback: Elena Voss, operations lead
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A short playbook with preferred and walk-away positions on renewal, liability, a
 
 | Input | Value | Status |
 | --- | --- | --- |
-| name | Lumen Ledger, word mark, no logo | Needs confirmation |
-| goods | bookkeeping software for independent shops | Carried into the draft |
-| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
-| register search | not in the file | Needs confirmation |
+| The contract type | unsigned draft, 8 pages, no signature date | Needs confirmation |
+| Positions the business already cares about | Harbor renewal, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Past concessions they regret | Harbor renewal. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Who may approve a fallback | Elena Voss, operations lead | Needs confirmation |
 
 **How this draft was built**
 

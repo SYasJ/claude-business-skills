@@ -105,6 +105,7 @@ Revenue forecasts have been high four months in a row and the team wants a new t
 
 Prior forecasts and actuals: plan 120, no second scenario attached
 The grain: week, month, product, or team: week: in the file; month: not in the file; product: open; team: in the file
+Known one-off events: Harbor & Co receipt. Stated in the ask, not documented anywhere else
 Who owns the forecast: plan 120, no second scenario attached
 ```
 
@@ -123,7 +124,8 @@ Shows the directional bias, names the habit, and delays a tooling recommendation
 | --- | --- | --- |
 | Prior forecasts and actuals | plan 120, no second scenario attached | Needs confirmation |
 | The grain: week, month, product, or team | week: in the file; month: not in the file; product: open; team: in the file | Carried into the draft |
-| Who owns the forecast | plan 120, no second scenario attached | Carried into the draft |
+| Known one-off events | Harbor & Co receipt. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Who owns the forecast | plan 120, no second scenario attached | Needs confirmation |
 
 **How this draft was built**
 

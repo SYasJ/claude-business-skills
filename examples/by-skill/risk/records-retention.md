@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team wants a seven-year rule on everything because it sounds safe.
 
-event: the one in the ask, not a one-word label
-owner: blank
-control: not named
-score: not invented
+Record types: one file, dated 14 September 2026. No earlier version attached for comparison
+Where they live: Vendor Redline Parts, recorded 14 September 2026. No supporting file attached
+Business need they stated: Vendor Redline Parts. Partly documented: the what is written down, the who is not
+Legal holds they know about: Issue log item 18 and one other, both unconfirmed as of 14 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Refuses the blanket rule, separates business need from legal questions, and prot
 
 | Input | Value | Status |
 | --- | --- | --- |
-| event | the one in the ask, not a one-word label | Needs confirmation |
-| owner | blank | Carried into the draft |
-| control | not named | Carried into the draft |
-| score | not invented | Needs confirmation |
+| Record types | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| Where they live | Vendor Redline Parts, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Business need they stated | Vendor Redline Parts. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Legal holds they know about | Issue log item 18 and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

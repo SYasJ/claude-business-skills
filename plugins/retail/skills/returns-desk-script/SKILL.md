@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A script tells associates to shame the shopper into keeping the item.
 
-store: Harbor Goods, Airdrie
-price: shelf price
-stock: the count
-review: not invented
+The policy: their one-page rule dated 2 Mar 2026. No exception log
+What the colleague can see: Returns desk log, last reviewed 14 September 2026. No owner named since
+Authorized exceptions: SKU 1044 cabin filter is open. End-cap display 3 was raised verbally and never logged
+Tone: plain, for people who already know the context. No house guide attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ States the policy calmly and escalates exceptions without shame.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| store | Harbor Goods, Airdrie | Needs confirmation |
-| price | shelf price | Carried into the draft |
-| stock | the count | Carried into the draft |
-| review | not invented | Needs confirmation |
+| The policy | their one-page rule dated 2 Mar 2026. No exception log | Needs confirmation |
+| What the colleague can see | Returns desk log, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Authorized exceptions | SKU 1044 cabin filter is open. End-cap display 3 was raised verbally and never logged | Carried into the draft |
+| Tone | plain, for people who already know the context. No house guide attached | Needs confirmation |
 
 **How this draft was built**
 

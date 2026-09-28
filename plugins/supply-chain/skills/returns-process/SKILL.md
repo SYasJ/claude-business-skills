@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The website promises instant refunds and the warehouse has not inspected the unit.
 
-sku: 1044
-supplier: Redline Parts
-lead time: their number
-alternate: none
+Reasons they see: Calgary-Edmonton lane. Stated in the ask, not documented anywhere else
+Disposition options: keep SKU 1044 cabin filter, or stop. No third option written
+Refund authority: SKU 1044 cabin filter and one other, both unconfirmed as of 14 September 2026
+Customer promise: Kite Freight
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Aligns the promise with inspection and keeps inventory records honest.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| sku | 1044 | Needs confirmation |
-| supplier | Redline Parts | Carried into the draft |
-| lead time | their number | Carried into the draft |
-| alternate | none | Needs confirmation |
+| Reasons they see | Calgary-Edmonton lane. Stated in the ask, not documented anywhere else | Needs confirmation |
+| Disposition options | keep SKU 1044 cabin filter, or stop. No third option written | Carried into the draft |
+| Refund authority | SKU 1044 cabin filter and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Customer promise | Kite Freight | Needs confirmation |
 
 **How this draft was built**
 

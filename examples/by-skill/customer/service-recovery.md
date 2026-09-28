@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A draft says 'everything is resolved' while the queue is still failing.
 
-ticket: 4412, 14 Sep 2026
-customer words: in the ticket
-exception: not approved
-card or password: not collected
+What failed: Ticket 4412, first seen 14 September 2026. No root cause recorded yet
+Who was affected: Rita Santos, support lead
+The fix: Ticket 4412, recorded 14 September 2026. No supporting file attached
+The remedy the team is allowed to offer: two people on shift, one off
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ States the ongoing failure, omits the fake resolution, and offers only an author
 
 | Input | Value | Status |
 | --- | --- | --- |
-| ticket | 4412, 14 Sep 2026 | Needs confirmation |
-| customer words | in the ticket | Carried into the draft |
-| exception | not approved | Carried into the draft |
-| card or password | not collected | Needs confirmation |
+| What failed | Ticket 4412, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| Who was affected | Rita Santos, support lead | Carried into the draft |
+| The fix | Ticket 4412, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The remedy the team is allowed to offer | two people on shift, one off | Needs confirmation |
 
 **How this draft was built**
 

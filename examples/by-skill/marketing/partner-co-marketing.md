@@ -21,6 +21,7 @@ Needed by: 30 September 2026
 A team drafted a joint post that includes the partner's revenue and has not asked the partner.
 
 The partner and the joint offer: CAD 180, dates not set, cap not set
+Approval path on both sides: Email to lapsed buyers. Partly documented: the what is written down, the who is not
 Claims each side can make: the draft sentence is broader than the note
 The audience: people who already buy from Fieldnote
 ```
@@ -39,8 +40,9 @@ Strips the unapproved revenue claim and adds a written approval step before anyt
 | Input | Value | Status |
 | --- | --- | --- |
 | The partner and the joint offer | CAD 180, dates not set, cap not set | Needs confirmation |
+| Approval path on both sides | Email to lapsed buyers. Partly documented: the what is written down, the who is not | Carried into the draft |
 | Claims each side can make | the draft sentence is broader than the note | Carried into the draft |
-| The audience | people who already buy from Fieldnote | Carried into the draft |
+| The audience | people who already buy from Fieldnote | Needs confirmation |
 
 **How this draft was built**
 

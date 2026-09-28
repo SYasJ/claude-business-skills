@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The definition requires a help article, but nobody has written one in six months.
 
-milestone: the customer date
-status: slipped
-completed tasks: do not replace the slip
-decision: needed
+The work type: Milestone 3 handover; RAID item 12. Both unassigned as of 14 September 2026
+Quality bars they already require: RAID item 12. Partly documented: the what is written down, the who is not
+Review steps: Milestone 3 handover; RAID item 12. Both unassigned as of 14 September 2026
+Exceptions: Milestone 3 handover is open. RAID item 12 was raised verbally and never logged
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Either restores the article check with an owner or removes it until the team mea
 
 | Input | Value | Status |
 | --- | --- | --- |
-| milestone | the customer date | Needs confirmation |
-| status | slipped | Carried into the draft |
-| completed tasks | do not replace the slip | Carried into the draft |
-| decision | needed | Needs confirmation |
+| The work type | Milestone 3 handover; RAID item 12. Both unassigned as of 14 September 2026 | Needs confirmation |
+| Quality bars they already require | RAID item 12. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Review steps | Milestone 3 handover; RAID item 12. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Exceptions | Milestone 3 handover is open. RAID item 12 was raised verbally and never logged | Needs confirmation |
 
 **How this draft was built**
 

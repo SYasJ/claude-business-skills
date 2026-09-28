@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Counsel asked operations to warn three teams to keep project email, and the current draft sounds like an accusation.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+The matter name counsel is using: Harbor renewal, recorded 14 September 2026. No supporting file attached
+Who may have relevant records: Elena Voss, operations lead
+Systems those people use: the one named in the ask. Version and owner not recorded
+The counsel approver: Elena Voss. They have not signed
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Lists the systems, requires preservation, and waits for counsel approval.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| name | Lumen Ledger, word mark, no logo | Needs confirmation |
-| goods | bookkeeping software for independent shops | Carried into the draft |
-| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
-| register search | not in the file | Needs confirmation |
+| The matter name counsel is using | Harbor renewal, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Who may have relevant records | Elena Voss, operations lead | Carried into the draft |
+| Systems those people use | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| The counsel approver | Elena Voss. They have not signed | Needs confirmation |
 
 **How this draft was built**
 

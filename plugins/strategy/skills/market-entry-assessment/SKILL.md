@@ -104,8 +104,9 @@ Needed by: 30 September 2026
 
 A domestic software company asks whether to open a UK motion next quarter because two inbound leads arrived.
 
+The segment definition: Harbor & Co, recorded 14 September 2026. No supporting file attached
 Why now, in the user's words: A domestic software company asks whether to open a UK motion next quarter because two inbound leads arrived
-Access to the first customers: Harbor & Co
+Access to the first customers: Bright Axle, last reviewed 14 September 2026. No owner named since
 Cost and constraint of a test: CAD 36 direct. Overhead not in this line
 ```
 
@@ -122,9 +123,10 @@ Defines the segment, prices a 90-day test, names the compliance questions for co
 
 | Input | Value | Status |
 | --- | --- | --- |
-| Why now, in the user's words | A domestic software company asks whether to open a UK motion next quarter because two inbound leads arrived | Needs confirmation |
-| Access to the first customers | Harbor & Co | Carried into the draft |
-| Cost and constraint of a test | CAD 36 direct. Overhead not in this line | Carried into the draft |
+| The segment definition | Harbor & Co, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Why now, in the user's words | A domestic software company asks whether to open a UK motion next quarter because two inbound leads arrived | Carried into the draft |
+| Access to the first customers | Bright Axle, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Cost and constraint of a test | CAD 36 direct. Overhead not in this line | Needs confirmation |
 
 **How this draft was built**
 

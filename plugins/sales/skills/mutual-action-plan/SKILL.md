@@ -103,7 +103,7 @@ Needed by: 30 September 2026
 
 A seller wants a mutual action plan, but the buyer has not named a security reviewer.
 
-The buyer's process steps: Kite Freight
+The buyer's process steps: email to Samir Qureshi. No written steps after 1 Sep 2026
 Dates they have acknowledged: 30 September 2026
 Owners on both sides: Samir Qureshi, account executive
 Open risks: Harbor Goods is open. No score in the file
@@ -122,7 +122,7 @@ Leaves security review unowned and refuses to print a close date as agreed.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The buyer's process steps | Kite Freight | Needs confirmation |
+| The buyer's process steps | email to Samir Qureshi. No written steps after 1 Sep 2026 | Needs confirmation |
 | Dates they have acknowledged | 30 September 2026 | Carried into the draft |
 | Owners on both sides | Samir Qureshi, account executive | Carried into the draft |
 | Open risks | Harbor Goods is open. No score in the file | Needs confirmation |

@@ -23,6 +23,7 @@ Leadership wants a community so marketing can email the members every day.
 Why members would participate: Leadership wants a community so marketing can email the members every day
 Who will moderate: Lena Ortiz, marketing lead
 The offer to members: CAD 120, dates not set, cap not set
+Topics that are out of bounds: Email to lapsed buyers and one other, both unconfirmed as of 14 September 2026
 ```
 
 ## Example outcome
@@ -41,6 +42,7 @@ Either redesigns it around a member job or calls it a newsletter, with moderatio
 | Why members would participate | Leadership wants a community so marketing can email the members every day | Needs confirmation |
 | Who will moderate | Lena Ortiz, marketing lead | Carried into the draft |
 | The offer to members | CAD 120, dates not set, cap not set | Carried into the draft |
+| Topics that are out of bounds | Email to lapsed buyers and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

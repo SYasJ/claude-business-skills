@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A listing says the item includes a charger but the SKU does not ship one.
 
-store: Harbor Goods, Airdrie
-price: shelf price
-stock: the count
-review: not invented
+The current listing copy: SKU 1044 cabin filter; End-cap display 3; Returns desk log
+Product specs they confirmed: SKU 1044 cabin filter. Stated in the ask, not documented anywhere else
+Images available: End-cap display 3 and one other, both unconfirmed as of 14 September 2026
+Category restrictions: SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Removes the charger claim and flags the image showing one.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| store | Harbor Goods, Airdrie | Needs confirmation |
-| price | shelf price | Carried into the draft |
-| stock | the count | Carried into the draft |
-| review | not invented | Needs confirmation |
+| The current listing copy | SKU 1044 cabin filter; End-cap display 3; Returns desk log | Needs confirmation |
+| Product specs they confirmed | SKU 1044 cabin filter. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Images available | End-cap display 3 and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Category restrictions | SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

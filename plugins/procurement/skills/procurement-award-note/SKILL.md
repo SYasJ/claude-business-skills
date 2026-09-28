@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A low-scoring friend of the buyer is moved to first after evaluation.
 
-quotes: only those attached
-missing term: blank
-authority: their limit
-award: not made here
+The criteria: their existing list, 6 lines. Two lines have no owner
+The scores and prices they have: CAD 120
+Conflicts: Quote set, 3 vendors. Stated in the ask, not documented anywhere else
+The approver: Diane Cho. They have not signed
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Refuses the move and records the original scores.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| quotes | only those attached | Needs confirmation |
-| missing term | blank | Carried into the draft |
-| authority | their limit | Carried into the draft |
-| award | not made here | Needs confirmation |
+| The criteria | their existing list, 6 lines. Two lines have no owner | Needs confirmation |
+| The scores and prices they have | CAD 120 | Carried into the draft |
+| Conflicts | Quote set, 3 vendors. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The approver | Diane Cho. They have not signed | Needs confirmation |
 
 **How this draft was built**
 

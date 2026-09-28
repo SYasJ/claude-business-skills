@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The plan assigns a trend piece with no sources because the slot is empty.
 
-document: the statement in the folder
-unnamed quote: not used
-deadline: the board time
-unknown: stays unknown
+Ready stories: Company statement. Stated in the ask, not documented anywhere else
+Open reporting: one file, dated 14 September 2026. No earlier version attached for comparison
+Slots: Fare change. Partly documented: the what is written down, the who is not
+Legal or standards flags: their one-page rule dated 2 Mar 2026. No exception log since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Kills or holds the piece and leaves the slot open.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| document | the statement in the folder | Needs confirmation |
-| unnamed quote | not used | Carried into the draft |
-| deadline | the board time | Carried into the draft |
-| unknown | stays unknown | Needs confirmation |
+| Ready stories | Company statement. Stated in the ask, not documented anywhere else | Needs confirmation |
+| Open reporting | one file, dated 14 September 2026. No earlier version attached for comparison | Carried into the draft |
+| Slots | Fare change. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Legal or standards flags | their one-page rule dated 2 Mar 2026. No exception log since | Needs confirmation |
 
 **How this draft was built**
 

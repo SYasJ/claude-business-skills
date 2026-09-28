@@ -22,6 +22,7 @@ A landing page says the product cuts costs by 40 percent, and the only support i
 
 The draft claim: the draft sentence is broader than the note
 The evidence they have: one PDF, 2 pages, dated 14 September 2026
+Where it will appear: Contractor NDA, recorded 14 September 2026. No supporting file attached
 The product the claim describes: the draft sentence is broader than the note
 ```
 
@@ -40,7 +41,8 @@ Blocks the percentage claim until evidence exists and offers narrower wording ti
 | --- | --- | --- |
 | The draft claim | the draft sentence is broader than the note | Needs confirmation |
 | The evidence they have | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
-| The product the claim describes | the draft sentence is broader than the note | Carried into the draft |
+| Where it will appear | Contractor NDA, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The product the claim describes | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

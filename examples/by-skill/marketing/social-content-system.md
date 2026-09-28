@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A founder wants two posts a day and has no reviewer for technical claims.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+Channels the company will actually maintain: plain, for people who already know the context. No house guide attached
+Themes tied to buyer questions: A founder wants two posts a day and has no reviewer for technical claims
+Reviewer: Lena Ortiz. No second reviewer named
+Topics that are off limits: Email to lapsed buyers and one other, both unconfirmed as of 14 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A system with a lower cadence, a named reviewer, and an explicit ban on fake eng
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| Channels the company will actually maintain | plain, for people who already know the context. No house guide attached | Needs confirmation |
+| Themes tied to buyer questions | A founder wants two posts a day and has no reviewer for technical claims | Carried into the draft |
+| Reviewer | Lena Ortiz. No second reviewer named | Carried into the draft |
+| Topics that are off limits | Email to lapsed buyers and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A launch model depends on conversion and fulfillment cost, and the team is arguing about formatting rather than drivers.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+The model outcome that matters: A launch model depends on conversion and fulfillment cost, and the team is arguing about formatting rather than drivers. Stated once, in the ask. Not written down anywhere else
+The inputs the user can actually vary: Operating cash, recorded 14 September 2026. No supporting file attached
+A base case from their numbers: Harbor & Co receipt and one other, both unconfirmed as of 14 September 2026
+The range they consider plausible: Operating cash, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A one-way sensitivity on the user's ranges, the dominant driver, and a recommend
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cash | the counted figure in the ask, one entity | Needs confirmation |
-| maybe receipt | not in the bank | Carried into the draft |
-| buffer | the one they named | Carried into the draft |
-| new spend | not in the base case | Needs confirmation |
+| The model outcome that matters | A launch model depends on conversion and fulfillment cost, and the team is arguing about formatting rather than drivers. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The inputs the user can actually vary | Operating cash, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| A base case from their numbers | Harbor & Co receipt and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| The range they consider plausible | Operating cash, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

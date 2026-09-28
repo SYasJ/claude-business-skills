@@ -20,8 +20,9 @@ Needed by: 30 September 2026
 
 A report lists many completed tasks while the customer milestone slipped two weeks.
 
+Plan versus actual: Change request 118. Stated in the ask, not documented anywhere else
 Decisions needed: A report lists many completed tasks while the customer milestone slipped two weeks
-Risks that changed: Harbor & Co is open. No score in the file
+Risks that changed: Milestone 3 handover is open. No score in the file
 The audience: people who already buy from Harbor Goods
 ```
 
@@ -38,9 +39,10 @@ Marks the slip, leads with the needed decision, and refuses effort as a substitu
 
 | Input | Value | Status |
 | --- | --- | --- |
-| Decisions needed | A report lists many completed tasks while the customer milestone slipped two weeks | Needs confirmation |
-| Risks that changed | Harbor & Co is open. No score in the file | Carried into the draft |
-| The audience | people who already buy from Harbor Goods | Carried into the draft |
+| Plan versus actual | Change request 118. Stated in the ask, not documented anywhere else | Needs confirmation |
+| Decisions needed | A report lists many completed tasks while the customer milestone slipped two weeks | Carried into the draft |
+| Risks that changed | Milestone 3 handover is open. No score in the file | Carried into the draft |
+| The audience | people who already buy from Harbor Goods | Needs confirmation |
 
 **How this draft was built**
 

@@ -21,6 +21,7 @@ Needed by: 30 September 2026
 An RFP asks for a certification the company has not achieved and sales wants to answer 'yes, in progress' in the yes box.
 
 The questions that matter: An RFP asks for a certification the company has not achieved and sales wants to answer 'yes, in progress' in the yes box
+Facts the company can support: Cedar Clinic and one other, both unconfirmed as of 14 September 2026
 Deadline and submission rules: 30 September 2026
 Why this RFP is worth answering: An RFP asks for a certification the company has not achieved and sales wants to answer 'yes, in progress' in the yes box
 ```
@@ -39,8 +40,9 @@ Answers no or exception, explains the in-progress status outside the yes box, an
 | Input | Value | Status |
 | --- | --- | --- |
 | The questions that matter | An RFP asks for a certification the company has not achieved and sales wants to answer 'yes, in progress' in the yes box | Needs confirmation |
+| Facts the company can support | Cedar Clinic and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
 | Deadline and submission rules | 30 September 2026 | Carried into the draft |
-| Why this RFP is worth answering | An RFP asks for a certification the company has not achieved and sales wants to answer 'yes, in progress' in the yes box | Carried into the draft |
+| Why this RFP is worth answering | An RFP asks for a certification the company has not achieved and sales wants to answer 'yes, in progress' in the yes box | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 An internal team is judged on a two-day turnaround it has never hit.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The service: the one named in the ask. Version and owner not recorded
+Who may request it: Diane Cho, operations manager
+The standard lead time they can meet: 21 days
+Exclusions: Tuesday shift is open. SOP 118 receiving was raised verbally and never logged
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ An entry with a truthful lead time or an explicit unknown, plus exclusions.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The service | the one named in the ask. Version and owner not recorded | Needs confirmation |
+| Who may request it | Diane Cho, operations manager | Carried into the draft |
+| The standard lead time they can meet | 21 days | Carried into the draft |
+| Exclusions | Tuesday shift is open. SOP 118 receiving was raised verbally and never logged | Needs confirmation |
 
 **How this draft was built**
 

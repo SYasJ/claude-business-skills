@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A 40-page pack buries a request for more budget on page 31.
 
-milestone: the customer date
-status: slipped
-completed tasks: do not replace the slip
-decision: needed
+Decisions required: A 40-page pack buries a request for more budget on page 31
+Exception status: Milestone 3 handover is open. RAID item 12 was raised verbally and never logged
+Options: keep Milestone 3 handover, or stop. No third option written
+Pre-read length they will tolerate: 20 in the last period. No prior period attached, so no trend
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Leads with the budget decision, the options, and the recommendation.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| milestone | the customer date | Needs confirmation |
-| status | slipped | Carried into the draft |
-| completed tasks | do not replace the slip | Carried into the draft |
-| decision | needed | Needs confirmation |
+| Decisions required | A 40-page pack buries a request for more budget on page 31 | Needs confirmation |
+| Exception status | Milestone 3 handover is open. RAID item 12 was raised verbally and never logged | Carried into the draft |
+| Options | keep Milestone 3 handover, or stop. No third option written | Carried into the draft |
+| Pre-read length they will tolerate | 20 in the last period. No prior period attached, so no trend | Needs confirmation |
 
 **How this draft was built**
 

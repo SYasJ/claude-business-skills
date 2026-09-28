@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A project is declared done while operations does not know how to support the new workflow.
 
-milestone: the customer date
-status: slipped
-completed tasks: do not replace the slip
-decision: needed
+The charter outcome: A project is declared done while operations does not know how to support the new workflow. Stated once, in the ask. Not written down anywhere else
+What was delivered: Change request 118, last reviewed 14 September 2026. No owner named since
+Open issues: Milestone 3 handover is open. RAID item 12 was raised verbally and never logged
+The operational owner: Owen Blake, delivery lead
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Blocks full closure until the operational owner and open issues are named.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| milestone | the customer date | Needs confirmation |
-| status | slipped | Carried into the draft |
-| completed tasks | do not replace the slip | Carried into the draft |
-| decision | needed | Needs confirmation |
+| The charter outcome | A project is declared done while operations does not know how to support the new workflow. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| What was delivered | Change request 118, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Open issues | Milestone 3 handover is open. RAID item 12 was raised verbally and never logged | Carried into the draft |
+| The operational owner | Owen Blake, delivery lead | Needs confirmation |
 
 **How this draft was built**
 

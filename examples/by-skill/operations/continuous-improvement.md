@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team wants new software because a weekly report is late, and nobody has watched the report being built.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The recurring problem: A team wants new software because a weekly report is late, and nobody has watched the report being built. Stated once, in the ask. Not written down anywhere else
+The measure: Tuesday shift, recorded 14 September 2026. No supporting file attached
+The suspected cause: Tuesday shift, recorded 14 September 2026. No supporting file attached
+The time box: five working days, due 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Requires an observation of the current report path before any purchase.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The recurring problem | A team wants new software because a weekly report is late, and nobody has watched the report being built. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The measure | Tuesday shift, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The suspected cause | Tuesday shift, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The time box | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A case says 90 percent of participants succeed, and no outcome is tracked.
 
-program: the one they run
-measured outcome: no
-ask: one
-story: not invented
+The need they can evidence: one PDF, 2 pages, dated 14 September 2026
+The program: Literacy program, recorded 14 September 2026. No supporting file attached
+The ask: A case says 90 percent of participants succeed, and no outcome is tracked. Stated once, in the ask. Not written down anywhere else
+What donors must not be told: Donor list segment B, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Removes the percentage and describes the program without a fake rate.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| program | the one they run | Needs confirmation |
-| measured outcome | no | Carried into the draft |
-| ask | one | Carried into the draft |
-| story | not invented | Needs confirmation |
+| The need they can evidence | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
+| The program | Literacy program, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The ask | A case says 90 percent of participants succeed, and no outcome is tracked. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| What donors must not be told | Donor list segment B, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team wants every possible global filing listed just in case.
 
-event: the one in the ask, not a one-word label
-owner: blank
-control: not named
-score: not invented
+Known obligations: Vendor Redline Parts. Stated in the ask, not documented anywhere else
+Owners: Priya Shah, controller
+External dates they have confirmed: 30 September 2026
+Last year's misses: Issue log item 18, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -119,13 +119,13 @@ A calendar of confirmed obligations, with unknowns flagged for counsel instead o
 
 **Checklist**
 
-- [x] **Known obligations** — Harbor & Co. Priya Shah noted it on 14 September 2026. No second file for this line.  
+- [x] **Known obligations** — Vendor Redline Parts. Stated in the ask, not documented anywhere else  
       Evidenced in the file
 - [x] **Owners** — Priya Shah, controller  
       Evidenced in the file
 - [x] **External dates they have confirmed** — 30 September 2026  
       Evidenced in the file
-- [ ] **Last year's misses** — Harbor & Co. Priya Shah noted it on 14 September 2026. No second file for this line.  
+- [ ] **Last year's misses** — Issue log item 18, last reviewed 14 September 2026. No owner named since  
       Open — nothing in the file closes this
 
 **The gates this list enforces, in order**

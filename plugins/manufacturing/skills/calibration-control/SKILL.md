@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A caliper used for final accept is two months overdue and still on the bench.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+The instrument list: Line 2; Lot 26-0914; Gauge 7
+Due dates they have: 30 September 2026
+What the instrument accepts: Gauge 7, last reviewed 14 September 2026. No owner named since
+The quarantine practice: Line 2, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Quarantines it and asks for a use review rather than inventing which lots moved.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| The instrument list | Line 2; Lot 26-0914; Gauge 7 | Needs confirmation |
+| Due dates they have | 30 September 2026 | Carried into the draft |
+| What the instrument accepts | Gauge 7, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The quarantine practice | Line 2, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

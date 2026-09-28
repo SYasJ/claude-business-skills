@@ -22,6 +22,7 @@ A team wants a campaign for 'awareness' with six channels and no offer.
 
 The audience: people who already buy from Fieldnote
 The offer: CAD 120, dates not set, cap not set
+The action you want: Fall service page; Email to lapsed buyers. Both unassigned as of 14 September 2026
 Budget and channel constraints: CAD 180,000 available. Not a signed plan
 ```
 
@@ -40,7 +41,8 @@ Forces one audience, one offer, staffed channels, and a readout date.
 | --- | --- | --- |
 | The audience | people who already buy from Fieldnote | Needs confirmation |
 | The offer | CAD 120, dates not set, cap not set | Carried into the draft |
-| Budget and channel constraints | CAD 180,000 available. Not a signed plan | Carried into the draft |
+| The action you want | Fall service page; Email to lapsed buyers. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Budget and channel constraints | CAD 180,000 available. Not a signed plan | Needs confirmation |
 
 **How this draft was built**
 

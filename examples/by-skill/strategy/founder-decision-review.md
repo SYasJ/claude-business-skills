@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A solo founder wants to fire their first salesperson before a board meeting in two days and is unsure.
 
-decision: the one in the ask
-options: two, named
-evidence: the file only
-unowned idea: parked
+The decision and the deadline: 30 September 2026
+Alternatives still open: two deals cited from memory. Neither has a written loss reason
+What the founder is afraid of: open item, last reviewed 14 September 2026. No owner named since
+Whose advice they have already heard: Mara Chen, founder
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Restates the decision, separates facts from fear, names reversibility, and leave
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| options | two, named | Carried into the draft |
-| evidence | the file only | Carried into the draft |
-| unowned idea | parked | Needs confirmation |
+| The decision and the deadline | 30 September 2026 | Needs confirmation |
+| Alternatives still open | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| What the founder is afraid of | open item, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Whose advice they have already heard | Mara Chen, founder | Needs confirmation |
 
 **How this draft was built**
 

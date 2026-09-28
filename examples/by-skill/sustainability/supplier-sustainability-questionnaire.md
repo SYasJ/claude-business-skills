@@ -21,6 +21,7 @@ Needed by: 30 September 2026
 A supplier says it is certified and attaches no certificate.
 
 The questions: A supplier says it is certified and attaches no certificate
+The answers: Scope 2 electricity, recorded 14 September 2026. No supporting file attached
 Evidence attached: one PDF, 2 pages, dated 14 September 2026
 The decision the score would feed: CAD 180, from their sheet, not a guess
 ```
@@ -39,8 +40,9 @@ Marks the certification unverified and asks for the document.
 | Input | Value | Status |
 | --- | --- | --- |
 | The questions | A supplier says it is certified and attaches no certificate | Needs confirmation |
+| The answers | Scope 2 electricity, recorded 14 September 2026. No supporting file attached | Carried into the draft |
 | Evidence attached | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
-| The decision the score would feed | CAD 180, from their sheet, not a guess | Carried into the draft |
+| The decision the score would feed | CAD 180, from their sheet, not a guess | Needs confirmation |
 
 **How this draft was built**
 

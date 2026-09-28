@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A message promises power in 30 minutes because that sounded reassuring.
 
-meter: the one they named
-figure: their sheet
-promised date from elsewhere: not in the file
-owner: superintendent
+The affected area: Feeder 12, recorded 14 September 2026. No supporting file attached
+What is confirmed: September bill, last reviewed 14 September 2026. No owner named since
+The next update time: five working days, due 30 September 2026
+The approver: Devon Hale. They have not signed
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Removes the 30-minute promise and commits to a next update.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| meter | the one they named | Needs confirmation |
-| figure | their sheet | Carried into the draft |
-| promised date from elsewhere | not in the file | Carried into the draft |
-| owner | superintendent | Needs confirmation |
+| The affected area | Feeder 12, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| What is confirmed | September bill, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The next update time | five working days, due 30 September 2026 | Carried into the draft |
+| The approver | Devon Hale. They have not signed | Needs confirmation |
 
 **How this draft was built**
 

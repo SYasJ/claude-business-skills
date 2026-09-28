@@ -22,6 +22,7 @@ Leaders want margin by service line, but half of delivery cost sits in a general
 
 Ledger for the period: month ending 14 September 2026
 Dimensions they have: team, product, location: team: in the file; product: not in the file; location: open
+Allocations they currently use: Sales tax payable and one other, both unconfirmed as of 14 September 2026
 The decision the pack serves: Leaders want margin by service line, but half of delivery cost sits in a general pool
 ```
 
@@ -40,7 +41,8 @@ Shows contribution before allocation, labels the pool as unallocated, and bridge
 | --- | --- | --- |
 | Ledger for the period | month ending 14 September 2026 | Needs confirmation |
 | Dimensions they have: team, product, location | team: in the file; product: not in the file; location: open | Carried into the draft |
-| The decision the pack serves | Leaders want margin by service line, but half of delivery cost sits in a general pool | Carried into the draft |
+| Allocations they currently use | Sales tax payable and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| The decision the pack serves | Leaders want margin by service line, but half of delivery cost sits in a general pool | Needs confirmation |
 
 **How this draft was built**
 

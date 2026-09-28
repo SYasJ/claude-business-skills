@@ -22,6 +22,7 @@ A product lead wants Q3 OKRs and offers 'ship mobile app' and 'improve NPS' with
 
 Team or company the goals belong to: two people on shift, one off
 Quarter or cycle dates: 30 September 2026
+Strategy bets the goals must serve: A product lead wants Q3 OKRs and offers 'ship mobile app' and 'improve NPS' with no baseline. Stated once, in the ask. Not written down anywhere else
 Baseline for each proposed metric: plan 120, actual 75
 ```
 

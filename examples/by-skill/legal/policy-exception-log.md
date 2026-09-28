@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team wants to skip a vendor security review for a tool they already bought.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+The policy: their one-page rule dated 2 Mar 2026. No exception log
+The exception requested: Harbor renewal is open. Contractor NDA was raised verbally and never logged
+The business reason: Harbor renewal, recorded 14 September 2026. No supporting file attached
+The proposed expiry: Harbor renewal, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ An exception record with the skipped step, a short compensating review, a real e
 
 | Input | Value | Status |
 | --- | --- | --- |
-| name | Lumen Ledger, word mark, no logo | Needs confirmation |
-| goods | bookkeeping software for independent shops | Carried into the draft |
-| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
-| register search | not in the file | Needs confirmation |
+| The policy | their one-page rule dated 2 Mar 2026. No exception log | Needs confirmation |
+| The exception requested | Harbor renewal is open. Contractor NDA was raised verbally and never logged | Carried into the draft |
+| The business reason | Harbor renewal, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The proposed expiry | Harbor renewal, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

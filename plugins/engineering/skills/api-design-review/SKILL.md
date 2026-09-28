@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A new billing endpoint has no idempotency key and retries would create a second charge.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The proposed contract: unsigned draft, 8 pages, no signature date
+Consumers: Invoice job. Partly documented: the what is written down, the who is not
+Compatibility promises: none written down beyond the ask
+Auth model they use: Checkout service and one other, both unconfirmed as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Blocks on the double-charge retry and refuses any suggestion to skip authenticat
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The proposed contract | unsigned draft, 8 pages, no signature date | Needs confirmation |
+| Consumers | Invoice job. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Compatibility promises | none written down beyond the ask | Carried into the draft |
+| Auth model they use | Checkout service and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

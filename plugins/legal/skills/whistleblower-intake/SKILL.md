@@ -102,10 +102,10 @@ Needed by: 30 September 2026
 
 An employee reported a possible bribe and the manager wants to know if they can quietly move the reporter off the account.
 
-name: Lumen Ledger, word mark, no logo
-goods: bookkeeping software for independent shops
-already checked: lumenledger.com open on 12 Sep 2026
-register search: not in the file
+What was reported, with identifiers minimized: one file, dated 14 September 2026. No earlier version attached for comparison
+Who received it: Elena Voss, operations lead
+Immediate safety concerns: Vendor terms and one other, both unconfirmed as of 14 September 2026
+The company's stated process, if known: email to Elena Voss. No written steps after 1 Sep 2026
 ```
 
 ### Example outcome
@@ -121,10 +121,10 @@ Routes the allegation to an independent reviewer and refuses the retaliatory mov
 
 | Input | Value | Status |
 | --- | --- | --- |
-| name | Lumen Ledger, word mark, no logo | Needs confirmation |
-| goods | bookkeeping software for independent shops | Carried into the draft |
-| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
-| register search | not in the file | Needs confirmation |
+| What was reported, with identifiers minimized | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| Who received it | Elena Voss, operations lead | Carried into the draft |
+| Immediate safety concerns | Vendor terms and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| The company's stated process, if known | email to Elena Voss. No written steps after 1 Sep 2026 | Needs confirmation |
 
 **How this draft was built**
 

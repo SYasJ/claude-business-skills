@@ -103,8 +103,8 @@ Needed by: 30 September 2026
 A pack includes a handwashing SOP the farm does not use, to satisfy a checklist.
 
 Practices they documented: one PDF, 2 pages, dated 14 September 2026
-The buyer's checklist: Cedar Clinic
-Known gaps: Cedar Clinic is missing a source
+The buyer's checklist: North quarter, 140 acres; Input invoice 442; Harvest window
+Known gaps: North quarter, 140 acres is missing a source
 The owner: Ruth McKay, operator
 ```
 
@@ -122,8 +122,8 @@ Marks the SOP as not in place and assigns an owner if they choose to adopt it.
 | Input | Value | Status |
 | --- | --- | --- |
 | Practices they documented | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
-| The buyer's checklist | Cedar Clinic | Carried into the draft |
-| Known gaps | Cedar Clinic is missing a source | Carried into the draft |
+| The buyer's checklist | North quarter, 140 acres; Input invoice 442; Harvest window | Carried into the draft |
+| Known gaps | North quarter, 140 acres is missing a source | Carried into the draft |
 | The owner | Ruth McKay, operator | Needs confirmation |
 
 **How this draft was built**

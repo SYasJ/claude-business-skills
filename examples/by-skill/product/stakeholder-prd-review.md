@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Sales adds six prospect requests during a PRD review, and engineering thinks they are now committed.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+The PRD: Activation checklist, recorded 14 September 2026. No supporting file attached
+The attendees and their concerns: Jonah Park plus two others named in the thread. No distribution list attached
+Decisions already made: Sales adds six prospect requests during a PRD review, and engineering thinks they are now committed
+The open questions: Sales adds six prospect requests during a PRD review, and engineering thinks they are now committed
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Notes that park the six requests, restate the surviving scope, and name the deci
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| The PRD | Activation checklist, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The attendees and their concerns | Jonah Park plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Decisions already made | Sales adds six prospect requests during a PRD review, and engineering thinks they are now committed | Carried into the draft |
+| The open questions | Sales adds six prospect requests during a PRD review, and engineering thinks they are now committed | Needs confirmation |
 
 **How this draft was built**
 

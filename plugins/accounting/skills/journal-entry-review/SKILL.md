@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Several round-dollar journals hit revenue on the last day of the quarter.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Population of manual journals: Operating cash. Stated in the ask, not documented anywhere else
+Materiality: Undeposited funds, recorded 14 September 2026. No supporting file attached
+Who can post: Priya Shah, controller
+Known top-side entries: Undeposited funds. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Flag those entries for support and purpose, without alleging misconduct.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| Population of manual journals | Operating cash. Stated in the ask, not documented anywhere else | Needs confirmation |
+| Materiality | Undeposited funds, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Who can post | Priya Shah, controller | Carried into the draft |
+| Known top-side entries | Undeposited funds. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

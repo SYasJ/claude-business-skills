@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An engineer proposes a new service but has not said what happens when the dependency is down.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The problem and users: An engineer proposes a new service but has not said what happens when the dependency is down. Stated once, in the ask. Not written down anywhere else
+Constraints: scale, security, deadline, existing systems: scale: in the file; security: not in the file; deadline: open; existing systems: in the file
+The proposed approach: Checkout service, recorded 14 September 2026. No supporting file attached
+Alternatives considered: two deals cited from memory. Neither has a written loss reason
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A design doc with the failure behavior, one rejected alternative, and a rollback
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The problem and users | An engineer proposes a new service but has not said what happens when the dependency is down. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Constraints: scale, security, deadline, existing systems | scale: in the file; security: not in the file; deadline: open; existing systems: in the file | Carried into the draft |
+| The proposed approach | Checkout service, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Alternatives considered | two deals cited from memory. Neither has a written loss reason | Needs confirmation |
 
 **How this draft was built**
 

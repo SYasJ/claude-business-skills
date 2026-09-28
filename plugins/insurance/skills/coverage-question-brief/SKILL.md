@@ -105,6 +105,7 @@ A colleague wants a firm yes on flood coverage from a brochure.
 
 The question: A colleague wants a firm yes on flood coverage from a brochure
 The policy words they pasted: their one-page rule dated 2 Mar 2026. No exception log
+The facts: Claim file 8841, recorded 14 September 2026. No supporting file attached
 The licensed reviewer: Priya Shah. No second reviewer named
 ```
 
@@ -123,7 +124,8 @@ Refuses the yes and asks for the policy form instead of the brochure.
 | --- | --- | --- |
 | The question | A colleague wants a firm yes on flood coverage from a brochure | Needs confirmation |
 | The policy words they pasted | their one-page rule dated 2 Mar 2026. No exception log | Carried into the draft |
-| The licensed reviewer | Priya Shah. No second reviewer named | Carried into the draft |
+| The facts | Claim file 8841, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The licensed reviewer | Priya Shah. No second reviewer named | Needs confirmation |
 
 **How this draft was built**
 

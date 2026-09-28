@@ -104,10 +104,10 @@ Needed by: 30 September 2026
 
 A leadership team chose to pause a second product line after a renewal slipped, and they want the reason written down.
 
-decision: the one in the ask
-options: two, named
-evidence: the file only
-unowned idea: parked
+The decision in one sentence: A leadership team chose to pause a second product line after a renewal slipped, and they want the reason written down
+Alternatives considered: two deals cited from memory. Neither has a written loss reason
+Facts used: Bright Axle and one other, both unconfirmed as of 14 September 2026
+Who decided and when: 30 September 2026
 ```
 
 ### Example outcome
@@ -123,10 +123,10 @@ Drove it, and the condition that would reopen it.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| options | two, named | Carried into the draft |
-| evidence | the file only | Carried into the draft |
-| unowned idea | parked | Needs confirmation |
+| The decision in one sentence | A leadership team chose to pause a second product line after a renewal slipped, and they want the reason written down | Needs confirmation |
+| Alternatives considered | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| Facts used | Bright Axle and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Who decided and when | 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

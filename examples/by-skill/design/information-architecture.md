@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 The nav has a tab for each internal department and users cannot find billing.
 
-screens: 8, dated 10 Sep 2026
-job: the task in the ask
-accessibility pass: not done
-assets: theirs only
+Top tasks: The nav has a tab for each internal department and users cannot find billing. Stated once, in the ask. Not written down anywhere else
+Current labels: Empty-state copy and one other, both unconfirmed as of 14 September 2026
+Evidence of confusion: one PDF, 2 pages, dated 14 September 2026
+Constraints: no extra headcount, and no result that is not in this file
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Groups billing under the task users named and demotes the org chart.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| screens | 8, dated 10 Sep 2026 | Needs confirmation |
-| job | the task in the ask | Carried into the draft |
-| accessibility pass | not done | Carried into the draft |
-| assets | theirs only | Needs confirmation |
+| Top tasks | The nav has a tab for each internal department and users cannot find billing. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Current labels | Empty-state copy and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Evidence of confusion | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| Constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

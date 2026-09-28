@@ -103,7 +103,8 @@ Needed by: 30 September 2026
 
 A marketer wants a case study that says costs fell 40 percent, and the customer only said 'it saved us time'.
 
-The customer's approval status: Cedar Clinic
+Approved facts and quotes: Email to lapsed buyers. Partly documented: the what is written down, the who is not
+The customer's approval status: Fall service page, recorded 14 September 2026. No supporting file attached
 The outcome metrics they confirmed: plan 180, actual 95
 What they refused to say: A marketer wants a case study that says costs fell 40 percent, and the customer only said 'it saved us time'
 ```
@@ -121,9 +122,10 @@ Keeps the time quote, omits the percentage, and marks publication as blocked unt
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The customer's approval status | Cedar Clinic | Needs confirmation |
+| Approved facts and quotes | Email to lapsed buyers. Partly documented: the what is written down, the who is not | Needs confirmation |
+| The customer's approval status | Fall service page, recorded 14 September 2026. No supporting file attached | Carried into the draft |
 | The outcome metrics they confirmed | plan 180, actual 95 | Carried into the draft |
-| What they refused to say | A marketer wants a case study that says costs fell 40 percent, and the customer only said 'it saved us time' | Carried into the draft |
+| What they refused to say | A marketer wants a case study that says costs fell 40 percent, and the customer only said 'it saved us time' | Needs confirmation |
 
 **How this draft was built**
 

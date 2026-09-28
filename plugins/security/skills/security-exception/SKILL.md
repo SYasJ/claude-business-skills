@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team wants to skip MFA forever because a vendor integration is inconvenient.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+The control: their one-page rule dated 2 Mar 2026. No exception log since
+The reason: Access review Q3, recorded 14 September 2026. No supporting file attached
+The compensating step: Access review Q3; Endpoint patch ring 2. Both unassigned as of 14 September 2026
+The requested duration: Access review Q3, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A time-boxed exception only if a compensating control exists, otherwise a refusa
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| The control | their one-page rule dated 2 Mar 2026. No exception log since | Needs confirmation |
+| The reason | Access review Q3, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The compensating step | Access review Q3; Endpoint patch ring 2. Both unassigned as of 14 September 2026 | Carried into the draft |
+| The requested duration | Access review Q3, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

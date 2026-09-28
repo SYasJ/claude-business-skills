@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team tracks tickets closed and ignores reopen rate.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The pains to reduce: Tuesday shift, recorded 14 September 2026. No supporting file attached
+Measures they can collect weekly: Tuesday shift. Stated in the ask, not documented anywhere else
+Owners: Diane Cho, operations manager
+The review forum: Tuesday shift, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome

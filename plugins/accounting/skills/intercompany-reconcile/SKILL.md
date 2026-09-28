@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Two subsidiaries disagree by a material amount on a management fee, and the group close is tomorrow.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Entities involved: Undeposited funds. Stated in the ask, not documented anywhere else
+Balances each side recorded: one file, dated 14 September 2026. No earlier version attached for comparison
+In-transit items: Sales tax payable, last reviewed 14 September 2026. No owner named since
+Who approves eliminations: Priya Shah, controller
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Does not force a missing counterparty into existence.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| Entities involved | Undeposited funds. Stated in the ask, not documented anywhere else | Needs confirmation |
+| Balances each side recorded | one file, dated 14 September 2026. No earlier version attached for comparison | Carried into the draft |
+| In-transit items | Sales tax payable, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Who approves eliminations | Priya Shah, controller | Needs confirmation |
 
 **How this draft was built**
 

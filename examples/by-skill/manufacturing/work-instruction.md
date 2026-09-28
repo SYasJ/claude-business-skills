@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An instruction says 'tighten properly' and the torque is unknown.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+The outcome: An instruction says 'tighten properly' and the torque is unknown. Stated once, in the ask. Not written down anywhere else
+The steps as performed safely: Line 2; Lot 26-0914. Both unassigned as of 14 September 2026
+The check: Line 2, recorded 14 September 2026. No supporting file attached
+The stop conditions: Line 2, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Marks torque as a required input from engineering rather than inventing a number
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| The outcome | An instruction says 'tighten properly' and the torque is unknown. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The steps as performed safely | Line 2; Lot 26-0914. Both unassigned as of 14 September 2026 | Carried into the draft |
+| The check | Line 2, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The stop conditions | Line 2, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

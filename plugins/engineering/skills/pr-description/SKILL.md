@@ -105,6 +105,7 @@ A PR titled 'updates' changes a payment calculation and the description is empty
 
 What changed: requested 14 September 2026. Not yet approved
 Why: A PR titled 'updates' changes a payment calculation and the description is empty
+How to test: Invoice job, last reviewed 14 September 2026. No owner named since
 Risks and rollout: Checkout service is open. No score in the file
 ```
 
@@ -123,7 +124,8 @@ States the payment behavior, the missing test if none was run, and the rollback.
 | --- | --- | --- |
 | What changed | requested 14 September 2026. Not yet approved | Needs confirmation |
 | Why | A PR titled 'updates' changes a payment calculation and the description is empty | Carried into the draft |
-| Risks and rollout | Checkout service is open. No score in the file | Carried into the draft |
+| How to test | Invoice job, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Risks and rollout | Checkout service is open. No score in the file | Needs confirmation |
 
 **How this draft was built**
 

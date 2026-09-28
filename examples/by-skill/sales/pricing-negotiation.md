@@ -21,8 +21,9 @@ Needed by: 30 September 2026
 Procurement asked for 20 percent off, and the seller's floor is 8 percent with a two-year term available as a trade.
 
 List price and floor the user authorized: CAD 180
-What the buyer asked for: Kite Freight
+What the buyer asked for: Procurement asked for 20 percent off, and the seller's floor is 8 percent with a two-year term available as a trade. Stated once, in the ask. Not written down anywhere else
 Tradeables: term, scope, timing, reference: term: in the file; scope: not in the file; timing: open; reference: in the file
+Walk-away condition: Harbor Goods, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,8 +40,9 @@ Offers the term trade, holds the floor, and includes a walk-away line with no fa
 | Input | Value | Status |
 | --- | --- | --- |
 | List price and floor the user authorized | CAD 180 | Needs confirmation |
-| What the buyer asked for | Kite Freight | Carried into the draft |
+| What the buyer asked for | Procurement asked for 20 percent off, and the seller's floor is 8 percent with a two-year term available as a trade. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
 | Tradeables: term, scope, timing, reference | term: in the file; scope: not in the file; timing: open; reference: in the file | Carried into the draft |
+| Walk-away condition | Harbor Goods, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

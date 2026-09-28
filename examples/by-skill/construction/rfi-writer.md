@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 An RFI asks the designer to 'see the attached and advise' with no question.
 
-site: Birch, Cochrane
-safety item: stays open
-quantity: their takeoff
-date: the look-ahead
+The conflict: Birch site, Cochrane, recorded 14 September 2026. No supporting file attached
+The drawing or spec location: two deals cited from memory. Neither has a written loss reason
+The date needed: 30 September 2026
+The proposed clarification if any: Birch site, Cochrane, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ An RFI with one located question, a need-by date, and no invented detail.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | Birch, Cochrane | Needs confirmation |
-| safety item | stays open | Carried into the draft |
-| quantity | their takeoff | Carried into the draft |
-| date | the look-ahead | Needs confirmation |
+| The conflict | Birch site, Cochrane, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The drawing or spec location | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| The date needed | 30 September 2026 | Carried into the draft |
+| The proposed clarification if any | Birch site, Cochrane, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

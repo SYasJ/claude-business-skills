@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Two interviewers want to 'just chat' with finalists for a role that has a written outcomes list.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The outcomes in the job description: Two interviewers want to 'just chat' with finalists for a role that has a written outcomes list. Stated once, in the ask. Not written down anywhere else
+Interview length: plain, for people who already know the context. No house guide attached
+Interviewers and their lanes: Sam Okonkwo. Stated in the ask, not documented anywhere else
+Legal constraints the user already stated: no extra headcount, and no result that is not in this file
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A kit with shared questions, look-fors, independent scoring, and no personal-sta
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The outcomes in the job description | Two interviewers want to 'just chat' with finalists for a role that has a written outcomes list. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Interview length | plain, for people who already know the context. No house guide attached | Carried into the draft |
+| Interviewers and their lanes | Sam Okonkwo. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Legal constraints the user already stated | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

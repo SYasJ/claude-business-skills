@@ -20,9 +20,10 @@ Needed by: 30 September 2026
 
 A team keeps losing to spreadsheets, not to the named software rival, and wants a strategy note.
 
-The customer and the job to be done: Harbor & Co
-Alternatives the buyer actually considers, including doing nothing: Harbor & Co
+The customer and the job to be done: the shopper solving one task in one trip. Not segmented further in the file
+Alternatives the buyer actually considers, including doing nothing: two deals cited from memory. Neither has a written loss reason
 Proof the user has: one customer email, 14 September 2026, no attachment beyond that
+Where you refuse to compete: Lumen Ledger, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -38,9 +39,10 @@ Treats the spreadsheet as the main alternative, names the buyer you will not cha
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The customer and the job to be done | Harbor & Co | Needs confirmation |
-| Alternatives the buyer actually considers, including doing nothing | Harbor & Co | Carried into the draft |
+| The customer and the job to be done | the shopper solving one task in one trip. Not segmented further in the file | Needs confirmation |
+| Alternatives the buyer actually considers, including doing nothing | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
 | Proof the user has | one customer email, 14 September 2026, no attachment beyond that | Carried into the draft |
+| Where you refuse to compete | Lumen Ledger, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

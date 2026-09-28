@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Travel spend is up and nobody can say which trips still match the sales motion.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+The cost pool: CAD 44 direct. Overhead not in this line
+The activities it pays for: Operating cash, recorded 14 September 2026. No supporting file attached
+Demand for those activities: 55 in the last period. No prior period attached, so no trend
+The decision rights: Travel spend is up and nobody can say which trips still match the sales motion
 ```
 
 ### Example outcome

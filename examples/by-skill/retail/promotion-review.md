@@ -21,6 +21,7 @@ Needed by: 30 September 2026
 A banner shows a crossed-out price the item never sold for.
 
 The offer terms: CAD 79, dates not set, cap not set
+Margin they can show: End-cap display 3, recorded 14 September 2026. No supporting file attached
 Inventory: 70 on hand
 Customer-facing rules: Kite Freight
 ```
@@ -39,8 +40,9 @@ Removes the crossed-out price and checks inventory before the banner runs.
 | Input | Value | Status |
 | --- | --- | --- |
 | The offer terms | CAD 79, dates not set, cap not set | Needs confirmation |
+| Margin they can show | End-cap display 3, recorded 14 September 2026. No supporting file attached | Carried into the draft |
 | Inventory | 70 on hand | Carried into the draft |
-| Customer-facing rules | Kite Freight | Carried into the draft |
+| Customer-facing rules | Kite Freight | Needs confirmation |
 
 **How this draft was built**
 

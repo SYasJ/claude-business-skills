@@ -20,7 +20,8 @@ Needed by: 30 September 2026
 
 The blueprint shows a smooth handoff, but tickets pile up between sales and onboarding.
 
-The customer job: Kite Freight
+The customer job: the shopper solving one task in one trip. Not segmented further in the file
+Frontstage steps: Checkout screen v4; Empty-state copy. Both unassigned as of 14 September 2026
 Backstage teams: two people on shift, one off
 Evidence of failure: one PDF, 2 pages, dated 14 September 2026
 ```
@@ -38,9 +39,10 @@ Draws the pile-up and assigns the handoff to fix.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The customer job | Kite Freight | Needs confirmation |
+| The customer job | the shopper solving one task in one trip. Not segmented further in the file | Needs confirmation |
+| Frontstage steps | Checkout screen v4; Empty-state copy. Both unassigned as of 14 September 2026 | Carried into the draft |
 | Backstage teams | two people on shift, one off | Carried into the draft |
-| Evidence of failure | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| Evidence of failure | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

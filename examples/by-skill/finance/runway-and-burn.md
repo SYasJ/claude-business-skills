@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A CEO says runway is 14 months, but the figure excludes two signed offers starting next month.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+Cash on hand: CAD 200,000 counted 14 September 2026
+Which expenses are in burn: Payroll 15 September. Stated in the ask, not documented anywhere else
+Expected receipts the user wants included or excluded: Operating cash and one other, both unconfirmed as of 14 September 2026
+Upcoming committed hires: Payroll 15 September and one other, both unconfirmed as of 14 September 2026
 ```
 
 ## Example outcome

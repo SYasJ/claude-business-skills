@@ -100,10 +100,10 @@ Needed by: 30 September 2026
 
 A sequence says "only 2 left" when the warehouse has 400 units.
 
-store: Harbor Goods, Airdrie
-price: shelf price
-stock: the count
-review: not invented
+What was in the cart: Returns desk log, last reviewed 14 September 2026. No owner named since
+The price: CAD 120
+Any stock constraint that is real: no extra headcount, and no result that is not in this file
+Timing they want: End-cap display 3. Partly documented: the what is written down, the who is not
 ```
 
 ### Example outcome

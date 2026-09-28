@@ -104,10 +104,10 @@ Needed by: 30 September 2026
 
 A 10-minute all-hands presentation has 22 slides and three asks.
 
-week: 14 Sep 2026
-calendar: the meetings they listed
-dissent: kept if it was said
-monitoring: not recommended
+The audience and their prior knowledge: people who already buy from Northline Studio
+The one thing they must leave knowing or doing: two deals cited from memory. Neither has a written loss reason
+The available time: five working days, due 30 September 2026
+Any must-include sections: Inbox triage batch. Partly documented: the what is written down, the who is not
 ```
 
 ### Example outcome
@@ -123,10 +123,10 @@ A restructured outline with 8 slides, one clear ask, and two minutes for questio
 
 | Input | Value | Status |
 | --- | --- | --- |
-| week | 14 Sep 2026 | Needs confirmation |
-| calendar | the meetings they listed | Carried into the draft |
-| dissent | kept if it was said | Carried into the draft |
-| monitoring | not recommended | Needs confirmation |
+| The audience and their prior knowledge | people who already buy from Northline Studio | Needs confirmation |
+| The one thing they must leave knowing or doing | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| The available time | five working days, due 30 September 2026 | Carried into the draft |
+| Any must-include sections | Inbox triage batch. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

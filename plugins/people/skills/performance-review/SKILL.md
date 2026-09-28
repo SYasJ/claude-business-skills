@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A manager wants to rate someone low for 'attitude' but has not named a missed goal.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The goals that were actually set: A manager wants to rate someone low for 'attitude' but has not named a missed goal. Stated once, in the ask. Not written down anywhere else
+Evidence from the period: one PDF, 2 pages, dated 14 September 2026
+The rating scale if one exists: Jordan Hale, recorded 14 September 2026. No supporting file attached
+Development interest the employee stated: Sam Okonkwo. Partly documented: the what is written down, the who is not
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Refuses the attitude label, asks for examples against the original goals, and li
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The goals that were actually set | A manager wants to rate someone low for 'attitude' but has not named a missed goal. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Evidence from the period | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The rating scale if one exists | Jordan Hale, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Development interest the employee stated | Sam Okonkwo. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

@@ -105,6 +105,7 @@ Cash is tight even though the company is profitable, and receivables grew faster
 
 Receivables, inventory, and payables balances: Harbor & Co owes CAD 60,000, usually 20 days late
 Related revenue or cost, so days can be calculated: CAD 36 direct. Overhead not in this line
+Known disputes or obsolete stock: Harbor & Co receipt. Stated in the ask, not documented anywhere else
 Payment terms the user actually offers: CAD 180, dates not set, cap not set
 ```
 
@@ -123,7 +124,8 @@ Calculates days from the user's bases, flags concentration if known, and separat
 | --- | --- | --- |
 | Receivables, inventory, and payables balances | Harbor & Co owes CAD 60,000, usually 20 days late | Needs confirmation |
 | Related revenue or cost, so days can be calculated | CAD 36 direct. Overhead not in this line | Carried into the draft |
-| Payment terms the user actually offers | CAD 180, dates not set, cap not set | Carried into the draft |
+| Known disputes or obsolete stock | Harbor & Co receipt. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Payment terms the user actually offers | CAD 180, dates not set, cap not set | Needs confirmation |
 
 **How this draft was built**
 

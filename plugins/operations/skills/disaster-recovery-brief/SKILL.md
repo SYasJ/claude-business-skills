@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team claims a four-hour recovery and has never failed over the identity provider.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The system: the one named in the ask. Version and owner not recorded
+The recovery point and time they need: five working days, due 30 September 2026
+What they have tested: A team claims a four-hour recovery and has never failed over the identity provider
+Dependencies: SOP 118 receiving and one other, both unconfirmed as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Downgrades the claim to untested and names the identity dependency.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The system | the one named in the ask. Version and owner not recorded | Needs confirmation |
+| The recovery point and time they need | five working days, due 30 September 2026 | Carried into the draft |
+| What they have tested | A team claims a four-hour recovery and has never failed over the identity provider | Carried into the draft |
+| Dependencies | SOP 118 receiving and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

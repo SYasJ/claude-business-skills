@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team wants to know why conversion fell and plans to look at twelve dimensions with no primary comparison.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The decision: A team wants to know why conversion fell and plans to look at twelve dimensions with no primary comparison
+The data available: orders_daily, recorded 14 September 2026. No supporting file attached
+The comparison they care about: orders_daily, recorded 14 September 2026. No supporting file attached
+The deadline: 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A plan with one primary comparison, the missing data called out, and a decision 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The decision | A team wants to know why conversion fell and plans to look at twelve dimensions with no primary comparison | Needs confirmation |
+| The data available | orders_daily, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The comparison they care about | orders_daily, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The deadline | 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

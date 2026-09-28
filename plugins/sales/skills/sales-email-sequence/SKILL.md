@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A rep wants a five-email sequence that pretends the buyer asked for information.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+Who the reader is: Samir Qureshi, account executive
+The observation that makes this relevant: Harbor Goods, recorded 14 September 2026. No supporting file attached
+The single ask: A rep wants a five-email sequence that pretends the buyer asked for information. Stated once, in the ask. Not written down anywhere else
+Proof you can include: one customer email, 14 September 2026, no attachment beyond that
 ```
 
 ### Example outcome

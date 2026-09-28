@@ -20,9 +20,10 @@ Needed by: 30 September 2026
 
 A manager wants to offer a gift card if the customer edits a public review.
 
+The score and any comment: Ticket 4412, recorded 14 September 2026. No supporting file attached
 What the company can offer: CAD 180, dates not set, cap not set
 The owner: Rita Santos, support lead
-Whether the customer opted into contact: Kite Freight
+Whether the customer opted into contact: Ticket 4412. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -38,9 +39,10 @@ Refuses the review edit, asks about the cause, and stays inside authorized remed
 
 | Input | Value | Status |
 | --- | --- | --- |
-| What the company can offer | CAD 180, dates not set, cap not set | Needs confirmation |
+| The score and any comment | Ticket 4412, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| What the company can offer | CAD 180, dates not set, cap not set | Carried into the draft |
 | The owner | Rita Santos, support lead | Carried into the draft |
-| Whether the customer opted into contact | Kite Freight | Carried into the draft |
+| Whether the customer opted into contact | Ticket 4412. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

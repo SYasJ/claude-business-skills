@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Leaders want the team to stay late, but arrivals have exceeded completions for six weeks.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+Arrivals and completions: two deals cited from memory. Neither has a written loss reason
+Age of the oldest items: SOP 118 receiving, recorded 14 September 2026. No supporting file attached
+Who is blocked: Diane Cho, operations manager
+Special handling rules: their one-page rule dated 2 Mar 2026. No exception log since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Names the imbalance and recommends a demand or policy change before overtime bec
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| Arrivals and completions | two deals cited from memory. Neither has a written loss reason | Needs confirmation |
+| Age of the oldest items | SOP 118 receiving, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Who is blocked | Diane Cho, operations manager | Carried into the draft |
+| Special handling rules | their one-page rule dated 2 Mar 2026. No exception log since | Needs confirmation |
 
 **How this draft was built**
 

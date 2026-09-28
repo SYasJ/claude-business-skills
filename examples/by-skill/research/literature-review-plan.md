@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A draft cites three articles with confident titles the user cannot find.
 
-site: one
-sample: the count they gave
-missing file: named in the ask
-unopened citation: not used
+The question: A draft cites three articles with confident titles the user cannot find
+Inclusion rules: their one-page rule dated 2 Mar 2026. No exception log since
+Databases or shelves they can access: Interview set A. Partly documented: the what is written down, the who is not
+Time: five working days, due 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Removes unverified citations and sets an inclusion rule before more reading.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | one | Needs confirmation |
-| sample | the count they gave | Carried into the draft |
-| missing file | named in the ask | Carried into the draft |
-| unopened citation | not used | Needs confirmation |
+| The question | A draft cites three articles with confident titles the user cannot find | Needs confirmation |
+| Inclusion rules | their one-page rule dated 2 Mar 2026. No exception log since | Carried into the draft |
+| Databases or shelves they can access | Interview set A. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Time | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

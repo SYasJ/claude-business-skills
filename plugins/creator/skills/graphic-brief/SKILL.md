@@ -106,10 +106,11 @@ Needed by: 30 September 2026
 
 A creator needs a YouTube thumbnail for a video about saving $10,000 in a year.
 
-owned file: dated
-someone else's script: not in the folder
-paid: only if stated
-export: only if attached
+What the graphic is for (thumbnail, social post, report cover, ad): one file, dated 14 September 2026. No earlier version attached for comparison
+The message it must carry: Tuesday dinner Reel, recorded 14 September 2026. No supporting file attached
+The audience: people who already buy from Weeknight Table
+Brand colors or reference images they can share: Tuesday dinner Reel and one other, both unconfirmed as of 14 September 2026
+Size and format requirements: plain, for people who already know the context. No house guide attached
 ```
 
 ### Example outcome
@@ -125,10 +126,11 @@ A brief: 1280x720px, text reads '$10,000 SAVED', bold white with black stroke, f
 
 | Input | Value | Status |
 | --- | --- | --- |
-| owned file | dated | Needs confirmation |
-| someone else's script | not in the folder | Carried into the draft |
-| paid | only if stated | Carried into the draft |
-| export | only if attached | Needs confirmation |
+| What the graphic is for (thumbnail, social post, report cover, ad) | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| The message it must carry | Tuesday dinner Reel, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The audience | people who already buy from Weeknight Table | Carried into the draft |
+| Brand colors or reference images they can share | Tuesday dinner Reel and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
+| Size and format requirements | plain, for people who already know the context. No house guide attached | Carried into the draft |
 
 **How this draft was built**
 

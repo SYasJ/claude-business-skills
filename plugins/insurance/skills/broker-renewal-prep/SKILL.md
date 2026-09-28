@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A renewal draft leaves off a recent claim to keep the story clean.
 
-folder: the claim file they have
-coverage opinion: not given
-missing doc: named
-handler: licensed owner
+Expiring terms they have: Coverage checklist, recorded 14 September 2026. No supporting file attached
+Changes in operations: requested 14 September 2026. Not yet approved
+Losses they reported: one file, dated 14 September 2026. No earlier version attached for comparison
+The deadline: 30 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Includes the claim and labels any premium figure as not yet quoted.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| folder | the claim file they have | Needs confirmation |
-| coverage opinion | not given | Carried into the draft |
-| missing doc | named | Carried into the draft |
-| handler | licensed owner | Needs confirmation |
+| Expiring terms they have | Coverage checklist, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Changes in operations | requested 14 September 2026. Not yet approved | Carried into the draft |
+| Losses they reported | one file, dated 14 September 2026. No earlier version attached for comparison | Carried into the draft |
+| The deadline | 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

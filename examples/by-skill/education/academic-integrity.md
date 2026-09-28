@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A teacher wants to fail a student immediately with no process because a paragraph looks similar.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+The concern and evidence: one PDF, 2 pages, dated 14 September 2026
+The institution's process they supplied: email to Mark Ellison. No written steps after 1 Sep 2026
+The student-facing next step: Module 2 lesson plan; Rubric draft. Both unassigned as of 14 September 2026
+Support available: Rubric draft, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Follows their stated process, limits the claim to the evidence, and refuses a ma
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| The concern and evidence | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
+| The institution's process they supplied | email to Mark Ellison. No written steps after 1 Sep 2026 | Carried into the draft |
+| The student-facing next step | Module 2 lesson plan; Rubric draft. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Support available | Rubric draft, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

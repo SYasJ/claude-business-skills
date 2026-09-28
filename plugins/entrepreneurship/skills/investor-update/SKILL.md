@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 An update omits a churn spike because the round is opening.
 
-paying names: only those given
-cash: bank figure, not a maybe
-ask: the one they wrote
-copied line: cut
+Cash and runway facts: Landing page test. Partly documented: the what is written down, the who is not
+The metric they track: plan 160, actual 75
+What went wrong: Landing page test, last reviewed 14 September 2026. No owner named since
+The ask: An update omits a churn spike because the round is opening. Stated once, in the ask. Not written down anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Includes the spike, the cash fact, and no invented investor interest.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| paying names | only those given | Needs confirmation |
-| cash | bank figure, not a maybe | Carried into the draft |
-| ask | the one they wrote | Carried into the draft |
-| copied line | cut | Needs confirmation |
+| Cash and runway facts | Landing page test. Partly documented: the what is written down, the who is not | Needs confirmation |
+| The metric they track | plan 160, actual 75 | Carried into the draft |
+| What went wrong | Landing page test, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| The ask | An update omits a churn spike because the round is opening. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
 
 **How this draft was built**
 

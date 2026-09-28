@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A manager wants a senior analyst posting and sends a list of software products.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+Why the role exists now: A manager wants a senior analyst posting and sends a list of software products
+Outcomes for the first year: A manager wants a senior analyst posting and sends a list of software products. Stated once, in the ask. Not written down anywhere else
+Team and manager: two people on shift, one off
+Location, level, and whether pay can be disclosed: two deals cited from memory. Neither has a written loss reason
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A posting with first-year outcomes, five must-haves, and pay left undisclosed ra
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| Why the role exists now | A manager wants a senior analyst posting and sends a list of software products | Needs confirmation |
+| Outcomes for the first year | A manager wants a senior analyst posting and sends a list of software products. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Team and manager | two people on shift, one off | Carried into the draft |
+| Location, level, and whether pay can be disclosed | two deals cited from memory. Neither has a written loss reason | Needs confirmation |
 
 **How this draft was built**
 

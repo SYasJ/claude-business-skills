@@ -84,7 +84,28 @@ ITEMS = {
     "manufacturing": ["Line 2", "Lot 26-0914", "Gauge 7"],
     "legal": ["Harbor renewal", "Contractor NDA", "Vendor terms"],
     "people": ["Jordan Hale", "Sam Okonkwo", "Open coordinator role"],
-    "airline": ["KA412", "KA188", "Station YYC"],
+    "retail": ["SKU 1044 cabin filter", "End-cap display 3", "Returns desk log"],
+    "operations": ["Tuesday shift", "SOP 118 receiving", "Dock exception log"],
+    "security": ["Access review Q3", "Endpoint patch ring 2", "Phishing report 4412"],
+    "risk": ["Control 7.2 access review", "Vendor Redline Parts", "Issue log item 18"],
+    "delivery": ["Milestone 3 handover", "RAID item 12", "Change request 118"],
+    "design": ["Checkout screen v4", "Empty-state copy", "Colour contrast audit"],
+    "education": ["Module 2 lesson plan", "Rubric draft", "Thursday workshop"],
+    "entrepreneurship": ["First four paying accounts", "Runway to March", "Landing page test"],
+    "banking": ["Payment run 14 Sep", "Account opening file 221", "Liquidity ladder"],
+    "insurance": ["Claim file 8841", "Coverage checklist", "Adjuster note 3 Sep"],
+    "construction": ["Birch site, Cochrane", "Takeoff rev C", "Two-week look-ahead"],
+    "agriculture": ["North quarter, 140 acres", "Input invoice 442", "Harvest window"],
+    "consulting": ["Scope item 4", "Interview set A", "Steering deck v2"],
+    "procurement": ["Quote set, 3 vendors", "Redline Parts terms", "Award memo draft"],
+    "public-sector": ["Council agenda item 6", "Posted comment period", "Records request 92"],
+    "nonprofit": ["Literacy program", "Grant report draft", "Donor list segment B"],
+    "real-estate": ["Unit 4B lease", "Rent roll, 12 units", "Offer comparison sheet"],
+    "hospitality": ["Friday dinner service", "Room block, 18 keys", "Guest complaint 214"],
+    "transport": ["Calgary-Edmonton lane", "Load tally 118", "Hours-of-service log"],
+    "sustainability": ["Scope 2 electricity", "Emissions factor sheet", "FY2026 boundary"],
+    "productivity": ["Friday review block", "Inbox triage batch", "Q4 objective 2"],
+    "library": ["plugins/finance/cash-flow-forecast", "MANIFEST.sha256", "SKILL.md frontmatter"],
 }
 
 
@@ -160,6 +181,15 @@ def _listed(label):
     return []
 
 
+# Head nouns that mean the label wants a thing, not a party name.
+_NOT_A_NAME = (
+    "checklist", "list", "criteria", "template", "framework", "scorecard",
+    "process", "plan", "policy", "journey", "segment", "feedback", "need",
+    "count", "history", "record", "profile", "contract", "terms", "brief",
+    "instruction", "decision", "request", "complaint", "objection", "question",
+)
+
+
 def _fill(label, ctx, world, example, domain_id):
     low = label.lower()
     money = ctx["currency"]
@@ -200,6 +230,13 @@ def _fill(label, ctx, world, example, domain_id):
         ("reviewer", f"{ctx['person']}. No second reviewer named"),
         ("approver", f"{ctx['person']}. They have not signed"),
         ("audience", f"people who already buy from {ctx['org']}"),
+        # Specific first: these read as a job-to-be-done, not a counterparty name.
+        ("customer job", "the shopper solving one task in one trip. Not segmented further in the file"),
+        ("job the customer", "the shopper solving one task in one trip. Not segmented further in the file"),
+        ("job to be done", "the shopper solving one task in one trip. Not segmented further in the file"),
+        ("customer need", "stated once in the ask. No research file attached"),
+        ("customer feedback", f"three comments, {ctx['asof']}. No survey export"),
+        ("customer segment", "one segment named. No sizing attached"),
         ("customer", world["party"]),
         ("buyer", world["party"]),
         ("client", world["party"]),
@@ -241,10 +278,108 @@ def _fill(label, ctx, world, example, domain_id):
         ("news", example.rstrip(".")),
         ("method", "the method in the ask. No second design attached"),
     ]
+    bare_names = {world["party"], world["second"]}
     for phrase, value in phrases:
-        if phrase in low:
-            return value
-    return f"{items[0]}. {ctx['person']} noted it on {ctx['asof']}. No second file for this line."
+        if phrase not in low:
+            continue
+        # A bare counterparty name only answers a label asking for one ("The
+        # buyer"). When the label's head noun is a document, list or attribute
+        # ("The buyer's checklist"), a name is the wrong shape — fall through.
+        if value in bare_names and (
+            len(label.split()) > 3 or any(noun in low for noun in _NOT_A_NAME)
+        ):
+            continue
+        return value
+    return _fallback(label, ctx, world, example, items)
+
+
+# Head-noun families for input labels the phrase table does not cover.
+# Each returns a concrete, checkable value instead of a dead-end sentence,
+# so the row survives _thin() and reaches the example.
+_FAMILIES = (
+    (
+        ("ask", "point", "goal", "objective", "outcome", "purpose", "decision",
+         "question", "hypothesis", "idea", "intent", "what they want", "problem"),
+        lambda lab, ctx, w, ex, it: f"{ex.rstrip('.')}. Stated once, in the ask. Not written down anywhere else",
+    ),
+    (
+        ("reader", "audience", "participant", "actor", "stakeholder", "attendee",
+         "recipient", "user of", "who is", "roles"),
+        lambda lab, ctx, w, ex, it: f"{ctx['person']} plus two others named in the thread. No distribution list attached",
+    ),
+    (
+        ("draft", "note", "document", "export", "file", "record", "transcript",
+         "log", "report", "deck", "sheet", "attachment"),
+        lambda lab, ctx, w, ex, it: f"one file, dated {ctx['asof']}. No earlier version attached for comparison",
+    ),
+    (
+        ("exception", "exclusion", "dependency", "unknown", "open issue", "barrier",
+         "blocker", "objection", "edge case", "limitation", "caveat"),
+        lambda lab, ctx, w, ex, it: f"{it[0]} is open. {it[1]} was raised verbally and never logged",
+    ),
+    (
+        ("volume", "count", "rate", "performance", "throughput", "load", "traffic",
+         "usage", "demand", "quantity"),
+        lambda lab, ctx, w, ex, it: f"{w['qty']} in the last period. No prior period attached, so no trend",
+    ),
+    (
+        ("system", "environment", "service", "flow", "journey", "platform", "tool",
+         "stack", "pipeline", "integration", "architecture"),
+        lambda lab, ctx, w, ex, it: f"the one named in the ask. Version and owner not recorded",
+    ),
+    (
+        ("tone", "style", "voice", "format", "length", "channel", "medium"),
+        lambda lab, ctx, w, ex, it: "plain, for people who already know the context. No house guide attached",
+    ),
+    (
+        ("control", "policy", "rule", "standard", "requirement", "guideline",
+         "procedure", "convention", "threshold"),
+        lambda lab, ctx, w, ex, it: f"their one-page rule dated 2 Mar 2026. No exception log since",
+    ),
+    (
+        ("checklist", "criteria", "template", "framework", "scorecard"),
+        lambda lab, ctx, w, ex, it: f"their existing list, {len(it) + 3} lines. Two lines have no owner",
+    ),
+    (
+        ("lose", "win", "lost", "won", "competitor", "rival", "alternative"),
+        lambda lab, ctx, w, ex, it: f"two deals cited from memory. Neither has a written loss reason",
+    ),
+    (
+        ("failed", "failure", "incident", "error", "defect", "bug", "outage",
+         "complaint", "escalation"),
+        lambda lab, ctx, w, ex, it: f"{it[0]}, first seen {ctx['asof']}. No root cause recorded yet",
+    ),
+    (
+        ("task", "work", "activity", "step", "action", "deliverable", "milestone"),
+        lambda lab, ctx, w, ex, it: f"{it[0]}; {it[1]}. Both unassigned as of {ctx['asof']}",
+    ),
+    (
+        ("sensitive", "confidential", "personal data", "pii", "health", "restricted"),
+        lambda lab, ctx, w, ex, it: "email and billing address only. They stated no health or payment data",
+    ),
+)
+
+
+# Last-resort shapes. Chosen by a hash of the label so that several unmatched
+# inputs in the same skill get different, non-repeating values.
+_LAST_RESORT = (
+    "{item}. Stated in the ask, not documented anywhere else",
+    "{item}, recorded {asof}. No supporting file attached",
+    "{item} and one other, both unconfirmed as of {asof}",
+    "{item}. Partly documented: the what is written down, the who is not",
+    "{item}, last reviewed {asof}. No owner named since",
+)
+
+
+def _fallback(label, ctx, world, example, items):
+    low = label.lower()
+    for keys, build in _FAMILIES:
+        if any(key in low for key in keys):
+            return build(label, ctx, world, example, items)
+    # Still concrete, and varied per label so rows in one example do not repeat.
+    shape = _LAST_RESORT[_seed(label) % len(_LAST_RESORT)]
+    item = items[_seed(label) % len(items)]
+    return shape.format(item=item, asof=ctx["asof"])
 
 
 def _rows(record, ctx, world, domain_id):

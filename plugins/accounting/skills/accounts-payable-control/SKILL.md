@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Two similar invoices from the same supplier were paid last quarter.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+How invoices arrive: plain, for people who already know the context. No house guide attached
+Who can add a vendor: Priya Shah, controller
+Approval limits: Undeposited funds. Partly documented: the what is written down, the who is not
+Recent duplicate or fraud scares, if any: Sales tax payable. Partly documented: the what is written down, the who is not
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Separates vendor setup from payment release and proposes a duplicate review list
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| How invoices arrive | plain, for people who already know the context. No house guide attached | Needs confirmation |
+| Who can add a vendor | Priya Shah, controller | Carried into the draft |
+| Approval limits | Undeposited funds. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Recent duplicate or fraud scares, if any | Sales tax payable. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

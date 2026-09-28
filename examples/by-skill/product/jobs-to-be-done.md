@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team writes the job as 'use our dashboard' after a customer described exporting to a spreadsheet.
 
-interviews: 12, March to June 2026
-decision: ship, hold, or cut
-metric: not defined
-kill line: not written
+A recent incident the user described: Activation checklist, first seen 14 September 2026. No root cause recorded yet
+What the person was trying to achieve: Usage limit warning, last reviewed 14 September 2026. No owner named since
+What they used instead: A team writes the job as 'use our dashboard' after a customer described exporting to a spreadsheet
+Forces they mentioned: Trial day-3 email, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A job story about the export moment, with the spreadsheet as the current hire.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| interviews | 12, March to June 2026 | Needs confirmation |
-| decision | ship, hold, or cut | Carried into the draft |
-| metric | not defined | Carried into the draft |
-| kill line | not written | Needs confirmation |
+| A recent incident the user described | Activation checklist, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| What the person was trying to achieve | Usage limit warning, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| What they used instead | A team writes the job as 'use our dashboard' after a customer described exporting to a spreadsheet | Carried into the draft |
+| Forces they mentioned | Trial day-3 email, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

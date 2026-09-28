@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A slow-seller list includes an item that was empty for a month.
 
-store: Harbor Goods, Airdrie
-price: shelf price
-stock: the count
-review: not invented
+Items and sales they have: SKU 1044 cabin filter, last reviewed 14 September 2026. No owner named since
+Space: End-cap display 3, recorded 14 September 2026. No supporting file attached
+The customer job: the shopper solving one task in one trip. Not segmented further in the file
+Known stockouts: End-cap display 3. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Separates the stockout from true slow sellers before any drop.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| store | Harbor Goods, Airdrie | Needs confirmation |
-| price | shelf price | Carried into the draft |
-| stock | the count | Carried into the draft |
-| review | not invented | Needs confirmation |
+| Items and sales they have | SKU 1044 cabin filter, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| Space | End-cap display 3, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The customer job | the shopper solving one task in one trip. Not segmented further in the file | Carried into the draft |
+| Known stockouts | End-cap display 3. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team copies a 99.99 SLO from a blog and has no latency metric.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The user journey: the one named in the ask. Version and owner not recorded
+Current performance if known: 30 in the last period. No prior period attached, so no trend
+The pain that matters: Checkout service, recorded 14 September 2026. No supporting file attached
+Release cadence: Status page and one other, both unconfirmed as of 14 September 2026
 ```
 
 ## Example outcome

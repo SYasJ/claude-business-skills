@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A draft newsletter has seven unrelated links and a subject line promising a major announcement that is not in the body.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The draft: one file, dated 14 September 2026. No earlier version attached for comparison
+The reader: Lena Ortiz plus two others named in the thread. No distribution list attached
+The one idea: A draft newsletter has seven unrelated links and a subject line promising a major announcement that is not in the body. Stated once, in the ask. Not written down anywhere else
+Links and claims: the draft sentence is broader than the note
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Either adds the real announcement or rewrites the subject, and cuts the issue to
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The draft | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| The reader | Lena Ortiz plus two others named in the thread. No distribution list attached | Carried into the draft |
+| The one idea | A draft newsletter has seven unrelated links and a subject line promising a major announcement that is not in the body. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Links and claims | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

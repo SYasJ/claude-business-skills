@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The team says backups are fine because the nightly job is green, and nobody has restored one.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+What must be recoverable: Phishing report 4412, last reviewed 14 September 2026. No owner named since
+The backup they believe exists: Access review Q3, recorded 14 September 2026. No supporting file attached
+The recovery time they need: five working days, due 30 September 2026
+Who may run the test: Aisha Rahman, engineering lead
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A restore test into a non-production target, with a recorded time and a ban on p
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| What must be recoverable | Phishing report 4412, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| The backup they believe exists | Access review Q3, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The recovery time they need | five working days, due 30 September 2026 | Carried into the draft |
+| Who may run the test | Aisha Rahman, engineering lead | Needs confirmation |
 
 **How this draft was built**
 

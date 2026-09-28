@@ -104,6 +104,7 @@ Needed by: 30 September 2026
 The current guide says 'be bold' and writers are producing unsupported superlatives.
 
 Audiences: people who already buy from Fieldnote
+Words they already like or hate: Email to lapsed buyers and one other, both unconfirmed as of 14 September 2026
 Situations: sales, support, incident, social: sales: in the file; support: not in the file; incident: open; social: in the file
 Claims that are off limits: the draft sentence is broader than the note
 ```
@@ -122,8 +123,9 @@ Replaces 'be bold' with examples, and bans superlatives that lack proof.
 | Input | Value | Status |
 | --- | --- | --- |
 | Audiences | people who already buy from Fieldnote | Needs confirmation |
+| Words they already like or hate | Email to lapsed buyers and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
 | Situations: sales, support, incident, social | sales: in the file; support: not in the file; incident: open; social: in the file | Carried into the draft |
-| Claims that are off limits | the draft sentence is broader than the note | Carried into the draft |
+| Claims that are off limits | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

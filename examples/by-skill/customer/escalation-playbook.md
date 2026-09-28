@@ -20,6 +20,7 @@ Needed by: 30 September 2026
 
 Every angry email is marked severe, so the on-call ignores the queue.
 
+Severity definitions: Ticket 4418. Partly documented: the what is written down, the who is not
 Who is on each level: Rita Santos, support lead
 Clocks they can staff: two people on shift
 Customer communication owner: Rita Santos, support lead
@@ -38,9 +39,10 @@ Defines severity by impact and reserves executive escalation for a written trigg
 
 | Input | Value | Status |
 | --- | --- | --- |
-| Who is on each level | Rita Santos, support lead | Needs confirmation |
+| Severity definitions | Ticket 4418. Partly documented: the what is written down, the who is not | Needs confirmation |
+| Who is on each level | Rita Santos, support lead | Carried into the draft |
 | Clocks they can staff | two people on shift | Carried into the draft |
-| Customer communication owner | Rita Santos, support lead | Carried into the draft |
+| Customer communication owner | Rita Santos, support lead | Needs confirmation |
 
 **How this draft was built**
 

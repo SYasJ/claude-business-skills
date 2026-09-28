@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A new manager is using the weekly 1:1 to collect project status the team already tracks in a board.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+How often they meet: Sam Okonkwo, last reviewed 14 September 2026. No owner named since
+What the employee wants from the meeting: Open coordinator role, last reviewed 14 September 2026. No owner named since
+Current goals: A new manager is using the weekly 1:1 to collect project status the team already tracks in a board. Stated once, in the ask. Not written down anywhere else
+Known sensitive topics: email and billing address only. They stated no health or payment data
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Moves status out, puts the employee's agenda first, and caps manager actions at 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| How often they meet | Sam Okonkwo, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| What the employee wants from the meeting | Open coordinator role, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Current goals | A new manager is using the weekly 1:1 to collect project status the team already tracks in a board. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Known sensitive topics | email and billing address only. They stated no health or payment data | Needs confirmation |
 
 **How this draft was built**
 

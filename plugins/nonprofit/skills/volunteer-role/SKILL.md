@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A role asks volunteers to give clinical advice with no clinician present.
 
-program: the one they run
-measured outcome: no
-ask: one
-story: not invented
+The work: Literacy program; Grant report draft. Both unassigned as of 14 September 2026
+Time expected: five working days, due 30 September 2026
+Supervisor: Donor list segment B. Partly documented: the what is written down, the who is not
+What volunteers will not do: Donor list segment B, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Removes the clinical duty and names a supervisor for the remaining work.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| program | the one they run | Needs confirmation |
-| measured outcome | no | Carried into the draft |
-| ask | one | Carried into the draft |
-| story | not invented | Needs confirmation |
+| The work | Literacy program; Grant report draft. Both unassigned as of 14 September 2026 | Needs confirmation |
+| Time expected | five working days, due 30 September 2026 | Carried into the draft |
+| Supervisor | Donor list segment B. Partly documented: the what is written down, the who is not | Carried into the draft |
+| What volunteers will not do | Donor list segment B, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,9 +20,10 @@ Needed by: 30 September 2026
 
 The company has three tiers that differ only by a feature nobody uses, and discounting is constant.
 
-The buyer and the value unit: Kite Freight
+The buyer and the value unit: Activation checklist, recorded 14 September 2026. No supporting file attached
 Current price and packaging: CAD 180
 Costs that constrain price: CAD 180
+What sales keeps conceding: Usage limit warning, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -38,9 +39,10 @@ Treats the discount as the real price and proposes a clearer fence to test.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The buyer and the value unit | Kite Freight | Needs confirmation |
+| The buyer and the value unit | Activation checklist, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 | Current price and packaging | CAD 180 | Carried into the draft |
 | Costs that constrain price | CAD 180 | Carried into the draft |
+| What sales keeps conceding | Usage limit warning, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

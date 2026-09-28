@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A readout drops a critical finding because the sponsor disliked it in the dry run.
 
-decision: the one in the ask
-evidence: notes only
-out of scope: named
-finding: not promised
+The findings: Scope item 4, recorded 14 September 2026. No supporting file attached
+The evidence: one PDF, 2 pages, dated 14 September 2026
+The recommendation: Scope item 4, recorded 14 September 2026. No supporting file attached
+The audience: people who already buy from Clearlane Advisors
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Keeps the finding, labels it clearly, and offers the sponsor a decision.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| decision | the one in the ask | Needs confirmation |
-| evidence | notes only | Carried into the draft |
-| out of scope | named | Carried into the draft |
-| finding | not promised | Needs confirmation |
+| The findings | Scope item 4, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The recommendation | Scope item 4, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The audience | people who already buy from Clearlane Advisors | Needs confirmation |
 
 **How this draft was built**
 

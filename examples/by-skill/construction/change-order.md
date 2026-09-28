@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A superintendent wants a change order with a round number and no backup.
 
-site: Birch, Cochrane
-safety item: stays open
-quantity: their takeoff
-date: the look-ahead
+The cause: Birch site, Cochrane, recorded 14 September 2026. No supporting file attached
+Drawings or instructions they have: two deals cited from memory. Neither has a written loss reason
+Cost backup: CAD 44 direct. Overhead not in this line
+Time effect: five working days, due 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Blocks the round number until backup exists and records the direction to proceed
 
 | Input | Value | Status |
 | --- | --- | --- |
-| site | Birch, Cochrane | Needs confirmation |
-| safety item | stays open | Carried into the draft |
-| quantity | their takeoff | Carried into the draft |
-| date | the look-ahead | Needs confirmation |
+| The cause | Birch site, Cochrane, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Drawings or instructions they have | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| Cost backup | CAD 44 direct. Overhead not in this line | Carried into the draft |
+| Time effect | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

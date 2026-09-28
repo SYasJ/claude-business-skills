@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 An analyst is told to 'learn finance' in a month while closing the books full time.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The skill gap in work terms: Jordan Hale is missing a source
+Time available per week: five working days, due 30 September 2026
+Real tasks they can practice on: An analyst is told to 'learn finance' in a month while closing the books full time. Stated once, in the ask. Not written down anywhere else
+How proficiency will be judged: Sam Okonkwo, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ The time budget does not fit a broad finance education.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The skill gap in work terms | Jordan Hale is missing a source | Needs confirmation |
+| Time available per week | five working days, due 30 September 2026 | Carried into the draft |
+| Real tasks they can practice on | An analyst is told to 'learn finance' in a month while closing the books full time. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| How proficiency will be judged | Sam Okonkwo, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

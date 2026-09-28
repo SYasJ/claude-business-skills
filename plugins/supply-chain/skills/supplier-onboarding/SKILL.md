@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A supplier emails new bank details from a free mail account and wants the next payment sent there.
 
-sku: 1044
-supplier: Redline Parts
-lead time: their number
-alternate: none
+Required documents: one PDF, 2 pages, dated 14 September 2026
+Risk tier: SKU 1044 cabin filter is open. No score in the file
+System access needed: the one named in the ask. Version and owner not recorded
+The first order: SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -123,9 +123,9 @@ Blocks the change until their verified channel confirms it.
       Evidenced in the file
 - [x] **Risk tier** — SKU 1044 cabin filter is open. No score in the file  
       Evidenced in the file
-- [x] **System access needed** — SKU 1044 cabin filter. Diane Cho noted it on 14 September 2026. No second file for this line.  
+- [x] **System access needed** — the one named in the ask. Version and owner not recorded  
       Evidenced in the file
-- [ ] **The first order** — SKU 1044 cabin filter. Diane Cho noted it on 14 September 2026. No second file for this line.  
+- [ ] **The first order** — SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached  
       Open — nothing in the file closes this
 
 **The gates this list enforces, in order**

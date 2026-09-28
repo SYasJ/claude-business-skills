@@ -21,7 +21,7 @@ Needed by: 30 September 2026
 One offer is higher but waives an inspection the seller has not disclosed defects for.
 
 The offers: CAD 79, dates not set, cap not set
-The seller or buyer priorities: Cedar Clinic
+The seller or buyer priorities: Unit 4B lease, recorded 14 September 2026. No supporting file attached
 Deadlines they stated: 30 September 2026
 Contingencies visible in the offers: CAD 79, dates not set, cap not set
 ```
@@ -40,7 +40,7 @@ Shows the inspection gap and leaves the signature to the principal and their pro
 | Input | Value | Status |
 | --- | --- | --- |
 | The offers | CAD 79, dates not set, cap not set | Needs confirmation |
-| The seller or buyer priorities | Cedar Clinic | Carried into the draft |
+| The seller or buyer priorities | Unit 4B lease, recorded 14 September 2026. No supporting file attached | Carried into the draft |
 | Deadlines they stated | 30 September 2026 | Carried into the draft |
 | Contingencies visible in the offers | CAD 79, dates not set, cap not set | Needs confirmation |
 

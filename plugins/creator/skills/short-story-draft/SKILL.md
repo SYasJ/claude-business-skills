@@ -105,10 +105,10 @@ Needed by: 30 September 2026
 
 A user wants a 500-word story about a chef who risks her restaurant to enter a competition.
 
-owned file: dated
-someone else's script: not in the folder
-paid: only if stated
-export: only if attached
+The core situation or premise: Tuesday dinner Reel, recorded 14 September 2026. No supporting file attached
+The main character and what they want: A user wants a 500-word story about a chef who risks her restaurant to enter a competition
+The obstacle: Tuesday dinner Reel, recorded 14 September 2026. No supporting file attached
+Any tone or length constraints: no extra headcount, and no result that is not in this file
 ```
 
 ### Example outcome
@@ -124,10 +124,10 @@ Opens the day of the competition, builds on her doubt, and resolves on the one d
 
 | Input | Value | Status |
 | --- | --- | --- |
-| owned file | dated | Needs confirmation |
-| someone else's script | not in the folder | Carried into the draft |
-| paid | only if stated | Carried into the draft |
-| export | only if attached | Needs confirmation |
+| The core situation or premise | Tuesday dinner Reel, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The main character and what they want | A user wants a 500-word story about a chef who risks her restaurant to enter a competition | Carried into the draft |
+| The obstacle | Tuesday dinner Reel, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Any tone or length constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

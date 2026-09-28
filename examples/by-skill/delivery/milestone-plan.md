@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A plan shows design, build, and test as three equal months with no dependency on a vendor.
 
-milestone: the customer date
-status: slipped
-completed tasks: do not replace the slip
-decision: needed
+The outcome: A plan shows design, build, and test as three equal months with no dependency on a vendor. Stated once, in the ask. Not written down anywhere else
+Dependencies: RAID item 12 and one other, both unconfirmed as of 14 September 2026
+Real constraints on dates: no extra headcount, and no result that is not in this file
+What done means for each milestone: plain, for people who already know the context. No house guide attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Places the vendor dependency, defines evidence of done, and labels uncommitted d
 
 | Input | Value | Status |
 | --- | --- | --- |
-| milestone | the customer date | Needs confirmation |
-| status | slipped | Carried into the draft |
-| completed tasks | do not replace the slip | Carried into the draft |
-| decision | needed | Needs confirmation |
+| The outcome | A plan shows design, build, and test as three equal months with no dependency on a vendor. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Dependencies | RAID item 12 and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Real constraints on dates | no extra headcount, and no result that is not in this file | Carried into the draft |
+| What done means for each milestone | plain, for people who already know the context. No house guide attached | Needs confirmation |
 
 **How this draft was built**
 

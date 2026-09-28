@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A logic model says the workshop causes employment, and nobody tracked jobs.
 
-program: the one they run
-measured outcome: no
-ask: one
-story: not invented
+Inputs they have: Grant report draft and one other, both unconfirmed as of 14 September 2026
+Activities: Grant report draft. Stated in the ask, not documented anywhere else
+Intended outcomes: A logic model says the workshop causes employment, and nobody tracked jobs. Stated once, in the ask. Not written down anywhere else
+Evidence so far: one PDF, 2 pages, dated 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Labels employment as intended and names the missing measure.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| program | the one they run | Needs confirmation |
-| measured outcome | no | Carried into the draft |
-| ask | one | Carried into the draft |
-| story | not invented | Needs confirmation |
+| Inputs they have | Grant report draft and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
+| Activities | Grant report draft. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Intended outcomes | A logic model says the workshop causes employment, and nobody tracked jobs. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Evidence so far | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

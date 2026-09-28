@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The company wants a remote-work policy and currently decides each request in a private chat.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The behavior the policy must guide: their one-page rule dated 2 Mar 2026. No exception log
+The current practice: Jordan Hale, recorded 14 September 2026. No supporting file attached
+Who enforces it: Chris Adeyemi, people lead
+Jurisdictions they say it must cover: Open coordinator role. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A two-page draft with a request path, decision criteria, and a counsel-review ba
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The behavior the policy must guide | their one-page rule dated 2 Mar 2026. No exception log | Needs confirmation |
+| The current practice | Jordan Hale, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Who enforces it | Chris Adeyemi, people lead | Carried into the draft |
+| Jurisdictions they say it must cover | Open coordinator role. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

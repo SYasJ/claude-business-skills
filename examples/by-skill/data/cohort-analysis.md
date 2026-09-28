@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Last week's cohort looks like it retained worse, but the week is not over.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The cohort definition: orders_daily, recorded 14 September 2026. No supporting file attached
+The event that starts the clock: orders_daily, recorded 14 September 2026. No supporting file attached
+The success event: orders_daily, recorded 14 September 2026. No supporting file attached
+The time grain: five working days, due 30 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Marks the week incomplete and refuses a churn conclusion from it.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The cohort definition | orders_daily, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The event that starts the clock | orders_daily, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The success event | orders_daily, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The time grain | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

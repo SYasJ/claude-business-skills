@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A mock recall stops because a component lot was never recorded.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+The lot to trace: Line 2, recorded 14 September 2026. No supporting file attached
+Systems involved: the one named in the ask. Version and owner not recorded
+Time target: 180
+Known breaks: Lot 26-0914. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Records the break, times the exercise, and assigns the recording gap.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| The lot to trace | Line 2, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Systems involved | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| Time target | 180 | Carried into the draft |
+| Known breaks | Lot 26-0914. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

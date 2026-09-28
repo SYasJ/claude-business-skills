@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A rep wants to cross-sell a second module, but the first module has no confirmed outcome.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+The outcome already achieved: A rep wants to cross-sell a second module, but the first module has no confirmed outcome. Stated once, in the ask. Not written down anywhere else
+The next problem the customer has named: A rep wants to cross-sell a second module, but the first module has no confirmed outcome. Stated once, in the ask. Not written down anywhere else
+Stakeholders: Samir Qureshi plus two others named in the thread. No distribution list attached
+Products that honestly fit: Harbor Goods. Stated in the ask, not documented anywhere else
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Pauses expansion and defines the adoption proof required before a second offer i
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| The outcome already achieved | A rep wants to cross-sell a second module, but the first module has no confirmed outcome. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The next problem the customer has named | A rep wants to cross-sell a second module, but the first module has no confirmed outcome. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Stakeholders | Samir Qureshi plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Products that honestly fit | Harbor Goods. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

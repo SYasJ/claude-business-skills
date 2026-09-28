@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team draws a five-box happy path and omits the two-day wait for approval.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+The start and end: Tuesday shift, recorded 14 September 2026. No supporting file attached
+The people who touch it: Diane Cho, operations manager
+The waits they complain about: Tuesday shift, recorded 14 September 2026. No supporting file attached
+The systems: the one named in the ask. Version and owner not recorded
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Includes the approval wait and separates any future idea.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| The start and end | Tuesday shift, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The people who touch it | Diane Cho, operations manager | Carried into the draft |
+| The waits they complain about | Tuesday shift, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The systems | the one named in the ask. Version and owner not recorded | Needs confirmation |
 
 **How this draft was built**
 

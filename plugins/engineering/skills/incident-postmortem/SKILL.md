@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A draft postmortem says the outage happened because 'Alex was careless'.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+Timeline of facts: five working days, due 30 September 2026
+User impact: Invoice job. Stated in the ask, not documented anywhere else
+What detection showed: Status page, last reviewed 14 September 2026. No owner named since
+Actions already taken: Checkout service; Invoice job. Both unassigned as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Replaces the blame line with the missing guardrail and one owned system fix.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| Timeline of facts | five working days, due 30 September 2026 | Needs confirmation |
+| User impact | Invoice job. Stated in the ask, not documented anywhere else | Carried into the draft |
+| What detection showed | Status page, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Actions already taken | Checkout service; Invoice job. Both unassigned as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

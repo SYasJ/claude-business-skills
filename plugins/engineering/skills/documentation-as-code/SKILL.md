@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A README says 'run the script' and the script path does not exist.
 
-branch: main, change not merged
-tests listed: none
-rollback: not written
-owner: the person who opened the change
+The task a new person must complete: A README says 'run the script' and the script path does not exist. Stated once, in the ask. Not written down anywhere else
+The current doc: Checkout service, recorded 14 September 2026. No supporting file attached
+The commands or paths that are true: Checkout service, recorded 14 September 2026. No supporting file attached
+The owner: Aisha Rahman, engineering lead
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Either uses the real path the user confirmed or marks the step unknown, and remo
 
 | Input | Value | Status |
 | --- | --- | --- |
-| branch | main, change not merged | Needs confirmation |
-| tests listed | none | Carried into the draft |
-| rollback | not written | Carried into the draft |
-| owner | the person who opened the change | Needs confirmation |
+| The task a new person must complete | A README says 'run the script' and the script path does not exist. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| The current doc | Checkout service, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The commands or paths that are true | Checkout service, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The owner | Aisha Rahman, engineering lead | Needs confirmation |
 
 **How this draft was built**
 

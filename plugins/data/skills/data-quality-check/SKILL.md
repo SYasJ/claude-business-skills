@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Monday's revenue dashboard is empty and the draft note says the business had zero revenue.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The dataset and the expected grain: orders_daily, recorded 14 September 2026. No supporting file attached
+The freshness they expect: orders_daily, recorded 14 September 2026. No supporting file attached
+A tie-out target if they have one: 150
+Known upstream changes: requested 14 September 2026. Not yet approved
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Treats empty as late or broken until a tie-out says otherwise, and names the dec
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The dataset and the expected grain | orders_daily, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The freshness they expect | orders_daily, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| A tie-out target if they have one | 150 | Carried into the draft |
+| Known upstream changes | requested 14 September 2026. Not yet approved | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A health score marks accounts red and no one has a play for red.
 
-ticket: 4412, 14 Sep 2026
-customer words: in the ticket
-exception: not approved
-card or password: not collected
+Signals they can collect: Ticket 4420, recorded 14 September 2026. No supporting file attached
+What happened before past churn if known: Ticket 4420, last reviewed 14 September 2026. No owner named since
+Who will act on red: Rita Santos, support lead
+The formula they use today: Ticket 4412, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A visible formula and a required human play for red, or a recommendation not to 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| ticket | 4412, 14 Sep 2026 | Needs confirmation |
-| customer words | in the ticket | Carried into the draft |
-| exception | not approved | Carried into the draft |
-| card or password | not collected | Needs confirmation |
+| Signals they can collect | Ticket 4420, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| What happened before past churn if known | Ticket 4420, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Who will act on red | Rita Santos, support lead | Carried into the draft |
+| The formula they use today | Ticket 4412, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

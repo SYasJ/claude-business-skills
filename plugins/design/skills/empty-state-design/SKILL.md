@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A dashboard shows sample revenue that looks like the customer's numbers.
 
-screens: 8, dated 10 Sep 2026
-job: the task in the ask
-accessibility pass: not done
-assets: theirs only
+Why the screen is empty: A dashboard shows sample revenue that looks like the customer's numbers
+The action a user can take: Checkout screen v4; Empty-state copy. Both unassigned as of 14 September 2026
+What they cannot do yet: A dashboard shows sample revenue that looks like the customer's numbers
+Tone: plain, for people who already know the context. No house guide attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Labels or removes the sample and explains the true empty reason.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| screens | 8, dated 10 Sep 2026 | Needs confirmation |
-| job | the task in the ask | Carried into the draft |
-| accessibility pass | not done | Carried into the draft |
-| assets | theirs only | Needs confirmation |
+| Why the screen is empty | A dashboard shows sample revenue that looks like the customer's numbers | Needs confirmation |
+| The action a user can take | Checkout screen v4; Empty-state copy. Both unassigned as of 14 September 2026 | Carried into the draft |
+| What they cannot do yet | A dashboard shows sample revenue that looks like the customer's numbers | Carried into the draft |
+| Tone | plain, for people who already know the context. No house guide attached | Needs confirmation |
 
 **How this draft was built**
 

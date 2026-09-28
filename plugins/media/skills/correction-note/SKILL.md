@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A correction draft says 'updated for clarity' when a number was wrong.
 
-document: the statement in the folder
-unnamed quote: not used
-deadline: the board time
-unknown: stays unknown
+The original claim: the draft sentence is broader than the note
+The correct fact: Plant turnaround, recorded 14 September 2026. No supporting file attached
+Where it appeared: Fare change, recorded 14 September 2026. No supporting file attached
+Who must approve: Jonah Ellis, assignment editor
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Says the number was wrong and gives the supported figure.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| document | the statement in the folder | Needs confirmation |
-| unnamed quote | not used | Carried into the draft |
-| deadline | the board time | Carried into the draft |
-| unknown | stays unknown | Needs confirmation |
+| The original claim | the draft sentence is broader than the note | Needs confirmation |
+| The correct fact | Plant turnaround, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Where it appeared | Fare change, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Who must approve | Jonah Ellis, assignment editor | Needs confirmation |
 
 **How this draft was built**
 

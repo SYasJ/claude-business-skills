@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A feature stores a full ID document to personalize a greeting.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+The data the feature collects: Access review Q3, recorded 14 September 2026. No supporting file attached
+The purpose: A feature stores a full ID document to personalize a greeting. Stated once, in the ask. Not written down anywhere else
+Retention if known: Endpoint patch ring 2. Stated in the ask, not documented anywhere else
+What the user is told: Phishing report 4412, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Cuts the document, keeps the display name if needed, and flags the notice gap.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| The data the feature collects | Access review Q3, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The purpose | A feature stores a full ID document to personalize a greeting. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Retention if known | Endpoint patch ring 2. Stated in the ask, not documented anywhere else | Carried into the draft |
+| What the user is told | Phishing report 4412, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A brief shares a guest's medical details with the whole dining team.
 
-stay: the dates in the ask
-offer: policy amount only
-complaint: their words
-manager: on duty
+Covers or occupancy: Room block, 18 keys and one other, both unconfirmed as of 14 September 2026
+Items they cannot sell: Friday dinner service, last reviewed 14 September 2026. No owner named since
+Guest issues: Guest complaint 214, last reviewed 14 September 2026. No owner named since
+Staffing gaps: Friday dinner service is missing a source
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Removes the medical details and keeps the operational accommodation only if need
 
 | Input | Value | Status |
 | --- | --- | --- |
-| stay | the dates in the ask | Needs confirmation |
-| offer | policy amount only | Carried into the draft |
-| complaint | their words | Carried into the draft |
-| manager | on duty | Needs confirmation |
+| Covers or occupancy | Room block, 18 keys and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
+| Items they cannot sell | Friday dinner service, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Guest issues | Guest complaint 214, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Staffing gaps | Friday dinner service is missing a source | Needs confirmation |
 
 **How this draft was built**
 

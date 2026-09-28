@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Reps claim a rival 'is going out of business' with no source.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+The competitor or alternative, including the status quo: two deals cited from memory. Neither has a written loss reason
+Facts the user can source: note from Samir Qureshi, 14 September 2026. No outside report
+Where you honestly lose: two deals cited from memory. Neither has a written loss reason
+Proof points: one customer email, 14 September 2026, no attachment beyond that
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Deletes the rumor, states a sourced product difference, and names the segment wh
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| The competitor or alternative, including the status quo | two deals cited from memory. Neither has a written loss reason | Needs confirmation |
+| Facts the user can source | note from Samir Qureshi, 14 September 2026. No outside report | Carried into the draft |
+| Where you honestly lose | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| Proof points | one customer email, 14 September 2026, no attachment beyond that | Needs confirmation |
 
 **How this draft was built**
 

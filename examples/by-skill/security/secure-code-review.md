@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A pull request logs a session token while debugging a login bug.
 
-policy: the one they have
-report in the folder: none
-control named: only if it is in the policy
-owner: engineering lead
+The change description: requested 14 September 2026. Not yet approved
+Auth and data paths: Access review Q3 and one other, both unconfirmed as of 14 September 2026
+How secrets are handled: Endpoint patch ring 2, last reviewed 14 September 2026. No owner named since
+Threats they are worried about: Endpoint patch ring 2. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Requires the log removed, the token rotated, and no token reprinted in the comme
 
 | Input | Value | Status |
 | --- | --- | --- |
-| policy | the one they have | Needs confirmation |
-| report in the folder | none | Carried into the draft |
-| control named | only if it is in the policy | Carried into the draft |
-| owner | engineering lead | Needs confirmation |
+| The change description | requested 14 September 2026. Not yet approved | Needs confirmation |
+| Auth and data paths | Access review Q3 and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| How secrets are handled | Endpoint patch ring 2, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Threats they are worried about | Endpoint patch ring 2. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

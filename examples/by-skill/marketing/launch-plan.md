@@ -20,6 +20,7 @@ Needed by: 30 September 2026
 
 Marketing wants a public launch of a feature that still fails in the main browser.
 
+What is actually shipping: Local search ad, last reviewed 14 September 2026. No owner named since
 The audience: people who already buy from Fieldnote
 The date: 30 September 2026
 Risks and support readiness: Fall service page is open. No score in the file
@@ -38,9 +39,10 @@ Holds the public claim, briefs support on the limit, and defines the rollback li
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The audience | people who already buy from Fieldnote | Needs confirmation |
+| What is actually shipping | Local search ad, last reviewed 14 September 2026. No owner named since | Needs confirmation |
+| The audience | people who already buy from Fieldnote | Carried into the draft |
 | The date | 30 September 2026 | Carried into the draft |
-| Risks and support readiness | Fall service page is open. No score in the file | Carried into the draft |
+| Risks and support readiness | Fall service page is open. No score in the file | Needs confirmation |
 
 **How this draft was built**
 

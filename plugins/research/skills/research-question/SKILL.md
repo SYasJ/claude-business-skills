@@ -105,6 +105,7 @@ The question is 'is remote work good' with no population or outcome.
 
 The draft question: The question is 'is remote work good' with no population or outcome
 The decision or knowledge gap: The question is 'is remote work good' with no population or outcome
+Available access: Search log 12 Sep. Stated in the ask, not documented anywhere else
 Time and skill limits: five working days, due 30 September 2026
 ```
 
@@ -123,7 +124,8 @@ A narrower question with a population, an outcome, and an explicit non-answer.
 | --- | --- | --- |
 | The draft question | The question is 'is remote work good' with no population or outcome | Needs confirmation |
 | The decision or knowledge gap | The question is 'is remote work good' with no population or outcome | Carried into the draft |
-| Time and skill limits | five working days, due 30 September 2026 | Carried into the draft |
+| Available access | Search log 12 Sep. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Time and skill limits | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

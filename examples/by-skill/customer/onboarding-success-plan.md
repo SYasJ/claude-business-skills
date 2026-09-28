@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A plan lists 30 setup tasks and never says what the customer can do at the end.
 
-ticket: 4412, 14 Sep 2026
-customer words: in the ticket
-exception: not approved
-card or password: not collected
+The first value moment: Ticket 4412, recorded 14 September 2026. No supporting file attached
+Steps to get there: Ticket 4412; Ticket 4418. Both unassigned as of 14 September 2026
+Customer owners: Rita Santos, support lead
+Internal owners: Rita Santos, support lead
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A plan aimed at one value moment, with owners and a stall check.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| ticket | 4412, 14 Sep 2026 | Needs confirmation |
-| customer words | in the ticket | Carried into the draft |
-| exception | not approved | Carried into the draft |
-| card or password | not collected | Needs confirmation |
+| The first value moment | Ticket 4412, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Steps to get there | Ticket 4412; Ticket 4418. Both unassigned as of 14 September 2026 | Carried into the draft |
+| Customer owners | Rita Santos, support lead | Carried into the draft |
+| Internal owners | Rita Santos, support lead | Needs confirmation |
 
 **How this draft was built**
 

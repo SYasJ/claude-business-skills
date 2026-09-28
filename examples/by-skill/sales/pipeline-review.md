@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A pipeline has 30 opportunities and 18 have no dated next step.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+The opportunity list with stages and ages: Harbor Goods; Cedar Clinic; Redline Parts
+The stage definitions: Harbor Goods, recorded 14 September 2026. No supporting file attached
+The seller's stated next steps: Harbor Goods; Cedar Clinic. Both unassigned as of 14 September 2026
+The period being forecast: month ending 14 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Rewinds or removes undated deals and names one coaching point about buyer-owned 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| The opportunity list with stages and ages | Harbor Goods; Cedar Clinic; Redline Parts | Needs confirmation |
+| The stage definitions | Harbor Goods, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| The seller's stated next steps | Harbor Goods; Cedar Clinic. Both unassigned as of 14 September 2026 | Carried into the draft |
+| The period being forecast | month ending 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

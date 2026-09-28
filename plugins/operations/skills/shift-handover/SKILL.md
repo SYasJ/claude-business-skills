@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 An outgoing shift leaves a quality hold unmentioned because the note says 'quiet night'.
 
-shift: two people
-SOP: one page, 2 Mar 2026
-exception: not logged
-queue: the items in the ask
+Open issues: Tuesday shift is open. SOP 118 receiving was raised verbally and never logged
+Safety or quality notes: one file, dated 14 September 2026. No earlier version attached for comparison
+What the next shift must check: Dock exception log, last reviewed 14 September 2026. No owner named since
+Staffing gaps: Tuesday shift is missing a source
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Leads with the hold, the next check, and an explicit not-quiet status.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| shift | two people | Needs confirmation |
-| SOP | one page, 2 Mar 2026 | Carried into the draft |
-| exception | not logged | Carried into the draft |
-| queue | the items in the ask | Needs confirmation |
+| Open issues | Tuesday shift is open. SOP 118 receiving was raised verbally and never logged | Needs confirmation |
+| Safety or quality notes | one file, dated 14 September 2026. No earlier version attached for comparison | Carried into the draft |
+| What the next shift must check | Dock exception log, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Staffing gaps | Tuesday shift is missing a source | Needs confirmation |
 
 **How this draft was built**
 

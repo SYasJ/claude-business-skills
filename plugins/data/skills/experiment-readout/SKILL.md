@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The primary metric is flat, a secondary slice looks good, and the team wants to ship.
 
-extract date: 14 Sep 2026
-owner: the sender
-second source: not attached
-nulls: not counted yet
+The pre-registered metric and rule if they have one: plan 180, actual 90
+The results they pasted: orders_daily, recorded 14 September 2026. No supporting file attached
+Sample size: active_accounts, recorded 14 September 2026. No supporting file attached
+Guardrail results: orders_daily, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Refuses the secondary-slice ship, notes the flat primary metric, and labels any 
 
 | Input | Value | Status |
 | --- | --- | --- |
-| extract date | 14 Sep 2026 | Needs confirmation |
-| owner | the sender | Carried into the draft |
-| second source | not attached | Carried into the draft |
-| nulls | not counted yet | Needs confirmation |
+| The pre-registered metric and rule if they have one | plan 180, actual 90 | Needs confirmation |
+| The results they pasted | orders_daily, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Sample size | active_accounts, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Guardrail results | orders_daily, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

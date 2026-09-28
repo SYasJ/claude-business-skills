@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A ladder treats an undrawn line as money already in the account.
 
-run: 14 Sep 2026
-changed payee: email this morning, not verified
-password: not collected
-hold: that line
+Cash by account: 30 in the last period. No prior period attached, so no trend
+Committed inflows: the one named in the ask. Version and owner not recorded
+Committed outflows: the one named in the ask. Version and owner not recorded
+Available facilities they described: Account opening file 221. Stated in the ask, not documented anywhere else
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Separates the line from cash and flags the first short bucket.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| run | 14 Sep 2026 | Needs confirmation |
-| changed payee | email this morning, not verified | Carried into the draft |
-| password | not collected | Carried into the draft |
-| hold | that line | Needs confirmation |
+| Cash by account | 30 in the last period. No prior period attached, so no trend | Needs confirmation |
+| Committed inflows | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| Committed outflows | the one named in the ask. Version and owner not recorded | Carried into the draft |
+| Available facilities they described | Account opening file 221. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

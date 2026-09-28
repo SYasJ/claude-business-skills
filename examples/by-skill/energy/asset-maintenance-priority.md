@@ -21,6 +21,7 @@ Needed by: 30 September 2026
 A cosmetic backlog is scheduled ahead of a known leak on a safety device.
 
 The defect list: Feeder 12; Site meter 4; September bill
+Safety flags: September bill. Partly documented: the what is written down, the who is not
 Customer impact: Redline Parts
 Crew capacity: two people, no overtime figure
 ```
@@ -39,8 +40,9 @@ Puts the safety device first and parks cosmetics over capacity.
 | Input | Value | Status |
 | --- | --- | --- |
 | The defect list | Feeder 12; Site meter 4; September bill | Needs confirmation |
+| Safety flags | September bill. Partly documented: the what is written down, the who is not | Carried into the draft |
 | Customer impact | Redline Parts | Carried into the draft |
-| Crew capacity | two people, no overtime figure | Carried into the draft |
+| Crew capacity | two people, no overtime figure | Needs confirmation |
 
 **How this draft was built**
 

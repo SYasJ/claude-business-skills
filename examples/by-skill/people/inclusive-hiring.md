@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A company hires only from employee referrals and wants a more inclusive process without changing the referral habit.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The stages of their process: email to Chris Adeyemi. No written steps after 1 Sep 2026
+Drop-off data if they have it: Jordan Hale. Stated in the ask, not documented anywhere else
+The job criteria: their existing list, 6 lines. Two lines have no owner
+Constraints they will not fake: no extra headcount, and no result that is not in this file
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Names referrals-only sourcing as the constraint and recommends a structured proc
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The stages of their process | email to Chris Adeyemi. No written steps after 1 Sep 2026 | Needs confirmation |
+| Drop-off data if they have it | Jordan Hale. Stated in the ask, not documented anywhere else | Carried into the draft |
+| The job criteria | their existing list, 6 lines. Two lines have no owner | Carried into the draft |
+| Constraints they will not fake | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Failed material is left on the issue shelf so the line does not stop.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+The material risk: Line 2 is open. No score in the file
+The characteristics: Line 2, recorded 14 September 2026. No supporting file attached
+Sample practice they use: Gauge 7, recorded 14 September 2026. No supporting file attached
+Fail reaction: Line 2; Lot 26-0914. Both unassigned as of 14 September 2026
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Moves failed material to hold and requires a named deviation before any use.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| The material risk | Line 2 is open. No score in the file | Needs confirmation |
+| The characteristics | Line 2, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Sample practice they use | Gauge 7, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Fail reaction | Line 2; Lot 26-0914. Both unassigned as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

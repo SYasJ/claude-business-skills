@@ -105,7 +105,7 @@ Needed by: 30 September 2026
 A team has five conflicting About pages and wants one narrative before a launch.
 
 Who the company serves: Mara Chen, founder
-The problem in the customer's language: Kite Freight
+The problem in the customer's language: A team has five conflicting About pages and wants one narrative before a launch. Stated once, in the ask. Not written down anywhere else
 Proof points the user can stand behind: one customer email, 14 September 2026, no attachment beyond that
 What the company refuses to claim: the draft sentence is broader than the note
 ```
@@ -124,7 +124,7 @@ Share one customer change and only the proof the user provided.
 | Input | Value | Status |
 | --- | --- | --- |
 | Who the company serves | Mara Chen, founder | Needs confirmation |
-| The problem in the customer's language | Kite Freight | Carried into the draft |
+| The problem in the customer's language | A team has five conflicting About pages and wants one narrative before a launch. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
 | Proof points the user can stand behind | one customer email, 14 September 2026, no attachment beyond that | Carried into the draft |
 | What the company refuses to claim | the draft sentence is broader than the note | Needs confirmation |
 

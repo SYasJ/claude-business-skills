@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A script says 'click the blue button in the corner' as the task.
 
-screens: 8, dated 10 Sep 2026
-job: the task in the ask
-accessibility pass: not done
-assets: theirs only
+The prototype scope: this decision only
+The goal: A script says 'click the blue button in the corner' as the task. Stated once, in the ask. Not written down anywhere else
+The participant: Lena Ortiz plus two others named in the thread. No distribution list attached
+Time: five working days, due 30 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Gives the goal and removes the click path.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| screens | 8, dated 10 Sep 2026 | Needs confirmation |
-| job | the task in the ask | Carried into the draft |
-| accessibility pass | not done | Carried into the draft |
-| assets | theirs only | Needs confirmation |
+| The prototype scope | this decision only | Needs confirmation |
+| The goal | A script says 'click the blue button in the corner' as the task. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| The participant | Lena Ortiz plus two others named in the thread. No distribution list attached | Carried into the draft |
+| Time | five working days, due 30 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

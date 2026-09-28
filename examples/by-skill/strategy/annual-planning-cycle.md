@@ -22,6 +22,7 @@ A COO wants next year's planning to finish before December instead of drifting i
 
 Fiscal year dates: 30 September 2026
 Who must approve the plan: Mara Chen, founder
+Inputs that were late last year: Bright Axle and one other, both unconfirmed as of 14 September 2026
 Non-negotiable constraints: no extra headcount, and no result that is not in this file
 ```
 
@@ -40,7 +41,8 @@ A backward calendar from the approval date, two draft rounds, required inputs, a
 | --- | --- | --- |
 | Fiscal year dates | 30 September 2026 | Needs confirmation |
 | Who must approve the plan | Mara Chen, founder | Carried into the draft |
-| Non-negotiable constraints | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Inputs that were late last year | Bright Axle and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Non-negotiable constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

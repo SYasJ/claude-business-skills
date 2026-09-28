@@ -22,6 +22,7 @@ A 40-person company has eleven recurring leadership meetings and still misses hi
 
 Team size and roles: two people on shift, one off
 Decisions that currently stall: A 40-person company has eleven recurring leadership meetings and still misses hiring and cash decisions
+Existing meetings the user wants to keep or kill: Lantern Inn, last reviewed 14 September 2026. No owner named since
 Time zone or capacity constraints: no extra headcount, and no result that is not in this file
 ```
 
@@ -40,7 +41,8 @@ A three-loop cadence, the meetings to cancel, the pre-read owner for each loop, 
 | --- | --- | --- |
 | Team size and roles | two people on shift, one off | Needs confirmation |
 | Decisions that currently stall | A 40-person company has eleven recurring leadership meetings and still misses hiring and cash decisions | Carried into the draft |
-| Time zone or capacity constraints | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Existing meetings the user wants to keep or kill | Lantern Inn, last reviewed 14 September 2026. No owner named since | Carried into the draft |
+| Time zone or capacity constraints | no extra headcount, and no result that is not in this file | Needs confirmation |
 
 **How this draft was built**
 

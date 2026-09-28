@@ -20,6 +20,7 @@ Needed by: 30 September 2026
 
 Sales brings a new forecast to the meeting that supply has not seen.
 
+The demand number: 20 in the last period. No prior period attached, so no trend
 The supply constraint: no extra headcount, and no result that is not in this file
 The gap: SKU 1044 cabin filter is missing a source
 The decision needed: Sales brings a new forecast to the meeting that supply has not seen
@@ -38,9 +39,10 @@ Stops the decision until both sides use the same number, then records the gap.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| The supply constraint | no extra headcount, and no result that is not in this file | Needs confirmation |
+| The demand number | 20 in the last period. No prior period attached, so no trend | Needs confirmation |
+| The supply constraint | no extra headcount, and no result that is not in this file | Carried into the draft |
 | The gap | SKU 1044 cabin filter is missing a source | Carried into the draft |
-| The decision needed | Sales brings a new forecast to the meeting that supply has not seen | Carried into the draft |
+| The decision needed | Sales brings a new forecast to the meeting that supply has not seen | Needs confirmation |
 
 **How this draft was built**
 

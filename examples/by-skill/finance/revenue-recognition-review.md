@@ -21,6 +21,7 @@ Needed by: 30 September 2026
 Sales wants a multi-year contract fully booked this quarter because the customer signed, but implementation has not started.
 
 The contract facts the user can share: unsigned draft, 8 pages, no signature date
+What was delivered and what was billed: Payroll 15 September, last reviewed 14 September 2026. No owner named since
 The framework the company claims to use: the draft sentence is broader than the note
 The decision they need from finance or the auditor: Sales wants a multi-year contract fully booked this quarter because the customer signed, but implementation has not started
 ```
@@ -39,8 +40,9 @@ Separates signing, billing, and delivery, plus questions for the accounting owne
 | Input | Value | Status |
 | --- | --- | --- |
 | The contract facts the user can share | unsigned draft, 8 pages, no signature date | Needs confirmation |
+| What was delivered and what was billed | Payroll 15 September, last reviewed 14 September 2026. No owner named since | Carried into the draft |
 | The framework the company claims to use | the draft sentence is broader than the note | Carried into the draft |
-| The decision they need from finance or the auditor | Sales wants a multi-year contract fully booked this quarter because the customer signed, but implementation has not started | Carried into the draft |
+| The decision they need from finance or the auditor | Sales wants a multi-year contract fully booked this quarter because the customer signed, but implementation has not started | Needs confirmation |
 
 **How this draft was built**
 

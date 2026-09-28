@@ -20,6 +20,7 @@ Needed by: 30 September 2026
 
 A manager heard a star performer is interviewing and wants a script that promises a new title.
 
+The person's role: Jordan Hale, recorded 14 September 2026. No supporting file attached
 What the manager can actually change: requested 14 September 2026. Not yet approved
 Known flight risks the user may share: Jordan Hale is open. No score in the file
 Promises already made: none written down beyond the ask
@@ -38,9 +39,10 @@ Asks useful questions and forbids a title promise the manager has not had approv
 
 | Input | Value | Status |
 | --- | --- | --- |
-| What the manager can actually change | requested 14 September 2026. Not yet approved | Needs confirmation |
+| The person's role | Jordan Hale, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| What the manager can actually change | requested 14 September 2026. Not yet approved | Carried into the draft |
 | Known flight risks the user may share | Jordan Hale is open. No score in the file | Carried into the draft |
-| Promises already made | none written down beyond the ask | Carried into the draft |
+| Promises already made | none written down beyond the ask | Needs confirmation |
 
 **How this draft was built**
 

@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 The team lost three deals and wants to discount, but buyer notes mention slow security review.
 
-account: Harbor Goods
-last meeting: 9 Sep 2026, no dated next step
-proof: one email
-discount asked: 15 percent, not approved
+The outcome: The team lost three deals and wants to discount, but buyer notes mention slow security review. Stated once, in the ask. Not written down anywhere else
+Buyer feedback if any: CAD 79, from their sheet, not a guess
+Competitor or status quo facts the user has: two deals cited from memory. Neither has a written loss reason
+What the team did at each stage: two people on shift, one off
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Treats security-review speed as the pattern to test and does not approve a disco
 
 | Input | Value | Status |
 | --- | --- | --- |
-| account | Harbor Goods | Needs confirmation |
-| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
-| proof | one email | Carried into the draft |
-| discount asked | 15 percent, not approved | Needs confirmation |
+| The outcome | The team lost three deals and wants to discount, but buyer notes mention slow security review. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Buyer feedback if any | CAD 79, from their sheet, not a guess | Carried into the draft |
+| Competitor or status quo facts the user has | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| What the team did at each stage | two people on shift, one off | Needs confirmation |
 
 **How this draft was built**
 

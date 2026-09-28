@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Gross margin fell two points and sales says it was only product mix.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+Revenue and cost for two periods: month ending 14 September 2026
+Price and volume detail if available: CAD 180
+Known mix shifts: Harbor & Co receipt. Stated in the ask, not documented anywhere else
+Discount or rebate practice: 55 in the last period. No prior period attached, so no trend
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Shows what portion is mix, price, and cost on the available data, plus one comme
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cash | the counted figure in the ask, one entity | Needs confirmation |
-| maybe receipt | not in the bank | Carried into the draft |
-| buffer | the one they named | Carried into the draft |
-| new spend | not in the base case | Needs confirmation |
+| Revenue and cost for two periods | month ending 14 September 2026 | Needs confirmation |
+| Price and volume detail if available | CAD 180 | Carried into the draft |
+| Known mix shifts | Harbor & Co receipt. Stated in the ask, not documented anywhere else | Carried into the draft |
+| Discount or rebate practice | 55 in the last period. No prior period attached, so no trend | Needs confirmation |
 
 **How this draft was built**
 

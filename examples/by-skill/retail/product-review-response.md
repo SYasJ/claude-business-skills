@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A one-star review says the zipper broke in a week. The response says "we're sorry you feel that way."
 
-store: Harbor Goods, Airdrie
-price: shelf price
-stock: the count
-review: not invented
+The review text: SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached
+The star rating: SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached
+What the brand can offer: CAD 120, dates not set, cap not set
+Whether the issue is known: SKU 1044 cabin filter. Partly documented: the what is written down, the who is not
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Acknowledges the zipper, says what the warranty covers, and invites a direct con
 
 | Input | Value | Status |
 | --- | --- | --- |
-| store | Harbor Goods, Airdrie | Needs confirmation |
-| price | shelf price | Carried into the draft |
-| stock | the count | Carried into the draft |
-| review | not invented | Needs confirmation |
+| The review text | SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The star rating | SKU 1044 cabin filter, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| What the brand can offer | CAD 120, dates not set, cap not set | Carried into the draft |
+| Whether the issue is known | SKU 1044 cabin filter. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

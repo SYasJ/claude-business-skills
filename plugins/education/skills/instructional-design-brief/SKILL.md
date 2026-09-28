@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A brief asks for a fun video and has no objective.
 
-course: the one named
-section: the one they teach
-student submission: not written for them
-due: 30 Sep 2026
+Audience: people who already buy from Riverbend College
+Objective: A brief asks for a fun video and has no objective. Stated once, in the ask. Not written down anywhere else
+Time and format: five working days, due 30 September 2026
+Assessment: Module 2 lesson plan, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Blocks production until the performance and the practice are written.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| course | the one named | Needs confirmation |
-| section | the one they teach | Carried into the draft |
-| student submission | not written for them | Carried into the draft |
-| due | 30 Sep 2026 | Needs confirmation |
+| Audience | people who already buy from Riverbend College | Needs confirmation |
+| Objective | A brief asks for a fun video and has no objective. Stated once, in the ask. Not written down anywhere else | Carried into the draft |
+| Time and format | five working days, due 30 September 2026 | Carried into the draft |
+| Assessment | Module 2 lesson plan, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

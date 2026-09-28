@@ -20,6 +20,7 @@ Needed by: 30 September 2026
 
 A growing firm has 400 accounts and still cannot see gross margin by service line.
 
+Entities and departments that must report: one file, dated 14 September 2026. No earlier version attached for comparison
 Decisions the accounts must support: A growing firm has 400 accounts and still cannot see gross margin by service line
 Current pain: miscoding or useless detail: miscoding: in the file; useless detail: not in the file
 External reporting framework they claim to use: the draft sentence is broader than the note
@@ -38,9 +39,10 @@ Uses a dimension for service line, defines the accounts that change, and maps ol
 
 | Input | Value | Status |
 | --- | --- | --- |
-| Decisions the accounts must support | A growing firm has 400 accounts and still cannot see gross margin by service line | Needs confirmation |
+| Entities and departments that must report | one file, dated 14 September 2026. No earlier version attached for comparison | Needs confirmation |
+| Decisions the accounts must support | A growing firm has 400 accounts and still cannot see gross margin by service line | Carried into the draft |
 | Current pain: miscoding or useless detail | miscoding: in the file; useless detail: not in the file | Carried into the draft |
-| External reporting framework they claim to use | the draft sentence is broader than the note | Carried into the draft |
+| External reporting framework they claim to use | the draft sentence is broader than the note | Needs confirmation |
 
 **How this draft was built**
 

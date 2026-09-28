@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A team asked for eight hires, and finance has capped the quarter at three.
 
-cadence: weekly, 30 minutes, Tuesday 10:00
-status board: already updated daily
-last meeting: 6 status questions, employee did not set the agenda
-growth topic: none written down
+The work to be done: Jordan Hale; Sam Okonkwo. Both unassigned as of 14 September 2026
+Current team and open roles: two people on shift, one off
+Constraints from finance: no extra headcount, and no result that is not in this file
+Skills that are scarce: Sam Okonkwo. Partly documented: the what is written down, the who is not
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Unblock the work, with the other five parked and the cash cap respected.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
-| status board | already updated daily | Carried into the draft |
-| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
-| growth topic | none written down | Needs confirmation |
+| The work to be done | Jordan Hale; Sam Okonkwo. Both unassigned as of 14 September 2026 | Needs confirmation |
+| Current team and open roles | two people on shift, one off | Carried into the draft |
+| Constraints from finance | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Skills that are scarce | Sam Okonkwo. Partly documented: the what is written down, the who is not | Needs confirmation |
 
 **How this draft was built**
 

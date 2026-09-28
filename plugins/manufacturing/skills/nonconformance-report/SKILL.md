@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A report says 'bad parts' and the suspect lot is still being shipped.
 
-line: line 2
-lot: 26-0914
-hold: open
-count: the tally, not the order
+What failed: Line 2, first seen 14 September 2026. No root cause recorded yet
+Where it was found: Lot 26-0914, recorded 14 September 2026. No supporting file attached
+Quantity if known: 40 in the last period. No prior period attached, so no trend
+Immediate containment: Gauge 7 and one other, both unconfirmed as of 14 September 2026
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Stops the lot, describes the defect, and names the owner.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| line | line 2 | Needs confirmation |
-| lot | 26-0914 | Carried into the draft |
-| hold | open | Carried into the draft |
-| count | the tally, not the order | Needs confirmation |
+| What failed | Line 2, first seen 14 September 2026. No root cause recorded yet | Needs confirmation |
+| Where it was found | Lot 26-0914, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Quantity if known | 40 in the last period. No prior period attached, so no trend | Carried into the draft |
+| Immediate containment | Gauge 7 and one other, both unconfirmed as of 14 September 2026 | Needs confirmation |
 
 **How this draft was built**
 

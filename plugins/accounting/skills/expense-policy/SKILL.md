@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 Managers are approving their own travel after the fact, and finance wants a one-page policy.
 
-period: August 2026
-no preparer: undeposited funds, sales tax payable
-cash recs: one inbox, not the shared folder
-reviewer: not signed
+Current pain: late claims, unclear limits, or abuse concerns: late claims: in the file; unclear limits: not in the file; abuse concerns: open
+Approval limits: Undeposited funds. Partly documented: the what is written down, the who is not
+Categories they want covered: Operating cash, recorded 14 September 2026. No supporting file attached
+Local rules they already know apply: their one-page rule dated 2 Mar 2026. No exception log since
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ A draft with limits, evidence, a ban on self-approval above a threshold, and a l
 
 | Input | Value | Status |
 | --- | --- | --- |
-| period | August 2026 | Needs confirmation |
-| no preparer | undeposited funds, sales tax payable | Carried into the draft |
-| cash recs | one inbox, not the shared folder | Carried into the draft |
-| reviewer | not signed | Needs confirmation |
+| Current pain: late claims, unclear limits, or abuse concerns | late claims: in the file; unclear limits: not in the file; abuse concerns: open | Needs confirmation |
+| Approval limits | Undeposited funds. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Categories they want covered | Operating cash, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Local rules they already know apply | their one-page rule dated 2 Mar 2026. No exception log since | Needs confirmation |
 
 **How this draft was built**
 

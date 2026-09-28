@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A team lead emails a supplier directly to avoid the PO system.
 
-sku: 1044
-supplier: Redline Parts
-lead time: their number
-alternate: none
+Who can raise and approve: Diane Cho, supply lead
+Receipt practice: Calgary-Edmonton lane. Partly documented: the what is written down, the who is not
+Match exceptions: SKU 1044 cabin filter is open. Redline Parts was raised verbally and never logged
+Known side arrangements: Redline Parts. Stated in the ask, not documented anywhere else
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Treats the email order as a control break and names the missing approval.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| sku | 1044 | Needs confirmation |
-| supplier | Redline Parts | Carried into the draft |
-| lead time | their number | Carried into the draft |
-| alternate | none | Needs confirmation |
+| Who can raise and approve | Diane Cho, supply lead | Needs confirmation |
+| Receipt practice | Calgary-Edmonton lane. Partly documented: the what is written down, the who is not | Carried into the draft |
+| Match exceptions | SKU 1044 cabin filter is open. Redline Parts was raised verbally and never logged | Carried into the draft |
+| Known side arrangements | Redline Parts. Stated in the ask, not documented anywhere else | Needs confirmation |
 
 **How this draft was built**
 

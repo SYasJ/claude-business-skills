@@ -106,6 +106,7 @@ A founder says the company should 'become the platform for mid-market clinics' b
 Current position: customers, revenue motion, constraints: customers: in the file; revenue motion: not in the file; constraints: open
 The decision the plan must settle: A founder says the company should 'become the platform for mid-market clinics' but the team is still closing the first ten customers by hand
 Time horizon, usually 12 months: 13 weeks
+What is already committed and cannot move: open item, last reviewed 14 September 2026. No owner named since
 ```
 
 ### Example outcome
@@ -124,6 +125,7 @@ Chooses a beachhead, names three bets, lists what will wait, and sets a 90-day r
 | Current position: customers, revenue motion, constraints | customers: in the file; revenue motion: not in the file; constraints: open | Needs confirmation |
 | The decision the plan must settle | A founder says the company should 'become the platform for mid-market clinics' but the team is still closing the first ten customers by hand | Carried into the draft |
 | Time horizon, usually 12 months | 13 weeks | Carried into the draft |
+| What is already committed and cannot move | open item, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 

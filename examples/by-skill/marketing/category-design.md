@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A startup wants to announce it created a new category because it added an AI button.
 
-page: the live page
-claim: broader than the note
-proof: none attached
-publish date wanted: 19 Sep 2026
+The shift the buyer is experiencing: Fall service page, recorded 14 September 2026. No supporting file attached
+The old way: Fall service page, recorded 14 September 2026. No supporting file attached
+Evidence the shift is real: one PDF, 2 pages, dated 14 September 2026
+The company's right to speak: Fall service page, recorded 14 September 2026. No supporting file attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Rejects the announcement, restates the missing buyer shift, and proposes a hypot
 
 | Input | Value | Status |
 | --- | --- | --- |
-| page | the live page | Needs confirmation |
-| claim | broader than the note | Carried into the draft |
-| proof | none attached | Carried into the draft |
-| publish date wanted | 19 Sep 2026 | Needs confirmation |
+| The shift the buyer is experiencing | Fall service page, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The old way | Fall service page, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Evidence the shift is real | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The company's right to speak | Fall service page, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

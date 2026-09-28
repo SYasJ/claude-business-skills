@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A report names the division president, and the president asks to handle it personally.
 
-event: the one in the ask, not a one-word label
-owner: blank
-control: not named
-score: not invented
+The allegation summary: Control 7.2 access review, recorded 14 September 2026. No supporting file attached
+Who it names: Priya Shah, controller
+Safety issues: Issue log item 18. Partly documented: the what is written down, the who is not
+The company's routing rules: their one-page rule dated 2 Mar 2026. No exception log since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Routes around the president and refuses retaliation against the reporter.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| event | the one in the ask, not a one-word label | Needs confirmation |
-| owner | blank | Carried into the draft |
-| control | not named | Carried into the draft |
-| score | not invented | Needs confirmation |
+| The allegation summary | Control 7.2 access review, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| Who it names | Priya Shah, controller | Carried into the draft |
+| Safety issues | Issue log item 18. Partly documented: the what is written down, the who is not | Carried into the draft |
+| The company's routing rules | their one-page rule dated 2 Mar 2026. No exception log since | Needs confirmation |
 
 **How this draft was built**
 

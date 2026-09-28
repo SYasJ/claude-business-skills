@@ -103,10 +103,10 @@ Needed by: 30 September 2026
 
 A note treats an unsigned grain contract as cash already coming.
 
-week: 14 Sep 2026
-cash: their figure
-treatment: not prescribed here
-sheet: theirs
+Cash: Harvest window. Partly documented: the what is written down, the who is not
+Expected receipts they consider real: North quarter, 140 acres and one other, both unconfirmed as of 14 September 2026
+Bills due: North quarter, 140 acres and one other, both unconfirmed as of 14 September 2026
+The buffer they want: North quarter, 140 acres, recorded 14 September 2026. No supporting file attached
 ```
 
 ### Example outcome
@@ -122,10 +122,10 @@ Labels the contract hoped and shows the break week without it.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| week | 14 Sep 2026 | Needs confirmation |
-| cash | their figure | Carried into the draft |
-| treatment | not prescribed here | Carried into the draft |
-| sheet | theirs | Needs confirmation |
+| Cash | Harvest window. Partly documented: the what is written down, the who is not | Needs confirmation |
+| Expected receipts they consider real | North quarter, 140 acres and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| Bills due | North quarter, 140 acres and one other, both unconfirmed as of 14 September 2026 | Carried into the draft |
+| The buffer they want | North quarter, 140 acres, recorded 14 September 2026. No supporting file attached | Needs confirmation |
 
 **How this draft was built**
 

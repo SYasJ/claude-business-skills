@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 A summary averages away one severe open claim.
 
-folder: the claim file they have
-coverage opinion: not given
-missing doc: named
-handler: licensed owner
+The loss run: Claim file 8841, recorded 14 September 2026. No supporting file attached
+The years it covers: Claim file 8841, recorded 14 September 2026. No supporting file attached
+Large losses: Claim file 8841. Stated in the ask, not documented anywhere else
+What the reader needs: Priya Shah plus two others named in the thread. No distribution list attached
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ Shows the severe claim separately and makes no price prediction.
 
 | Input | Value | Status |
 | --- | --- | --- |
-| folder | the claim file they have | Needs confirmation |
-| coverage opinion | not given | Carried into the draft |
-| missing doc | named | Carried into the draft |
-| handler | licensed owner | Needs confirmation |
+| The loss run | Claim file 8841, recorded 14 September 2026. No supporting file attached | Needs confirmation |
+| The years it covers | Claim file 8841, recorded 14 September 2026. No supporting file attached | Carried into the draft |
+| Large losses | Claim file 8841. Stated in the ask, not documented anywhere else | Carried into the draft |
+| What the reader needs | Priya Shah plus two others named in the thread. No distribution list attached | Needs confirmation |
 
 **How this draft was built**
 

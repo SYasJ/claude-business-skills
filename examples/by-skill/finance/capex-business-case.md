@@ -20,10 +20,10 @@ Needed by: 30 September 2026
 
 Operations wants a packaging machine and has one quote and a claim that it will 'pay for itself'.
 
-cash: the counted figure in the ask, one entity
-maybe receipt: not in the bank
-buffer: the one they named
-new spend: not in the base case
+The problem the spend solves: Operations wants a packaging machine and has one quote and a claim that it will 'pay for itself'. Stated once, in the ask. Not written down anywhere else
+Cost and timing the user has: CAD 18 direct. Overhead not in this line
+Alternatives including do nothing: two deals cited from memory. Neither has a written loss reason
+How benefits will be observed: Harbor & Co receipt, last reviewed 14 September 2026. No owner named since
 ```
 
 ## Example outcome
@@ -39,10 +39,10 @@ A case with alternatives, cash timing, a benefit the team can later observe, and
 
 | Input | Value | Status |
 | --- | --- | --- |
-| cash | the counted figure in the ask, one entity | Needs confirmation |
-| maybe receipt | not in the bank | Carried into the draft |
-| buffer | the one they named | Carried into the draft |
-| new spend | not in the base case | Needs confirmation |
+| The problem the spend solves | Operations wants a packaging machine and has one quote and a claim that it will 'pay for itself'. Stated once, in the ask. Not written down anywhere else | Needs confirmation |
+| Cost and timing the user has | CAD 18 direct. Overhead not in this line | Carried into the draft |
+| Alternatives including do nothing | two deals cited from memory. Neither has a written loss reason | Carried into the draft |
+| How benefits will be observed | Harbor & Co receipt, last reviewed 14 September 2026. No owner named since | Needs confirmation |
 
 **How this draft was built**
 
