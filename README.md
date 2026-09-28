@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
-  <a href="https://github.com/SYasJ/claude-practice-skills/stargazers"><img src="https://img.shields.io/github/stars/SYasJ/claude-practice-skills?style=flat" alt="GitHub Stars"></a>
-  <a href="https://github.com/SYasJ/claude-practice-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/skills-601-brightgreen" alt="601 Skills"></a>
-  <a href="https://github.com/SYasJ/claude-practice-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/domains-48-orange" alt="48 Domains"></a>
+  <a href="https://github.com/SYasJ/claude-business-skills/stargazers"><img src="https://img.shields.io/github/stars/SYasJ/claude-business-skills?style=flat" alt="GitHub Stars"></a>
+  <a href="https://github.com/SYasJ/claude-business-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/skills-601-brightgreen" alt="601 Skills"></a>
+  <a href="https://github.com/SYasJ/claude-business-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/domains-48-orange" alt="48 Domains"></a>
 </p>
 
 <h1 align="center">Claude Code Business Skills</h1>
@@ -27,8 +27,8 @@ You drop a skill into Claude Code. When you describe a task that matches, Claude
 ## Quick install
 
 ```bash
-git clone https://github.com/SYasJ/claude-practice-skills.git
-cd claude-practice-skills
+git clone https://github.com/SYasJ/claude-business-skills.git
+cd claude-business-skills
 python3 scripts/install.py --tool claude --domain finance
 ```
 
@@ -207,7 +207,7 @@ This is not a legal, tax, medical, or investment advice product.
 ## Claude Code marketplace
 
 ```bash
-/plugin marketplace add YOUR_GITHUB_USER/claude-practice-skills
+/plugin marketplace add SYasJ/claude-business-skills
 /plugin install finance@yj-skills
 ```
 
