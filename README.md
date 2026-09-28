@@ -13,6 +13,13 @@
 
 <p align="center"><strong>601 Agent Skills for real business work — finance, ops, engineering, HR, legal, and 43 more domains.<br>Install one command. Works in Claude Code, Cursor, Gemini CLI, Codex, and any Agent Skills–compatible tool.</strong></p>
 
+<p align="center">
+  <a href="https://syasj.github.io/claude-business-skills/"><strong>Website</strong></a> ·
+  <a href="https://github.com/SYasJ/claude-business-skills/wiki"><strong>Docs</strong></a> ·
+  <a href="catalog/SKILLS.md"><strong>All 601 skills</strong></a> ·
+  <a href="examples/INDEX.md"><strong>Examples</strong></a>
+</p>
+
 ---
 
 ## What it does
