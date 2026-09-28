@@ -28,14 +28,32 @@ The owner: Noah Berger, data lead
 ## Example outcome
 
 **Metric definition**
-Fieldnote · 14 September 2026
+Fieldnote · 14 September 2026 · Due 30 September 2026
 
-Decision: Picks one source, writes the formula, and flags the other report as a reconciliation item.
+**Decision**
+Picks one source, writes the formula, and flags the other report as a reconciliation item.
 
-| Item | Figure in the file | Call |
-| --- | --- | --- |
-| Kite Freight | plan 180, actual 75 | use |
-| Bright Axle | score 62 | do not treat as a benchmark |
-| Missing export | not in the file | stop, do not invent it |
+| Item | Figure in the file | Call | Why |
+| --- | --- | --- | --- |
+| Kite Freight | plan 180, actual 75 | Use | Both sides of the comparison are in the file |
+| Bright Axle | score 62 | Report, do not benchmark | One score is a reading, not a baseline |
+| Missing export | Not in the file | Stop | The cell stays blank until the export arrives |
 
-Next action: Noah Berger attaches the missing export or the cell stays blank. Due 30 September 2026.
+**How these calls were made**
+
+1. Write the decision the metric is for before naming the metric
+2. Define numerator, denominator, time window, and exclusions in words a new analyst can apply
+3. Name the source. If two reports disagree, the definition is not done until one source is chosen
+4. Record the known ways the metric can be gamed and add a counter-metric
+5. Set an owner and a change process. Silent definition changes are a finding
+
+**Deliberately not done**
+- A metric with no formula.
+- Two teams using different sources without a note.
+- An invented baseline.
+
+**Open items**
+- The missing export is the binding constraint. No figure was estimated to fill its place.
+- Any row marked *Report, do not benchmark* needs a second period before it can carry a trend.
+
+Next: Noah Berger attaches the missing export, or the cell stays blank. Due 30 September 2026.

@@ -113,19 +113,42 @@ due: 30 Sep 2026
 
 **Lesson plan**
 To: Mark Ellison, program chair, Riverbend College
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A plan with one objective, one practice task, and a check, with slides cut to fit.
 
-**From the file**
-- course: the one named
-- section: the one they teach
-- student submission: not written for them
-- due: 30 Sep 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mark Ellison by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| course | the one named | Needs confirmation |
+| section | the one they teach | Carried into the draft |
+| student submission | not written for them | Carried into the draft |
+| due | 30 Sep 2026 | Needs confirmation |
+
+**How this draft was built**
+
+**1. Write an objective learners can demonstrate, not a topic label**
+
+**2. Open with a reason the objective matters to their work or course**
+
+**3. Teach one model, then a practice task. A lecture with no practice is a finding**
+
+**4. Check understanding before the end**
+
+**5. Plan the likely misconception they named, or mark it unknown**
+
+**Deliberately not done**
+- An objective that is only a topic.
+- No practice.
+- A plan that overruns and skips the check.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mark Ellison by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

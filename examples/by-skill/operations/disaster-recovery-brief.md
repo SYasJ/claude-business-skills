@@ -30,16 +30,39 @@ queue: the items in the ask
 
 **Disaster recovery brief**
 To: Diane Cho, operations manager, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Downgrades the claim to untested and names the identity dependency.
 
-**From the file**
-- shift: two people
-- SOP: one page, 2 Mar 2026
-- exception: not logged
-- queue: the items in the ask
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Diane Cho by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| shift | two people | Needs confirmation |
+| SOP | one page, 2 Mar 2026 | Carried into the draft |
+| exception | not logged | Carried into the draft |
+| queue | the items in the ask | Needs confirmation |
+
+**How this draft was built**
+
+**1. Define the business process the system serves**
+
+**2. Record the recovery point and time they want, labeled as a want until a test proves it**
+
+**3. List dependencies. A restored app with no identity provider is not recovered**
+
+**4. Note the last test and its result. No test, no claim of readiness**
+
+**5. Identify the gap between the want and the evidenced capability**
+
+**Deliberately not done**
+- Claiming a recovery time that was never tested.
+- Ignoring a dependency.
+- An invented price.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Diane Cho by 30 September 2026. This is a draft, not a sign-off.

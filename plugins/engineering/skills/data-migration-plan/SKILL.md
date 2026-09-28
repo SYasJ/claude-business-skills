@@ -113,19 +113,47 @@ owner: the person who opened the change
 
 **Data migration plan**
 To: Aisha Rahman, engineering lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Is more than a glance.
 
-**From the file**
-- branch: main, change not merged
-- tests listed: none
-- rollback: not written
-- owner: the person who opened the change
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Aisha Rahman by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| branch | main, change not merged | Needs confirmation |
+| tests listed | none | Carried into the draft |
+| rollback | not written | Carried into the draft |
+| owner | the person who opened the change | Needs confirmation |
+
+**How this draft was built**
+
+**1. Rules**  
+What makes a row correct in the target. Write the rule before writing the job.
+
+**2. Method**  
+Dual-write, backfill, or freeze, chosen from their tolerance. Do not pick a method they cannot operate.
+
+**3. Reconciliation**  
+Counts and checksums or samples they can actually run. A migration without reconciliation is a guess.
+
+**4. Stop**  
+The mismatch that halts the job.
+
+**5. Privacy**  
+Do not copy data into a less protected place for convenience. No exports of secrets into tickets.
+
+**Deliberately not done**
+- A migration with no reconciliation.
+- Copying sensitive data into a ticket.
+- A method the team cannot operate.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Aisha Rahman by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

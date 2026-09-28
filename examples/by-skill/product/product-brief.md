@@ -29,15 +29,43 @@ What is already known to be out of scope: anything not named in the ask
 
 **Product brief**
 To: Jonah Park, product manager, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Restates the missing problem evidence and refuses to pretend the feature list is a validated bet.
 
-**From the file**
-- Evidence of the problem: one PDF, 2 pages, dated 14 September 2026
-- The business constraint: no extra headcount, and no result that is not in this file
-- What is already known to be out of scope: anything not named in the ask
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Park by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| Evidence of the problem | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
+| The business constraint | no extra headcount, and no result that is not in this file | Carried into the draft |
+| What is already known to be out of scope | anything not named in the ask | Carried into the draft |
+
+**How this draft was built**
+
+**1. User and situation**  
+Who hits the problem, and when. A persona name with no situation is not enough.
+
+**2. Problem evidence**  
+Quotes, tickets, or data the user supplied. Mark guesses as guesses.
+
+**3. Bet**  
+The change you believe will help, stated as a hypothesis.
+
+**4. Non-goals**  
+At least three things this brief will not solve.
+
+**5. Risks**  
+The assumption that would kill the bet if false.
+
+**Deliberately not done**
+- A feature list titled as a brief.
+- Invented user quotes.
+- No non-goals.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Park by 30 September 2026. This is a draft, not a sign-off.

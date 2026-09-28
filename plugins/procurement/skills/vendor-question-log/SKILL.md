@@ -113,19 +113,42 @@ award: not made here
 
 **Question log**
 To: Diane Cho, buyer, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Publishes the clarification to every bidder.
 
-**From the file**
-- quotes: only those attached
-- missing term: blank
-- authority: their limit
-- award: not made here
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Diane Cho by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| quotes | only those attached | Needs confirmation |
+| missing term | blank | Carried into the draft |
+| authority | their limit | Carried into the draft |
+| award | not made here | Needs confirmation |
+
+**How this draft was built**
+
+**1. Log each question**
+
+**2. Draft an answer that does not reveal another bidder's confidential approach**
+
+**3. Publish answers to all bidders when their process requires it**
+
+**4. Do not give one bidder a private hint**
+
+**5. Mark questions you cannot answer yet**
+
+**Deliberately not done**
+- A private hint to one bidder.
+- An answer that leaks another bid.
+- A changed requirement left unpublished.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Diane Cho by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

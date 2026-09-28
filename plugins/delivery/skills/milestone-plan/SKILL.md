@@ -113,19 +113,42 @@ decision: needed
 
 **Milestone plan**
 To: Owen Blake, delivery lead, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Places the vendor dependency, defines evidence of done, and labels uncommitted dates.
 
-**From the file**
-- milestone: the customer date
-- status: slipped
-- completed tasks: do not replace the slip
-- decision: needed
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Owen Blake by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| milestone | the customer date | Needs confirmation |
+| status | slipped | Carried into the draft |
+| completed tasks | do not replace the slip | Carried into the draft |
+| decision | needed | Needs confirmation |
+
+**How this draft was built**
+
+**1. Define done for each milestone as evidence, not as a meeting**
+
+**2. Sequence from dependencies. Do not spray dates evenly unless the work is actually even**
+
+**3. Put external dependencies on the plan with owners**
+
+**4. Include a buffer only if the user accepts one, and label it**
+
+**5. Mark any date that is a wish rather than a commitment**
+
+**Deliberately not done**
+- Evenly spaced dates with no dependencies.
+- A milestone that is only a meeting.
+- Wish dates labeled as commitments.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Owen Blake by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

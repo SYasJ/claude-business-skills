@@ -112,17 +112,35 @@ Who will own it: Mara Chen, founder
 ### Example outcome
 
 **North-star metric definition**
-Northline Studio · 14 September 2026
+Northline Studio · 14 September 2026 · Due 30 September 2026
 
-Decision: A definition of the chosen metric, why the alternative loses, three input metrics, and a counter-metric that protects quality.
+**Decision**
+A definition of the chosen metric, why the alternative loses, three input metrics, and a counter-metric that protects quality.
 
-| Item | Figure in the file | Call |
-| --- | --- | --- |
-| Redline Parts | plan 120, actual 80 | use |
-| Lantern Inn | score 78 | do not treat as a benchmark |
-| Missing export | not in the file | stop, do not invent it |
+| Item | Figure in the file | Call | Why |
+| --- | --- | --- | --- |
+| Redline Parts | plan 120, actual 80 | Use | Both sides of the comparison are in the file |
+| Lantern Inn | score 78 | Report, do not benchmark | One score is a reading, not a baseline |
+| Missing export | Not in the file | Stop | The cell stays blank until the export arrives |
 
-Next action: Mara Chen attaches the missing export or the cell stays blank. Due 30 September 2026.
+**How these calls were made**
+
+1. Start from value
+2. Reject vanity
+3. Write the definition
+4. Add inputs
+5. Name the gaming risk
+
+**Deliberately not done**
+- Picking revenue because it is easy to explain to a board.
+- A north star with no definition.
+- No counter-metric, so the number can be gamed.
+
+**Open items**
+- The missing export is the binding constraint. No figure was estimated to fill its place.
+- Any row marked *Report, do not benchmark* needs a second period before it can carry a trend.
+
+Next: Mara Chen attaches the missing export, or the cell stays blank. Due 30 September 2026.
 
 ## Anti-patterns
 

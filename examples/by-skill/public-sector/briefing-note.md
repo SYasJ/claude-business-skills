@@ -29,15 +29,38 @@ The audience: people who already buy from Town of Airdrie
 
 **Briefing note**
 To: Pat Nguyen, clerk, Town of Airdrie
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Includes the cost and a plain recommendation.
 
-**From the file**
-- The decision: A brief omits a known cost because it would be unpopular
-- The options: keep Cedar Clinic, or stop. No third option written
-- The audience: people who already buy from Town of Airdrie
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Pat Nguyen by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The decision | A brief omits a known cost because it would be unpopular | Needs confirmation |
+| The options | keep Cedar Clinic, or stop. No third option written | Carried into the draft |
+| The audience | people who already buy from Town of Airdrie | Carried into the draft |
+
+**How this draft was built**
+
+**1. Lead with the purpose and the recommendation**
+
+**2. Use facts they can stand behind on the record**
+
+**3. Give real options, including do nothing**
+
+**4. State the public impact and the implementation constraint**
+
+**5. Do not draft deceptive messaging or a plan to manipulate a consultation**
+
+**Deliberately not done**
+- Deceptive public messaging.
+- Personal data in the brief.
+- A recommendation with no option.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Pat Nguyen by 30 September 2026. This is a draft, not a sign-off.

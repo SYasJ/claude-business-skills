@@ -113,19 +113,47 @@ growth topic: none written down
 
 **30-60-90 plan**
 To: Chris Adeyemi, people lead, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A plan whose 90-day result is a close improvement the manager can observe, with review dates included.
 
-**From the file**
-- cadence: weekly, 30 minutes, Tuesday 10:00
-- status board: already updated daily
-- last meeting: 6 status questions, employee did not set the agenda
-- growth topic: none written down
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Chris Adeyemi by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
+| status board | already updated daily | Carried into the draft |
+| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
+| growth topic | none written down | Needs confirmation |
+
+**How this draft was built**
+
+**1. 30 days is learning and a small delivery**  
+Relationships, system map, and one shipped contribution.
+
+**2. 60 days is independent work**  
+The hire runs a defined slice without the manager in every step.
+
+**3. 90 days is a result**  
+A measurable improvement or a decision the team needed. Not a list of meetings attended.
+
+**4. Manager commitments**  
+What the manager will provide: context, introductions, and feedback dates.
+
+**5. Landmines**  
+One or two risks the user named, and how the hire should treat them. No gossip section.
+
+**Deliberately not done**
+- A 90-day plan that is only learning goals.
+- No manager commitments.
+- Unmeasurable 'build relationships' as the only 90-day result.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Chris Adeyemi by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

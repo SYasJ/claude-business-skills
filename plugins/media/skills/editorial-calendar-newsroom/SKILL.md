@@ -113,19 +113,42 @@ unknown: stays unknown
 
 **Planning note**
 To: Jonah Ellis, assignment editor, Foothills Desk
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Kills or holds the piece and leaves the slot open.
 
-**From the file**
-- document: the statement in the folder
-- unnamed quote: not used
-- deadline: the board time
-- unknown: stays unknown
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Ellis by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| document | the statement in the folder | Needs confirmation |
+| unnamed quote | not used | Carried into the draft |
+| deadline | the board time | Carried into the draft |
+| unknown | stays unknown | Needs confirmation |
+
+**How this draft was built**
+
+**1. Run only stories with a sourced point**
+
+**2. Leave a slot empty rather than fill it with an unsourced piece**
+
+**3. Flag legal review where they said it is required**
+
+**4. Separate opinion from news in the plan**
+
+**5. Do not assign a story that requires deception to report**
+
+**Deliberately not done**
+- Filling a slot with an unsourced piece.
+- Opinion labeled as news.
+- A deceptive reporting assignment.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Ellis by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

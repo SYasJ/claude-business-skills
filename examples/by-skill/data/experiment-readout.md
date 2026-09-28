@@ -30,16 +30,39 @@ nulls: not counted yet
 
 **Experiment readout**
 To: Noah Berger, data lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Refuses the secondary-slice ship, notes the flat primary metric, and labels any follow-up as a new hypothesis.
 
-**From the file**
-- extract date: 14 Sep 2026
-- owner: the sender
-- second source: not attached
-- nulls: not counted yet
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Noah Berger by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| extract date | 14 Sep 2026 | Needs confirmation |
+| owner | the sender | Carried into the draft |
+| second source | not attached | Carried into the draft |
+| nulls | not counted yet | Needs confirmation |
+
+**How this draft was built**
+
+**1. Start from the decision rule they wrote. If none exists, say the readout is exploratory**
+
+**2. Report the primary metric and the guardrail before secondary slices**
+
+**3. Do not crown a winner on a slice that was not the plan, unless you label it a hypothesis**
+
+**4. State whether the sample can support the decision they want**
+
+**5. Separate a failed experiment from a broken implementation**
+
+**Deliberately not done**
+- Moving the metric after seeing results.
+- Ignoring a broken guardrail.
+- Declaring a tiny sample conclusive.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Noah Berger by 30 September 2026. This is a draft, not a sign-off.

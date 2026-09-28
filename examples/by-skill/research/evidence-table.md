@@ -30,16 +30,40 @@ unopened citation: not used
 
 **Evidence table**
 To: Dr. Nia Okonkwo, research lead, Riverbend College
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A table with those cells marked unknown and a warning against a numeric conclusion.
 
-**From the file**
-- site: one
-- sample: the count they gave
-- missing file: named in the ask
-- unopened citation: not used
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Dr. Nia Okonkwo by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| site | one | Needs confirmation |
+| sample | the count they gave | Carried into the draft |
+| missing file | named in the ask | Carried into the draft |
+| unopened citation | not used | Needs confirmation |
+
+**How this draft was built**
+
+**1. Columns follow the question**  
+population, method, finding, limit.
+
+**2. Extract only what the source they provided actually says**
+
+**3. Mark a field unknown rather than filling it from memory**
+
+**4. Keep excluded sources in a short log with the reason**
+
+**5. Do not add a source you cannot identify**
+
+**Deliberately not done**
+- Cells filled from memory.
+- Ghost sources.
+- A conclusion the table does not support.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Dr. Nia Okonkwo by 30 September 2026. This is a draft, not a sign-off.

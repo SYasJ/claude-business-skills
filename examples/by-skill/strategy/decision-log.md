@@ -30,16 +30,44 @@ unowned idea: parked
 
 **Decision record**
 To: Mara Chen, founder, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Drove it, and the condition that would reopen it.
 
-**From the file**
-- decision: the one in the ask
-- options: two, named
-- evidence: the file only
-- unowned idea: parked
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mara Chen by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| decision | the one in the ask | Needs confirmation |
+| options | two, named | Carried into the draft |
+| evidence | the file only | Carried into the draft |
+| unowned idea | parked | Needs confirmation |
+
+**How this draft was built**
+
+**1. State the decision**  
+One sentence, past or present tense, with the date and the decider. No preamble.
+
+**2. Record alternatives**  
+At least one real alternative that was rejected, and why. If none was considered, say that plainly.
+
+**3. Cite facts**  
+List only evidence the user provided. Do not backfill a rationale that sounds smarter than the actual one.
+
+**4. Name the reopen condition**  
+What new fact would justify revisiting the decision. Decisions without reopen conditions become dogma.
+
+**5. Note consequences**  
+Who must change what by when because of this decision.
+
+**Deliberately not done**
+- Rewriting history to make a messy decision look inevitable.
+- Logging every tiny choice.
+- Omitting the rejected alternative.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mara Chen by 30 September 2026. This is a draft, not a sign-off.

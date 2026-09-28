@@ -113,19 +113,47 @@ owner: the person who opened the change
 
 **Observability plan**
 To: Aisha Rahman, engineering lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Forbids that header, specifies a request id, and pages only on user-facing errors.
 
-**From the file**
-- branch: main, change not merged
-- tests listed: none
-- rollback: not written
-- owner: the person who opened the change
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Aisha Rahman by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| branch | main, change not merged | Needs confirmation |
+| tests listed | none | Carried into the draft |
+| rollback | not written | Carried into the draft |
+| owner | the person who opened the change | Needs confirmation |
+
+**How this draft was built**
+
+**1. Question**  
+The production question the signal must answer. Signals without a question are noise.
+
+**2. Golden signals**  
+Latency, errors, traffic, and saturation only where they match the service. Do not dump a template.
+
+**3. Logs**  
+Structured fields that help debug, excluding secrets, tokens, and full payment data.
+
+**4. Traces**  
+Where a trace would beat another log line, if they already use tracing. Do not mandate a vendor.
+
+**5. Alerts**  
+Page only on user pain or imminent user pain. A page on every warning trains people to ignore pages.
+
+**Deliberately not done**
+- Logging secrets or card numbers.
+- Paging on every warning.
+- A vendor mandate disguised as a plan.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Aisha Rahman by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

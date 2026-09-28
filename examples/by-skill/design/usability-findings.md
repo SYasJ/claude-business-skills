@@ -30,16 +30,39 @@ assets: theirs only
 
 **Findings note**
 To: Lena Ortiz, design lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Reports task completion, refuses the love claim, and ranks blocking issues.
 
-**From the file**
-- screens: 8, dated 10 Sep 2026
-- job: the task in the ask
-- accessibility pass: not done
-- assets: theirs only
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Lena Ortiz by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| screens | 8, dated 10 Sep 2026 | Needs confirmation |
+| job | the task in the ask | Carried into the draft |
+| accessibility pass | not done | Carried into the draft |
+| assets | theirs only | Needs confirmation |
+
+**How this draft was built**
+
+**1. Report the task and the observed failure**
+
+**2. Quote or describe only what was observed**
+
+**3. Rate severity by whether the task was blocked**
+
+**4. Recommend a design change for each blocking finding**
+
+**5. State the sample limit. Do not claim market proof**
+
+**Deliberately not done**
+- Market-proof claims from five tests.
+- Findings with no observation.
+- Identified participants.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Lena Ortiz by 30 September 2026. This is a draft, not a sign-off.

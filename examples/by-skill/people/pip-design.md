@@ -29,15 +29,43 @@ Duration and reviewer: Chris Adeyemi. No second reviewer named
 
 **Performance improvement plan draft**
 To: Chris Adeyemi, people lead, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Stops the PIP until an observable gap exists, and refuses a plan built to force a resignation.
 
-**From the file**
-- The gap, in observable terms: Jordan Hale is missing a source
-- Support already offered: CAD 79, dates not set, cap not set
-- Duration and reviewer: Chris Adeyemi. No second reviewer named
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Chris Adeyemi by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The gap, in observable terms | Jordan Hale is missing a source | Needs confirmation |
+| Support already offered | CAD 79, dates not set, cap not set | Carried into the draft |
+| Duration and reviewer | Chris Adeyemi. No second reviewer named | Carried into the draft |
+
+**How this draft was built**
+
+**1. Describe the gap**  
+What work is below the standard, with examples. 'Bad attitude' is not a standard.
+
+**2. Confirm the standard was known**  
+If it was not, the first step may be a clear expectation, not a PIP. Say so.
+
+**3. Set a short list of observable targets**  
+What done looks like, how it will be measured, and the review dates.
+
+**4. Support**  
+Training, examples, or workload changes the manager will actually provide.
+
+**5. Consequences**  
+Use only consequences the user says the company process allows. Do not invent a firing script or a legal conclusion.
+
+**Deliberately not done**
+- Vague attitude goals.
+- Impossible tasks designed to push someone out.
+- Invented legal conclusions about termination.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Chris Adeyemi by 30 September 2026. This is a draft, not a sign-off.

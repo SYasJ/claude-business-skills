@@ -112,18 +112,46 @@ The product the claim describes: the draft sentence is broader than the note
 
 **Claims review note**
 To: Elena Voss, operations lead, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Blocks the percentage claim until evidence exists and offers narrower wording tied to that one story, clearly labeled.
 
-**From the file**
-- The draft claim: the draft sentence is broader than the note
-- The evidence they have: one PDF, 2 pages, dated 14 September 2026
-- The product the claim describes: the draft sentence is broader than the note
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Elena Voss by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The draft claim | the draft sentence is broader than the note | Needs confirmation |
+| The evidence they have | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The product the claim describes | the draft sentence is broader than the note | Carried into the draft |
+
+**How this draft was built**
+
+**1. Quote the claim**  
+Review the words they will publish, not a softened retelling.
+
+**2. Match evidence**  
+Each factual claim needs a source they possess. If the source is missing, the claim is not ready.
+
+**3. Watch absolutes**  
+'Only', 'guaranteed', 'never', and performance numbers are high risk if evidence is thin. Recommend narrower wording.
+
+**4. Comparisons**  
+Competitor comparisons need a fair basis they can show. Do not draft a comparison they cannot support.
+
+**5. Testimonials**  
+Do not invent quotes. If they want a customer story, the customer must approve the real words.
+
+**Deliberately not done**
+- Inventing a statistic.
+- Leaving 'guaranteed results' because it converts.
+- Fake testimonials.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Elena Voss by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

@@ -111,17 +111,35 @@ The internal owner: Diane Cho, supply lead
 ### Example outcome
 
 **Supplier scorecard**
-Harbor Goods · 14 September 2026
+Harbor Goods · 14 September 2026 · Due 30 September 2026
 
-Decision: Records the forecast change as a buyer cause and limits the supplier miss to evidenced gaps.
+**Decision**
+Records the forecast change as a buyer cause and limits the supplier miss to evidenced gaps.
 
-| Item | Figure in the file | Call |
-| --- | --- | --- |
-| Cedar Clinic | plan 120, actual 90 | use |
-| Fieldnote | score 62 | do not treat as a benchmark |
-| Missing export | not in the file | stop, do not invent it |
+| Item | Figure in the file | Call | Why |
+| --- | --- | --- | --- |
+| Cedar Clinic | plan 120, actual 90 | Use | Both sides of the comparison are in the file |
+| Fieldnote | score 62 | Report, do not benchmark | One score is a reading, not a baseline |
+| Missing export | Not in the file | Stop | The cell stays blank until the export arrives |
 
-Next action: Diane Cho attaches the missing export or the cell stays blank. Due 30 September 2026.
+**How these calls were made**
+
+1. Score only contracted outcomes they can evidence
+2. Separate a one-off miss from a trend
+3. Include the buyer's own late forecasts if those caused the miss
+4. Recommend a conversation, a corrective plan, or a sourcing question
+5. Do not invent a penalty
+
+**Deliberately not done**
+- A mood score.
+- Invented penalties.
+- Ignoring buyer-caused misses.
+
+**Open items**
+- The missing export is the binding constraint. No figure was estimated to fill its place.
+- Any row marked *Report, do not benchmark* needs a second period before it can carry a trend.
+
+Next: Diane Cho attaches the missing export, or the cell stays blank. Due 30 September 2026.
 
 ## Anti-patterns
 

@@ -112,18 +112,46 @@ Risks to the relationship: Harbor Goods is open. No score in the file
 
 **Account plan**
 To: Samir Qureshi, account executive, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A plan anchored on the audit goal, with one evidenced expansion idea and the rest marked unknown.
 
-**From the file**
-- The customer's stated goals: Kite Freight
-- Whitespace you can evidence: one PDF, 2 pages, dated 14 September 2026
-- Risks to the relationship: Harbor Goods is open. No score in the file
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Samir Qureshi by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The customer's stated goals | Kite Freight | Needs confirmation |
+| Whitespace you can evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| Risks to the relationship | Harbor Goods is open. No score in the file | Carried into the draft |
+
+**How this draft was built**
+
+**1. Customer goals first**  
+Their goals, not your quota, open the plan.
+
+**2. Map**  
+Stakeholders you actually know, with roles. Do not invent an org chart.
+
+**3. Whitespace**  
+Opportunities tied to a goal. A product list is not whitespace.
+
+**4. Risks**  
+Champion departure, unresolved support issues, or competitive evaluations they mentioned.
+
+**5. Plays**  
+At most three plays this quarter, each with an owner and a buyer action.
+
+**Deliberately not done**
+- A plan that is only a quota target.
+- Invented stakeholders.
+- Twelve plays and no owner.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Samir Qureshi by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

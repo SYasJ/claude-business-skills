@@ -30,16 +30,39 @@ card or password: not collected
 
 **Health score definition**
 To: Rita Santos, support lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A visible formula and a required human play for red, or a recommendation not to launch the score yet.
 
-**From the file**
-- ticket: 4412, 14 Sep 2026
-- customer words: in the ticket
-- exception: not approved
-- card or password: not collected
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Rita Santos by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| ticket | 4412, 14 Sep 2026 | Needs confirmation |
+| customer words | in the ticket | Carried into the draft |
+| exception | not approved | Carried into the draft |
+| card or password | not collected | Needs confirmation |
+
+**How this draft was built**
+
+**1. Start from the action a red score triggers. A score with no action is a toy**
+
+**2. Choose signals they can collect without creepy surveillance**
+
+**3. Show the formula. Hidden points are a finding**
+
+**4. Weight only with evidence they have. If they have no history, call the score a hypothesis**
+
+**5. Set a review so a red account gets a human, not only a color**
+
+**Deliberately not done**
+- A hidden formula.
+- A score nobody acts on.
+- Sensitive personal data as an input.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Rita Santos by 30 September 2026. This is a draft, not a sign-off.

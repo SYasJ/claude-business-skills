@@ -113,19 +113,43 @@ owner: engineering lead
 
 **Vendor security review**
 To: Aisha Rahman, engineering lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Lists unanswered questions and refuses to treat the slogan as a control.
 
-**From the file**
-- policy: the one they have
-- report in the folder: none
-- control named: only if it is in the policy
-- owner: engineering lead
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Aisha Rahman by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| policy | the one they have | Needs confirmation |
+| report in the folder | none | Carried into the draft |
+| control named | only if it is in the policy | Carried into the draft |
+| owner | engineering lead | Needs confirmation |
+
+**How this draft was built**
+
+**1. Start from the data shared and the harm if it leaks**
+
+**2. Compare their claims to the questions that matter for that data. A badge is not a review**
+
+**3. Mark unanswered questions as gaps, not as passes**
+
+**4. Recommend accept, accept with limits, or reject for this use. You cannot certify the vendor**
+
+**5. Note contract asks for counsel**  
+breach notice, deletion, and subprocessors. Do not invent legal conclusions.
+
+**Deliberately not done**
+- Treating a logo as a certification.
+- A pass on unanswered questions.
+- Asking for vendor passwords.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Aisha Rahman by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

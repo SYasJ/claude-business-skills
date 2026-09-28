@@ -111,16 +111,39 @@ advice to a patient: not written
 ### Example outcome
 
 **Billing review checklist**
-Cedar Clinic · 14 September 2026
+Cedar Clinic · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 Keeps the supported code and sends the complexity question to a coder with the note gap visible.
 
-- [x] The services they say were provided — in the file. Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.
-- [x] The codes they are considering — in the file. Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.
-- [x] Payer edits they supplied — in the file. Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.
-- [ ] The documentation present — open. one PDF, 2 pages, dated 14 September 2026
+**Checklist**
 
-Next action: Dr. Helen Cho closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **The services they say were provided** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **The codes they are considering** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **Payer edits they supplied** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [ ] **The documentation present** — one PDF, 2 pages, dated 14 September 2026  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. Match codes only to services they say were documented
+2. List missing documentation. Do not suggest adding a service that did not happen
+3. Use payer edits they pasted. Do not invent a payer rule
+4. Flag questions for a certified coder. This skill is not a coder's final assignment
+5. Separate a patient estimate from a coverage promise
+
+**Deliberately not done**
+- Upcoding.
+- Invented services.
+- A coverage promise.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Dr. Helen Cho closes the open items before 30 September 2026.
 
 ## Anti-patterns
 

@@ -29,13 +29,36 @@ new spend: not in the base case
 ## Example outcome
 
 **Close checklist**
-Northline Studio · 14 September 2026
+Northline Studio · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 A sequenced checklist, earlier starts for the late reconciliations, and two measures of close health.
 
-- [x] Current close calendar — in the file. Operating cash. Mara Chen noted it on 14 September 2026. No second file for this line.
-- [x] Late or repeated tasks — in the file. Operating cash. Mara Chen noted it on 14 September 2026. No second file for this line.
-- [x] Systems involved — in the file. Operating cash. Mara Chen noted it on 14 September 2026. No second file for this line.
-- [ ] Who signs off — open. Mara Chen, founder
+**Checklist**
 
-Next action: Mara Chen closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **Current close calendar** — Operating cash. Mara Chen noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **Late or repeated tasks** — Operating cash. Mara Chen noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **Systems involved** — Operating cash. Mara Chen noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [ ] **Who signs off** — Mara Chen, founder  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. Map day zero to sign-off
+2. Assign one owner
+3. Move work before day one
+4. Define materiality for journals
+5. Add a flux review
+
+**Deliberately not done**
+- A checklist copied from a generic calendar that ignores their systems.
+- Sign-off with no flux review.
+- Heroic journals every month treated as normal.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Mara Chen closes the open items before 30 September 2026.

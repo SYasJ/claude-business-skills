@@ -29,14 +29,32 @@ queue: the items in the ask
 ## Example outcome
 
 **Operations scorecard**
-Harbor Goods · 14 September 2026
+Harbor Goods · 14 September 2026 · Due 30 September 2026
 
-Decision: Pairs closed tickets with reopens and names the review forum.
+**Decision**
+Pairs closed tickets with reopens and names the review forum.
 
-| Item | Figure in the file | Call |
-| --- | --- | --- |
-| Kite Freight | plan 160, actual 85 | use |
-| Lumen Ledger | score 71 | do not treat as a benchmark |
-| Missing export | not in the file | stop, do not invent it |
+| Item | Figure in the file | Call | Why |
+| --- | --- | --- | --- |
+| Kite Freight | plan 160, actual 85 | Use | Both sides of the comparison are in the file |
+| Lumen Ledger | score 71 | Report, do not benchmark | One score is a reading, not a baseline |
+| Missing export | Not in the file | Stop | The cell stays blank until the export arrives |
 
-Next action: Diane Cho attaches the missing export or the cell stays blank. Due 30 September 2026.
+**How these calls were made**
+
+1. Choose measures that move before customers escalate, if they have such signals
+2. Cap the scorecard. More than seven numbers will not be reviewed
+3. Define each measure
+4. Pair a volume measure with a quality or aging measure so speed cannot hide rework
+5. Assign an owner and a threshold that triggers a conversation, not an automatic blame
+
+**Deliberately not done**
+- A 40-metric scorecard.
+- A speed metric with no quality pair.
+- Thresholds used only to punish.
+
+**Open items**
+- The missing export is the binding constraint. No figure was estimated to fill its place.
+- Any row marked *Report, do not benchmark* needs a second period before it can carry a trend.
+
+Next: Diane Cho attaches the missing export, or the cell stays blank. Due 30 September 2026.

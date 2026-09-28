@@ -29,15 +29,38 @@ Claims that sound factual: the draft sentence is broader than the note
 
 **Citation check**
 To: Dr. Nia Okonkwo, research lead, Riverbend College
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Replaces the phrase with an assumption or a request for the actual study.
 
-**From the file**
-- The sources they have: note from Dr. Nia Okonkwo, 14 September 2026. No outside report
-- The citation style if required: no citation attached
-- Claims that sound factual: the draft sentence is broader than the note
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Dr. Nia Okonkwo by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The sources they have | note from Dr. Nia Okonkwo, 14 September 2026. No outside report | Needs confirmation |
+| The citation style if required | no citation attached | Carried into the draft |
+| Claims that sound factual | the draft sentence is broader than the note | Carried into the draft |
+
+**How this draft was built**
+
+**1. Mark factual claims that lack a source the user provided**
+
+**2. Do not invent a citation to fill a gap. Ask for a source or rewrite the claim as an assumption**
+
+**3. Match quotations to text they supplied. A quote you cannot see is not used**
+
+**4. Note style errors only after existence is confirmed**
+
+**5. Separate the user's analysis from cited facts**
+
+**Deliberately not done**
+- Invented papers.
+- A quotation you cannot verify.
+- A citation that does not support the claim.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Dr. Nia Okonkwo by 30 September 2026. This is a draft, not a sign-off.

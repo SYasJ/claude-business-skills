@@ -29,13 +29,36 @@ handler: licensed owner
 ## Example outcome
 
 **Claim file checklist**
-Northline Studio · 14 September 2026
+Northline Studio · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 Refuses the inflation and lists the facts the handler still needs.
 
-- [x] The reported facts — in the file. Redline Parts. Priya Shah noted it on 14 September 2026. No second file for this line.
-- [x] Documents on hand — in the file. one PDF, 2 pages, dated 14 September 2026
-- [x] The policy form they have — in the file. their one-page rule dated 2 Mar 2026. No exception log
-- [ ] The handler — open. Redline Parts. Priya Shah noted it on 14 September 2026. No second file for this line.
+**Checklist**
 
-Next action: Priya Shah closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **The reported facts** — Redline Parts. Priya Shah noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **Documents on hand** — one PDF, 2 pages, dated 14 September 2026  
+      Evidenced in the file
+- [x] **The policy form they have** — their one-page rule dated 2 Mar 2026. No exception log  
+      Evidenced in the file
+- [ ] **The handler** — Redline Parts. Priya Shah noted it on 14 September 2026. No second file for this line.  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. Record facts separately from opinions
+2. List missing documents
+3. Do not decide coverage
+4. Do not coach anyone to inflate a loss or omit a material fact
+5. Note the next handler action and date
+
+**Deliberately not done**
+- A coverage determination.
+- Inflated loss advice.
+- Omitted material facts.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Priya Shah closes the open items before 30 September 2026.

@@ -111,19 +111,43 @@ concealment: not advised
 
 **Fleet safety review**
 To: Luis Ortega, dispatch lead, Kite Freight
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Refuses the non-report and assigns a control for the actual pattern.
 
-**From the file**
-- lane: the one in the ask
-- tally: their count
-- limit: the one they stated
-- concealment: not advised
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Luis Ortega by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| lane | the one in the ask | Needs confirmation |
+| tally | their count | Carried into the draft |
+| limit | the one they stated | Carried into the draft |
+| concealment | not advised | Needs confirmation |
+
+**How this draft was built**
+
+**1. Use their incident log. Do not invent rates**
+
+**2. Describe the pattern in conditions, not in insults**
+
+**3. Recommend one control**  
+rest, maintenance, or route design, based on the pattern.
+
+**4. Do not recommend hiding incidents from an insurer or regulator**
+
+**5. Name the owner**
+
+**Deliberately not done**
+- Hidden incidents.
+- An invented rate.
+- A blame poster with no control.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Luis Ortega by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

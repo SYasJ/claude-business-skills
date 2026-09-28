@@ -112,18 +112,41 @@ Crew capacity: two people, no overtime figure
 
 **Maintenance priority**
 To: Devon Hale, operations superintendent, Prairie Line Energy
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Puts the safety device first and parks cosmetics over capacity.
 
-**From the file**
-- The defect list: Feeder 12; Site meter 4; September bill
-- Customer impact: Redline Parts
-- Crew capacity: two people, no overtime figure
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Devon Hale by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The defect list | Feeder 12; Site meter 4; September bill | Needs confirmation |
+| Customer impact | Redline Parts | Carried into the draft |
+| Crew capacity | two people, no overtime figure | Carried into the draft |
+
+**How this draft was built**
+
+**1. Put safety defects they flagged first**
+
+**2. Then customer-impacting defects**
+
+**3. Capacity-cut the rest visibly**
+
+**4. Do not defer a known safety defect to make a metric look better**
+
+**5. Assign an owner and a date to the kept work**
+
+**Deliberately not done**
+- Deferring a known safety defect for a metric.
+- No capacity cut.
+- A crew sent with no location.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Devon Hale by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

@@ -113,19 +113,47 @@ new spend: not in the base case
 
 **Sensitivity note**
 To: Mara Chen, founder, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A one-way sensitivity on the user's ranges, the dominant driver, and a recommendation to measure that driver before adding detail.
 
-**From the file**
-- cash: the counted figure in the ask, one entity
-- maybe receipt: not in the bank
-- buffer: the one they named
-- new spend: not in the base case
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mara Chen by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| cash | the counted figure in the ask, one entity | Needs confirmation |
+| maybe receipt | not in the bank | Carried into the draft |
+| buffer | the one they named | Carried into the draft |
+| new spend | not in the base case | Needs confirmation |
+
+**How this draft was built**
+
+**1. Pick the outcome**  
+Cash, margin, or runway. One outcome per pass.
+
+**2. Vary one input at a time first**  
+That is a sensitivity. Combinations are scenarios and should be named, not hidden in a data table.
+
+**3. Use their ranges**  
+Do not widen a range to make a picture look dramatic.
+
+**4. Rank the drivers**  
+Which input moves the outcome most across the stated range.
+
+**5. Tell them what not to precise**  
+If the top driver is a guess, more decimal places will not help.
+
+**Deliberately not done**
+- A tornado built from invented ranges.
+- Calling a one-way table a scenario plan.
+- False precision.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mara Chen by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

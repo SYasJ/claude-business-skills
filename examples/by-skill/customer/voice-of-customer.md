@@ -30,16 +30,39 @@ card or password: not collected
 
 **Voice-of-customer brief**
 To: Rita Santos, support lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Labels the sample and refuses to generalize from one voice.
 
-**From the file**
-- ticket: 4412, 14 Sep 2026
-- customer words: in the ticket
-- exception: not approved
-- card or password: not collected
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Rita Santos by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| ticket | 4412, 14 Sep 2026 | Needs confirmation |
+| customer words | in the ticket | Carried into the draft |
+| exception | not approved | Carried into the draft |
+| card or password | not collected | Needs confirmation |
+
+**How this draft was built**
+
+**1. List sources and who is missing, such as quiet renewals or lost deals**
+
+**2. Theme by the job or failure, and attach only supplied quotes**
+
+**3. Separate frequency from severity**
+
+**4. Do not invent a quote to make a theme neater**
+
+**5. Recommend one product, policy, or support change**
+
+**Deliberately not done**
+- Invented quotes.
+- A brief with no sample bias.
+- Themes with no evidence.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Rita Santos by 30 September 2026. This is a draft, not a sign-off.

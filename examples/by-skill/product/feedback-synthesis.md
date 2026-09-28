@@ -30,16 +30,44 @@ kill line: not written
 
 **Feedback synthesis**
 To: Jonah Park, product manager, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Leads with export failures, counts only supplied evidence, and parks the executive idea as unproven.
 
-**From the file**
-- interviews: 12, March to June 2026
-- decision: ship, hold, or cut
-- metric: not defined
-- kill line: not written
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Park by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| interviews | 12, March to June 2026 | Needs confirmation |
+| decision | ship, hold, or cut | Carried into the draft |
+| metric | not defined | Carried into the draft |
+| kill line | not written | Needs confirmation |
+
+**How this draft was built**
+
+**1. Sample bias**  
+Say who is missing from the pile. A pile of detractors is not the whole market.
+
+**2. Themes**  
+Group by the job or failure, not by the feature name alone.
+
+**3. Evidence**  
+Each theme has quotes or ticket counts from the supplied material. No theme without evidence.
+
+**4. Severity**  
+Distinguish frequency from pain. A rare data-loss report can outrank a common color complaint.
+
+**5. Implication**  
+What product should do next, and what should be a support macro instead.
+
+**Deliberately not done**
+- A word cloud as the analysis.
+- Ignoring sample bias.
+- Themes with no quotes.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Park by 30 September 2026. This is a draft, not a sign-off.

@@ -30,16 +30,44 @@ publish date wanted: 19 Sep 2026
 
 **Positioning statement**
 To: Lena Ortiz, marketing lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A statement aimed at one buyer, with the spreadsheet or incumbent they actually replace, and a hypothesis label if proof is thin.
 
-**From the file**
-- page: the live page
-- claim: broader than the note
-- proof: none attached
-- publish date wanted: 19 Sep 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Lena Ortiz by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| page | the live page | Needs confirmation |
+| claim | broader than the note | Carried into the draft |
+| proof | none attached | Carried into the draft |
+| publish date wanted | 19 Sep 2026 | Needs confirmation |
+
+**How this draft was built**
+
+**1. Buyer**  
+One primary buyer. A statement for everyone is a statement for no one.
+
+**2. Alternative**  
+Include the status quo. Name a vendor only if the user supplied that competitor.
+
+**3. Difference**  
+One difference that matters to the buyer's job and that the user can evidence.
+
+**4. Proof**  
+The evidence sits next to the difference. If proof is missing, the positioning is a hypothesis.
+
+**5. Boundary**  
+Who it is not for. That line protects sales from bad-fit deals.
+
+**Deliberately not done**
+- Positioning for everyone.
+- A difference you cannot prove.
+- A category claim copied from a larger company.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Lena Ortiz by 30 September 2026. This is a draft, not a sign-off.

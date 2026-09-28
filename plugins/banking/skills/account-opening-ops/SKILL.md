@@ -112,16 +112,39 @@ hold: that line
 ### Example outcome
 
 **Account-opening checklist**
-Northline Studio · 14 September 2026
+Northline Studio · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 Keeps the step and routes any exception to the compliance owner.
 
-- [x] Their required steps — in the file. Kite Freight. Priya Shah noted it on 14 September 2026. No second file for this line.
-- [x] What is complete — in the file. Kite Freight. Priya Shah noted it on 14 September 2026. No second file for this line.
-- [x] Exceptions — in the file. Kite Freight. Priya Shah noted it on 14 September 2026. No second file for this line.
-- [ ] The reviewer — open. Priya Shah. No second reviewer named
+**Checklist**
 
-Next action: Priya Shah closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **Their required steps** — Kite Freight. Priya Shah noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **What is complete** — Kite Freight. Priya Shah noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **Exceptions** — Kite Freight. Priya Shah noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [ ] **The reviewer** — Priya Shah. No second reviewer named  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. Use their checklist. Do not invent a regulator's rule
+2. Note missing identity steps as gaps
+3. Do not ask customers to send passwords or full card data by chat
+4. Exceptions need their compliance owner
+5. A possible sanctions match follows their screening process. Do not suggest altering a name
+
+**Deliberately not done**
+- Invented regulatory rules.
+- Name changes to dodge screening.
+- Secrets collected in chat.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Priya Shah closes the open items before 30 September 2026.
 
 ## Anti-patterns
 

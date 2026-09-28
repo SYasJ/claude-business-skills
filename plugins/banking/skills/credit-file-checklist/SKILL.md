@@ -111,16 +111,39 @@ Known gaps: Cedar Clinic is missing a source
 ### Example outcome
 
 **Credit file checklist**
-Northline Studio · 14 September 2026
+Northline Studio · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 Leaves the file incomplete and removes the strength claim.
 
-- [x] Their required list — in the file. Cedar Clinic; Bright Axle; open item
-- [x] Documents present — in the file. one PDF, 2 pages, dated 14 September 2026
-- [x] The decision owner — in the file. Priya Shah, controller
-- [ ] Known gaps — open. Cedar Clinic is missing a source
+**Checklist**
 
-Next action: Priya Shah closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **Their required list** — Cedar Clinic; Bright Axle; open item  
+      Evidenced in the file
+- [x] **Documents present** — one PDF, 2 pages, dated 14 September 2026  
+      Evidenced in the file
+- [x] **The decision owner** — Priya Shah, controller  
+      Evidenced in the file
+- [ ] **Known gaps** — Cedar Clinic is missing a source  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. Compare the file to their list
+2. Mark missing items. Do not fill gaps with estimates presented as facts
+3. This skill does not approve credit
+4. Note policy exceptions for the officer
+5. Minimize personal data in the summary
+
+**Deliberately not done**
+- A homemade credit approval.
+- Falsified income.
+- Estimates labeled as statements.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Priya Shah closes the open items before 30 September 2026.
 
 ## Anti-patterns
 

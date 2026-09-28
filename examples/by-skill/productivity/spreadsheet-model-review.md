@@ -6,85 +6,83 @@
 
 Review a spreadsheet model for structure, formula errors, and hard-coded values that should be inputs.
 
----
+## Scenario
 
-## Scenario A — Budget model with hard-coded revenue
+Priya Shah, controller at Northline Studio in Calgary, shares the FY2027 operating budget. Her analyst reports that changing the revenue assumption takes more than forty manual edits.
 
-**Priya Shah, controller, Northline Studio, Calgary. Model: FY2027 operating budget.**
+## Example data
 
-### What was shared
+```text
+From: Priya Shah, controller
+Organization: Northline Studio, Calgary
+File: FY2027 Operating Budget.xlsx (12 tabs)
 
-A 12-tab Excel file. The main P&L tab calculates net income. The analyst flagged that changing the revenue assumption takes 40+ manual edits.
+Reported symptom: changing the revenue growth rate requires editing every month column.
 
-### Structural findings
-
-**Finding 1 — CRITICAL: Revenue hard-coded in 47 formula cells**
-
-Row 8 (Jan revenue) contains `=4200*1.03` in every month column instead of referencing a single assumption cell. Changing the growth rate requires editing column B through M individually.
-
-**Fix:** Create an `Assumptions` tab. Cell A3 = `Revenue base (Jan)`, cell B3 = `4200`. Cell A4 = `Monthly growth rate`, cell B4 = `1.03`. Then row 8 in P&L becomes `=$Assumptions.$B$3*($Assumptions.$B$4^(COLUMN()-2))` or equivalent. One edit, all months update.
-
----
-
-**Finding 2 — HIGH: COGS formula references a moved sheet**
-
-Cell D22 contains `=Sheet3!C4`. There is no `Sheet3` — the tab was renamed to `COGS Detail`. Excel returns `#REF!` which silently propagates to Net Income.
-
-**Fix:** Update to `='COGS Detail'!C4` and add a named range so the formula survives future renames.
-
----
-
-**Finding 3 — MEDIUM: Headcount costs use a division with a zero-denominator risk**
-
-Cell K34: `=K32/K33`. If K33 (headcount) is ever zero (e.g., a new department in setup month), this returns `#DIV/0!` and breaks the payroll summary.
-
-**Fix:** `=IFERROR(K32/K33, 0)` or `=IF(K33=0, 0, K32/K33)`.
-
----
-
-**Finding 4 — MEDIUM: No input protection**
-
-The `Assumptions` tab has no cell protection. Any user can overtype a formula or erase a named range. At minimum, lock formula cells and only leave assumption inputs editable.
-
----
-
-**Finding 5 — LOW: Inconsistent date format in column A**
-
-Rows 1–6 use `Jan-27` (text). Rows 7–12 use `1/1/2027` (date serial). Charts referencing this column may sort incorrectly.
-
-**Fix:** Standardize to date serials and apply a custom format `mmm-yy`.
-
-### What to do first
-
-1. Fix the `#REF!` error in COGS (breaks net income today)
-2. Create the Assumptions tab and rewire revenue (single highest-effort, single highest-value change)
-3. Add IFERROR guards to the headcount division
-4. Lock formula cells before sharing with the broader team
-
----
-
-## Scenario B — Sales forecast with a lookup error
-
-**Aisha Rahman, engineering lead, Fieldnote. Model: Q4 sales forecast.**
-
-### Issue reported
-
-VLOOKUP returns `N/A` for 3 of 12 sales reps.
-
-### Diagnosis
-
-```excel
-=VLOOKUP(A2, RepTable, 3, FALSE)
+Formulas pasted for review:
+  P&L!B8   =4200*1.03          (repeated across C8:M8, 47 cells total)
+  P&L!D22  =Sheet3!C4          (tab "Sheet3" was renamed to "COGS Detail")
+  P&L!K34  =K32/K33            (K33 = headcount, can be 0 in a setup month)
+  Assumptions tab: exists, unprotected, no named ranges
+  Column A dates: rows 1-6 text "Jan-27", rows 7-12 serial 1/1/2027
 ```
 
-`A2` contains `"Ahmed Al-Hassan "` (trailing space). The lookup table has `"Ahmed Al-Hassan"` (no space). `FALSE` (exact match) fails silently.
+## Example outcome
 
-### Fix options
+**Spreadsheet model review — FY2027 Operating Budget**
+To: Priya Shah, controller, Northline Studio · Date: 14 September 2026
 
-| Option | Formula | Notes |
-|---|---|---|
-| Trim at input | `=VLOOKUP(TRIM(A2), RepTable, 3, FALSE)` | Easiest; fixes all trailing spaces |
-| INDEX/MATCH with TRIM | `=INDEX(RepTable_Col3, MATCH(TRIM(A2), TRIM(RepTable_Col1), 0))` | More robust; handles both sides |
-| Clean the source | Remove spaces in column A before running report | Best long-term; one-time fix |
+**Decision**
+Two findings break the model today and must be fixed before anyone trusts Net Income. The rest are structural and can follow.
 
-**Recommendation:** Apply TRIM to the source data this month. Add a data validation rule to the input column to prevent trailing spaces going forward.
+**Finding 1 — CRITICAL · Revenue hard-coded in 47 formula cells**
+
+`P&L!B8` contains `=4200*1.03`, repeated across `C8:M8`. The growth rate lives inside the formula, so changing it means 47 edits and one of them will be missed.
+
+Fix — move both numbers to inputs, then reference them:
+
+```
+Assumptions!B3  =4200     (revenue base, January)
+Assumptions!B4  =1.03     (monthly growth rate)
+
+P&L!B8  =Assumptions!$B$3 * (Assumptions!$B$4 ^ (COLUMN()-2))
+```
+
+One edit now updates all twelve months.
+
+**Finding 2 — HIGH · COGS reference points at a tab that no longer exists**
+
+`P&L!D22` is `=Sheet3!C4`. The tab was renamed to `COGS Detail`, so this returns `#REF!` and the error propagates silently into Net Income.
+
+Fix: `='COGS Detail'!C4`, then define a named range so the next rename does not break it.
+
+**Finding 3 — MEDIUM · Division with an unguarded zero denominator**
+
+`P&L!K34` is `=K32/K33`, where K33 is headcount. A department in its setup month has zero headcount, which returns `#DIV/0!` and breaks the payroll summary.
+
+Fix: `=IFERROR(K32/K33, 0)` — or `=IF(K33=0, 0, K32/K33)` if a zero should be visibly different from an error.
+
+**Finding 4 — MEDIUM · Assumptions tab is unprotected**
+
+Any user can overtype a formula or delete a range. Lock the formula cells and leave only the assumption inputs editable before this is shared more widely.
+
+**Finding 5 — LOW · Mixed date types in column A**
+
+Rows 1–6 hold the text `"Jan-27"`; rows 7–12 hold real date serials. Charts built on this column will sort wrongly. Standardise on serials with a `mmm-yy` display format.
+
+**Order of work**
+
+| # | Fix | Why first |
+| --- | --- | --- |
+| 1 | `#REF!` in COGS | It is wrong on screen today |
+| 2 | Revenue inputs | Highest effort, highest payoff; everything else depends on it |
+| 3 | `IFERROR` guard on K34 | Cheap, prevents a future break |
+| 4 | Lock formula cells | Do before wider sharing |
+| 5 | Date formats | Cosmetic until someone builds a chart |
+
+**Deliberately not done**
+- The model was not restructured beyond what was asked. One change at a time keeps it testable.
+- No formula's intent was guessed. Where the purpose of a cell was unclear, it is listed for Priya to confirm rather than rewritten.
+- No new tool was proposed. The spreadsheet is the right tool for this; it just needs its inputs separated.
+
+Next: Priya Shah by 30 September 2026. This is a draft, not a sign-off.

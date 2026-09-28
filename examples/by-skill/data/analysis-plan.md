@@ -30,16 +30,40 @@ nulls: not counted yet
 
 **Analysis plan**
 To: Noah Berger, data lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A plan with one primary comparison, the missing data called out, and a decision rule written first.
 
-**From the file**
-- extract date: 14 Sep 2026
-- owner: the sender
-- second source: not attached
-- nulls: not counted yet
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Noah Berger by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| extract date | 14 Sep 2026 | Needs confirmation |
+| owner | the sender | Carried into the draft |
+| second source | not attached | Carried into the draft |
+| nulls | not counted yet | Needs confirmation |
+
+**How this draft was built**
+
+**1. Restate the decision. An analysis with no decision is a tour**
+
+**2. Write the comparison**  
+against what period, segment, or control.
+
+**3. List the data you have and the data you do not. Do not plan around a table nobody can access**
+
+**4. Pre-commit the cut that would change the decision**
+
+**5. Name biases in the sample the user described**
+
+**Deliberately not done**
+- Slicing until a flattering story appears.
+- Assuming a dataset you cannot see.
+- A notebook with no decision.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Noah Berger by 30 September 2026. This is a draft, not a sign-off.

@@ -29,15 +29,39 @@ The decision needed: Sales brings a new forecast to the meeting that supply has 
 
 **S&op brief**
 To: Diane Cho, supply lead, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Stops the decision until both sides use the same number, then records the gap.
 
-**From the file**
-- The supply constraint: no extra headcount, and no result that is not in this file
-- The gap: SKU 1044 cabin filter is missing a source
-- The decision needed: Sales brings a new forecast to the meeting that supply has not seen
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Diane Cho by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The supply constraint | no extra headcount, and no result that is not in this file | Needs confirmation |
+| The gap | SKU 1044 cabin filter is missing a source | Carried into the draft |
+| The decision needed | Sales brings a new forecast to the meeting that supply has not seen | Carried into the draft |
+
+**How this draft was built**
+
+**1. Use one set of numbers. Two unofficial forecasts are a finding**
+
+**2. Show the gap in units and in customer impact**
+
+**3. Options**  
+change demand, add supply, or accept the miss. Recommend one.
+
+**4. Name the decider**
+
+**5. Record assumptions that expire next cycle**
+
+**Deliberately not done**
+- Two forecasts.
+- A meeting with no decision.
+- A side deal that ignores the gap.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Diane Cho by 30 September 2026. This is a draft, not a sign-off.

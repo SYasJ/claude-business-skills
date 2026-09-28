@@ -113,19 +113,44 @@ due: 30 Sep 2026
 
 **Learning objectives**
 To: Mark Ellison, program chair, Riverbend College
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Objectives that name a visible performance, such as spotting a missing control, and drop the vague verb.
 
-**From the file**
-- course: the one named
-- section: the one they teach
-- student submission: not written for them
-- due: 30 Sep 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mark Ellison by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| course | the one named | Needs confirmation |
+| section | the one they teach | Carried into the draft |
+| student submission | not written for them | Carried into the draft |
+| due | 30 Sep 2026 | Needs confirmation |
+
+**How this draft was built**
+
+**1. Use a verb the learner can be seen doing**
+
+**2. Add the condition**  
+with what notes, tools, or data.
+
+**3. Add the standard**  
+how good is good enough, if the user knows it.
+
+**4. Cut objectives the time budget cannot assess**
+
+**5. Align each objective to a later practice or assessment**
+
+**Deliberately not done**
+- Understand as the only verb.
+- Objectives with no assessment path.
+- A list longer than the course can teach.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mark Ellison by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

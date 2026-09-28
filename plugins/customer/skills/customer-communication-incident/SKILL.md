@@ -113,19 +113,42 @@ card or password: not collected
 
 **Incident communication**
 To: Rita Santos, support lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Removes the blame and the unconfirmed clock, and commits to a next update time.
 
-**From the file**
-- ticket: 4412, 14 Sep 2026
-- customer words: in the ticket
-- exception: not approved
-- card or password: not collected
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Rita Santos by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| ticket | 4412, 14 Sep 2026 | Needs confirmation |
+| customer words | in the ticket | Carried into the draft |
+| exception | not approved | Carried into the draft |
+| card or password | not collected | Needs confirmation |
+
+**How this draft was built**
+
+**1. State the impact a customer would notice**
+
+**2. Separate confirmed facts from work in progress**
+
+**3. Give the next update time even if there is no fix yet**
+
+**4. Do not speculate about cause or blame a supplier unless that statement is approved**
+
+**5. Tell customers what to do if anything, such as retry after a time, only if support confirmed it**
+
+**Deliberately not done**
+- A cause guess.
+- A silent gap with no next update.
+- Contradicting the previous update.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Rita Santos by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

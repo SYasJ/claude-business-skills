@@ -29,15 +29,38 @@ The due date: 30 September 2026
 
 **Audit response**
 To: Priya Shah, controller, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Tells the truth about the gap and commits to an owned fix instead of a fictional review.
 
-**From the file**
-- The evidence: one PDF, 2 pages, dated 14 September 2026
-- The process owner: Priya Shah, controller
-- The due date: 30 September 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Priya Shah by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The evidence | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
+| The process owner | Priya Shah, controller | Carried into the draft |
+| The due date | 30 September 2026 | Carried into the draft |
+
+**How this draft was built**
+
+**1. Restate the request so you answer the question asked**
+
+**2. Point to evidence. Do not describe a control that the evidence does not show**
+
+**3. If the finding is fair, say what will change, with an owner and a date**
+
+**4. If the finding is wrong, explain with evidence, not with adjectives**
+
+**5. Do not coach anyone to alter evidence**
+
+**Deliberately not done**
+- Misleading the auditor.
+- Altering evidence.
+- A promise with no owner.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Priya Shah by 30 September 2026. This is a draft, not a sign-off.

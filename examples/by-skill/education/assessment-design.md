@@ -30,16 +30,40 @@ due: 30 Sep 2026
 
 **Assessment**
 To: Mark Ellison, program chair, Riverbend College
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Do not require covert cameras.
 
-**From the file**
-- course: the one named
-- section: the one they teach
-- student submission: not written for them
-- due: 30 Sep 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mark Ellison by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| course | the one named | Needs confirmation |
+| section | the one they teach | Carried into the draft |
+| student submission | not written for them | Carried into the draft |
+| due | 30 Sep 2026 | Needs confirmation |
+
+**How this draft was built**
+
+**1. Map every item to an objective. Unmapped items are cut**
+
+**2. Prefer a task that resembles the real performance when that is possible**
+
+**3. Write a rubric or answer key from the objective, not from trick wording**
+
+**4. Include a reasonable time box**
+
+**5. State the integrity rules they want**  
+open notes or not. Do not design a surveillance product.
+
+**Deliberately not done**
+- Trick questions with no objective.
+- A cheating service.
+- Surveillance as the assessment.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mark Ellison by 30 September 2026. This is a draft, not a sign-off.

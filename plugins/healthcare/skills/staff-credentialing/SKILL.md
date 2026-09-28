@@ -112,16 +112,39 @@ Known gaps: Tuesday clinic is missing a source
 ### Example outcome
 
 **Credentialing checklist**
-Cedar Clinic · 14 September 2026
+Cedar Clinic · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 Marks the license unverified and blocks any assumption of renewal.
 
-- [x] The required documents they listed — in the file. one PDF, 2 pages, dated 14 September 2026
-- [x] Expiry dates they have — in the file. 30 September 2026
-- [x] The reviewer — in the file. Dr. Helen Cho. No second reviewer named
-- [ ] Known gaps — open. Tuesday clinic is missing a source
+**Checklist**
 
-Next action: Dr. Helen Cho closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **The required documents they listed** — one PDF, 2 pages, dated 14 September 2026  
+      Evidenced in the file
+- [x] **Expiry dates they have** — 30 September 2026  
+      Evidenced in the file
+- [x] **The reviewer** — Dr. Helen Cho. No second reviewer named  
+      Evidenced in the file
+- [ ] **Known gaps** — Tuesday clinic is missing a source  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. Compare the file to their required list
+2. Flag expired or missing items. Do not guess an expiry
+3. A complete file is not a privileging decision. Say who must decide
+4. Track a reappointment date
+5. Do not fabricate a license number or a verification result
+
+**Deliberately not done**
+- A homemade privileging decision.
+- Fabricated license data.
+- A lapse left off the schedule note.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Dr. Helen Cho closes the open items before 30 September 2026.
 
 ## Anti-patterns
 

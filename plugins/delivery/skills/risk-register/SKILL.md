@@ -113,19 +113,42 @@ decision: needed
 
 **Risk register**
 To: Owen Blake, delivery lead, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A shorter register of specific events, each with an owner and a response.
 
-**From the file**
-- milestone: the customer date
-- status: slipped
-- completed tasks: do not replace the slip
-- decision: needed
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Owen Blake by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| milestone | the customer date | Needs confirmation |
+| status | slipped | Carried into the draft |
+| completed tasks | do not replace the slip | Carried into the draft |
+| decision | needed | Needs confirmation |
+
+**How this draft was built**
+
+**1. Write risks as events that could happen, with a cause they believe**
+
+**2. Score only on their scale. If they have no scale, use a simple high-medium-low and label it**
+
+**3. Prefer a response that reduces the risk over a response that only watches it, when they can act**
+
+**4. Give each open risk an owner and a review date**
+
+**5. Close risks that have passed or been accepted**
+
+**Deliberately not done**
+- Generic risks with no scenario.
+- A register with no responses.
+- Scores with no scale.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Owen Blake by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

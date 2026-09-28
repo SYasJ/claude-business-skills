@@ -30,16 +30,39 @@ alternate: none
 
 **Safety stock review**
 To: Diane Cho, supply lead, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Pilots a reduction on items with no risk story and leaves named risks alone.
 
-**From the file**
-- sku: 1044
-- supplier: Redline Parts
-- lead time: their number
-- alternate: none
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Diane Cho by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| sku | 1044 | Needs confirmation |
+| supplier | Redline Parts | Carried into the draft |
+| lead time | their number | Carried into the draft |
+| alternate | none | Needs confirmation |
+
+**How this draft was built**
+
+**1. Rank items by cash tied up and by stockout pain, using their data**
+
+**2. Identify cover that exceeds their own rule**
+
+**3. Ask what uncertainty the extra cover buys. If nobody knows, it is a candidate to reduce**
+
+**4. Do not cut stock that covers a known supply risk they named**
+
+**5. Recommend a pilot reduction with a stockout check**
+
+**Deliberately not done**
+- A blanket cut.
+- Cutting stock that covers a known risk.
+- No stockout check.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Diane Cho by 30 September 2026. This is a draft, not a sign-off.

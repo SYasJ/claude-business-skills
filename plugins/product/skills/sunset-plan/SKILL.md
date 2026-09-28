@@ -113,19 +113,47 @@ kill line: not written
 
 **Sunset plan**
 To: Jonah Park, product manager, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Blocks the deletion until notice and a migration owner exist, and flags contract questions.
 
-**From the file**
-- interviews: 12, March to June 2026
-- decision: ship, hold, or cut
-- metric: not defined
-- kill line: not written
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Park by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| interviews | 12, March to June 2026 | Needs confirmation |
+| decision | ship, hold, or cut | Carried into the draft |
+| metric | not defined | Carried into the draft |
+| kill line | not written | Needs confirmation |
+
+**How this draft was built**
+
+**1. Why**  
+The reason to retire, in plain language. Cost, risk, or focus. Do not invent usage data.
+
+**2. Who is affected**  
+Use their data. If you do not know who uses it, the first step is to find out before announcing.
+
+**3. Path**  
+The replacement or the workaround, including what it does not cover.
+
+**4. Timeline**  
+Notice, migration window, and removal date that the user can honor. No fake date.
+
+**5. Support**  
+Who answers migration questions. A sunset email with no owner creates a support incident.
+
+**Deliberately not done**
+- A surprise removal.
+- Advising the company to ignore a contract.
+- An announcement with no migration path and no owner.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Park by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

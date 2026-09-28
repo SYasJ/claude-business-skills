@@ -95,9 +95,9 @@
   <text x="820" y="142" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5">
     <tspan fill="#64748b">  </tspan><tspan fill="#38bdf8">--tool</tspan><tspan fill="#94a3b8"> claude </tspan><tspan fill="#38bdf8">--domain</tspan><tspan fill="#f9a8d4"> finance</tspan>
   </text>
-  <text x="820" y="170" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#22c55e">  ✓ Copying 23 skills to ~/.claude/skills/</text>
-  <text x="820" y="190" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#22c55e">  ✓ Manifest verified</text>
-  <text x="820" y="210" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#22c55e">  ✓ Done — no network calls made</text>
+  <text x="820" y="170" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#22c55e">  OK Copying 23 skills to ~/.claude/skills/</text>
+  <text x="820" y="190" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#22c55e">  OK Manifest verified</text>
+  <text x="820" y="210" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#22c55e">  OK Done — no network calls made</text>
 
   <line x1="820" y1="226" x2="1144" y2="226" stroke="#1e293b" stroke-width="1"/>
 
@@ -113,5 +113,5 @@
   <text x="820" y="308" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5">
     <tspan fill="#64748b">  </tspan><tspan fill="#e2e8f0">3 old DITs flagged for decision</tspan>
   </text>
-  <text x="820" y="328" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#fbbf24">  ⚠ Reviewer signature missing</tspan></text>
+  <text x="820" y="328" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#fbbf24">  ! Reviewer signature missing</text>
 </svg>

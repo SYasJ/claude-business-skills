@@ -113,19 +113,43 @@ count: the tally, not the order
 
 **Work instruction**
 To: Gus Moretti, plant manager, Redline Parts
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Marks torque as a required input from engineering rather than inventing a number.
 
-**From the file**
-- line: line 2
-- lot: 26-0914
-- hold: open
-- count: the tally, not the order
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Gus Moretti by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| line | line 2 | Needs confirmation |
+| lot | 26-0914 | Carried into the draft |
+| hold | open | Carried into the draft |
+| count | the tally, not the order | Needs confirmation |
+
+**How this draft was built**
+
+**1. Start with the outcome and the safety precondition they require**
+
+**2. Number steps in the order the work is done**
+
+**3. Include the quality check and what a fail looks like**
+
+**4. Write the stop**  
+when to call a lead.
+
+**5. Use their terms for tools and parts. Do not rename equipment**
+
+**Deliberately not done**
+- An invented setting.
+- No stop condition.
+- A step order that does not match the work.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Gus Moretti by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

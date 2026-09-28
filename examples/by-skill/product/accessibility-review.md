@@ -30,16 +30,44 @@ kill line: not written
 
 **Accessibility review**
 To: Jonah Park, product manager, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Blocks the statement, names the keyboard barrier, and lists the fix and retest.
 
-**From the file**
-- interviews: 12, March to June 2026
-- decision: ship, hold, or cut
-- metric: not defined
-- kill line: not written
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Park by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| interviews | 12, March to June 2026 | Needs confirmation |
+| decision | ship, hold, or cut | Carried into the draft |
+| metric | not defined | Carried into the draft |
+| kill line | not written | Needs confirmation |
+
+**How this draft was built**
+
+**1. Scope the flow**  
+One important path, not the whole product in one sitting.
+
+**2. Barriers**  
+Keyboard, labels, contrast, errors, and media alternatives, based on the material provided. Do not claim a conformance audit you did not perform.
+
+**3. Impact**  
+Who is blocked from the job, in practical terms.
+
+**4. Fixes**  
+Specific design or engineering changes, ordered by who is completely blocked.
+
+**5. Tests**  
+How the team can recheck the flow. Automated scans are a start, not a certificate.
+
+**Deliberately not done**
+- Claiming compliance from a glance.
+- A pledge with no fixes.
+- Ignoring a reported blocker because the visual design looks fine.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Park by 30 September 2026. This is a draft, not a sign-off.

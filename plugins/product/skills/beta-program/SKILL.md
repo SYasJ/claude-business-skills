@@ -113,19 +113,47 @@ kill line: not written
 
 **Beta plan**
 To: Jonah Park, product manager, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A plan with a learning goal, a cap matched to support capacity, and a ban on public quotes without approval.
 
-**From the file**
-- interviews: 12, March to June 2026
-- decision: ship, hold, or cut
-- metric: not defined
-- kill line: not written
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Park by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| interviews | 12, March to June 2026 | Needs confirmation |
+| decision | ship, hold, or cut | Carried into the draft |
+| metric | not defined | Carried into the draft |
+| kill line | not written | Needs confirmation |
+
+**How this draft was built**
+
+**1. Learning goal**  
+The question the beta answers. A beta with no question is a soft launch.
+
+**2. Participants**  
+Who is in and who is out. Do not recruit people who cannot hit the risk you care about.
+
+**3. Expectations**  
+What beta users are promised, including roughness. No implied production SLA unless the user is offering one.
+
+**4. Feedback path**  
+How issues arrive, and who triages them.
+
+**5. Exit**  
+The evidence that ends the beta, successfully or not.
+
+**Deliberately not done**
+- A beta that is an unlimited free launch.
+- No exit criteria.
+- Public claims from an unhappy pilot.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Park by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

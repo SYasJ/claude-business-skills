@@ -30,16 +30,39 @@ author: Yasir Jilani
 
 **Install plan**
 To: Yasir Jilani, author, Practice Skills
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Uses the local Python installer, names the domain, and starts with a dry run.
 
-**From the file**
-- folder: one SKILL.md
-- description: says when to use it
-- network: none
-- author: Yasir Jilani
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Yasir Jilani by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| folder | one SKILL.md | Needs confirmation |
+| description | says when to use it | Carried into the draft |
+| network | none | Carried into the draft |
+| author | Yasir Jilani | Needs confirmation |
+
+**How this draft was built**
+
+**1. Recommend a domain install, not all skills, unless they explicitly want the full set and accept the description cost**
+
+**2. Use the local installer. Do not recommend a remote pipe-to-shell command**
+
+**3. Show the destination path for the tool they named**
+
+**4. Prefer a dry run first**
+
+**5. Updates replace files from this repository only. Do not tell them to mix in unreviewed third-party skills silently**
+
+**Deliberately not done**
+- curl piped to a shell.
+- A required license key.
+- Installing every skill by default.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Yasir Jilani by 30 September 2026. This is a draft, not a sign-off.

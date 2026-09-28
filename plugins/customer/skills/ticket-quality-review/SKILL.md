@@ -113,19 +113,42 @@ card or password: not collected
 
 **Ticket quality review**
 To: Rita Santos, support lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Flag the password request as a stop-now finding and names the pattern.
 
-**From the file**
-- ticket: 4412, 14 Sep 2026
-- customer words: in the ticket
-- exception: not approved
-- card or password: not collected
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Rita Santos by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| ticket | 4412, 14 Sep 2026 | Needs confirmation |
+| customer words | in the ticket | Carried into the draft |
+| exception | not approved | Carried into the draft |
+| card or password | not collected | Needs confirmation |
+
+**How this draft was built**
+
+**1. Score against their rubric. If they have none, use resolution, accuracy, and next step, and label that as a proposal**
+
+**2. Check that the reply answered the ask and did not invent a policy**
+
+**3. Look for repeated issues that belong in a macro or a product fix**
+
+**4. Note if agents are asking for secrets. That is a finding**
+
+**5. Give coaching on the pattern, not a pile of nits**
+
+**Deliberately not done**
+- Coaching style before checking accuracy.
+- Ignoring a secret request.
+- A review with no pattern.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Rita Santos by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

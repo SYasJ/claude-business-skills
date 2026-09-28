@@ -30,16 +30,39 @@ count: the tally, not the order
 
 **Capa plan**
 To: Gus Moretti, plant manager, Redline Parts
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Keeps the CAPA open until the defect measure moves, and looks past the training reflex.
 
-**From the file**
-- line: line 2
-- lot: 26-0914
-- hold: open
-- count: the tally, not the order
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Gus Moretti by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| line | line 2 | Needs confirmation |
+| lot | 26-0914 | Carried into the draft |
+| hold | open | Carried into the draft |
+| count | the tally, not the order | Needs confirmation |
+
+**How this draft was built**
+
+**1. Write a problem statement with the defect and the impact**
+
+**2. Separate containment already done from corrective action**
+
+**3. Test the suspected cause against evidence. Do not jump to training as the cause by habit**
+
+**4. Define the action, the owner, and the date**
+
+**5. Define the effectiveness check and when it happens**
+
+**Deliberately not done**
+- Training as the default cause.
+- Closure without an effectiveness check.
+- A problem statement with no defect.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Gus Moretti by 30 September 2026. This is a draft, not a sign-off.

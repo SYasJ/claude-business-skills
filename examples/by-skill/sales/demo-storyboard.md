@@ -30,16 +30,44 @@ discount asked: 15 percent, not approved
 
 **Demo storyboard**
 To: Samir Qureshi, account executive, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A storyboard with one exception-resolution scene, two supporting proofs, and the other features parked.
 
-**From the file**
-- account: Harbor Goods
-- last meeting: 9 Sep 2026, no dated next step
-- proof: one email
-- discount asked: 15 percent, not approved
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Samir Qureshi by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| account | Harbor Goods | Needs confirmation |
+| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
+| proof | one email | Carried into the draft |
+| discount asked | 15 percent, not approved | Needs confirmation |
+
+**How this draft was built**
+
+**1. Open with their scene**  
+A day-in-the-life moment from discovery. If you lack it, ask before building a tour.
+
+**2. Three proofs**  
+Each proof is a scene, a click path, and the line that connects it to their problem.
+
+**3. Cut**  
+Remove features that do not serve the three proofs, and list them as parking lot.
+
+**4. Risks**  
+Where the demo environment is fragile. Plan a screenshot backup rather than a live apology.
+
+**5. Close**  
+The question that checks whether the proof landed, plus the next step.
+
+**Deliberately not done**
+- A feature tour with no buyer scene.
+- Showing roadmap as current product.
+- No time left for the buyer to talk.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Samir Qureshi by 30 September 2026. This is a draft, not a sign-off.

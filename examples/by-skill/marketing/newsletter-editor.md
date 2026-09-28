@@ -30,16 +30,44 @@ publish date wanted: 19 Sep 2026
 
 **Newsletter edit**
 To: Lena Ortiz, marketing lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Either adds the real announcement or rewrites the subject, and cuts the issue to one idea.
 
-**From the file**
-- page: the live page
-- claim: broader than the note
-- proof: none attached
-- publish date wanted: 19 Sep 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Lena Ortiz by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| page | the live page | Needs confirmation |
+| claim | broader than the note | Carried into the draft |
+| proof | none attached | Carried into the draft |
+| publish date wanted | 19 Sep 2026 | Needs confirmation |
+
+**How this draft was built**
+
+**1. Reason**  
+Why this issue exists this week. If there is no reason, recommend skipping the send.
+
+**2. One idea**  
+Cut items that do not serve it. A link dump is a finding.
+
+**3. Claims and links**  
+Check that each link matches the description and each claim has a source. Do not invent a quote.
+
+**4. Subject line**  
+It matches the content. No bait.
+
+**5. Skim**  
+A reader on a phone can see the point in the first lines.
+
+**Deliberately not done**
+- A subject line that misleads.
+- Broken or misdescribed links left as an exercise.
+- A weekly send with nothing to say.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Lena Ortiz by 30 September 2026. This is a draft, not a sign-off.

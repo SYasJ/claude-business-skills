@@ -113,19 +113,47 @@ Evidence the control produces: one PDF, 2 pages, dated 14 September 2026
 
 **Control walkthrough note**
 To: Priya Shah, controller, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 States the risk, describes the review as undocumented, and recommends one evidence fix without claiming certification.
 
-**From the file**
-- The process: email to Priya Shah. No written steps after 1 Sep 2026
-- The risk they care about: Operating cash is open. No score in the file
-- Who performs the control: Priya Shah, controller
-- Evidence the control produces: one PDF, 2 pages, dated 14 September 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Priya Shah by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The process | email to Priya Shah. No written steps after 1 Sep 2026 | Needs confirmation |
+| The risk they care about | Operating cash is open. No score in the file | Carried into the draft |
+| Who performs the control | Priya Shah, controller | Carried into the draft |
+| Evidence the control produces | one PDF, 2 pages, dated 14 September 2026 | Needs confirmation |
+
+**How this draft was built**
+
+**1. Name the risk**  
+What could go wrong in money, compliance, or reporting terms. A control with no risk is a habit.
+
+**2. Describe the as-is**  
+Who does what, how often, and what evidence exists. Use the user's description. Do not draw a fantasy flowchart of best practice and call it their process.
+
+**3. Find gaps**  
+Missing evidence, self-review, or a control that happens after the transaction is already irreversible.
+
+**4. Distinguish design and operation**  
+You can comment on design from an interview. You cannot say the control operated all year unless they give you samples.
+
+**5. Recommend one fix**  
+Evidence, a second reviewer, or a system check. A list of twenty improvements will not land.
+
+**Deliberately not done**
+- A best-practice narrative presented as their process.
+- Claiming the control operated all year from one interview.
+- A certification no one issued.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Priya Shah by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

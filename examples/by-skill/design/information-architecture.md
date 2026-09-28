@@ -30,16 +30,39 @@ assets: theirs only
 
 **Ia recommendation**
 To: Lena Ortiz, design lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Groups billing under the task users named and demotes the org chart.
 
-**From the file**
-- screens: 8, dated 10 Sep 2026
-- job: the task in the ask
-- accessibility pass: not done
-- assets: theirs only
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Lena Ortiz by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| screens | 8, dated 10 Sep 2026 | Needs confirmation |
+| job | the task in the ask | Carried into the draft |
+| accessibility pass | not done | Carried into the draft |
+| assets | theirs only | Needs confirmation |
+
+**How this draft was built**
+
+**1. List tasks users come to finish**
+
+**2. Group by those tasks, not by internal departments**
+
+**3. Label in the user's words if you have them**
+
+**4. Show what moves or gets cut**
+
+**5. Note search versus navigation. Do not hide a bad structure behind a search box as the only plan**
+
+**Deliberately not done**
+- Navigation that mirrors the org chart.
+- A search box as the only fix.
+- Labels nobody outside the company uses.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Lena Ortiz by 30 September 2026. This is a draft, not a sign-off.

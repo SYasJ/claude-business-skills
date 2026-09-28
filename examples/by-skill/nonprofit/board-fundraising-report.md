@@ -30,16 +30,39 @@ story: not invented
 
 **Fundraising report**
 To: Amira Hassan, program director, Open Kitchen Society
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Moves the conversation to a prospect note and keeps cash and pledges apart.
 
-**From the file**
-- program: the one they run
-- measured outcome: no
-- ask: one
-- story: not invented
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Amira Hassan by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| program | the one they run | Needs confirmation |
+| measured outcome | no | Carried into the draft |
+| ask | one | Carried into the draft |
+| story | not invented | Needs confirmation |
+
+**How this draft was built**
+
+**1. Separate cash from pledges**
+
+**2. Note restrictions that limit use**
+
+**3. Compare to the goal they set**
+
+**4. Do not count a verbal maybe as a pledge**
+
+**5. Name the pipeline only with evidence**
+
+**Deliberately not done**
+- Maybes counted as pledges.
+- Restricted gifts shown as unrestricted.
+- Private details overshared.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Amira Hassan by 30 September 2026. This is a draft, not a sign-off.

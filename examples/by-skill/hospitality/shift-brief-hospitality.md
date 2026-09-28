@@ -30,16 +30,39 @@ manager: on duty
 
 **Shift brief**
 To: Sofia Alvarez, front office manager, Lantern Inn
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Removes the medical details and keeps the operational accommodation only if needed.
 
-**From the file**
-- stay: the dates in the ask
-- offer: policy amount only
-- complaint: their words
-- manager: on duty
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Sofia Alvarez by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| stay | the dates in the ask | Needs confirmation |
+| offer | policy amount only | Carried into the draft |
+| complaint | their words | Carried into the draft |
+| manager | on duty | Needs confirmation |
+
+**How this draft was built**
+
+**1. Lead with safety and eighty-six items**
+
+**2. Note guest issues without gossip**
+
+**3. State staffing gaps that change service**
+
+**4. Assign the person who handles a known problem**
+
+**5. Do not include a guest's sensitive personal data**
+
+**Deliberately not done**
+- Gossip.
+- Sensitive personal data.
+- A brief with no eighty-six list when items are down.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Sofia Alvarez by 30 September 2026. This is a draft, not a sign-off.

@@ -113,19 +113,47 @@ owner: the person who opened the change
 
 **Upgrade plan**
 To: Aisha Rahman, engineering lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Blocks the merge until breaking changes are read and a rollback is named.
 
-**From the file**
-- branch: main, change not merged
-- tests listed: none
-- rollback: not written
-- owner: the person who opened the change
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Aisha Rahman by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| branch | main, change not merged | Needs confirmation |
+| tests listed | none | Carried into the draft |
+| rollback | not written | Carried into the draft |
+| owner | the person who opened the change | Needs confirmation |
+
+**How this draft was built**
+
+**1. Reason**  
+Security fix, bug, or support window, as the user stated. Do not invent a CVE.
+
+**2. Breaking changes**  
+List the ones they found in notes or a changelog they pasted. If none were read, the plan starts by reading them.
+
+**3. Blast radius**  
+Which parts of the product use it.
+
+**4. Test**  
+The regression checks that matter for that blast radius.
+
+**5. Rollback**  
+How to return to the old version, and what data changes would make rollback hard.
+
+**Deliberately not done**
+- Inventing a CVE.
+- Recommending curl piped to a shell.
+- An upgrade with no rollback story.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Aisha Rahman by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

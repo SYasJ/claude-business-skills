@@ -113,19 +113,47 @@ unowned idea: parked
 
 **Executive one-pager**
 To: Mara Chen, founder, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A one-page brief with the test, the risk, three facts, and a yes-or-no ask.
 
-**From the file**
-- decision: the one in the ask
-- options: two, named
-- evidence: the file only
-- unowned idea: parked
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mara Chen by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| decision | the one in the ask | Needs confirmation |
+| options | two, named | Carried into the draft |
+| evidence | the file only | Carried into the draft |
+| unowned idea | parked | Needs confirmation |
+
+**How this draft was built**
+
+**1. Identify the reader**  
+Write for the person who will decide, not for every stakeholder who wants a mention.
+
+**2. Put the point first**  
+The top of the page states the situation, the recommendation, and the ask.
+
+**3. Support with three facts**  
+Choose the three facts that would change the decision if they were wrong. Move the rest out.
+
+**4. Name the tradeoff**  
+What the recommendation costs or risks. A one-pager with no tradeoff is an advertisement.
+
+**5. End with the action**  
+Owner, date, and what 'done' means.
+
+**Deliberately not done**
+- Shrinking a long memo by reducing the font.
+- Including every stakeholder's paragraph.
+- Hiding the ask in the last line.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mara Chen by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

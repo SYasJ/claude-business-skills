@@ -112,19 +112,42 @@ sheet: theirs
 
 **Season plan**
 To: Ruth McKay, operator, Two Hills Farm
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Shows the labor clash and asks which enterprise to cut.
 
-**From the file**
-- week: 14 Sep 2026
-- cash: their figure
-- treatment: not prescribed here
-- sheet: theirs
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Ruth McKay by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| week | 14 Sep 2026 | Needs confirmation |
+| cash | their figure | Carried into the draft |
+| treatment | not prescribed here | Carried into the draft |
+| sheet | theirs | Needs confirmation |
+
+**How this draft was built**
+
+**1. List enterprises they will run**
+
+**2. Match labor and equipment to the calendar they supplied**
+
+**3. Note cash needs at the expensive weeks**
+
+**4. Respect withdrawal or rotation limits they stated. Do not provide instructions to synthesize pesticides or bypass a label**
+
+**5. Identify the week that breaks if labor is short**
+
+**Deliberately not done**
+- Pesticide synthesis.
+- A plan that ignores a stated label limit.
+- No labor check.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Ruth McKay by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

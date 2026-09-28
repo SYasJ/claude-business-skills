@@ -29,15 +29,38 @@ Customer communication owner: Rita Santos, support lead
 
 **Escalation playbook**
 To: Rita Santos, support lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Defines severity by impact and reserves executive escalation for a written trigger.
 
-**From the file**
-- Who is on each level: Rita Santos, support lead
-- Clocks they can staff: two people on shift
-- Customer communication owner: Rita Santos, support lead
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Rita Santos by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| Who is on each level | Rita Santos, support lead | Needs confirmation |
+| Clocks they can staff | two people on shift | Carried into the draft |
+| Customer communication owner | Rita Santos, support lead | Carried into the draft |
+
+**How this draft was built**
+
+**1. Define severity by impact, not by who shouted**
+
+**2. Each level has a clock and a decision it can make**
+
+**3. Name the customer communication owner so engineering is not surprised by a promise**
+
+**4. Include how to de-escalate when impact falls**
+
+**5. Record what must be true before waking an executive**
+
+**Deliberately not done**
+- Severity set by loudness.
+- An executive ping with no path.
+- Hidden security issues.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Rita Santos by 30 September 2026. This is a draft, not a sign-off.

@@ -29,15 +29,38 @@ The reviewer: Devon Hale. No second reviewer named
 
 **Claim review**
 To: Devon Hale, reporting lead, Prairie Line Energy
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Removes the phrase until the basis exists.
 
-**From the file**
-- The claim: the draft sentence is broader than the note
-- The evidence: one PDF, 2 pages, dated 14 September 2026
-- The reviewer: Devon Hale. No second reviewer named
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Devon Hale by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The claim | the draft sentence is broader than the note | Needs confirmation |
+| The evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The reviewer | Devon Hale. No second reviewer named | Carried into the draft |
+
+**How this draft was built**
+
+**1. Quote the claim**
+
+**2. Match each factual part to evidence**
+
+**3. Qualifiers such as net zero or carbon neutral need the basis they can show. If the basis is missing, cut the words**
+
+**4. Avoid vague 'eco' language that implies a standard they do not meet**
+
+**5. Send legal and advertising questions to counsel if they said the jurisdiction requires it**
+
+**Deliberately not done**
+- Greenwashing.
+- A standard implied but not held.
+- A claim with no evidence.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Devon Hale by 30 September 2026. This is a draft, not a sign-off.

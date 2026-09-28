@@ -112,16 +112,39 @@ advice to a patient: not written
 ### Example outcome
 
 **Privacy operations checklist**
-Cedar Clinic · 14 September 2026
+Cedar Clinic · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 Limits access to the scheduling need and refuses a compliance badge.
 
-- [x] Who can open a chart — in the file. Dr. Helen Cho, clinic director
-- [x] The reason they need it — in the file. Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.
-- [x] How incidents are reported — in the file. Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.
-- [ ] Known gaps — open. Tuesday clinic is missing a source
+**Checklist**
 
-Next action: Dr. Helen Cho closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **Who can open a chart** — Dr. Helen Cho, clinic director  
+      Evidenced in the file
+- [x] **The reason they need it** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **How incidents are reported** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [ ] **Known gaps** — Tuesday clinic is missing a source  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. Compare access to the job. Curiosity access is a finding
+2. Check that conversations, screens, and printouts match their privacy rule
+3. Write the incident path they have, or say it is missing
+4. Do not declare HIPAA compliance. Send legal questions to counsel
+5. Minimize identifiers in examples and tickets
+
+**Deliberately not done**
+- A compliance badge.
+- Snooping instructions.
+- Identifiers in a training example.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Dr. Helen Cho closes the open items before 30 September 2026.
 
 ## Anti-patterns
 

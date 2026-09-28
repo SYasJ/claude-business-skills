@@ -28,16 +28,37 @@ publish date wanted: 19 Sep 2026
 
 ## Example outcome
 
-**Draft the reader can send**
+**Press pitch — draft ready to send**
 
-Lena Ortiz — Fieldnote
-14 September 2026
+> To: the recipient named in the file
+> From: Lena Ortiz, marketing lead, Fieldnote
+> Date: 14 September 2026
+
+---
 
 Hello,
 
-Removes the leadership claim, requires a spokesperson, and states only checkable news. This note uses only the facts in the file from 14 September 2026. It does not add a result, a quote, or a discount that was not supplied.
+Removes the leadership claim, requires a spokesperson, and states only checkable news.
 
-The open point is still open. I will confirm it before 30 September 2026.
+Everything above comes from the file dated 14 September 2026. Where a figure, a date, or a commitment was not in that file, this note leaves it out rather than filling the gap.
+
+One point is still open, and I would rather flag it than paper over it. I will confirm it before 30 September 2026 and follow up either way.
 
 Lena Ortiz
 marketing lead, Fieldnote
+
+---
+
+**How this draft was checked**
+
+1. **News test** — What is new, and why now. A product description is not news by itself.
+2. **Reader** — Which reporter's audience would care, in the user's words. Do not invent a relationship with a journalist.
+3. **Facts** — Every number is checkable. Remove the rest.
+4. **Spokesperson** — A named person who can speak on the record. No fake quotes.
+
+**Deliberately not done**
+- Fake quotes.
+- Invented reporter relationships.
+- A pitch with no news.
+
+Next: Lena Ortiz sends after confirming the open point. Due 30 September 2026. This is a draft, not a sent message.

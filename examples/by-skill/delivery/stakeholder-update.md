@@ -29,15 +29,38 @@ What must not be overclaimed: the draft sentence is broader than the note
 
 **Stakeholder update**
 To: Owen Blake, delivery lead, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 States the cut and asks the client to confirm the reduced scope.
 
-**From the file**
-- What changed: requested 14 September 2026. Not yet approved
-- Who is affected: Owen Blake, delivery lead
-- What must not be overclaimed: the draft sentence is broader than the note
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Owen Blake by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| What changed | requested 14 September 2026. Not yet approved | Needs confirmation |
+| Who is affected | Owen Blake, delivery lead | Carried into the draft |
+| What must not be overclaimed | the draft sentence is broader than the note | Carried into the draft |
+
+**How this draft was built**
+
+**1. Segment the update if audiences need different actions**
+
+**2. Lead with the change, not the backstory**
+
+**3. State what you need and by when**
+
+**4. Include a delay or a cut if one exists. Do not imply you are on track**
+
+**5. Keep promises limited to decisions already made**
+
+**Deliberately not done**
+- A single vague update for audiences with different decisions.
+- Hiding a delay.
+- A promise not yet made.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Owen Blake by 30 September 2026. This is a draft, not a sign-off.

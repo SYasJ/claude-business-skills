@@ -29,13 +29,36 @@ register search: not in the file
 ## Example outcome
 
 **Corporate records checklist**
-Northline Studio · 14 September 2026
+Northline Studio · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 Prioritizes the missing stock documents and does not invent replacement signatures.
 
-- [x] Entities they listed — in the file. Harbor renewal; Contractor NDA; Vendor terms
-- [x] Records they can find — in the file. Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.
-- [x] Known gaps — in the file. Harbor renewal is missing a source
-- [ ] Upcoming transaction that needs the records — open. Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.
+**Checklist**
 
-Next action: Elena Voss closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **Entities they listed** — Harbor renewal; Contractor NDA; Vendor terms  
+      Evidenced in the file
+- [x] **Records they can find** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **Known gaps** — Harbor renewal is missing a source  
+      Evidenced in the file
+- [ ] **Upcoming transaction that needs the records** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. List entities
+2. Core set
+3. Consistency
+4. Access
+5. No filings
+
+**Deliberately not done**
+- Inventing incorporation dates.
+- Preparing a filing and calling it ready.
+- Ignoring a share-count mismatch.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Elena Voss closes the open items before 30 September 2026.

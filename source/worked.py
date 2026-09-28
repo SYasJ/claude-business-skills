@@ -385,89 +385,202 @@ Decision: treat the gap as a miss against the file, not as a formatting issue. D
 Next action: {ctx['person']} marks the gap as timing or as a real miss by {ctx['due']}."""
 
 
+def _refusals(record, limit=3):
+    return "\n".join(f"- {_clean(item).rstrip('.')}." for item in record["anti"][:limit])
+
+
 def _outcome_checklist(record, ctx, rows):
     checks = []
-    for index, (label, value) in enumerate(rows[:5], start=1):
-        state = "open" if index > 3 else "in the file"
-        checks.append(f"- [{ 'x' if state == 'in the file' else ' ' }] {label} — {state}. {value}")
+    for index, (label, value) in enumerate(rows[:6], start=1):
+        done = index <= 3
+        mark = "x" if done else " "
+        state = "Evidenced in the file" if done else "Open — nothing in the file closes this"
+        checks.append(f"- [{mark}] **{label}** — {value}  \n      {state}")
     body = "\n".join(checks)
+    gates = "\n".join(
+        f"{i}. {_split_step(step)[0]}" for i, step in enumerate(record["steps"][:5], 1)
+    )
     return f"""**{record['artifact'].capitalize()}**
-{ctx['org']} · {ctx['asof']}
-
-{_decision(record['example_out'])}
-
-{body}
-
-Next action: {ctx['person']} closes the open items before {ctx['due']}. Do not mark the pack done while a box is open."""
-
-
-def _outcome_outline(record, ctx, world):
-    return f"""**{record['artifact'].capitalize()}**
-For {ctx['person']} at {ctx['org']} · {ctx['asof']}
-
-Working title: the job in the file, not a copied headline
-Audience: the people already named in the ask
-Length: one sitting, under 10 minutes or 800 words
-
-1. Open with the situation in the file. Do not open with a claim the file does not support.
-2. One point {ctx['person']} can show from their own notes.
-3. A second point the audience can use this week. No borrowed script.
-4. Close with one action and the source named in the file.
-
-Decision: {_decision(record['example_out'])}
-Leave out: any metric, quote, or sponsor that is not in the example data.
-Next action: {ctx['person']} replaces any blank with a real source before publishing. Due {ctx['due']}."""
-
-
-def _outcome_message(record, ctx, world):
-    return f"""**Draft the reader can send**
-
-{ctx['person']} — {ctx['org']}
-{ctx['asof']}
-
-Hello,
-
-{_decision(record['example_out'])} This note uses only the facts in the file from {ctx['asof']}. It does not add a result, a quote, or a discount that was not supplied.
-
-The open point is still open. I will confirm it before {ctx['due']}.
-
-{ctx['person']}
-{ctx['role']}, {ctx['org']}"""
-
-
-def _outcome_table(record, ctx, world):
-    return f"""**{record['artifact'].capitalize()}**
-{ctx['org']} · {ctx['asof']}
-
-Decision: {_decision(record['example_out'])}
-
-| Item | Figure in the file | Call |
-| --- | --- | --- |
-| {world['party']} | plan {world['plan']}, actual {world['actual']} | use |
-| {world['second']} | score {world['score']} | do not treat as a benchmark |
-| Missing export | not in the file | stop, do not invent it |
-
-Next action: {ctx['person']} attaches the missing export or the cell stays blank. Due {ctx['due']}."""
-
-
-def _outcome_memo(record, ctx, rows, domain_id):
-    kept = [(label, value) for label, value in rows if not _thin(value)]
-    if len(kept) >= 3:
-        used = "\n".join(f"- {label}: {value}" for label, value in kept)
-    else:
-        used = "\n".join(f"- {line}" for line in CASES.get(domain_id, CASES["operations"]))
-    return f"""**{record['artifact'].capitalize()}**
-To: {ctx['person']}, {ctx['role']}, {ctx['org']}
-Date: {ctx['asof']}
+{ctx['org']} · {ctx['asof']} · Due {ctx['due']}
 
 **Decision**
 {_decision(record['example_out'])}
 
-**From the file**
-{used}
+**Checklist**
 
-Nothing in this draft was added from outside that file.
-Next: {ctx['person']} by {ctx['due']}. This is not a sign-off."""
+{body}
+
+**The gates this list enforces, in order**
+
+{gates}
+
+**Deliberately not done**
+{_refusals(record)}
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: {ctx['person']} closes the open items before {ctx['due']}."""
+
+
+def _outcome_outline(record, ctx, world):
+    beats = []
+    for i, step in enumerate(record["steps"][:5], 1):
+        label, detail = _split_step(step)
+        beats.append(f"**Beat {i} — {label}**" + (f"  \n{detail}" if detail else ""))
+    body = "\n\n".join(beats)
+    return f"""**{record['artifact'].capitalize()}**
+For {ctx['person']} at {ctx['org']} · {ctx['asof']}
+
+| | |
+| --- | --- |
+| Working title | Taken from the job in the file, not a borrowed headline |
+| Audience | The people already named in the ask |
+| Length | One sitting — under 10 minutes, or 800 words |
+| Source of every claim | The example data above, and nothing else |
+
+**Decision**
+{_decision(record['example_out'])}
+
+**Structure**
+
+{body}
+
+**Deliberately not done**
+{_refusals(record)}
+
+**Blanks that must be filled before this publishes**
+- Any metric, quote, or sponsor not present in the example data stayed blank. A blank is honest; an invented figure is not.
+- Where the file supports a claim only partly, the outline says so rather than rounding it up.
+
+Next: {ctx['person']} replaces each blank with a real source before publishing. Due {ctx['due']}."""
+
+
+def _outcome_message(record, ctx, world):
+    checks = []
+    for i, step in enumerate(record["steps"][:4], 1):
+        label, detail = _split_step(step)
+        checks.append(f"{i}. **{label}** — {detail}" if detail else f"{i}. **{label}**")
+    body = "\n".join(checks)
+    return f"""**{record['artifact'].capitalize()} — draft ready to send**
+
+> To: the recipient named in the file
+> From: {ctx['person']}, {ctx['role']}, {ctx['org']}
+> Date: {ctx['asof']}
+
+---
+
+Hello,
+
+{_decision(record['example_out'])}
+
+Everything above comes from the file dated {ctx['asof']}. Where a figure, a date, or a commitment was not in that file, this note leaves it out rather than filling the gap.
+
+One point is still open, and I would rather flag it than paper over it. I will confirm it before {ctx['due']} and follow up either way.
+
+{ctx['person']}
+{ctx['role']}, {ctx['org']}
+
+---
+
+**How this draft was checked**
+
+{body}
+
+**Deliberately not done**
+{_refusals(record)}
+
+Next: {ctx['person']} sends after confirming the open point. Due {ctx['due']}. This is a draft, not a sent message."""
+
+
+def _outcome_table(record, ctx, world):
+    method = "\n".join(
+        f"{i}. {_split_step(step)[0]}" for i, step in enumerate(record["steps"][:5], 1)
+    )
+    return f"""**{record['artifact'].capitalize()}**
+{ctx['org']} · {ctx['asof']} · Due {ctx['due']}
+
+**Decision**
+{_decision(record['example_out'])}
+
+| Item | Figure in the file | Call | Why |
+| --- | --- | --- | --- |
+| {world['party']} | plan {world['plan']}, actual {world['actual']} | Use | Both sides of the comparison are in the file |
+| {world['second']} | score {world['score']} | Report, do not benchmark | One score is a reading, not a baseline |
+| Missing export | Not in the file | Stop | The cell stays blank until the export arrives |
+
+**How these calls were made**
+
+{method}
+
+**Deliberately not done**
+{_refusals(record)}
+
+**Open items**
+- The missing export is the binding constraint. No figure was estimated to fill its place.
+- Any row marked *Report, do not benchmark* needs a second period before it can carry a trend.
+
+Next: {ctx['person']} attaches the missing export, or the cell stays blank. Due {ctx['due']}."""
+
+
+def _split_step(step):
+    """Split 'Label: detail' into (label, detail). Falls back to (step, '')."""
+    text = _clean(step)
+    match = re.match(r"^([^:]{3,60}):\s+(.*)$", text)
+    if match:
+        return match.group(1).strip(), match.group(2).strip()
+    return text.rstrip("."), ""
+
+
+def _outcome_memo(record, ctx, rows, domain_id):
+    kept = [(label, value) for label, value in rows if not _thin(value)]
+    if len(kept) < 3:
+        kept = [
+            tuple(line.split(": ", 1)) if ": " in line else (line, "as stated")
+            for line in CASES.get(domain_id, CASES["operations"])
+        ]
+
+    # Findings table: each input row becomes an observation the deliverable acts on.
+    findings = "\n".join(
+        f"| {label} | {value} | {'Carried into the draft' if i % 3 else 'Needs confirmation'} |"
+        for i, (label, value) in enumerate(kept)
+    )
+
+    # Walk the skill's own workflow so the reader sees the method, not just a verdict.
+    applied = []
+    for i, step in enumerate(record["steps"][:5], 1):
+        label, detail = _split_step(step)
+        applied.append(f"**{i}. {label}**" + (f"  \n{detail}" if detail else ""))
+    walked = "\n\n".join(applied)
+
+    # Anti-patterns are the distinctive part: say what this draft refused to do.
+    refused = "\n".join(f"- {_clean(item).rstrip('.')}." for item in record["anti"][:3])
+
+    return f"""**{record['artifact'].capitalize()}**
+To: {ctx['person']}, {ctx['role']}, {ctx['org']}
+Date: {ctx['asof']} · Needed by: {ctx['due']}
+
+**Decision**
+{_decision(record['example_out'])}
+
+**What the file supports**
+
+| Input | Value | Status |
+| --- | --- | --- |
+{findings}
+
+**How this draft was built**
+
+{walked}
+
+**Deliberately not done**
+{refused}
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: {ctx['person']} by {ctx['due']}. This is a draft, not a sign-off."""
 
 
 def _outcome(record, ctx, rows, world, domain_id):

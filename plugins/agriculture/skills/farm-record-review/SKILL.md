@@ -112,18 +112,41 @@ The period: month ending 14 September 2026
 
 **Record review**
 To: Ruth McKay, operator, Two Hills Farm
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Lists the gap and refuses the invented dates.
 
-**From the file**
-- The asker's list: Kite Freight; Bright Axle; open item
-- Gaps they know: Kite Freight is missing a source
-- The period: month ending 14 September 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Ruth McKay by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The asker's list | Kite Freight; Bright Axle; open item | Needs confirmation |
+| Gaps they know | Kite Freight is missing a source | Carried into the draft |
+| The period | month ending 14 September 2026 | Carried into the draft |
+
+**How this draft was built**
+
+**1. Compare records to the list they were given**
+
+**2. Flag missing dates, lots, or animal IDs**
+
+**3. Do not backfill a record with invented applications or treatments**
+
+**4. Note withdrawal or treatment questions for their agronomist or veterinarian**
+
+**5. Separate a paperwork gap from a food-safety conclusion**
+
+**Deliberately not done**
+- Backfilled invented treatments.
+- A food-safety clearance.
+- Missing lots ignored.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Ruth McKay by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

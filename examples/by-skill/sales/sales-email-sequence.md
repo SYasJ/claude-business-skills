@@ -28,16 +28,37 @@ discount asked: 15 percent, not approved
 
 ## Example outcome
 
-**Draft the reader can send**
+**Email sequence — draft ready to send**
 
-Samir Qureshi — Fieldnote
-14 September 2026
+> To: the recipient named in the file
+> From: Samir Qureshi, account executive, Fieldnote
+> Date: 14 September 2026
+
+---
 
 Hello,
 
-A three-note sequence with a real observation, one ask, and no fake inquiry, plus a stop after the third note. This note uses only the facts in the file from 14 September 2026. It does not add a result, a quote, or a discount that was not supplied.
+A three-note sequence with a real observation, one ask, and no fake inquiry, plus a stop after the third note.
 
-The open point is still open. I will confirm it before 30 September 2026.
+Everything above comes from the file dated 14 September 2026. Where a figure, a date, or a commitment was not in that file, this note leaves it out rather than filling the gap.
+
+One point is still open, and I would rather flag it than paper over it. I will confirm it before 30 September 2026 and follow up either way.
 
 Samir Qureshi
 account executive, Fieldnote
+
+---
+
+**How this draft was checked**
+
+1. **Relevance** — The first lines show why this person, why now, using a real observation. No 'I noticed you are a leader' filler if you noticed nothing.
+2. **One ask** — A reply, a 20-minute call, or a referral. Not three asks.
+3. **Proof** — One sentence of proof the user can support. No fake mutual connections.
+4. **Length** — Short enough to read on a phone. Cut the company history.
+
+**Deliberately not done**
+- Fake mutual connections.
+- A sequence that never stops.
+- Deceptive subject lines.
+
+Next: Samir Qureshi sends after confirming the open point. Due 30 September 2026. This is a draft, not a sent message.

@@ -113,19 +113,47 @@ publish date wanted: 19 Sep 2026
 
 **Webinar run of show**
 To: Lena Ortiz, marketing lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Either retitles the session or replaces half the pitch with the promised practice.
 
-**From the file**
-- page: the live page
-- claim: broader than the note
-- proof: none attached
-- publish date wanted: 19 Sep 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Lena Ortiz by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| page | the live page | Needs confirmation |
+| claim | broader than the note | Carried into the draft |
+| proof | none attached | Carried into the draft |
+| publish date wanted | 19 Sep 2026 | Needs confirmation |
+
+**How this draft was built**
+
+**1. Promise**  
+The title matches the content. No bait title.
+
+**2. Run of show**  
+Timed blocks, including questions. A 40-minute monologue is a finding.
+
+**3. Proof**  
+Slides use only approved numbers. Mark missing numbers as gaps.
+
+**4. Ask**  
+One next step at the end. Do not pretend the session is free of an ask if it is not.
+
+**5. Roles**  
+Host, speaker, and the person watching questions. A demo backup if live product is involved.
+
+**Deliberately not done**
+- A bait-and-switch title.
+- Unapproved metrics on slides.
+- No time for questions in a session that promised them.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Lena Ortiz by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

@@ -29,13 +29,36 @@ owner: the person who opened the change
 ## Example outcome
 
 **Release checklist**
-Fieldnote · 14 September 2026
+Fieldnote · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 A hold until the migration owner is named and the rollback is written, with no secret values added.
 
-- [x] The intended scope — in the file. this decision only
-- [x] Migrations — in the file. Checkout service. Aisha Rahman noted it on 14 September 2026. No second file for this line.
-- [x] Monitoring — in the file. Checkout service. Aisha Rahman noted it on 14 September 2026. No second file for this line.
-- [ ] Rollback — open. Checkout service. Aisha Rahman noted it on 14 September 2026. No second file for this line.
+**Checklist**
 
-Next action: Aisha Rahman closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **The intended scope** — this decision only  
+      Evidenced in the file
+- [x] **Migrations** — Checkout service. Aisha Rahman noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **Monitoring** — Checkout service. Aisha Rahman noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [ ] **Rollback** — Checkout service. Aisha Rahman noted it on 14 September 2026. No second file for this line.  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. Scope
+2. Migrations
+3. Config and flags
+4. Monitoring
+5. Rollback
+
+**Deliberately not done**
+- Secret values in the checklist.
+- A ship decision with no rollback.
+- Scope nobody tested.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Aisha Rahman closes the open items before 30 September 2026.

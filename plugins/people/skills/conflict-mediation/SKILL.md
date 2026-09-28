@@ -113,19 +113,47 @@ growth topic: none written down
 
 **Mediation prep**
 To: Chris Adeyemi, people lead, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Addresses the work blockage, moves insults out of public channels, and routes possible misconduct to employee relations.
 
-**From the file**
-- cadence: weekly, 30 minutes, Tuesday 10:00
-- status board: already updated daily
-- last meeting: 6 status questions, employee did not set the agenda
-- growth topic: none written down
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Chris Adeyemi by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
+| status board | already updated daily | Carried into the draft |
+| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
+| growth topic | none written down | Needs confirmation |
+
+**How this draft was built**
+
+**1. Safety first**  
+If the user describes threats, harassment, or violence, stop mediation tips and point them to their reporting and safety process. Do not investigate as a hobby.
+
+**2. Frame the work**  
+The conversation is about a working agreement, not about who is the better person.
+
+**3. Each voice**  
+Structure time so both people state the impact on the work. No surprise audience.
+
+**4. Interests**  
+What each person needs in order to deliver. Positions are 'I refuse to work with them'. Interests are more useful.
+
+**5. Agreement**  
+A written working agreement with behaviors and a review date. No forced apology script.
+
+**Deliberately not done**
+- Taking a side in the prep notes.
+- Mediating a harassment allegation informally.
+- A forced apology.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Chris Adeyemi by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

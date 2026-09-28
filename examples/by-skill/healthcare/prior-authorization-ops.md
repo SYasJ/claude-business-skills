@@ -28,13 +28,36 @@ The requested date: 30 September 2026
 ## Example outcome
 
 **Authorization operations checklist**
-Cedar Clinic · 14 September 2026
+Cedar Clinic · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 A checklist of real gaps and a refusal to alter the record.
 
-- [x] The payer requirements they have — in the file. Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.
-- [x] The documents on hand — in the file. one PDF, 2 pages, dated 14 September 2026
-- [x] The internal owner — in the file. Dr. Helen Cho, clinic director
-- [ ] The requested date — open. 30 September 2026
+**Checklist**
 
-Next action: Dr. Helen Cho closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **The payer requirements they have** — Tuesday clinic. Dr. Helen Cho noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **The documents on hand** — one PDF, 2 pages, dated 14 September 2026  
+      Evidenced in the file
+- [x] **The internal owner** — Dr. Helen Cho, clinic director  
+      Evidenced in the file
+- [ ] **The requested date** — 30 September 2026  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. Use only requirements the user supplied. Do not invent payer rules
+2. List missing documents as gaps, not as reasons to fabricate a note
+3. Assign an owner and a follow-up clock
+4. Tell the patient the status in plain language without promising approval
+5. Refuse any request to alter a clinical record to win an authorization
+
+**Deliberately not done**
+- Fabricated clinical notes.
+- A promised approval.
+- Invented payer rules.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Dr. Helen Cho closes the open items before 30 September 2026.

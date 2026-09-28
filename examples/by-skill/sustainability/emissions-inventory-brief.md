@@ -30,16 +30,39 @@ estimate: labeled
 
 **Inventory brief**
 To: Devon Hale, reporting lead, Prairie Line Energy
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Refuses the claim and lists the missing activity data.
 
-**From the file**
-- period: the year they named
-- factor: only from their sheet
-- certification: not claimed
-- estimate: labeled
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Devon Hale by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| period | the year they named | Needs confirmation |
+| factor | only from their sheet | Carried into the draft |
+| certification | not claimed | Carried into the draft |
+| estimate | labeled | Needs confirmation |
+
+**How this draft was built**
+
+**1. Define the boundary they chose**
+
+**2. List activity data they actually have**
+
+**3. Apply only factors they supplied, and show the source. Do not invent a factor**
+
+**4. Mark missing categories as gaps**
+
+**5. Separate a number from an assurance opinion**
+
+**Deliberately not done**
+- An invented emissions factor.
+- A net-zero claim from a partial inventory.
+- Hidden gaps.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Devon Hale by 30 September 2026. This is a draft, not a sign-off.

@@ -29,15 +29,43 @@ Payment terms the user actually offers: CAD 180, dates not set, cap not set
 
 **Working-capital review**
 To: Mara Chen, founder, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Calculates days from the user's bases, flags concentration if known, and separates a one-time release from a process change.
 
-**From the file**
-- Receivables, inventory, and payables balances: Harbor & Co owes CAD 60,000, usually 20 days late
-- Related revenue or cost, so days can be calculated: CAD 36 direct. Overhead not in this line
-- Payment terms the user actually offers: CAD 180, dates not set, cap not set
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mara Chen by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| Receivables, inventory, and payables balances | Harbor & Co owes CAD 60,000, usually 20 days late | Needs confirmation |
+| Related revenue or cost, so days can be calculated | CAD 36 direct. Overhead not in this line | Carried into the draft |
+| Payment terms the user actually offers | CAD 180, dates not set, cap not set | Carried into the draft |
+
+**How this draft was built**
+
+**1. Compute days only if the bases exist**  
+Do not invent DSO. Show the formula you used.
+
+**2. Separate structural from overdue**  
+Terms the company chose are not the same as customers paying late.
+
+**3. Look at concentration**  
+A few old invoices or SKUs often hold the cash. Ask for the aging if it was not provided, and do not pretend you saw it.
+
+**4. Recommend a release that is real**  
+Collections on disputed invoices are not a plan. Name what must be resolved first.
+
+**5. Watch the rebound**  
+A one-time collection is not a new run-rate. Say whether the improvement persists.
+
+**Deliberately not done**
+- A days metric with no formula.
+- Counting disputed receivables as cash you will collect next week.
+- A supplier stretch with no service risk.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mara Chen by 30 September 2026. This is a draft, not a sign-off.

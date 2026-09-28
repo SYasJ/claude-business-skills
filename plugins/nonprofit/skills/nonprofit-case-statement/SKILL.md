@@ -113,19 +113,42 @@ story: not invented
 
 **Case statement**
 To: Amira Hassan, program director, Open Kitchen Society
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Removes the percentage and describes the program without a fake rate.
 
-**From the file**
-- program: the one they run
-- measured outcome: no
-- ask: one
-- story: not invented
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Amira Hassan by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| program | the one they run | Needs confirmation |
+| measured outcome | no | Carried into the draft |
+| ask | one | Carried into the draft |
+| story | not invented | Needs confirmation |
+
+**How this draft was built**
+
+**1. Describe the need with evidence they have**
+
+**2. Explain what the program actually does**
+
+**3. Separate outputs from outcomes**
+
+**4. Make one ask**
+
+**5. Do not invent a beneficiary story or a success rate**
+
+**Deliberately not done**
+- Invented beneficiary stories.
+- A fake urgency.
+- Outcomes they have not measured.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Amira Hassan by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

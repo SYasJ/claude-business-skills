@@ -115,19 +115,44 @@ monitoring: not recommended
 
 **Formula help**
 To: Mara Chen, founder, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Both formulas with the user's column letters, a plain explanation of when each breaks, and a test case.
 
-**From the file**
-- week: 14 Sep 2026
-- calendar: the meetings they listed
-- dissent: kept if it was said
-- monitoring: not recommended
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mara Chen by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| week | 14 Sep 2026 | Needs confirmation |
+| calendar | the meetings they listed | Carried into the draft |
+| dissent | kept if it was said | Carried into the draft |
+| monitoring | not recommended | Needs confirmation |
+
+**How this draft was built**
+
+**1. Confirm the structure**  
+which column holds the lookup value, which holds the result, and whether the match is exact or approximate.
+
+**2. Write the formula with named ranges or column letters they described. Do not invent a structure they did not state**
+
+**3. Explain each argument in one sentence. If the formula has a bracket inside a bracket, explain it from the inside out**
+
+**4. Give a test case**  
+this input should return this output.
+
+**5. Warn if the formula will break when rows are added or deleted, and say what to change**
+
+**Deliberately not done**
+- Assuming a column layout they did not describe.
+- Macros the user did not ask for.
+- A formula without an explanation.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mara Chen by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

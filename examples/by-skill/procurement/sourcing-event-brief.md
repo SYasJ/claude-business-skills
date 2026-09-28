@@ -30,16 +30,39 @@ award: not made here
 
 **Sourcing brief**
 To: Diane Cho, buyer, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Freezes fair criteria and discloses must-haves before bids.
 
-**From the file**
-- quotes: only those attached
-- missing term: blank
-- authority: their limit
-- award: not made here
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Diane Cho by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| quotes | only those attached | Needs confirmation |
+| missing term | blank | Carried into the draft |
+| authority | their limit | Carried into the draft |
+| award | not made here | Needs confirmation |
+
+**How this draft was built**
+
+**1. Define the need as an outcome**
+
+**2. Write criteria before seeing vendor pitches**
+
+**3. State must-haves versus scored items**
+
+**4. Name who may talk to vendors**
+
+**5. Do not tailor criteria to a favorite after bids arrive**
+
+**Deliberately not done**
+- Criteria written after seeing a favorite.
+- Undisclosed must-haves.
+- A timeline they will miss.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Diane Cho by 30 September 2026. This is a draft, not a sign-off.

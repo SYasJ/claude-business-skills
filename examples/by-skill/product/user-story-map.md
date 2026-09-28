@@ -30,16 +30,44 @@ kill line: not written
 
 **Story map**
 To: Jonah Park, product manager, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A map whose first slice completes the core job thinly, and parks the admin console.
 
-**From the file**
-- interviews: 12, March to June 2026
-- decision: ship, hold, or cut
-- metric: not defined
-- kill line: not written
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Park by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| interviews | 12, March to June 2026 | Needs confirmation |
+| decision | ship, hold, or cut | Carried into the draft |
+| metric | not defined | Carried into the draft |
+| kill line | not written | Needs confirmation |
+
+**How this draft was built**
+
+**1. Backbone**  
+The steps the user takes, in order. Internal tasks do not lead the map.
+
+**2. Stories under steps**  
+Place each story under the step it serves. Orphan stories are a finding.
+
+**3. Slice**  
+Draw a first release that completes a thin journey. A release that finishes only the left half of the journey is not releasable.
+
+**4. Later slices**  
+What waits, and why.
+
+**5. Risks**  
+The step with the least evidence.
+
+**Deliberately not done**
+- A backlog dump called a map.
+- A first release that cannot be used end to end.
+- Stories with no user step.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Park by 30 September 2026. This is a draft, not a sign-off.

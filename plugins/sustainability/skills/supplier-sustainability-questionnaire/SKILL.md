@@ -112,18 +112,41 @@ The decision the score would feed: CAD 180, from their sheet, not a guess
 
 **Questionnaire review**
 To: Devon Hale, reporting lead, Prairie Line Energy
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Marks the certification unverified and asks for the document.
 
-**From the file**
-- The questions: A supplier says it is certified and attaches no certificate
-- Evidence attached: one PDF, 2 pages, dated 14 September 2026
-- The decision the score would feed: CAD 180, from their sheet, not a guess
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Devon Hale by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The questions | A supplier says it is certified and attaches no certificate | Needs confirmation |
+| Evidence attached | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The decision the score would feed | CAD 180, from their sheet, not a guess | Carried into the draft |
+
+**How this draft was built**
+
+**1. Score evidence, not adjectives**
+
+**2. A missing answer is a gap, not a zero that looks precise**
+
+**3. Do not invent a supplier's emissions**
+
+**4. Note claims of certification only if the certificate is in the file**
+
+**5. Recommend follow-up questions**
+
+**Deliberately not done**
+- An invented supplier footprint.
+- A certification assumed.
+- A precise score on missing data.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Devon Hale by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

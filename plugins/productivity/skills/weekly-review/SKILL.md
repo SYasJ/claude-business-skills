@@ -113,19 +113,42 @@ monitoring: not recommended
 
 **Weekly review**
 To: Mara Chen, founder, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Cuts to a few outcomes and schedules them in the remaining time.
 
-**From the file**
-- week: 14 Sep 2026
-- calendar: the meetings they listed
-- dissent: kept if it was said
-- monitoring: not recommended
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mara Chen by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| week | 14 Sep 2026 | Needs confirmation |
+| calendar | the meetings they listed | Carried into the draft |
+| dissent | kept if it was said | Carried into the draft |
+| monitoring | not recommended | Needs confirmation |
+
+**How this draft was built**
+
+**1. List commitments still open**
+
+**2. Close, defer, or schedule each one. A review that only worries is incomplete**
+
+**3. Pick a few outcomes for next week, not a pile of tasks**
+
+**4. Note what is waiting on others**
+
+**5. Protect time for the outcome that slips every week**
+
+**Deliberately not done**
+- A wish list longer than the calendar.
+- No closures.
+- Ignoring booked meetings.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mara Chen by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

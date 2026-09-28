@@ -111,19 +111,40 @@ score: not invented
 
 ### Example outcome
 
-**Draft the reader can send**
+**Conflict disclosure — draft ready to send**
 
-Priya Shah — Northline Studio
-14 September 2026
+> To: the recipient named in the file
+> From: Priya Shah, controller, Northline Studio
+> Date: 14 September 2026
+
+---
 
 Hello,
 
-Includes the sibling relationship and recommends recusal from the award. This note uses only the facts in the file from 14 September 2026. It does not add a result, a quote, or a discount that was not supplied.
+Includes the sibling relationship and recommends recusal from the award.
 
-The open point is still open. I will confirm it before 30 September 2026.
+Everything above comes from the file dated 14 September 2026. Where a figure, a date, or a commitment was not in that file, this note leaves it out rather than filling the gap.
+
+One point is still open, and I would rather flag it than paper over it. I will confirm it before 30 September 2026 and follow up either way.
 
 Priya Shah
 controller, Northline Studio
+
+---
+
+**How this draft was checked**
+
+1. **Describe the interest in plain language** — financial, family, or outside role, as the user stated.
+2. **Name the decision or vendor it could affect**
+3. **Propose recusal or a review, using their policy if they supplied one**
+4. **Do not help hide the interest**
+
+**Deliberately not done**
+- Hiding an interest.
+- Unrelated personal details.
+- A fake approval.
+
+Next: Priya Shah sends after confirming the open point. Due 30 September 2026. This is a draft, not a sent message.
 
 ## Anti-patterns
 

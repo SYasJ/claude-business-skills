@@ -29,13 +29,36 @@ register search: not in the file
 ## Example outcome
 
 **Ip ownership checklist**
-Northline Studio · 14 September 2026
+Northline Studio · 14 September 2026 · Due 30 September 2026
 
+**Decision**
 Marks that work as an open ownership gap and lists the document counsel would need to review.
 
-- [x] Roles involved — in the file. Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.
-- [x] Agreements they have signed, as described — in the file. Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.
-- [x] The work product at issue — in the file. Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.
-- [ ] Any open-source components they mentioned — open. note from Elena Voss, 14 September 2026. No outside report
+**Checklist**
 
-Next action: Elena Voss closes the open items before 30 September 2026. Do not mark the pack done while a box is open.
+- [x] **Roles involved** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **Agreements they have signed, as described** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [x] **The work product at issue** — Harbor renewal. Elena Voss noted it on 14 September 2026. No second file for this line.  
+      Evidenced in the file
+- [ ] **Any open-source components they mentioned** — note from Elena Voss, 14 September 2026. No outside report  
+      Open — nothing in the file closes this
+
+**The gates this list enforces, in order**
+
+1. Inventory the creators
+2. Match agreements
+3. Scope of assignment
+4. Third-party code
+5. Gaps
+
+**Deliberately not done**
+- Assuming payment equals ownership.
+- A fake patentability opinion.
+- Ignoring pre-incorporation work.
+
+**Stop rule**
+Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
+
+Next: Elena Voss closes the open items before 30 September 2026.

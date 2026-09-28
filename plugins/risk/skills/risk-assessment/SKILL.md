@@ -113,19 +113,42 @@ score: not invented
 
 **Risk assessment**
 To: Priya Shah, controller, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Rewrites those into specific events or drops them until a scenario exists.
 
-**From the file**
-- event: the one in the ask, not a one-word label
-- owner: blank
-- control: not named
-- score: not invented
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Priya Shah by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| event | the one in the ask, not a one-word label | Needs confirmation |
+| owner | blank | Carried into the draft |
+| control | not named | Carried into the draft |
+| score | not invented | Needs confirmation |
+
+**How this draft was built**
+
+**1. Write scenarios as events, not as one-word categories**
+
+**2. Use their likelihood and impact scale. If none exists, propose a simple one and label it**
+
+**3. Name the current control and whether they have evidence it operates**
+
+**4. Rate residual risk only after the control is described**
+
+**5. Recommend mitigate, accept, or transfer as a question for the owner. Insurance transfer is not confirmed unless they say a policy exists**
+
+**Deliberately not done**
+- One-word risks.
+- A certification claim.
+- Ratings with no scale.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Priya Shah by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

@@ -112,18 +112,41 @@ Known gaps: Kite Freight is missing a source
 
 **Supply chain note**
 To: Aisha Rahman, engineering lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Makes inventory and a repeatable build the first actions, with no invented component list.
 
-**From the file**
-- The inventory or SBOM they have: 20 on hand
-- Who can publish a release: Aisha Rahman, engineering lead
-- Known gaps: Kite Freight is missing a source
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Aisha Rahman by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The inventory or SBOM they have | 20 on hand | Needs confirmation |
+| Who can publish a release | Aisha Rahman, engineering lead | Carried into the draft |
+| Known gaps | Kite Freight is missing a source | Carried into the draft |
+
+**How this draft was built**
+
+**1. Use only the inventory they provided. Do not claim you scanned the internet**
+
+**2. Note missing owners, unpinned dependencies, and unpublished build steps**
+
+**3. Recommend a repeatable build and a named publisher**
+
+**4. Secrets in the build are a blocking finding. Do not print them**
+
+**5. If they have no inventory, the first action is to generate one with their tools, not to invent components**
+
+**Deliberately not done**
+- A fake scan result.
+- Invented components.
+- Secrets printed in the note.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Aisha Rahman by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

@@ -30,16 +30,39 @@ The template or checklist to change: Redline Parts; Lantern Inn; open item
 
 **Lessons note**
 To: Owen Blake, delivery lead, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Changes the template's vendor-review duration, with an owner for the edit.
 
-**From the file**
-- What surprised the team: two people on shift, one off
-- Decisions that aged badly: A project learned that vendor review takes a month, and the next template still assumes a week
-- Evidence: one PDF, 2 pages, dated 14 September 2026
-- The template or checklist to change: Redline Parts; Lantern Inn; open item
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Owen Blake by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| What surprised the team | two people on shift, one off | Needs confirmation |
+| Decisions that aged badly | A project learned that vendor review takes a month, and the next template still assumes a week | Carried into the draft |
+| Evidence | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| The template or checklist to change | Redline Parts; Lantern Inn; open item | Needs confirmation |
+
+**How this draft was built**
+
+**1. Describe the surprise as a fact**
+
+**2. Ask what the plan assumed that turned out false**
+
+**3. Write the lesson as a change to a checklist, estimate, or template**
+
+**4. Assign someone to make that change. A lesson with no template change will be repeated**
+
+**5. Keep personalities out**
+
+**Deliberately not done**
+- A blame narrative.
+- Lessons with no template change.
+- A novel nobody will read.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Owen Blake by 30 September 2026. This is a draft, not a sign-off.

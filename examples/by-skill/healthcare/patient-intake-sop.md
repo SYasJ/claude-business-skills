@@ -30,16 +30,39 @@ advice to a patient: not written
 
 **Intake procedure**
 To: Dr. Helen Cho, clinic director, Cedar Clinic
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Stops and escalates urgent symptoms to a clinician instead of scoring them at the desk.
 
-**From the file**
-- clinic: Cedar, Tuesday list
-- diagnosis: not in this note
-- roster: the one attached
-- advice to a patient: not written
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Dr. Helen Cho by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| clinic | Cedar, Tuesday list | Needs confirmation |
+| diagnosis | not in this note | Carried into the draft |
+| roster | the one attached | Carried into the draft |
+| advice to a patient | not written | Needs confirmation |
+
+**How this draft was built**
+
+**1. List data elements required for registration and billing they described. Cut the rest**
+
+**2. Write the script for missing information without pressuring a patient in distress**
+
+**3. Tell staff which answers must go to a clinician rather than be interpreted at the desk**
+
+**4. Include identity-check steps they already use. Do not invent a legal ID rule**
+
+**5. Protect the conversation from the waiting room when the topic is sensitive**
+
+**Deliberately not done**
+- Desk staff giving treatment advice.
+- Collecting data with no purpose.
+- A public conversation about a sensitive issue.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Dr. Helen Cho by 30 September 2026. This is a draft, not a sign-off.

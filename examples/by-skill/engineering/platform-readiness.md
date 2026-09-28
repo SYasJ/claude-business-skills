@@ -30,16 +30,44 @@ owner: the person who opened the change
 
 **Platform readiness review**
 To: Aisha Rahman, engineering lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Blocks the mandate, names the quickstart gap, and recommends one adopting team.
 
-**From the file**
-- branch: main, change not merged
-- tests listed: none
-- rollback: not written
-- owner: the person who opened the change
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Aisha Rahman by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| branch | main, change not merged | Needs confirmation |
+| tests listed | none | Carried into the draft |
+| rollback | not written | Carried into the draft |
+| owner | the person who opened the change | Needs confirmation |
+
+**How this draft was built**
+
+**1. User**  
+The internal team and the job they will do on the platform.
+
+**2. Interface**  
+The stable contract. If every consumer forks the internals, it is not ready.
+
+**3. Operability**  
+On-call, migration path, and a stated limit. Do not invent an SLO.
+
+**4. Docs**  
+A new team can complete the golden path from the docs the user has. Gaps are the finding.
+
+**5. Support**  
+Who answers in the first month, and what is not supported.
+
+**Deliberately not done**
+- A company-wide mandate with no docs.
+- An invented uptime promise.
+- No owner for questions.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Aisha Rahman by 30 September 2026. This is a draft, not a sign-off.

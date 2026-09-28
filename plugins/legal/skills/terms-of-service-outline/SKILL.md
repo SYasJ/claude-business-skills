@@ -113,19 +113,47 @@ register search: not in the file
 
 **Terms of service outline**
 To: Elena Voss, operations lead, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Flag the homepage promise as a term that counsel and product must either support or remove.
 
-**From the file**
-- name: Lumen Ledger, word mark, no logo
-- goods: bookkeeping software for independent shops
-- already checked: lumenledger.com open on 12 Sep 2026
-- register search: not in the file
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Elena Voss by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| name | Lumen Ledger, word mark, no logo | Needs confirmation |
+| goods | bookkeeping software for independent shops | Carried into the draft |
+| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
+| register search | not in the file | Needs confirmation |
+
+**How this draft was built**
+
+**1. Describe the service**  
+What a customer can and cannot do, from product facts. Do not copy a famous company's terms.
+
+**2. Acceptance**  
+Where the user says acceptance happens. If the product has no acceptance moment, flag that as a product gap.
+
+**3. Promises**  
+List uptime, support, or outcome claims marketing already makes. Terms that contradict the website are a finding.
+
+**4. Customer duties**  
+Acceptable use, accounts, and payment, in plain language. No hidden punitive clause the business did not ask for.
+
+**5. Liability and termination**  
+Note that counsel must draft these for the jurisdiction. Provide the commercial intent only.
+
+**Deliberately not done**
+- Pasting another company's terms.
+- Contradicting a published marketing promise without saying so.
+- Calling the outline a finished agreement.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Elena Voss by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

@@ -30,16 +30,39 @@ unknown: stays unknown
 
 **Correction**
 To: Jonah Ellis, assignment editor, Foothills Desk
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Says the number was wrong and gives the supported figure.
 
-**From the file**
-- document: the statement in the folder
-- unnamed quote: not used
-- deadline: the board time
-- unknown: stays unknown
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Ellis by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| document | the statement in the folder | Needs confirmation |
+| unnamed quote | not used | Carried into the draft |
+| deadline | the board time | Carried into the draft |
+| unknown | stays unknown | Needs confirmation |
+
+**How this draft was built**
+
+**1. State the error plainly**
+
+**2. State the correct fact they can support**
+
+**3. Say where the error appeared**
+
+**4. Do not bury the correction in a new story**
+
+**5. Note if a quote was wrong. Do not quietly rewrite history**
+
+**Deliberately not done**
+- A buried correction.
+- A rewritten quote with no note.
+- An unsupported replacement fact.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Ellis by 30 September 2026. This is a draft, not a sign-off.

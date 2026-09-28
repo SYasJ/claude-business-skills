@@ -29,15 +29,38 @@ Evidence of failure: one PDF, 2 pages, dated 14 September 2026
 
 **Service blueprint**
 To: Lena Ortiz, design lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Draws the pile-up and assigns the handoff to fix.
 
-**From the file**
-- The customer job: Kite Freight
-- Backstage teams: two people on shift, one off
-- Evidence of failure: one PDF, 2 pages, dated 14 September 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Lena Ortiz by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The customer job | Kite Freight | Needs confirmation |
+| Backstage teams | two people on shift, one off | Carried into the draft |
+| Evidence of failure | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+
+**How this draft was built**
+
+**1. Start with the customer steps**
+
+**2. Add the backstage actions and systems that support each step**
+
+**3. Mark the fail points they have evidence for**
+
+**4. Show the handoff that drops the ball**
+
+**5. Pick one fail point to redesign**
+
+**Deliberately not done**
+- A frontstage-only journey called a blueprint.
+- Invented backstage steps.
+- No fail point.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Lena Ortiz by 30 September 2026. This is a draft, not a sign-off.

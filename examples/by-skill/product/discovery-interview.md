@@ -30,16 +30,44 @@ kill line: not written
 
 **Interview guide**
 To: Jonah Park, product manager, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Replaces the rating with questions about the last time the problem occurred.
 
-**From the file**
-- interviews: 12, March to June 2026
-- decision: ship, hold, or cut
-- metric: not defined
-- kill line: not written
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Park by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| interviews | 12, March to June 2026 | Needs confirmation |
+| decision | ship, hold, or cut | Carried into the draft |
+| metric | not defined | Carried into the draft |
+| kill line | not written | Needs confirmation |
+
+**How this draft was built**
+
+**1. Decision**  
+What you will do differently after five interviews. If nothing would change, do not run the interviews.
+
+**2. Participants**  
+The people who have the problem, not only fans. Note how they will be recruited without deception.
+
+**3. Guide**  
+Questions about recent behavior, not hypothetical love of your idea.
+
+**4. No pitching**  
+The solution mention, if any, comes after the story. Do not lead the witness.
+
+**5. Notes**  
+Capture quotes and concrete incidents. Interpretations go in a separate column.
+
+**Deliberately not done**
+- Asking 'would you use this' as the main question.
+- Pitching in the first five minutes.
+- Treating one enthusiastic interview as proof.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Park by 30 September 2026. This is a draft, not a sign-off.

@@ -30,16 +30,39 @@ copied line: cut
 
 **Investor update**
 To: Mara Chen, founder, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Includes the spike, the cash fact, and no invented investor interest.
 
-**From the file**
-- paying names: only those given
-- cash: bank figure, not a maybe
-- ask: the one they wrote
-- copied line: cut
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mara Chen by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| paying names | only those given | Needs confirmation |
+| cash | bank figure, not a maybe | Carried into the draft |
+| ask | the one they wrote | Carried into the draft |
+| copied line | cut | Needs confirmation |
+
+**How this draft was built**
+
+**1. Lead with cash, runway, and the metric, from their books**
+
+**2. Include the miss. Investors who hear only good news stop trusting the note**
+
+**3. One ask, if any, with a date**
+
+**4. Do not invent a term, a valuation, or interest from other investors**
+
+**5. Keep customer names out unless the user may share them**
+
+**Deliberately not done**
+- Invented investor interest.
+- A hidden miss.
+- A valuation presented as fact.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mara Chen by 30 September 2026. This is a draft, not a sign-off.

@@ -30,16 +30,44 @@ kill line: not written
 
 **Launch readiness review**
 To: Jonah Park, product manager, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Tells the truth about the manual step.
 
-**From the file**
-- interviews: 12, March to June 2026
-- decision: ship, hold, or cut
-- metric: not defined
-- kill line: not written
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Park by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| interviews | 12, March to June 2026 | Needs confirmation |
+| decision | ship, hold, or cut | Carried into the draft |
+| metric | not defined | Carried into the draft |
+| kill line | not written | Needs confirmation |
+
+**How this draft was built**
+
+**1. Promise check**  
+The announcement matches what the build does. Cut the rest.
+
+**2. Support**  
+Agents have an FAQ and a known issue list. No launch to a blind support team.
+
+**3. Measurement**  
+The event that tells you the launch worked is instrumented, or the gap is explicit.
+
+**4. Rollback**  
+Who can stop the launch, and how customers are told if you do.
+
+**5. Legal and claims**  
+Unapproved claims block the public line, not the internal note.
+
+**Deliberately not done**
+- A launch checklist that ignores support.
+- Announcing unshipped scope.
+- No one empowered to hold.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Park by 30 September 2026. This is a draft, not a sign-off.

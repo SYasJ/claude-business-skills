@@ -113,19 +113,42 @@ finding: not promised
 
 **Workshop decision record**
 To: Elena Voss, engagement manager, Clearlane Advisors
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Labels the market as an idea, not a decision, and lists the open choice.
 
-**From the file**
-- decision: the one in the ask
-- evidence: notes only
-- out of scope: named
-- finding: not promised
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Elena Voss by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| decision | the one in the ask | Needs confirmation |
+| evidence | notes only | Carried into the draft |
+| out of scope | named | Carried into the draft |
+| finding | not promised | Needs confirmation |
+
+**How this draft was built**
+
+**1. State whether a decision was made. If not, say so**
+
+**2. Record options in the client's words**
+
+**3. Note dissent. Do not convert silence into agreement**
+
+**4. Assign owners only for actions the room accepted**
+
+**5. Park ideas that lost**
+
+**Deliberately not done**
+- Fake consensus.
+- Owners the room did not accept.
+- A novel of sticky notes.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Elena Voss by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

@@ -112,19 +112,47 @@ register search: not in the file
 
 **Whistleblower intake note**
 To: Elena Voss, operations lead, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Routes the allegation to an independent reviewer and refuses the retaliatory move.
 
-**From the file**
-- name: Lumen Ledger, word mark, no logo
-- goods: bookkeeping software for independent shops
-- already checked: lumenledger.com open on 12 Sep 2026
-- register search: not in the file
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Elena Voss by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| name | Lumen Ledger, word mark, no logo | Needs confirmation |
+| goods | bookkeeping software for independent shops | Carried into the draft |
+| already checked | lumenledger.com open on 12 Sep 2026 | Carried into the draft |
+| register search | not in the file | Needs confirmation |
+
+**How this draft was built**
+
+**1. Stabilize**  
+If someone may be in danger, tell the user to use local emergency services and their safety process. Do not investigate a crime scene yourself.
+
+**2. Record facts**  
+What was alleged, when it was received, and what is still unknown. Do not add motive.
+
+**3. Minimize data**  
+Include names only as needed to route the report. Do not build a dossier for curiosity.
+
+**4. No retaliation**  
+Remind the handler that punishing the reporter is not an option you will help with.
+
+**5. Route**  
+Follow the company's stated channel. If none exists, recommend an independent reviewer rather than the accused person's chain of command.
+
+**Deliberately not done**
+- Helping retaliate against a reporter.
+- A public accusation draft.
+- Investigating by collecting unrelated personal data.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Elena Voss by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

@@ -113,19 +113,47 @@ owner: the person who opened the change
 
 **Tech debt triage**
 To: Aisha Rahman, engineering lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Keeps the debt tied to launch risk, parks the rest, and makes the capacity trade explicit.
 
-**From the file**
-- branch: main, change not merged
-- tests listed: none
-- rollback: not written
-- owner: the person who opened the change
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Aisha Rahman by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| branch | main, change not merged | Needs confirmation |
+| tests listed | none | Carried into the draft |
+| rollback | not written | Carried into the draft |
+| owner | the person who opened the change | Needs confirmation |
+
+**How this draft was built**
+
+**1. Evidence**  
+Each item needs a cost: incidents, slow changes, or a named risk. Vague dislike is parked.
+
+**2. Rank**  
+User risk first, then change delay, then cosmetics.
+
+**3. Cut**  
+Choose a few items that fit the capacity. A debt program that consumes the quarter needs an explicit product trade.
+
+**4. Shape**  
+Paydown as slices inside product work where possible.
+
+**5. Owner**  
+One owner per chosen item.
+
+**Deliberately not done**
+- A debt list with no capacity cut.
+- Ranking by disgust.
+- A rewrite program with no product trade made explicit.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Aisha Rahman by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

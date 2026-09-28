@@ -29,15 +29,38 @@ Customer-facing rules: Kite Freight
 
 **Promotion review**
 To: Diane Cho, store lead, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Removes the crossed-out price and checks inventory before the banner runs.
 
-**From the file**
-- The offer terms: CAD 79, dates not set, cap not set
-- Inventory: 70 on hand
-- Customer-facing rules: Kite Freight
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Diane Cho by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The offer terms | CAD 79, dates not set, cap not set | Needs confirmation |
+| Inventory | 70 on hand | Carried into the draft |
+| Customer-facing rules | Kite Freight | Carried into the draft |
+
+**How this draft was built**
+
+**1. State the terms a shopper will see**
+
+**2. Check margin from their cost. If cost is missing, say so**
+
+**3. Confirm inventory can support the advertised depth**
+
+**4. No fake was-prices or fake end times**
+
+**5. Define the exception path for rain checks if they offer them**
+
+**Deliberately not done**
+- Fake was-prices.
+- Advertising stock they do not have.
+- Hidden exclusions.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Diane Cho by 30 September 2026. This is a draft, not a sign-off.

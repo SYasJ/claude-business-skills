@@ -30,16 +30,44 @@ new spend: not in the base case
 
 **Treasury policy brief**
 To: Mara Chen, founder, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A policy brief with an approval matrix, an exception path, and no request for credentials or product pitches.
 
-**From the file**
-- cash: the counted figure in the ask, one entity
-- maybe receipt: not in the bank
-- buffer: the one they named
-- new spend: not in the base case
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Mara Chen by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| cash | the counted figure in the ask, one entity | Needs confirmation |
+| maybe receipt | not in the bank | Carried into the draft |
+| buffer | the one they named | Carried into the draft |
+| new spend | not in the base case | Needs confirmation |
+
+**How this draft was built**
+
+**1. Write the purpose**  
+Safeguard cash, pay on time, and avoid surprises. Do not turn a small company policy into a bank manual.
+
+**2. Approval matrix**  
+Recommend they document who can approve which payment size. Use their current practice as the starting point and flag gaps.
+
+**3. Account rules**  
+Which accounts exist and why, in their description. Suggest fewer accounts if they described confusion, and explain why.
+
+**4. Surplus cash**  
+If they park cash, list policy questions: access, credit quality, and who decides. Do not recommend a product or a yield.
+
+**5. Exceptions**  
+How an emergency payment is approved and recorded the next day.
+
+**Deliberately not done**
+- A hedge fund investment policy for a company with one operating account.
+- Requesting banking credentials to 'set up the policy'.
+- Promising a return on surplus cash.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Mara Chen by 30 September 2026. This is a draft, not a sign-off.

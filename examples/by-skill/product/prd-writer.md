@@ -29,15 +29,43 @@ Open questions: A PRD draft lists 15 features and no user outcome
 
 **Prd**
 To: Jonah Park, product manager, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A rewritten PRD with one outcome, a small slice, testable acceptance, and the other features as non-goals.
 
-**From the file**
-- Proposed scope: this decision only
-- Constraints: no extra headcount, and no result that is not in this file
-- Open questions: A PRD draft lists 15 features and no user outcome
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Jonah Park by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| Proposed scope | this decision only | Needs confirmation |
+| Constraints | no extra headcount, and no result that is not in this file | Carried into the draft |
+| Open questions | A PRD draft lists 15 features and no user outcome | Carried into the draft |
+
+**How this draft was built**
+
+**1. Problem and outcome**  
+What will be true for the user if this ships. No outcome, no PRD.
+
+**2. Scope**  
+The smallest slice that tests the outcome. Cut the rest into non-goals.
+
+**3. Flows**  
+The main path and the important failure path. Do not specify every pixel unless the user asked for design detail.
+
+**4. Acceptance**  
+Observable signals that the slice works. 'Feels better' is not acceptance.
+
+**5. Analytics and risks**  
+What you will measure, and the risk you are accepting. Do not invent baseline numbers.
+
+**Deliberately not done**
+- A PRD that is only a solution.
+- Hidden non-goals.
+- Acceptance criteria nobody can test.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Jonah Park by 30 September 2026. This is a draft, not a sign-off.

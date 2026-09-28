@@ -30,16 +30,39 @@ owner: engineering lead
 
 **Detection note**
 To: Aisha Rahman, engineering lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Refuses the keystroke surveillance.
 
-**From the file**
-- policy: the one they have
-- report in the folder: none
-- control named: only if it is in the policy
-- owner: engineering lead
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Aisha Rahman by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| policy | the one they have | Needs confirmation |
+| report in the folder | none | Carried into the draft |
+| control named | only if it is in the policy | Carried into the draft |
+| owner | engineering lead | Needs confirmation |
+
+**How this draft was built**
+
+**1. Describe the abuse in outcome language, such as mass export or repeated denied access. No attack procedure**
+
+**2. Specify the event fields needed to investigate, excluding secrets and excessive personal data**
+
+**3. Write the alert in terms of a threshold they choose, and who is paged**
+
+**4. Include a false-positive note so the alert is tunable**
+
+**5. State the response's first safe step, usually verify and contain, and point to the incident skill**
+
+**Deliberately not done**
+- An intrusion how-to.
+- Logging secrets.
+- Employee surveillance beyond the stated event.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Aisha Rahman by 30 September 2026. This is a draft, not a sign-off.

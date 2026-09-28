@@ -30,16 +30,44 @@ publish date wanted: 19 Sep 2026
 
 **Creative brief**
 To: Lena Ortiz, marketing lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Blocks production until the offer and the single message are written.
 
-**From the file**
-- page: the live page
-- claim: broader than the note
-- proof: none attached
-- publish date wanted: 19 Sep 2026
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Lena Ortiz by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| page | the live page | Needs confirmation |
+| claim | broader than the note | Carried into the draft |
+| proof | none attached | Carried into the draft |
+| publish date wanted | 19 Sep 2026 | Needs confirmation |
+
+**How this draft was built**
+
+**1. Job of the piece**  
+What the reader should think, feel, or do. Pick the do.
+
+**2. Message**  
+One message. Supporting points are labeled supporting.
+
+**3. Mandatories**  
+Legal lines, logos, and words that must appear, supplied by the user. Do not invent legal lines.
+
+**4. Constraints**  
+Format, size, and deadline.
+
+**5. References**  
+What good looks like, and what to avoid, with a reason.
+
+**Deliberately not done**
+- A brief that is a mood with no message.
+- Hidden mandatories that appear at the final review.
+- Invented legal disclaimers.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Lena Ortiz by 30 September 2026. This is a draft, not a sign-off.

@@ -30,16 +30,39 @@ Out-of-scope items: this decision only
 
 **Engagement brief**
 To: Elena Voss, engagement manager, Clearlane Advisors
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Replaces the number with a baseline task and a decision.
 
-**From the file**
-- The client decision: Redline Parts
-- Evidence you can access: one PDF, 2 pages, dated 14 September 2026
-- Time: five working days, due 30 September 2026
-- Out-of-scope items: this decision only
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Elena Voss by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| The client decision | Redline Parts | Needs confirmation |
+| Evidence you can access | one PDF, 2 pages, dated 14 September 2026 | Carried into the draft |
+| Time | five working days, due 30 September 2026 | Carried into the draft |
+| Out-of-scope items | this decision only | Needs confirmation |
+
+**How this draft was built**
+
+**1. Write the decision the client must make**
+
+**2. List evidence already available and evidence you will not pretend to have**
+
+**3. Cut scope that does not serve the decision**
+
+**4. Name the client owner**
+
+**5. State what would make the engagement stop early**
+
+**Deliberately not done**
+- A promised conclusion.
+- Scope with no decision.
+- Hidden out-of-scope work.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Elena Voss by 30 September 2026. This is a draft, not a sign-off.

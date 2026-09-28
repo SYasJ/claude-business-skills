@@ -110,18 +110,41 @@ Whether the customer opted into contact: Kite Freight
 
 **Recovery follow-up**
 To: Rita Santos, support lead, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Refuses the review edit, asks about the cause, and stays inside authorized remedies.
 
-**From the file**
-- What the company can offer: CAD 180, dates not set, cap not set
-- The owner: Rita Santos, support lead
-- Whether the customer opted into contact: Kite Freight
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Rita Santos by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| What the company can offer | CAD 180, dates not set, cap not set | Needs confirmation |
+| The owner | Rita Santos, support lead | Carried into the draft |
+| Whether the customer opted into contact | Kite Freight | Carried into the draft |
+
+**How this draft was built**
+
+**1. Contact only if their process allows it. Do not help evade an opt-out**
+
+**2. Open with the specific issue if they wrote one. Do not be vague if the comment was specific**
+
+**3. Ask what done looks like**
+
+**4. Offer only remedies the user authorized**
+
+**5. Record the cause so the tenth similar score becomes a system fix**
+
+**Deliberately not done**
+- Changing a review for a perk.
+- Contacting someone who opted out.
+- An offer the team cannot honor.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Rita Santos by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

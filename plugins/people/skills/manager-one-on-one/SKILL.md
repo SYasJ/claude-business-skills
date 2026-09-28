@@ -113,19 +113,47 @@ growth topic: none written down
 
 **One-on-one guide**
 To: Chris Adeyemi, people lead, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Moves status out, puts the employee's agenda first, and caps manager actions at two.
 
-**From the file**
-- cadence: weekly, 30 minutes, Tuesday 10:00
-- status board: already updated daily
-- last meeting: 6 status questions, employee did not set the agenda
-- growth topic: none written down
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Chris Adeyemi by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| cadence | weekly, 30 minutes, Tuesday 10:00 | Needs confirmation |
+| status board | already updated daily | Carried into the draft |
+| last meeting | 6 status questions, employee did not set the agenda | Carried into the draft |
+| growth topic | none written down | Needs confirmation |
+
+**How this draft was built**
+
+**1. Purpose**  
+The employee's agenda first. Status belongs in the team channel unless it blocks them.
+
+**2. A small standing structure**  
+Wins, blockers, feedback both ways, and one growth question. Cut the rest.
+
+**3. Feedback**  
+Specific and recent. No saved-up surprise list.
+
+**4. Notes**  
+Shared notes the employee can see, unless a topic is confidential for a stated reason.
+
+**5. Skip-levels**  
+If asked, write questions that check the system, not questions that recruit complaints about a named peer.
+
+**Deliberately not done**
+- A 1:1 that is only a status update.
+- Secret notes used against someone later without process.
+- Fishing for gossip in a skip-level.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Chris Adeyemi by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

@@ -30,16 +30,44 @@ discount asked: 15 percent, not approved
 
 **Forecast call note**
 To: Samir Qureshi, account executive, Fieldnote
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 A forecast range, a clear gap to the hoped-for number, and two inspections, with no fake deals added to close the gap.
 
-**From the file**
-- account: Harbor Goods
-- last meeting: 9 Sep 2026, no dated next step
-- proof: one email
-- discount asked: 15 percent, not approved
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Samir Qureshi by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| account | Harbor Goods | Needs confirmation |
+| last meeting | 9 Sep 2026, no dated next step | Carried into the draft |
+| proof | one email | Carried into the draft |
+| discount asked | 15 percent, not approved | Needs confirmation |
+
+**How this draft was built**
+
+**1. Define categories**  
+Commit, best case, and pipeline, in the user's definitions. If they have none, propose simple evidence rules and label them as a proposal.
+
+**2. Test commit**  
+A commit needs a buyer process and a date the buyer influenced. Seller optimism is not commit.
+
+**3. Slippage**  
+If they historically slip, show a haircut as their own history, not as a punishment. Do not invent a history.
+
+**4. Range**  
+Give a range and the deals that swing it. A single number hides the risk.
+
+**5. Hope gap**  
+If leadership's target exceeds the evidence, say so plainly. Do not backfill fake deals.
+
+**Deliberately not done**
+- Sandbagging or inflating to please a room.
+- A single-point forecast with no swing deals.
+- Inventing historical win rates.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Samir Qureshi by 30 September 2026. This is a draft, not a sign-off.

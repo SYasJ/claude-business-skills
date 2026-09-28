@@ -30,16 +30,40 @@ alternate: none
 
 **Returns process**
 To: Diane Cho, supply lead, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Aligns the promise with inspection and keeps inventory records honest.
 
-**From the file**
-- sku: 1044
-- supplier: Redline Parts
-- lead time: their number
-- alternate: none
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Diane Cho by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| sku | 1044 | Needs confirmation |
+| supplier | Redline Parts | Carried into the draft |
+| lead time | their number | Carried into the draft |
+| alternate | none | Needs confirmation |
+
+**How this draft was built**
+
+**1. Capture a reason code that operations can act on**
+
+**2. Route disposition**  
+restock, repair, or scrap, based on their rules.
+
+**3. State the customer promise and the clock they can meet**
+
+**4. Separate a policy exception from the standard path**
+
+**5. Track fraud concerns as a control question, not as an accusation in the customer message**
+
+**Deliberately not done**
+- A promise they cannot meet.
+- Concealed returns.
+- Accusing a customer in the template.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Diane Cho by 30 September 2026. This is a draft, not a sign-off.

@@ -113,19 +113,43 @@ decision: needed
 
 **Project charter**
 To: Owen Blake, delivery lead, Harbor Goods
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Forces a binding constraint and writes the non-goals.
 
-**From the file**
-- milestone: the customer date
-- status: slipped
-- completed tasks: do not replace the slip
-- decision: needed
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Owen Blake by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| milestone | the customer date | Needs confirmation |
+| status | slipped | Carried into the draft |
+| completed tasks | do not replace the slip | Carried into the draft |
+| decision | needed | Needs confirmation |
+
+**How this draft was built**
+
+**1. Write the outcome as a change in the world, not as 'deliver the project'**
+
+**2. Name one sponsor who can resolve priority**
+
+**3. State the binding constraint**  
+date, cost, or scope. All three cannot be sacred.
+
+**4. List non-goals**
+
+**5. Record assumptions that would cancel the work if false**
+
+**Deliberately not done**
+- A charter with no sponsor.
+- All of scope, date, and cost marked fixed.
+- No non-goals.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Owen Blake by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 

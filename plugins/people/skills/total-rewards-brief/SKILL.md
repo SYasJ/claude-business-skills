@@ -112,18 +112,46 @@ Questions employees keep asking: Employees think the target bonus is guaranteed 
 
 **Total rewards brief**
 To: Chris Adeyemi, people lead, Northline Studio
-Date: 14 September 2026
+Date: 14 September 2026 · Needed by: 30 September 2026
 
 **Decision**
 Shows the target as variable, lists only real benefits, and sends tax questions to a qualified advisor.
 
-**From the file**
-- Components the company offers: CAD 120, dates not set, cap not set
-- What must not be promised: none written down beyond the ask
-- Questions employees keep asking: Employees think the target bonus is guaranteed because the offer conversation was casual
+**What the file supports**
 
-Nothing in this draft was added from outside that file.
-Next: Chris Adeyemi by 30 September 2026. This is not a sign-off.
+| Input | Value | Status |
+| --- | --- | --- |
+| Components the company offers | CAD 120, dates not set, cap not set | Needs confirmation |
+| What must not be promised | none written down beyond the ask | Carried into the draft |
+| Questions employees keep asking | Employees think the target bonus is guaranteed because the offer conversation was casual | Carried into the draft |
+
+**How this draft was built**
+
+**1. List real components**  
+Pay, variable, time off, and benefits they confirmed. Do not add perks from other companies.
+
+**2. Separate guaranteed from variable**  
+A bonus target is not a promise unless they say it is guaranteed.
+
+**3. Equity**  
+Describe it only to the extent they explained vesting and value. Do not invent a share price.
+
+**4. Plain language**  
+Write the explanation an employee can read without a glossary.
+
+**5. Questions**  
+Answer only what policy answers. The rest go to HR. Do not give tax advice on benefits.
+
+**Deliberately not done**
+- Implied guarantees.
+- Invented share prices.
+- Tax advice on benefits.
+
+**Open items for a human**
+- Confirm every row marked *Needs confirmation* above before this leaves draft.
+- Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
+
+Next: Chris Adeyemi by 30 September 2026. This is a draft, not a sign-off.
 
 ## Anti-patterns
 
