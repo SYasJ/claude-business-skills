@@ -31,7 +31,13 @@ Each installed skill adds its name and description to the agent's startup contex
 python3 scripts/install.py --tool claude --domain finance
 ```
 
-Do not install all 437 skills unless you have decided the context cost is worth it.
+Do not install all 601 skills unless you have decided the context cost is worth it.
+
+## Installing into other agent tools
+
+The installer writes plain `SKILL.md` files into whichever directory the target tool reads — `~/.hermes/skills/` for Hermes Agent, `~/.agents/skills/` for OpenClaw, a local `skills/` folder for LangChain Deep Agents, and so on. It copies files and nothing else, regardless of target.
+
+What that means for trust: the security properties above belong to this repository, not to the tool you install into. A skill cannot open a socket or read a credential on its own — it is Markdown. But the agent reading it can do whatever that agent is permitted to do. Review the skills you install, and give the host tool no more access than the work requires.
 
 ## Reporting a problem
 

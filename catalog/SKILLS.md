@@ -1,8 +1,14 @@
-# Practice Skills catalog
+# Skills catalog
 
-Author: Yasir Jilani. Version 1.0.0.
+Every skill in Claude Code Business Skills, grouped by domain. Author: Yasir Jilani. Version 1.0.0.
+
+[Repository](https://github.com/SYasJ/claude-business-skills) · [Website](https://syasj.github.io/claude-business-skills/) · [Examples](https://github.com/SYasJ/claude-business-skills/blob/main/examples/INDEX.md)
 
 Install a domain. Do not load every skill unless you mean to pay the description cost.
+
+```bash
+python3 scripts/install.py --tool claude --domain finance
+```
 
 ## Accounting
 

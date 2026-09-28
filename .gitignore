@@ -23,3 +23,6 @@ desktop.ini
 *.pid
 .env
 .env.local
+
+# Written by scripts/install.py at the repo root
+install-receipt.json

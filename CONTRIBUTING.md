@@ -88,6 +88,27 @@ The body is the procedure: when to use it, inputs, steps, and one example. The e
 
 Example data is the file a person would hand over. The outcome is the note they would send, not a sentence describing the note.
 
+## Writing an example by hand
+
+The generator writes an example for every skill from the `inputs`, `steps` and `anti` you supply. That is the default and it is fine for most skills.
+
+When a skill deserves a fuller example — real figures, a reconciliation that does not balance, a table a reader can check — add it to `source/scenario_bank.py` instead. A skill listed there overrides its generated example and survives the next `generate.py`:
+
+```python
+put(
+    "dock-photo-note",
+    "Record a dock photo against the PO line and the tally.",
+    "Scenario paragraph: who, where, what they need and by when.",
+    """```text
+PO 5521 ... the file a person would actually hand over
+```""",
+    """**Dock photo note**
+...the note they would send, with the 32 and the 8 visible...""",
+)
+```
+
+Use it for the skills a newcomer is most likely to open first. A hand-written example should show arithmetic, a table, or a refusal — something the generated version cannot.
+
 ## Collaboration example
 
 Priya has a dock photo. Sam keeps the catalog consistent. They are not both editing `plugins/`.

@@ -74,10 +74,15 @@ def destinations(tool, project):
         "cursor": project / ".cursor" / "skills",
         "windsurf": project / ".windsurf" / "skills",
         "opencode": project / ".opencode" / "skills",
-        # Generic agent-skills paths for tools that follow the ~/.agents/ convention
-        "continue": project / ".continue" / "skills",
-        "aider": home / ".aider" / "skills",
-        "kodu": project / ".kodu" / "skills",
+        # Hermes Agent reads ~/.hermes/skills as its source of truth.
+        "hermes": home / ".hermes" / "skills",
+        # OpenClaw discovers ~/.agents/skills and <workspace>/.agents/skills;
+        # these are aliases so the tool name in the command matches the docs.
+        "openclaw": home / ".agents" / "skills",
+        "openclaw-project": project / ".agents" / "skills",
+        # LangChain deepagents takes a directory of skill folders:
+        #   create_deep_agent(..., skills=["./skills/"])
+        "langchain": project / "skills",
     }
     if tool == "all":
         return mapping
@@ -148,7 +153,7 @@ def install(skills, dest, dry_run):
 
 def main():
     parser = argparse.ArgumentParser(description="Install Yasir Jilani Practice Skills locally.")
-    parser.add_argument("--tool", default="claude", help="claude, claude-project, codex, gemini, agents, project, cursor, windsurf, opencode, or all")
+    parser.add_argument("--tool", default="claude", help="claude, claude-project, codex, gemini, agents, project, cursor, windsurf, opencode, hermes, openclaw, openclaw-project, langchain, or all")
     parser.add_argument("--domain", action="append", default=[], help="Domain id to install. Repeatable. Default: none, so the full library is not installed by accident. Use --domain all to opt in.")
     parser.add_argument("--project", default=".", help="Project directory for project-scoped tools")
     parser.add_argument("--dry-run", action="store_true", help="Print the copy plan and write nothing")

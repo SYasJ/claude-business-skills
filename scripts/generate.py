@@ -44,6 +44,8 @@ DOMAIN_MODULES = [
 ]
 VERSION = "1.0.0"
 AUTHOR = "Yasir Jilani"
+REPOSITORY = "https://github.com/SYasJ/claude-business-skills"
+HOMEPAGE = "https://syasj.github.io/claude-business-skills/"
 LOCAL_TOOLS = {
     "cash-flow-forecast": (
         "A stdlib script is bundled at `scripts/cashflow_check.py`. "
@@ -151,6 +153,8 @@ def main():
             "description": domain["summary"],
             "author": {"name": AUTHOR},
             "license": "MIT",
+            "homepage": HOMEPAGE,
+            "repository": REPOSITORY,
             "keywords": domain.get("keywords", []),
         }
         write(domain_dir / ".claude-plugin" / "plugin.json", json.dumps(plugin, indent=2) + "\n")
@@ -268,11 +272,19 @@ def render_example_index(catalog):
 
 def render_catalog(packs, catalog):
     lines = [
-        "# Practice Skills catalog",
+        "# Skills catalog",
         "",
+        f"Every skill in Claude Code Business Skills, grouped by domain. "
         f"Author: {AUTHOR}. Version {VERSION}.",
         "",
+        f"[Repository]({REPOSITORY}) · [Website]({HOMEPAGE}) · "
+        f"[Examples]({REPOSITORY}/blob/main/examples/INDEX.md)",
+        "",
         "Install a domain. Do not load every skill unless you mean to pay the description cost.",
+        "",
+        "```bash",
+        "python3 scripts/install.py --tool claude --domain finance",
+        "```",
         "",
     ]
     by_domain = {}

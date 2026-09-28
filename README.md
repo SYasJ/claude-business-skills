@@ -108,12 +108,69 @@ not automatic reversal.
 | Codex CLI | `--tool codex` | `~/.codex/skills/` |
 | Windsurf | `--tool windsurf --project .` | `.windsurf/skills/` |
 | OpenCode | `--tool opencode --project .` | `.opencode/skills/` |
-| Continue.dev | `--tool continue --project .` | `.continue/skills/` |
-| Aider | `--tool aider` | `~/.aider/skills/` |
-| Kodu | `--tool kodu --project .` | `.kodu/skills/` |
+| Hermes Agent | `--tool hermes` | `~/.hermes/skills/` |
+| OpenClaw | `--tool openclaw` | `~/.agents/skills/` |
+| LangChain (deepagents) | `--tool langchain --project .` | `./skills/` |
 | Generic agents | `--tool agents` | `~/.agents/skills/` |
 
-**Hermes, Llama, Mistral, and other local models:** The Agent Skills format is model-agnostic — it is a plain Markdown file the host tool loads into context. If your local inference tool (Ollama, LM Studio, Jan) supports custom instructions or system prompts, paste the contents of any `SKILL.md` file directly into the system prompt. Use `--tool agents` to copy all skills to `~/.agents/skills/` for tools that read from that path.
+These skills follow the [Agent Skills](https://agentskills.io) open standard — a directory with a `SKILL.md` file and YAML frontmatter — so any tool implementing that spec can read them unchanged.
+
+### Hermes Agent
+
+Hermes reads `~/.hermes/skills/` as its source of truth and picks up new skills automatically:
+
+```bash
+python3 scripts/install.py --tool hermes --domain finance
+```
+
+Each skill then becomes available as a slash command. To load from somewhere else instead, add the path to `skills.external_dirs` in `~/.hermes/config.yaml`.
+
+### OpenClaw
+
+OpenClaw discovers skills from `~/.agents/skills` (personal) and `<workspace>/.agents/skills` (project), so either target works:
+
+```bash
+python3 scripts/install.py --tool openclaw --domain finance              # personal
+python3 scripts/install.py --tool openclaw-project --project . --domain finance
+```
+
+Project scope wins over personal when the same skill name appears in both.
+
+### LangChain — Deep Agents
+
+`deepagents` takes a list of directories, each containing skill folders:
+
+```bash
+pip install deepagents
+python3 scripts/install.py --tool langchain --project . --domain finance
+```
+
+```python
+from deepagents import create_deep_agent
+from deepagents.backends.filesystem import FilesystemBackend
+
+agent = create_deep_agent(
+    model="anthropic:claude-sonnet-4-6",
+    backend=FilesystemBackend(root_dir="."),
+    skills=["./skills/"],          # the directory the installer wrote to
+)
+
+result = agent.invoke({"messages": [
+    {"role": "user", "content": "Reconcile the August bank account"}
+]})
+```
+
+Deep Agents uses the same progressive disclosure as Claude Code: only each skill's name and description sit in the system prompt at startup, and the full body loads when a skill is invoked.
+
+### Any other model — Llama, Mistral, GPT, local inference
+
+The format is model-agnostic: a `SKILL.md` is plain Markdown. If your tool has no skills directory, paste the body of a `SKILL.md` into the system prompt, or concatenate several:
+
+```bash
+cat plugins/finance/skills/cash-flow-forecast/SKILL.md
+```
+
+This works with Ollama, LM Studio, Jan, or any API call that accepts a system prompt.
 
 ## Domains
 
