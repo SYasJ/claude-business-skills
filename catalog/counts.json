@@ -1,5 +1,5 @@
 {
-  "skills": 594,
+  "skills": 601,
   "domains": 48,
   "by_domain": {
     "strategy": 22,
@@ -26,7 +26,7 @@
     "real-estate": 5,
     "construction": 7,
     "entrepreneurship": 14,
-    "productivity": 8,
+    "productivity": 12,
     "library": 5,
     "consulting": 4,
     "nonprofit": 4,
@@ -41,7 +41,7 @@
     "retail": 11,
     "energy": 8,
     "transport": 3,
-    "creator": 43,
+    "creator": 46,
     "ai": 10,
     "blog": 8,
     "seo": 8,

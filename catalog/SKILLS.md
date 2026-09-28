@@ -155,6 +155,7 @@ Original workflows for influencers, YouTube, TikTok, Instagram, faceless channel
 | `faceless-publish-calendar` | publish calendar |
 | `faceless-source-check` | source check |
 | `faceless-visual-system` | visual system |
+| `graphic-brief` | design brief |
 | `image-prompt-spec` | image prompt |
 | `influencer-media-kit` | media kit outline |
 | `influencer-positioning` | positioning note |
@@ -168,6 +169,7 @@ Original workflows for influencers, YouTube, TikTok, Instagram, faceless channel
 | `prompt-brief` | prompt brief |
 | `prompt-library-card` | library card |
 | `prompt-revision` | revised prompt |
+| `short-story-draft` | short story |
 | `sponsorship-disclosure` | disclosure line |
 | `tiktok-analytics-note` | analytics note |
 | `tiktok-comment-reply` | reply set |
@@ -175,6 +177,7 @@ Original workflows for influencers, YouTube, TikTok, Instagram, faceless channel
 | `tiktok-series-plan` | series plan |
 | `tiktok-short-script` | short script |
 | `video-prompt-spec` | video prompt |
+| `video-storyboard` | video storyboard |
 | `voiceover-brief` | voice-over brief |
 | `voiceover-edit-notes` | edit notes |
 | `voiceover-read-script` | read script |
@@ -672,9 +675,13 @@ Personal and team operating habits that respect focus and do not surveil colleag
 | `decision-journal` | decision journal entry |
 | `deep-work-plan` | focus plan |
 | `email-triage` | email triage |
+| `excel-formula-help` | formula help |
 | `meeting-notes` | meeting notes |
 | `personal-okr` | personal objectives |
+| `presentation-structure` | presentation outline |
 | `readme-for-a-process` | process README |
+| `slide-deck-review` | slide review |
+| `spreadsheet-model-review` | spreadsheet review |
 | `weekly-review` | weekly review |
 | `writing-brief` | writing brief |
 

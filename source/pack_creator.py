@@ -437,5 +437,35 @@ anti: A cleaned-up jailbreak that still asks for the bypass; A prompt that repri
 example: A prompt says it writes YouTube titles, then adds a paragraph telling the model to ignore safety and copy a viral script verbatim.
 out: A check that deletes the ignore-safety paragraph and the verbatim copy, and keeps a title prompt only if the user's own video point remains.
 related: prompt-brief; skill-library-trust-review
+
+video-storyboard | Video Storyboard | video storyboard
+job: Write a shot-by-shot visual storyboard for a video, naming what is on screen, the motion, and the audio for each shot.
+triggers: storyboard; video storyboard; shot list; scene by scene video; visual script; shot breakdown
+inputs: The video topic and goal; The intended length; The narration or script if they have it; The style and on-screen text they want
+steps: Break the video into scenes and each scene into shots. One shot = one camera moment. || For each shot: describe what the viewer sees (on-screen elements, text overlays, B-roll), the motion (pan, zoom, static, transition), and the audio (VO line, music cue, silence). || Sync each shot to the narration or talking point it covers. A storyboard not tied to the VO cannot be edited. || Flag shots that require footage the creator does not have, and suggest an alternative (B-roll, screen recording, graphic). || Note the estimated duration per shot so the total stays in range. || Do not claim a shot is achievable if it requires licensed footage, a real person's likeness, or a location the creator has not mentioned.
+anti: A storyboard for someone else's footage; A shot list with no audio note; Timings that add up to more than the target length
+example: A creator wants a 60-second explainer video about compound interest with five scenes.
+out: A 6-shot storyboard: title card (3s), problem scene with animated coins (12s), formula graphic with VO (15s), growth chart B-roll (10s), three examples on screen (12s), CTA with subscribe text (8s). Each shot includes the VO line, on-screen text, and transition.
+related: youtube-video-outline; instagram-story-sequence; video-prompt-spec
+
+short-story-draft | Short Story Draft | short story
+job: Draft a short story with a clear arc — setup, tension, and a resolution that earns its ending.
+triggers: short story; write a story; fiction draft; story draft; creative story; write me a story
+inputs: The core situation or premise; The main character and what they want; The obstacle; Any tone or length constraints
+steps: Establish the character and the want in the first paragraph. A story that spends three paragraphs on setting before introducing a person loses the reader. || Introduce the obstacle in a way that raises the stakes. The obstacle must matter to the character. || Build tension through a decision the character must make. A story where things just happen to a passive character is not a story. || Write the resolution in proportion to the tension. A two-page climax earns a half-page ending. A short build does not earn a long reflection. || Use specific, concrete details. A 'small house in a suburb' is weaker than 'a three-room rental above a dry cleaner on Elbow Drive'. || Do not write violence against real named people, sexual content involving minors, or a story designed to harass an individual.
+anti: A passive main character who observes but never decides; A twist that contradicts established facts; Real people placed in harmful fictional situations
+example: A user wants a 500-word story about a chef who risks her restaurant to enter a competition.
+out: A 500-word draft that opens the day of the competition, builds on her doubt, and resolves on the one dish that lands — no dream sequence, no waking up.
+related: writing-brief; youtube-video-outline; blog-post-draft
+
+graphic-brief | Graphic Design Brief | design brief
+job: Write a visual design brief so a designer or image-generation tool has a complete spec before starting.
+triggers: graphic brief; design brief; visual brief; brief for a designer; image brief; illustration brief
+inputs: What the graphic is for (thumbnail, social post, report cover, ad); The message it must carry; The audience; Brand colors or reference images they can share; Size and format requirements
+steps: State the graphic's job in one sentence: what must the viewer understand or do. || Describe the subject, the hierarchy (what the eye hits first, second, third), and the mood. || List the required text on the image, exactly as it should appear. Do not paraphrase; the brief is a spec. || Name any brand constraints: color hex codes, fonts, or logos that must appear. || State the size, format, and where the image will be used, because a 1080x1080 Instagram post and a 16:9 YouTube thumbnail need different layouts. || What must not appear: a competitor's logo, a specific color associated with a rival, or a person's face if they have not consented.
+anti: A brief that says 'make it look good' with no reference point; Colors described as 'something blue'; Missing size and output format
+example: A creator needs a YouTube thumbnail for a video about saving $10,000 in a year.
+out: A brief: 1280x720px, text reads '$10,000 SAVED', bold white with black stroke, foreground is a piggy bank graphic on a bright green background, no face required, export as PNG, visual hierarchy: text first, graphic second.
+related: image-prompt-spec; youtube-title-thumbnail; presentation-structure
 """
 )]

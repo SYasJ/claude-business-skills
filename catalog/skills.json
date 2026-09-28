@@ -1312,6 +1312,24 @@
     "example_out": "A system that takes the readable-title lesson and replaces the copied layout with an original card."
   },
   {
+    "name": "graphic-brief",
+    "title": "Graphic Design Brief",
+    "domain": "creator",
+    "domain_title": "Creator, social, and prompting",
+    "summary": "Write a visual design brief so a designer or image-generation tool has a complete spec before starting.",
+    "artifact": "design brief",
+    "triggers": [
+      "graphic brief",
+      "design brief",
+      "visual brief",
+      "brief for a designer",
+      "image brief",
+      "illustration brief"
+    ],
+    "example": "A creator needs a YouTube thumbnail for a video about saving $10,000 in a year.",
+    "example_out": "A brief: 1280x720px, text reads '$10,000 SAVED', bold white with black stroke, foreground is a piggy bank graphic on a bright green background, no face required, export as PNG, visual hierarchy: text first, graphic second."
+  },
+  {
     "name": "image-prompt-spec",
     "title": "Image Prompt Spec",
     "domain": "creator",
@@ -1520,6 +1538,24 @@
     "example_out": "A revision that forbids invented counts and removes the obedience line."
   },
   {
+    "name": "short-story-draft",
+    "title": "Short Story Draft",
+    "domain": "creator",
+    "domain_title": "Creator, social, and prompting",
+    "summary": "Draft a short story with a clear arc \u2014 setup, tension, and a resolution that earns its ending.",
+    "artifact": "short story",
+    "triggers": [
+      "short story",
+      "write a story",
+      "fiction draft",
+      "story draft",
+      "creative story",
+      "write me a story"
+    ],
+    "example": "A user wants a 500-word story about a chef who risks her restaurant to enter a competition.",
+    "example_out": "A 500-word draft that opens the day of the competition, builds on her doubt, and resolves on the one dish that lands \u2014 no dream sequence, no waking up."
+  },
+  {
     "name": "sponsorship-disclosure",
     "title": "Sponsorship Disclosure",
     "domain": "creator",
@@ -1630,6 +1666,24 @@
     ],
     "example": "A prompt asks for a famous cartoon character to perform the user's joke in a 60-second ad.",
     "example_out": "A one-shot spec with an original character and a note that the cartoon likeness is not allowed."
+  },
+  {
+    "name": "video-storyboard",
+    "title": "Video Storyboard",
+    "domain": "creator",
+    "domain_title": "Creator, social, and prompting",
+    "summary": "Write a shot-by-shot visual storyboard for a video, naming what is on screen, the motion, and the audio for each shot.",
+    "artifact": "video storyboard",
+    "triggers": [
+      "storyboard",
+      "video storyboard",
+      "shot list",
+      "scene by scene video",
+      "visual script",
+      "shot breakdown"
+    ],
+    "example": "A creator wants a 60-second explainer video about compound interest with five scenes.",
+    "example_out": "A 6-shot storyboard: title card (3s), problem scene with animated coins (12s), formula graphic with VO (15s), growth chart B-roll (10s), three examples on screen (12s), CTA with subscribe text (8s). Each shot includes the VO line, on-screen text, and transition."
   },
   {
     "name": "voiceover-brief",
@@ -6898,6 +6952,25 @@
     "example_out": "A triage that answers the blocked customer first and files the newsletters."
   },
   {
+    "name": "excel-formula-help",
+    "title": "Excel and Sheets Formula Help",
+    "domain": "productivity",
+    "domain_title": "Productivity",
+    "summary": "Write or fix a spreadsheet formula that solves the calculation the user described, with a plain-English explanation.",
+    "artifact": "formula help",
+    "triggers": [
+      "excel formula",
+      "sheets formula",
+      "how do I formula",
+      "VLOOKUP",
+      "INDEX MATCH",
+      "SUMIF",
+      "formula help spreadsheet"
+    ],
+    "example": "A user wants to look up a price from a table and cannot remember whether to use VLOOKUP or INDEX MATCH.",
+    "example_out": "Both formulas with the user's column letters, a plain explanation of when each breaks, and a test case."
+  },
+  {
     "name": "meeting-notes",
     "title": "Meeting Notes",
     "domain": "productivity",
@@ -6930,6 +7003,23 @@
     "example_out": "A smaller set of objectives that fits the real week and names a review."
   },
   {
+    "name": "presentation-structure",
+    "title": "Presentation Structure",
+    "domain": "productivity",
+    "domain_title": "Productivity",
+    "summary": "Structure a presentation so the argument is clear and the audience knows what to do.",
+    "artifact": "presentation outline",
+    "triggers": [
+      "presentation structure",
+      "slide deck outline",
+      "how to structure my deck",
+      "presentation outline",
+      "PowerPoint structure"
+    ],
+    "example": "A 10-minute all-hands presentation has 22 slides and three asks.",
+    "example_out": "A restructured outline with 8 slides, one clear ask, and two minutes for questions."
+  },
+  {
     "name": "readme-for-a-process",
     "title": "Process README",
     "domain": "productivity",
@@ -6944,6 +7034,40 @@
     ],
     "example": "A README includes a personal access token so others can run a report.",
     "example_out": "A README that removes the token, names the secret store, and keeps the real steps."
+  },
+  {
+    "name": "slide-deck-review",
+    "title": "Slide Deck Review",
+    "domain": "productivity",
+    "domain_title": "Productivity",
+    "summary": "Review a slide deck for logical flow, unsupported claims, and slides that do not carry weight.",
+    "artifact": "slide review",
+    "triggers": [
+      "slide deck review",
+      "deck review",
+      "review my slides",
+      "PowerPoint review",
+      "presentation review"
+    ],
+    "example": "Slide 7 says 'customers love us' with no data and a smiley face.",
+    "example_out": "A note that proposes one customer quote or an NPS number, or removing the slide if neither exists."
+  },
+  {
+    "name": "spreadsheet-model-review",
+    "title": "Spreadsheet Model Review",
+    "domain": "productivity",
+    "domain_title": "Productivity",
+    "summary": "Review a spreadsheet model for structure, formula errors, and hard-coded values that should be inputs.",
+    "artifact": "spreadsheet review",
+    "triggers": [
+      "spreadsheet review",
+      "excel review",
+      "check my model",
+      "formula audit",
+      "spreadsheet audit"
+    ],
+    "example": "A budget model has revenue hard-coded in 47 cells, so changing the assumption means 47 edits.",
+    "example_out": "A review that identifies the 47 cells, proposes a single input cell with references, and lists the other structural risks."
   },
   {
     "name": "weekly-review",

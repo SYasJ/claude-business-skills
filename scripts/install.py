@@ -74,6 +74,10 @@ def destinations(tool, project):
         "cursor": project / ".cursor" / "skills",
         "windsurf": project / ".windsurf" / "skills",
         "opencode": project / ".opencode" / "skills",
+        # Generic agent-skills paths for tools that follow the ~/.agents/ convention
+        "continue": project / ".continue" / "skills",
+        "aider": home / ".aider" / "skills",
+        "kodu": project / ".kodu" / "skills",
     }
     if tool == "all":
         return mapping

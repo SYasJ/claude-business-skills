@@ -3,7 +3,7 @@
   "owner": {
     "name": "Yasir Jilani"
   },
-  "description": "Independent Agent Skills library by Yasir Jilani. 594 practice skills across 48 domains for Claude and other Agent Skills clients. Not affiliated with Anthropic. No telemetry, no remote installer, no license server.",
+  "description": "Independent Agent Skills library by Yasir Jilani. 601 practice skills across 48 domains for Claude and other Agent Skills clients. Not affiliated with Anthropic. No telemetry, no remote installer, no license server.",
   "plugins": [
     {
       "name": "strategy",

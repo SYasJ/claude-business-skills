@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="docs/assets/banner.svg" alt="594 Claude Code Agent Skills for business work across 48 domains" width="880">
+  <img src="docs/assets/banner.svg" alt="601 Claude Code Agent Skills for business work across 48 domains" width="880">
 </p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://github.com/SYasJ/claude-practice-skills/stargazers"><img src="https://img.shields.io/github/stars/SYasJ/claude-practice-skills?style=flat" alt="GitHub Stars"></a>
-  <a href="https://github.com/SYasJ/claude-practice-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/skills-594-brightgreen" alt="594 Skills"></a>
+  <a href="https://github.com/SYasJ/claude-practice-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/skills-601-brightgreen" alt="601 Skills"></a>
   <a href="https://github.com/SYasJ/claude-practice-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/domains-48-orange" alt="48 Domains"></a>
 </p>
 
 <h1 align="center">Claude Code Business Skills</h1>
 
-<p align="center"><strong>594 Agent Skills for real business work — finance, ops, engineering, HR, legal, and 43 more domains.<br>Install one command. Works in Claude Code, Cursor, Gemini CLI, Codex, and any Agent Skills–compatible tool.</strong></p>
+<p align="center"><strong>601 Agent Skills for real business work — finance, ops, engineering, HR, legal, and 43 more domains.<br>Install one command. Works in Claude Code, Cursor, Gemini CLI, Codex, and any Agent Skills–compatible tool.</strong></p>
 
 ---
 
@@ -101,7 +101,12 @@ not automatic reversal.
 | Codex CLI | `--tool codex` | `~/.codex/skills/` |
 | Windsurf | `--tool windsurf --project .` | `.windsurf/skills/` |
 | OpenCode | `--tool opencode --project .` | `.opencode/skills/` |
+| Continue.dev | `--tool continue --project .` | `.continue/skills/` |
+| Aider | `--tool aider` | `~/.aider/skills/` |
+| Kodu | `--tool kodu --project .` | `.kodu/skills/` |
 | Generic agents | `--tool agents` | `~/.agents/skills/` |
+
+**Hermes, Llama, Mistral, and other local models:** The Agent Skills format is model-agnostic — it is a plain Markdown file the host tool loads into context. If your local inference tool (Ollama, LM Studio, Jan) supports custom instructions or system prompts, paste the contents of any `SKILL.md` file directly into the system prompt. Use `--tool agents` to copy all skills to `~/.agents/skills/` for tools that read from that path.
 
 ## Domains
 
@@ -129,7 +134,7 @@ not automatic reversal.
 | Education | 12 | Lessons, rubrics, workshops, assessments |
 | Healthcare ops | 12 | Clinic flow and documentation quality |
 | Media | 12 | Assignments, source logs, headlines, corrections |
-| Creator | 43 | Video outlines, sponsorship, scripts, community |
+| Creator | 47 | Video outlines, storyboard, story writing, graphic briefs, scripts |
 | AI | 10 | Use cases, evals, review gates, cost control |
 | SEO | 8 | Query maps, intent, local listings, briefs |
 | Oil and gas | 8 | Production, nominations, site safety notes |
@@ -140,7 +145,8 @@ not automatic reversal.
 | Blog | 8 | Assignments, edits, titles, source checks |
 | Energy | 8 | Tariffs, bills, curtailment, isolation |
 | Retail | 11 | Promotions, listings, cart recovery, loyalty, planogram |
-| + 15 more | — | Agriculture, banking, construction, consulting… |
+| Productivity | 13 | Excel formulas, spreadsheet review, slide decks, presentations, focus |
+| + 14 more | — | Agriculture, banking, construction, consulting, hospitality… |
 
 Full list: [catalog/SKILLS.md](catalog/SKILLS.md)
 

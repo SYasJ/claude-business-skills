@@ -280,6 +280,46 @@ anti: Secrets in the README; Steps with no trigger; Superstition presented as re
 example: A README includes a personal access token so others can run a report.
 out: A README that removes the token, names the secret store, and keeps the real steps.
 related: sop-writer; documentation-as-code
+
+spreadsheet-model-review | Spreadsheet Model Review | spreadsheet review
+job: Review a spreadsheet model for structure, formula errors, and hard-coded values that should be inputs.
+triggers: spreadsheet review; excel review; check my model; formula audit; spreadsheet audit
+inputs: The file or a paste of the key formulas; The purpose of the model; Outputs that matter; Known errors or warnings
+steps: Start from the outputs. Check that they trace back to assumptions, not to manually typed numbers buried in cells. || Flag hard-coded values in formula cells. Those belong in an input section. || Identify circular references and error values. Name the cell and the formula, not just the problem. || Check cross-sheet references. A link to a renamed or moved sheet silently returns zero. || Review error-handling. Divisions that can return a zero denominator need an IFERROR or an IF guard. || Propose one structural change at a time. A model rebuilt all at once becomes untestable.
+anti: Rewriting the model structure without being asked; Guessing what a formula is supposed to do; Proposing a new tool when the spreadsheet works
+example: A budget model has revenue hard-coded in 47 cells, so changing the assumption means 47 edits.
+out: A review that identifies the 47 cells, proposes a single input cell with references, and lists the other structural risks.
+related: financial-model-review; unit-economics-model; data-quality-check
+
+excel-formula-help | Excel and Sheets Formula Help | formula help
+job: Write or fix a spreadsheet formula that solves the calculation the user described, with a plain-English explanation.
+triggers: excel formula; sheets formula; how do I formula; VLOOKUP; INDEX MATCH; SUMIF; formula help spreadsheet
+inputs: What the formula should return; The column and row structure they described; An example of the input and expected output if they have one
+steps: Confirm the structure: which column holds the lookup value, which holds the result, and whether the match is exact or approximate. || Write the formula with named ranges or column letters they described. Do not invent a structure they did not state. || Explain each argument in one sentence. If the formula has a bracket inside a bracket, explain it from the inside out. || Give a test case: this input should return this output. || Warn if the formula will break when rows are added or deleted, and say what to change. || Alternatives: offer a simpler formula if one exists. SUMIF over a helper column beats a nested IF chain.
+anti: Assuming a column layout they did not describe; Macros the user did not ask for; A formula without an explanation
+example: A user wants to look up a price from a table and cannot remember whether to use VLOOKUP or INDEX MATCH.
+out: Both formulas with the user's column letters, a plain explanation of when each breaks, and a test case.
+related: spreadsheet-model-review; data-quality-check; sql-review
+
+presentation-structure | Presentation Structure | presentation outline
+job: Structure a presentation so the argument is clear and the audience knows what to do.
+triggers: presentation structure; slide deck outline; how to structure my deck; presentation outline; PowerPoint structure
+inputs: The audience and their prior knowledge; The one thing they must leave knowing or doing; The available time; Any must-include sections
+steps: State the one decision or action the audience must take. A presentation with two asks usually gets neither. || Build the structure backward from that decision: what do they need to believe to take that action? || Sequence sections to remove the biggest objection first, not to tell the story in chronological order. || Name the sections by their claim, not their topic. 'Costs are under control' beats 'Financials'. || Limit to the time they have. Twelve minutes of material does not fit in eight. || Leave room for questions and do not plan a conclusion after time is up.
+anti: A structure that covers everything because it might come up; More slides than time allows; Section titles that are topics not arguments
+example: A 10-minute all-hands presentation has 22 slides and three asks.
+out: A restructured outline with 8 slides, one clear ask, and two minutes for questions.
+related: executive-one-pager; board-pack; writing-brief
+
+slide-deck-review | Slide Deck Review | slide review
+job: Review a slide deck for logical flow, unsupported claims, and slides that do not carry weight.
+triggers: slide deck review; deck review; review my slides; PowerPoint review; presentation review
+inputs: The deck content or a summary of each slide; The audience; The ask at the end; Any timing constraints
+steps: Check that every slide has one point. A slide with four bullet points often has no point. || Find the claim that is not supported. If a slide says 'fastest growing' it needs a source or a qualifier. || Identify slides that exist for the presenter, not the audience. Cut or move to an appendix. || Check the ask. The last slide should state what the audience does next and by when. || Flag slides that require the presenter to explain them. A slide that needs a verbal decoder should be rewritten. || Note the slide count against the time. A confident presenter can do one slide per two minutes. Rushing signals unresolved structure.
+anti: Marking slides as weak without saying what to change; Adding slides to fill gaps; Softening a false claim instead of removing it
+example: Slide 7 says 'customers love us' with no data and a smiley face.
+out: A note that proposes one customer quote or an NPS number, or removing the slide if neither exists.
+related: presentation-structure; marketing-claims-review; executive-one-pager
 """
 ))
 

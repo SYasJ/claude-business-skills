@@ -1,22 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Practice Skills by Yasir Jilani</title>
-  <desc id="desc">An independent library of 587 agent skills for business and professional practice.</desc>
-  <rect width="1200" height="420" fill="#0c1c2e"/>
-  <rect x="0" y="0" width="14" height="420" fill="#c4a46b"/>
-  <circle cx="1040" cy="78" r="120" fill="#14344c"/>
-  <circle cx="980" cy="150" r="46" fill="none" stroke="#c4a46b" stroke-width="2"/>
-  <path d="M80 92h180" stroke="#c4a46b" stroke-width="2"/>
-  <text x="80" y="78" fill="#c4a46b" font-family="Georgia, Palatino, serif" font-size="18" letter-spacing="3">YASIR JILANI</text>
-  <text x="80" y="168" fill="#f6f1e7" font-family="Georgia, Palatino, serif" font-size="68">Practice Skills</text>
-  <text x="80" y="214" fill="#d7e4ea" font-family="Georgia, Palatino, serif" font-size="26">587 workflows for Claude and any Agent Skills client</text>
-  <text x="80" y="268" fill="#9fb3c0" font-family="Georgia, Palatino, sans-serif" font-size="18">Strategy, finance, delivery, clinic operations, the shop floor, and the work between.</text>
-  <g font-family="Georgia, sans-serif" font-size="15" fill="#f6f1e7">
-    <rect x="80" y="312" width="150" height="42" rx="21" fill="#1f7a72"/>
-    <text x="155" y="338" text-anchor="middle">48 domains</text>
-    <rect x="246" y="312" width="170" height="42" rx="21" fill="#14344c" stroke="#c4a46b"/>
-    <text x="331" y="338" text-anchor="middle">Install by domain</text>
-    <rect x="432" y="312" width="150" height="42" rx="21" fill="#14344c" stroke="#c4a46b"/>
-    <text x="507" y="338" text-anchor="middle">No telemetry</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Code Business Skills by Yasir Jilani</title>
+  <desc id="desc">601 Agent Skills for business work across 48 domains — finance, engineering, ops, HR, legal, retail, and more.</desc>
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2a"/>
+      <stop offset="100%" style="stop-color:#1a2f45"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38bdf8"/>
+      <stop offset="100%" style="stop-color:#818cf8"/>
+    </linearGradient>
+    <linearGradient id="pill1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.2"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- Subtle grid dots -->
+  <g opacity="0.06" fill="#94a3b8">
+    <circle cx="900" cy="40" r="1.5"/><circle cx="940" cy="40" r="1.5"/><circle cx="980" cy="40" r="1.5"/><circle cx="1020" cy="40" r="1.5"/><circle cx="1060" cy="40" r="1.5"/><circle cx="1100" cy="40" r="1.5"/><circle cx="1140" cy="40" r="1.5"/>
+    <circle cx="900" cy="80" r="1.5"/><circle cx="940" cy="80" r="1.5"/><circle cx="980" cy="80" r="1.5"/><circle cx="1020" cy="80" r="1.5"/><circle cx="1060" cy="80" r="1.5"/><circle cx="1100" cy="80" r="1.5"/><circle cx="1140" cy="80" r="1.5"/>
+    <circle cx="900" cy="120" r="1.5"/><circle cx="940" cy="120" r="1.5"/><circle cx="980" cy="120" r="1.5"/><circle cx="1020" cy="120" r="1.5"/><circle cx="1060" cy="120" r="1.5"/><circle cx="1100" cy="120" r="1.5"/><circle cx="1140" cy="120" r="1.5"/>
+    <circle cx="900" cy="160" r="1.5"/><circle cx="940" cy="160" r="1.5"/><circle cx="980" cy="160" r="1.5"/><circle cx="1020" cy="160" r="1.5"/><circle cx="1060" cy="160" r="1.5"/><circle cx="1100" cy="160" r="1.5"/><circle cx="1140" cy="160" r="1.5"/>
+    <circle cx="900" cy="200" r="1.5"/><circle cx="940" cy="200" r="1.5"/><circle cx="980" cy="200" r="1.5"/><circle cx="1020" cy="200" r="1.5"/><circle cx="1060" cy="200" r="1.5"/><circle cx="1100" cy="200" r="1.5"/><circle cx="1140" cy="200" r="1.5"/>
+    <circle cx="900" cy="240" r="1.5"/><circle cx="940" cy="240" r="1.5"/><circle cx="980" cy="240" r="1.5"/><circle cx="1020" cy="240" r="1.5"/><circle cx="1060" cy="240" r="1.5"/><circle cx="1100" cy="240" r="1.5"/><circle cx="1140" cy="240" r="1.5"/>
+    <circle cx="900" cy="280" r="1.5"/><circle cx="940" cy="280" r="1.5"/><circle cx="980" cy="280" r="1.5"/><circle cx="1020" cy="280" r="1.5"/><circle cx="1060" cy="280" r="1.5"/><circle cx="1100" cy="280" r="1.5"/><circle cx="1140" cy="280" r="1.5"/>
+    <circle cx="900" cy="320" r="1.5"/><circle cx="940" cy="320" r="1.5"/><circle cx="980" cy="320" r="1.5"/><circle cx="1020" cy="320" r="1.5"/><circle cx="1060" cy="320" r="1.5"/><circle cx="1100" cy="320" r="1.5"/><circle cx="1140" cy="320" r="1.5"/>
+    <circle cx="900" cy="360" r="1.5"/><circle cx="940" cy="360" r="1.5"/><circle cx="980" cy="360" r="1.5"/><circle cx="1020" cy="360" r="1.5"/><circle cx="1060" cy="360" r="1.5"/><circle cx="1100" cy="360" r="1.5"/><circle cx="1140" cy="360" r="1.5"/>
   </g>
-  <text x="80" y="392" fill="#8aa0ad" font-family="Georgia, sans-serif" font-size="14">Independent library. Not affiliated with Anthropic. MIT License.</text>
+
+  <!-- Glowing accent line at top -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accent)" opacity="0.8"/>
+
+  <!-- Left accent bar -->
+  <rect x="60" y="60" width="4" height="280" rx="2" fill="url(#accent)"/>
+
+  <!-- Author tag -->
+  <text x="80" y="88" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" letter-spacing="2" font-weight="500">YASIR JILANI</text>
+
+  <!-- Main title -->
+  <text x="80" y="160" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="62" font-weight="700" letter-spacing="-1">Claude Code</text>
+  <text x="80" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="62" font-weight="700" letter-spacing="-1">
+    <tspan fill="url(#accent)">Business Skills</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="262" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">601 Agent Skills · 48 domains · finance, engineering, ops, HR, legal, retail and more</text>
+
+  <!-- Stat pills -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="500">
+    <!-- pill 1: 601 skills -->
+    <rect x="80" y="295" width="120" height="38" rx="19" fill="url(#pill1)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="140" y="319" text-anchor="middle" fill="#7dd3fc">601 skills</text>
+
+    <!-- pill 2: 48 domains -->
+    <rect x="212" y="295" width="130" height="38" rx="19" fill="url(#pill1)" stroke="#818cf8" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="277" y="319" text-anchor="middle" fill="#a5b4fc">48 domains</text>
+
+    <!-- pill 3: MIT -->
+    <rect x="354" y="295" width="100" height="38" rx="19" fill="url(#pill1)" stroke="#34d399" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="404" y="319" text-anchor="middle" fill="#6ee7b7">MIT License</text>
+
+    <!-- pill 4: no telemetry -->
+    <rect x="466" y="295" width="130" height="38" rx="19" fill="url(#pill1)" stroke="#f472b6" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="531" y="319" text-anchor="middle" fill="#f9a8d4">No telemetry</text>
+  </g>
+
+  <!-- Footnote -->
+  <text x="80" y="372" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">Independent library · Not affiliated with Anthropic · Works in Claude Code, Cursor, Gemini CLI, Codex, and more</text>
+
+  <!-- Right side: code preview card -->
+  <rect x="800" y="60" width="360" height="280" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <!-- Card top bar -->
+  <rect x="800" y="60" width="360" height="36" rx="12" fill="#1e293b"/>
+  <rect x="800" y="84" width="360" height="12" fill="#1e293b"/>
+  <circle cx="823" cy="78" r="5" fill="#ef4444" opacity="0.7"/>
+  <circle cx="841" cy="78" r="5" fill="#f59e0b" opacity="0.7"/>
+  <circle cx="859" cy="78" r="5" fill="#22c55e" opacity="0.7"/>
+  <text x="896" y="82" fill="#475569" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">terminal</text>
+
+  <!-- Code lines -->
+  <text x="820" y="122" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5">
+    <tspan fill="#64748b">$</tspan><tspan fill="#94a3b8"> python3 scripts/install.py \</tspan>
+  </text>
+  <text x="820" y="142" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5">
+    <tspan fill="#64748b">  </tspan><tspan fill="#38bdf8">--tool</tspan><tspan fill="#94a3b8"> claude </tspan><tspan fill="#38bdf8">--domain</tspan><tspan fill="#f9a8d4"> finance</tspan>
+  </text>
+  <text x="820" y="170" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#22c55e">  ✓ Copying 23 skills to ~/.claude/skills/</text>
+  <text x="820" y="190" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#22c55e">  ✓ Manifest verified</text>
+  <text x="820" y="210" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#22c55e">  ✓ Done — no network calls made</text>
+
+  <line x1="820" y1="226" x2="1144" y2="226" stroke="#1e293b" stroke-width="1"/>
+
+  <text x="820" y="248" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5">
+    <tspan fill="#64748b">You:</tspan><tspan fill="#e2e8f0"> reconcile the August bank account</tspan>
+  </text>
+  <text x="820" y="268" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5">
+    <tspan fill="#38bdf8">Claude:</tspan><tspan fill="#94a3b8"> [bank-reconciliation skill loaded]</tspan>
+  </text>
+  <text x="820" y="288" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5">
+    <tspan fill="#64748b">  </tspan><tspan fill="#e2e8f0">Unexplained gap: </tspan><tspan fill="#f87171">$400</tspan><tspan fill="#94a3b8"> — no plug</tspan>
+  </text>
+  <text x="820" y="308" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5">
+    <tspan fill="#64748b">  </tspan><tspan fill="#e2e8f0">3 old DITs flagged for decision</tspan>
+  </text>
+  <text x="820" y="328" font-family="'SF Mono', 'Fira Code', monospace" font-size="12.5" fill="#fbbf24">  ⚠ Reviewer signature missing</tspan></text>
 </svg>
