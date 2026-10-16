@@ -92,9 +92,12 @@ jobs:
       - name: Install one domain into a scratch project
         run: python scripts/install.py --tool project --project . --domain retail
 
+      # Counted in Python rather than with `find`: on Windows runners the
+      # bash shell resolves `find` to C:\Windows\System32\find.exe, which
+      # takes different arguments and exits non-zero.
       - name: Confirm the skills landed
-        shell: bash
-        run: |
-          count=$(find .agents/skills -name SKILL.md | wc -l)
-          echo "installed $count skills"
-          test "$count" -gt 0
+        run: >
+          python -c "import pathlib,sys;
+          n=len(list(pathlib.Path('.agents/skills').rglob('SKILL.md')));
+          print(f'installed {n} skills');
+          sys.exit(0 if n else 1)"
