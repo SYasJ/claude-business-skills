@@ -43,3 +43,11 @@ only-include = ["plugins", "scripts", "catalog"]
 [tool.hatch.build.targets.sdist]
 include = ["plugins", "scripts", "source", "catalog", "examples", "tests",
            "MANIFEST.sha256", "README.md", "LICENSE", "CONTRIBUTING.md", "SECURITY.md"]
+
+[tool.coverage.run]
+# The generator, validator and installer tests run the scripts as subprocesses; measure those too.
+source = ["scripts"]
+patch = ["subprocess"]
+
+[tool.coverage.report]
+skip_empty = true

@@ -5,7 +5,11 @@
 <p align="center">
   <a href="https://github.com/SYasJ/claude-business-skills/actions/workflows/ci.yml"><img src="https://github.com/SYasJ/claude-business-skills/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://www.repo-grade.com/report/syasj/claude-business-skills"><img src="https://www.repo-grade.com/api/badge/syasj/claude-business-skills?v=2" alt="RepoGrade"></a>
+  <a href="https://codecov.io/gh/SYasJ/claude-business-skills"><img src="https://codecov.io/gh/SYasJ/claude-business-skills/branch/main/graph/badge.svg" alt="Coverage"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
+  <a href="pyproject.toml"><img src="https://img.shields.io/badge/python-3.9%2B-3776ab?logo=python&amp;logoColor=white" alt="Python 3.9+"></a>
+  <a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json" alt="Ruff"></a>
+  <a href="https://github.com/SYasJ/claude-business-skills/commits/main"><img src="https://img.shields.io/github/last-commit/SYasJ/claude-business-skills" alt="Last commit"></a>
   <a href="https://github.com/SYasJ/claude-business-skills/stargazers"><img src="https://img.shields.io/github/stars/SYasJ/claude-business-skills?style=flat" alt="GitHub Stars"></a>
   <a href="https://github.com/SYasJ/claude-business-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/skills-601-brightgreen" alt="601 Skills"></a>
   <a href="https://github.com/SYasJ/claude-business-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/domains-48-orange" alt="48 Domains"></a>
