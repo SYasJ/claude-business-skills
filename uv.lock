@@ -9,7 +9,7 @@ resolution-markers = [
 [[package]]
 name = "claude-business-skills"
 version = "1.0.0"
-source = { virtual = "." }
+source = { editable = "." }
 
 [package.optional-dependencies]
 dev = [

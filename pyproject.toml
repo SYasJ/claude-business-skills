@@ -1,3 +1,7 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "claude-business-skills"
 version = "1.0.0"
@@ -31,3 +35,11 @@ Issues = "https://github.com/SYasJ/claude-business-skills/issues"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+
+[tool.hatch.build.targets.wheel]
+# The distributable content is the skill tree and the scripts that install it.
+only-include = ["plugins", "scripts", "catalog"]
+
+[tool.hatch.build.targets.sdist]
+include = ["plugins", "scripts", "source", "catalog", "examples", "tests",
+           "MANIFEST.sha256", "README.md", "LICENSE", "CONTRIBUTING.md", "SECURITY.md"]
