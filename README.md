@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/SYasJ/claude-business-skills/actions/workflows/ci.yml"><img src="https://github.com/SYasJ/claude-business-skills/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://www.repo-grade.com/report/syasj/claude-business-skills"><img src="https://www.repo-grade.com/api/badge/syasj/claude-business-skills" alt="RepoGrade"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://github.com/SYasJ/claude-business-skills/stargazers"><img src="https://img.shields.io/github/stars/SYasJ/claude-business-skills?style=flat" alt="GitHub Stars"></a>
   <a href="https://github.com/SYasJ/claude-business-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/skills-601-brightgreen" alt="601 Skills"></a>
