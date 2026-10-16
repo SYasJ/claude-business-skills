@@ -1,18 +1,21 @@
 from load_cards import parse_cards
 
+
 def pack(domain, text):
     return {"domain": domain, "skills": parse_cards(text)}
 
+
 PACKS = []
 
-PACKS.append(pack(
-    {
-        "id": "sales",
-        "title": "Sales",
-        "summary": "Discovery, qualification, proposals, and pipeline hygiene for honest selling.",
-        "keywords": ["sales", "pipeline", "discovery", "proposal", "negotiation"],
-    },
-    r'''
+PACKS.append(
+    pack(
+        {
+            "id": "sales",
+            "title": "Sales",
+            "summary": "Discovery, qualification, proposals, and pipeline hygiene for honest selling.",
+            "keywords": ["sales", "pipeline", "discovery", "proposal", "negotiation"],
+        },
+        r"""
 == discovery-call | Discovery Call ==
 job: Plan and review a discovery call that uncovers the buyer's problem, timing, and authority without pitching over them.
 artifact: discovery call plan or review
@@ -612,5 +615,6 @@ example_out: A note that conditions any approval on a delivery estimate and name
 related:
   - pricing-negotiation
   - proposal-writer
-'''
-))
+""",
+    )
+)

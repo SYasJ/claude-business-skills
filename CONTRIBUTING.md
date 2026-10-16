@@ -123,6 +123,40 @@ Priya has a dock photo. Sam keeps the catalog consistent. They are not both edit
 python3 scripts/install.py --tool claude --domain supply-chain --dry-run
 ```
 
+## Running the tests
+
+The repo has a pytest suite covering manifest integrity, skill format, catalog
+consistency, and the installer. CI runs it on Python 3.9, 3.11 and 3.13, plus an
+installer smoke test on Linux, macOS and Windows.
+
+```bash
+pip install pytest ruff
+python3 -m pytest tests/ -v
+ruff check .
+ruff format --check .
+```
+
+Before opening a PR, make sure these pass:
+
+```bash
+python3 scripts/generate.py   # rebuild plugins/ from source/
+python3 scripts/validate.py   # format and safety checks
+python3 -m pytest tests/      # the suite
+```
+
+CI fails the build if `generate.py` produces anything you have not committed, so
+always commit the generated files alongside your `source/` change.
+
+What the suite protects:
+
+| Test file | Catches |
+| --- | --- |
+| `test_manifest.py` | A `MANIFEST.sha256` entry that is stale or has the wrong hash. The installer verifies the manifest first, so drift here breaks installs on a clean clone. |
+| `test_skills.py` | Frontmatter missing a field, a name that does not match its folder, angle brackets that break YAML, a skill with no example, credential-asking or jailbreak language. |
+| `test_catalog.py` | Catalog counts, `skills.json`, every `plugin.json`, and the marketplace drifting from what is on disk. |
+| `test_installer.py` | Unsafe install destinations, a broken tool target, and a real install into a temp tree. |
+| `test_generator.py` | Generated files that were not regenerated, and `related` pointers at skills that no longer exist. |
+
 ## Do not add
 
 - Network calls, telemetry, license checks, or a `curl | sh` installer

@@ -2,9 +2,15 @@ from dense import pack
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "supply-chain", "title": "Supply chain", "summary": "Demand, inventory, suppliers, and shortages using the user's own lead times.", "keywords": ["supply-chain", "inventory", "suppliers", "logistics", "demand"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "supply-chain",
+            "title": "Supply chain",
+            "summary": "Demand, inventory, suppliers, and shortages using the user's own lead times.",
+            "keywords": ["supply-chain", "inventory", "suppliers", "logistics", "demand"],
+        },
+        """
 demand-plan-review | Demand Plan Review | demand plan review
 job: Review a demand plan for bias, assumptions, and the one driver that would change supply.
 triggers: demand plan; forecast review; demand review; S&OP demand
@@ -114,12 +120,19 @@ anti: An invented duty rate; A unit cost that ignores freight; A comparison that
 example: A cheaper invoice price is recommended, and nobody added international freight.
 out: A note that holds the recommendation until freight is included or explicitly unknown.
 related: pricing-margin-bridge; supplier-scorecard
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "manufacturing", "title": "Manufacturing and quality", "summary": "Quality, production, and shop-floor routines. Do not bypass a safety or hold step.", "keywords": ["manufacturing", "quality", "production", "capa", "safety"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "manufacturing",
+            "title": "Manufacturing and quality",
+            "summary": "Quality, production, and shop-floor routines. Do not bypass a safety or hold step.",
+            "keywords": ["manufacturing", "quality", "production", "capa", "safety"],
+        },
+        """
 quality-control-plan | Quality Control Plan | control plan
 job: Draft a control plan for a process step: what is checked, how often, and what happens on a fail.
 triggers: control plan; quality plan; inspection plan; process control plan
@@ -259,5 +272,6 @@ anti: A fraud accusation with no evidence; Invented shipment history; A request 
 example: A note calls the supplier negligent and does not describe the defect.
 out: A note that describes the defect, requests containment by a date, and removes the insult.
 related: supplier-scorecard; capa-plan
-"""
-))
+""",
+    )
+)

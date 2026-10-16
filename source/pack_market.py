@@ -1,16 +1,19 @@
 from load_cards import parse_cards
 
+
 def pack(domain, text):
     return {"domain": domain, "skills": parse_cards(text)}
 
-PACKS = [pack(
-    {
-        "id": "marketing",
-        "title": "Marketing",
-        "summary": "Positioning, campaigns, content, and claims that a company can actually support.",
-        "keywords": ["marketing", "brand", "content", "campaign", "positioning"],
-    },
-    r'''
+
+PACKS = [
+    pack(
+        {
+            "id": "marketing",
+            "title": "Marketing",
+            "summary": "Positioning, campaigns, content, and claims that a company can actually support.",
+            "keywords": ["marketing", "brand", "content", "campaign", "positioning"],
+        },
+        r"""
 == positioning-statement | Positioning Statement ==
 job: Write a positioning statement that names the buyer, the alternative, and the difference you can prove.
 artifact: positioning statement
@@ -730,5 +733,6 @@ example_out: A review that rejects the announcement, restates the missing buyer 
 related:
   - positioning-statement
   - corporate-narrative
-'''
-)]
+""",
+    )
+]

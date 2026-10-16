@@ -1,16 +1,19 @@
 from load_cards import parse_cards
 
+
 def pack(domain, text):
     return {"domain": domain, "skills": parse_cards(text)}
 
-PACKS = [pack(
-    {
-        "id": "product",
-        "title": "Product",
-        "summary": "Discovery, requirements, prioritization, and launch decisions for product teams.",
-        "keywords": ["product", "prd", "roadmap", "discovery", "prioritization"],
-    },
-    r'''
+
+PACKS = [
+    pack(
+        {
+            "id": "product",
+            "title": "Product",
+            "summary": "Discovery, requirements, prioritization, and launch decisions for product teams.",
+            "keywords": ["product", "prd", "roadmap", "discovery", "prioritization"],
+        },
+        r"""
 == product-brief | Product Brief ==
 job: Write a product brief that frames the problem, the user, and the bet before anyone argues about features.
 artifact: product brief
@@ -610,5 +613,6 @@ example_out: An outcome roadmap that keeps one staffed bet, parks the rest, and 
 related:
   - roadmap-narrative
   - portfolio-prioritization
-'''
-)]
+""",
+    )
+]

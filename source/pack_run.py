@@ -2,9 +2,15 @@ from dense import pack
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "operations", "title": "Operations", "summary": "SOPs, capacity, service levels, and the weekly operating system.", "keywords": ["operations", "sop", "capacity", "sla", "process"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "operations",
+            "title": "Operations",
+            "summary": "SOPs, capacity, service levels, and the weekly operating system.",
+            "keywords": ["operations", "sop", "capacity", "sla", "process"],
+        },
+        """
 sop-writer | SOP Writer | standard operating procedure
 job: Write a standard operating procedure a new person can run, with the stop conditions included.
 triggers: write an SOP; standard operating procedure; document this process; operating procedure
@@ -164,12 +170,19 @@ anti: Claiming a recovery time that was never tested; Ignoring a dependency; An 
 example: A team claims a four-hour recovery and has never failed over the identity provider.
 out: A brief that downgrades the claim to untested and names the identity dependency.
 related: business-continuity; backup-and-restore-test
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "delivery", "title": "Project delivery", "summary": "Charters, plans, risks, and status that tell the truth about commitments.", "keywords": ["project", "delivery", "sprint", "risk", "status"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "delivery",
+            "title": "Project delivery",
+            "summary": "Charters, plans, risks, and status that tell the truth about commitments.",
+            "keywords": ["project", "delivery", "sprint", "risk", "status"],
+        },
+        """
 project-charter | Project Charter | project charter
 job: Write a project charter that names the outcome, the sponsor, the constraint, and what is out of scope.
 triggers: project charter; initiate a project; project brief; charter draft
@@ -310,5 +323,6 @@ anti: Unowned arrows; Unconfirmed dates drawn as promises; A map that includes e
 example: A Gantt chart shows a vendor delivery with no named vendor owner.
 out: A map that marks the date unconfirmed and assigns an internal owner to chase it.
 related: milestone-plan; raid-log
-"""
-))
+""",
+    )
+)

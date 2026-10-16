@@ -82,14 +82,18 @@ def main():
                 errors.append(f"{folder}: forbidden snippet {snippet}")
     if len(names) != len(set(names)):
         errors.append("duplicate skill folder names")
-    marketplace = json.loads((ROOT / ".claude-plugin" / "marketplace.json").read_text(encoding="utf-8"))
+    marketplace = json.loads(
+        (ROOT / ".claude-plugin" / "marketplace.json").read_text(encoding="utf-8")
+    )
     if marketplace.get("owner", {}).get("name") != "Yasir Jilani":
         errors.append("marketplace owner is not Yasir Jilani")
     for plugin in marketplace.get("plugins", []):
         if not (ROOT / plugin["source"]).is_dir():
             errors.append(f"marketplace source missing {plugin['source']}")
     code_files = list((ROOT / "plugins").glob("*/skills/*/scripts/*.py"))
-    code_files.extend(path for path in (ROOT / "scripts").glob("*.py") if path.name != "validate.py")
+    code_files.extend(
+        path for path in (ROOT / "scripts").glob("*.py") if path.name != "validate.py"
+    )
     for script in code_files:
         source = script.read_text(encoding="utf-8").lower()
         for snippet in CODE_RED_FLAGS:

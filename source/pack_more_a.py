@@ -3,9 +3,15 @@ from scenario_bank import put
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "ai", "title": "AI in the business", "summary": "Use-case, eval, cost, and review gates for AI work. No invented scores and no weakened safety rules.", "keywords": ["ai", "llm", "eval", "rag", "automation"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "ai",
+            "title": "AI in the business",
+            "summary": "Use-case, eval, cost, and review gates for AI work. No invented scores and no weakened safety rules.",
+            "keywords": ["ai", "llm", "eval", "rag", "automation"],
+        },
+        """
 ai-use-case | AI Use Case | use-case note
 job: Decide whether a task should use a model, who owns the failure, and what stays manual.
 triggers: AI use case; should we use a model; automation brief; AI opportunity
@@ -105,8 +111,9 @@ anti: An agent that sends or pays alone; Hidden tools; A task of 'help the team'
 example: An agent spec lets the bot email the customer and issue a credit.
 out: A card that allows a draft and requires a person to send or credit.
 related: ai-review-gate; prompt-boundary-check
-"""
-))
+""",
+    )
+)
 
 put(
     "ai-use-case",

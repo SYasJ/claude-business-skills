@@ -2,9 +2,15 @@ from dense import pack
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "data", "title": "Data and analytics", "summary": "Metric definitions, analysis plans, and decision memos grounded in the user's data.", "keywords": ["analytics", "metrics", "sql", "experiments", "data-quality"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "data",
+            "title": "Data and analytics",
+            "summary": "Metric definitions, analysis plans, and decision memos grounded in the user's data.",
+            "keywords": ["analytics", "metrics", "sql", "experiments", "data-quality"],
+        },
+        """
 metric-definition | Metric Definition | metric definition
 job: Define a metric so two teams would compute the same number from the same source.
 triggers: define a metric; metric definition; what does this KPI mean; single source of truth metric
@@ -154,12 +160,19 @@ anti: A precise population claim from a tiny sample; Invented themes; Identifyin
 example: An NPS of 80 from 11 self-selected responses is about to go on a board slide as proof of love.
 out: A note that blocks the board claim, states the bias, and limits the use of the score.
 related: engagement-survey-readout; feedback-synthesis
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "security", "title": "Security defense", "summary": "Defensive security requirements, reviews, and response coordination. No exploits, payloads, or bypasses.", "keywords": ["security", "defense", "access", "privacy", "incident"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "security",
+            "title": "Security defense",
+            "summary": "Defensive security requirements, reviews, and response coordination. No exploits, payloads, or bypasses.",
+            "keywords": ["security", "defense", "access", "privacy", "incident"],
+        },
+        """
 security-requirements | Security Requirements | security requirements
 job: Write defensive security requirements for a feature so engineering can build controls without exploit instructions.
 triggers: security requirements; secure design requirements; what security does this need; abuse cases to defend
@@ -322,5 +335,6 @@ anti: A fake scan result; Invented components; Secrets printed in the note
 example: A release is built on a laptop and nobody can list the dependencies.
 out: A note that makes inventory and a repeatable build the first actions, with no invented component list.
 related: dependency-upgrade; open-source-license-review
-"""
-))
+""",
+    )
+)

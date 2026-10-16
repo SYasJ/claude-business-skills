@@ -119,35 +119,37 @@ def render_skill(record, domain):
         else:
             steps.append(f"### {index}. Step {index}\n\n{step}")
     related = record["related"][:4]
-    related_lines = bullets(
-        [f"`{name}`" for name in related]
-    ) if related else "- None in this domain yet. Use the skill finder if the task sits elsewhere."
+    related_lines = (
+        bullets([f"`{name}`" for name in related])
+        if related
+        else "- None in this domain yet. Use the skill finder if the task sits elsewhere."
+    )
     description = description_for(record, domain["title"])
     body = f"""---
-name: {record['name']}
+name: {record["name"]}
 description: {yaml_quote(description)}
 license: MIT
 compatibility: Agent Skills standard. No network access, extra packages, or credentials required.
 metadata:
   author: Yasir Jilani
   version: "1.0.0"
-  domain: {domain['id']}
+  domain: {domain["id"]}
 ---
 
 <!-- GENERATED FILE - edits here are overwritten by scripts/generate.py.
-     Edit the '{record['name']}' entry in source/, then run:
+     Edit the '{record["name"]}' entry in source/, then run:
        python3 scripts/generate.py && python3 scripts/validate.py
      See CONTRIBUTING.md. -->
 
-# {record['title']}
+# {record["title"]}
 
-{record['job']}
+{record["job"]}
 
 ## When to use this skill
 
 Use this skill when the user:
 
-{bullets(record['triggers'])}
+{bullets(record["triggers"])}
 
 ## When not to use this skill
 
@@ -168,7 +170,7 @@ Use this skill when the user:
 
 ## Inputs to collect
 
-{bullets(record['inputs'])}
+{bullets(record["inputs"])}
 
 ## Workflow
 
@@ -176,7 +178,7 @@ Use this skill when the user:
 
 ## Output
 
-Deliver a **{record['artifact']}**.
+Deliver a **{record["artifact"]}**.
 
 {output_outline(record)}
 
@@ -188,19 +190,19 @@ Deliver a **{record['artifact']}**.
 
 ### Scenario
 
-{record['worked']['scenario']}
+{record["worked"]["scenario"]}
 
 ### Example data
 
-{record['worked']['data']}
+{record["worked"]["data"]}
 
 ### Example outcome
 
-{record['worked']['outcome']}
+{record["worked"]["outcome"]}
 
 ## Anti-patterns
 
-{bullets(record['anti'])}
+{bullets(record["anti"])}
 
 ## Related skills
 

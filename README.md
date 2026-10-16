@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/SYasJ/claude-business-skills/actions/workflows/ci.yml"><img src="https://github.com/SYasJ/claude-business-skills/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://github.com/SYasJ/claude-business-skills/stargazers"><img src="https://img.shields.io/github/stars/SYasJ/claude-business-skills?style=flat" alt="GitHub Stars"></a>
   <a href="https://github.com/SYasJ/claude-business-skills/blob/main/catalog/SKILLS.md"><img src="https://img.shields.io/badge/skills-601-brightgreen" alt="601 Skills"></a>
@@ -291,6 +292,26 @@ source/                                          ← source for the generator
 `plugins/` is what you install. `source/` is what you edit if you want to add skills. Run `python3 scripts/generate.py` to rebuild `plugins/` from `source/`. You do not need to run the generator to install.
 
 Contributing, naming rules, and how to add a skill: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## Contributing
+
+Skills are generated from `source/`, not edited in `plugins/`. The full workflow,
+naming rules, and the quality bar for an example are in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+```bash
+pip install pytest ruff
+python3 -m pytest tests/      # manifest, skill format, catalog, installer
+ruff check .
+```
+
+CI runs the suite on Python 3.9/3.11/3.13 and smoke-tests the installer on Linux,
+macOS and Windows. It also fails if `scripts/generate.py` produces anything that
+is not committed.
+
+Looking for somewhere to start? The
+[good first issues](https://github.com/SYasJ/claude-business-skills/labels/good%20first%20issue)
+are each one missing skill in a thin domain, and domain knowledge counts for more
+than Python there.
 
 ## License
 

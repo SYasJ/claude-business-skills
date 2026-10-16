@@ -1,16 +1,19 @@
 from load_cards import parse_cards
 
+
 def pack(domain, text):
     return {"domain": domain, "skills": parse_cards(text)}
 
-PACKS = [pack(
-    {
-        "id": "engineering",
-        "title": "Engineering",
-        "summary": "Design, review, reliability, and delivery practices for software teams. Defensive and repository-honest.",
-        "keywords": ["engineering", "architecture", "review", "reliability", "delivery"],
-    },
-    r'''
+
+PACKS = [
+    pack(
+        {
+            "id": "engineering",
+            "title": "Engineering",
+            "summary": "Design, review, reliability, and delivery practices for software teams. Defensive and repository-honest.",
+            "keywords": ["engineering", "architecture", "review", "reliability", "delivery"],
+        },
+        r"""
 == technical-design-doc | Technical Design Doc ==
 job: Write a technical design that states the problem, the constraints, the chosen approach, and the rejected alternative.
 artifact: technical design doc
@@ -820,5 +823,6 @@ example_out: A doc that either uses the real path the user confirmed or marks th
 related:
   - runbook-writer
   - platform-readiness
-'''
-)]
+""",
+    )
+]

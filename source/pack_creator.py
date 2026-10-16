@@ -1,13 +1,22 @@
 from dense import pack
 
-PACKS = [pack(
-    {
-        "id": "creator",
-        "title": "Creator, social, and prompting",
-        "summary": "Original workflows for influencers, YouTube, TikTok, Instagram, faceless channels, voice-over, and prompting. No copied creators, fake metrics, or undisclosed ads.",
-        "keywords": ["creator", "youtube", "tiktok", "instagram", "influencer", "voiceover", "prompting"],
-    },
-    """
+PACKS = [
+    pack(
+        {
+            "id": "creator",
+            "title": "Creator, social, and prompting",
+            "summary": "Original workflows for influencers, YouTube, TikTok, Instagram, faceless channels, voice-over, and prompting. No copied creators, fake metrics, or undisclosed ads.",
+            "keywords": [
+                "creator",
+                "youtube",
+                "tiktok",
+                "instagram",
+                "influencer",
+                "voiceover",
+                "prompting",
+            ],
+        },
+        """
 influencer-positioning | Influencer Positioning | positioning note
 job: Position an influencer around one audience job and one proof point the creator can actually show.
 triggers: influencer positioning; personal brand; what should I be known for; creator niche
@@ -467,5 +476,6 @@ anti: A brief that says 'make it look good' with no reference point; Colors desc
 example: A creator needs a YouTube thumbnail for a video about saving $10,000 in a year.
 out: A brief: 1280x720px, text reads '$10,000 SAVED', bold white with black stroke, foreground is a piggy bank graphic on a bright green background, no face required, export as PNG, visual hierarchy: text first, graphic second.
 related: image-prompt-spec; youtube-title-thumbnail; presentation-structure
-"""
-)]
+""",
+    )
+]

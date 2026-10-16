@@ -2,9 +2,15 @@ from dense import pack
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "real-estate", "title": "Real estate", "summary": "Listings, leases, and due-diligence checklists. Not brokerage, appraisal, or legal advice.", "keywords": ["real-estate", "property", "lease", "due-diligence"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "real-estate",
+            "title": "Real estate",
+            "summary": "Listings, leases, and due-diligence checklists. Not brokerage, appraisal, or legal advice.",
+            "keywords": ["real-estate", "property", "lease", "due-diligence"],
+        },
+        """
 property-listing-brief | Property Listing Brief | listing brief
 job: Brief a property listing from facts the owner confirmed, with no invented features.
 triggers: listing brief; property description; write a listing; marketing a property
@@ -54,12 +60,19 @@ anti: Invented financing strength; A signature recommendation; Hidden contingenc
 example: One offer is higher but waives an inspection the seller has not disclosed defects for.
 out: A matrix that shows the inspection gap and leaves the signature to the principal and their professional.
 related: property-due-diligence; decision-log
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "construction", "title": "Construction", "summary": "Site reporting, changes, and safety talks. Do not skip a safety control or invent quantities.", "keywords": ["construction", "site", "safety", "change-order", "estimate"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "construction",
+            "title": "Construction",
+            "summary": "Site reporting, changes, and safety talks. Do not skip a safety control or invent quantities.",
+            "keywords": ["construction", "site", "safety", "change-order", "estimate"],
+        },
+        """
 site-daily-report | Site Daily Report | daily report
 job: Write a site daily report from observed work, weather, and safety notes, with no invented quantities.
 triggers: daily report; site diary; construction daily; superintendent report
@@ -130,12 +143,19 @@ anti: Hidden exclusions; Invented quantities; A log written to mislead
 example: An estimate assumes night work is included but the invitation excludes it.
 out: A log that records the conflict and refuses to hide the exclusion.
 related: change-order; proposal-writer
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "entrepreneurship", "title": "Entrepreneurship", "summary": "Offers, experiments, and founder operating reviews. Not a promise of funding.", "keywords": ["startup", "founder", "offer", "experiment", "traction"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "entrepreneurship",
+            "title": "Entrepreneurship",
+            "summary": "Offers, experiments, and founder operating reviews. Not a promise of funding.",
+            "keywords": ["startup", "founder", "offer", "experiment", "traction"],
+        },
+        """
 offer-hypothesis | Offer Hypothesis | offer hypothesis
 job: Frame a startup offer as a hypothesis with a buyer, a promise, and a test.
 triggers: offer hypothesis; startup offer; what are we selling; test the offer
@@ -195,12 +215,19 @@ anti: Hidden charges; Fake scarcity; Treating interest as payment
 example: A test shows a 50 percent discount timer that resets for every visitor.
 out: A test design that removes the fake timer and counts paid commitments only.
 related: pricing-packaging; marketing-experiment
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "productivity", "title": "Productivity", "summary": "Personal and team operating habits that respect focus and do not surveil colleagues.", "keywords": ["productivity", "planning", "meetings", "writing", "focus"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "productivity",
+            "title": "Productivity",
+            "summary": "Personal and team operating habits that respect focus and do not surveil colleagues.",
+            "keywords": ["productivity", "planning", "meetings", "writing", "focus"],
+        },
+        """
 weekly-review | Weekly Review | weekly review
 job: Run a weekly review that closes open loops and picks next week's outcomes.
 triggers: weekly review; plan my week; personal review; Friday review
@@ -320,12 +347,19 @@ anti: Marking slides as weak without saying what to change; Adding slides to fil
 example: Slide 7 says 'customers love us' with no data and a smiley face.
 out: A note that proposes one customer quote or an NPS number, or removing the slide if neither exists.
 related: presentation-structure; marketing-claims-review; executive-one-pager
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "library", "title": "Skill library", "summary": "Find, write, and trust skills in this library without weakening safety rules.", "keywords": ["skills", "library", "authoring", "trust", "install"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "library",
+            "title": "Skill library",
+            "summary": "Find, write, and trust skills in this library without weakening safety rules.",
+            "keywords": ["skills", "library", "authoring", "trust", "install"],
+        },
+        """
 skill-finder | Skill Finder | skill recommendation
 job: Recommend the smallest set of skills in this library for a task, and say what not to load.
 triggers: which skill; skill finder; what skill should I use; help me pick a workflow
@@ -376,5 +410,6 @@ anti: Enabling every domain for every role; A remote install command; Starter sk
 example: A finance analyst is told to enable engineering, healthcare, and security plugins on day one.
 out: A note that enables finance, names three starter skills, and leaves the other plugins off.
 related: skill-finder; install-and-update
-"""
-))
+""",
+    )
+)

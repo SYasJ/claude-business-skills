@@ -2,9 +2,15 @@ from dense import pack
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "healthcare", "title": "Healthcare practice operations", "summary": "Clinic operations, documentation quality, and patient communication drafts. Not medical advice or a treatment protocol.", "keywords": ["healthcare", "clinic", "operations", "documentation", "privacy"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "healthcare",
+            "title": "Healthcare practice operations",
+            "summary": "Clinic operations, documentation quality, and patient communication drafts. Not medical advice or a treatment protocol.",
+            "keywords": ["healthcare", "clinic", "operations", "documentation", "privacy"],
+        },
+        """
 clinic-schedule-design | Clinic Schedule Design | clinic schedule
 job: Design a clinic schedule around visit types and staffing, without pretending to triage medical urgency.
 triggers: clinic schedule; appointment template; provider schedule; clinic capacity
@@ -130,12 +136,19 @@ anti: Clinical advice in the ops checklist; No backup path; A camera angle that 
 example: A checklist has no plan for a dropped call and tells staff to improvise medical advice.
 out: A checklist with a callback path and a clear line that clinical content belongs to the clinician.
 related: patient-intake-sop; patient-communication
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "education", "title": "Education and training", "summary": "Lesson design, assessment, and facilitation for teachers and trainers. Not a service for cheating.", "keywords": ["education", "teaching", "assessment", "curriculum", "training"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "education",
+            "title": "Education and training",
+            "summary": "Lesson design, assessment, and facilitation for teachers and trainers. Not a service for cheating.",
+            "keywords": ["education", "teaching", "assessment", "curriculum", "training"],
+        },
+        """
 lesson-plan | Lesson Plan | lesson plan
 job: Plan a lesson from an objective, a practice task, and a check for understanding.
 triggers: lesson plan; plan a class; teaching plan; session plan
@@ -258,5 +271,6 @@ anti: A redesign from three responses; Identifying a respondent; Punishment from
 example: A leader wants to remove a trainer because one unnamed comment was harsh and the response rate was low.
 out: A readout that refuses the removal, states the sample limit, and proposes one evidence-based change.
 related: survey-analysis; lesson-plan
-"""
-))
+""",
+    )
+)

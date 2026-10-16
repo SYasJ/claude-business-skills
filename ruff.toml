@@ -1,0 +1,32 @@
+# Lint and format config for the build scripts and tests.
+# The published library is Markdown; this covers scripts/, source/ and tests/.
+
+target-version = "py39"
+line-length = 100
+
+include = ["scripts/**/*.py", "source/**/*.py", "tests/**/*.py"]
+exclude = ["__pycache__"]
+
+[lint]
+select = [
+  "E",    # pycodestyle errors
+  "F",    # pyflakes
+  "I",    # import sorting
+  "UP",   # pyupgrade
+  "B",    # bugbear
+  "SIM",  # simplify
+]
+ignore = [
+  "E501",  # line length is handled by the formatter
+  "B905",  # zip strict= is not available on py39
+]
+
+[lint.per-file-ignores]
+# Source packs are long literal data tables, not logic.
+"source/pack_*.py" = ["E501"]
+"source/d0*.py" = ["E501"]
+"tests/*" = ["B011"]
+
+[format]
+quote-style = "double"
+indent-style = "space"

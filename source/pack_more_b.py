@@ -3,9 +3,15 @@ from scenario_bank import put
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "data", "title": "Data", "summary": "Contracts, lineage, freshness, and reconciliations from files the user has. No invented numbers.", "keywords": ["data", "warehouse", "pipeline", "metrics", "lineage"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "data",
+            "title": "Data",
+            "summary": "Contracts, lineage, freshness, and reconciliations from files the user has. No invented numbers.",
+            "keywords": ["data", "warehouse", "pipeline", "metrics", "lineage"],
+        },
+        """
 data-contract | Data Contract | data contract
 job: Write the columns, grain, freshness, and owner a producer and a consumer can both use.
 triggers: data contract; schema agreement; producer consumer contract; table contract
@@ -85,8 +91,9 @@ anti: Access because someone is senior; A shared login; Approving your own reque
 example: An analyst wants the full tickets table, including addresses, for a vibe check.
 out: A note that sends the request back for a real question and drops the address column from the ask.
 related: access-review; ai-data-note
-"""
-))
+""",
+    )
+)
 
 put(
     "data-contract",
@@ -267,9 +274,15 @@ A shared login is not an option in this note.
 Next: Sam rewrites the why, or the request stays closed.""",
 )
 
-PACKS.append(pack(
-    {"id": "blog", "title": "Blog and editorial", "summary": "Assignments, outlines, edits, and updates from sources the writer has. No copied articles.", "keywords": ["blog", "editorial", "post", "headline"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "blog",
+            "title": "Blog and editorial",
+            "summary": "Assignments, outlines, edits, and updates from sources the writer has. No copied articles.",
+            "keywords": ["blog", "editorial", "post", "headline"],
+        },
+        """
 blog-assignment | Blog Assignment | assignment
 job: Assign a post with the reader, the question, the source, and the date.
 triggers: blog assignment; post brief; assign an article; blog brief
@@ -349,8 +362,9 @@ anti: A title with a fake percent; A copied headline; A title that answers a dif
 example: They want 'Grocery prices up 18 percent in Calgary' and the draft only has four receipts.
 out: Three titles about those receipts, and a no on the 18 percent title.
 related: blog-edit; headline-check
-"""
-))
+""",
+    )
+)
 
 put(
     "blog-assignment",

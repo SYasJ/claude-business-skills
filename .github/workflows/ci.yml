@@ -1,0 +1,100 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Tests (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Install test dependencies
+        run: python -m pip install --upgrade pip pytest
+
+      - name: Run tests
+        run: python -m pytest tests/ -v
+
+  lint:
+    name: Lint and format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: astral-sh/ruff-action@v3
+        with:
+          args: check
+      - name: Check formatting
+        run: ruff format --check .
+
+  generated:
+    name: Generated tree is committed
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate
+        run: python scripts/generate.py
+
+      - name: Fail if the committed tree differs
+        run: |
+          if ! git diff --quiet; then
+            echo "::error::scripts/generate.py produced changes that are not committed."
+            echo "Run: python3 scripts/generate.py && git add -A"
+            git diff --stat
+            exit 1
+          fi
+          echo "Generated tree matches source/."
+
+      - name: Validate
+        run: python scripts/validate.py
+
+  install:
+    name: Installer smoke test
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dry run
+        run: python scripts/install.py --tool claude --domain finance --dry-run
+
+      - name: Install one domain into a scratch project
+        run: python scripts/install.py --tool project --project . --domain retail
+
+      - name: Confirm the skills landed
+        shell: bash
+        run: |
+          count=$(find .agents/skills -name SKILL.md | wc -l)
+          echo "installed $count skills"
+          test "$count" -gt 0

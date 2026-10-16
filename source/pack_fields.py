@@ -2,9 +2,15 @@ from dense import pack
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "research", "title": "Research", "summary": "Questions, evidence tables, and citations that do not invent sources.", "keywords": ["research", "evidence", "citations", "interviews", "surveys"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "research",
+            "title": "Research",
+            "summary": "Questions, evidence tables, and citations that do not invent sources.",
+            "keywords": ["research", "evidence", "citations", "interviews", "surveys"],
+        },
+        """
 literature-review-plan | Literature Review Plan | review plan
 job: Plan a literature review around a question, with sources the user can actually obtain and no fabricated papers.
 triggers: literature review; review plan; evidence review; what should I read
@@ -116,12 +122,19 @@ anti: Vendor copy treated as independent proof; Unsourced facts; Desk research s
 example: A landscape scan quotes a vendor's homepage as market share.
 out: A brief that labels the homepage as a claim, not as market share, and lists the missing independent source.
 related: market-entry-assessment; citation-hygiene
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "design", "title": "Design", "summary": "Critique, content design, and handoff that respect users and accessibility.", "keywords": ["design", "ux", "content", "accessibility", "handoff"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "design",
+            "title": "Design",
+            "summary": "Critique, content design, and handoff that respect users and accessibility.",
+            "keywords": ["design", "ux", "content", "accessibility", "handoff"],
+        },
+        """
 design-critique | Design Critique | design critique
 job: Critique a design against the user job and the constraints, with changes ranked.
 triggers: design critique; UX critique; review this design; critique the mock
@@ -251,5 +264,6 @@ anti: Click-by-click instructions; A likeability question as the test; A fake pa
 example: A script says 'click the blue button in the corner' as the task.
 out: A script that gives the goal and removes the click path.
 related: usability-test-plan; usability-findings
-"""
-))
+""",
+    )
+)

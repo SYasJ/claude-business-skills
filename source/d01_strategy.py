@@ -13,8 +13,19 @@ SKILLS = [
         "Strategic Plan Builder",
         "Turn a vague ambition into a one-page strategy with a real choice, a few bets, and what you will not do.",
         "one-page strategic plan",
-        ["write a strategy", "annual strategy", "where should we focus", "strategic plan", "what not to do"],
-        ["Current position: customers, revenue motion, constraints", "The decision the plan must settle", "Time horizon, usually 12 months", "What is already committed and cannot move"],
+        [
+            "write a strategy",
+            "annual strategy",
+            "where should we focus",
+            "strategic plan",
+            "what not to do",
+        ],
+        [
+            "Current position: customers, revenue motion, constraints",
+            "The decision the plan must settle",
+            "Time horizon, usually 12 months",
+            "What is already committed and cannot move",
+        ],
         [
             "Name the choice: State the strategic question in one sentence, such as which customer, motion, or market gets scarce attention this year.",
             "Bound the horizon: Use the horizon the user gave. If they did not, use 12 months and say so. Do not write a five-year vision deck unless they asked for one.",
@@ -38,8 +49,19 @@ SKILLS = [
         "OKRs and Scorecard",
         "Write objectives and key results that measure outcomes, then pair them with a weekly operating scorecard.",
         "OKR set and weekly scorecard",
-        ["write OKRs", "objectives and key results", "quarterly goals", "scorecard", "are these OKRs any good"],
-        ["Team or company the goals belong to", "Quarter or cycle dates", "Strategy bets the goals must serve", "Baseline for each proposed metric"],
+        [
+            "write OKRs",
+            "objectives and key results",
+            "quarterly goals",
+            "scorecard",
+            "are these OKRs any good",
+        ],
+        [
+            "Team or company the goals belong to",
+            "Quarter or cycle dates",
+            "Strategy bets the goals must serve",
+            "Baseline for each proposed metric",
+        ],
         [
             "Anchor to strategy: Reject any objective that does not serve a stated bet. If there is no strategy, say so and write provisional goals marked as such.",
             "Limit the set: Recommend one to three objectives. More than five key results per objective is a task list.",
@@ -63,7 +85,12 @@ SKILLS = [
         "Draft a board memo that leads with the decision, the ask, and the risk, not a recap of activity.",
         "board decision memo",
         ["board memo", "board paper", "write to the board", "director update", "board pre-read"],
-        ["The decision or update type", "The ask, if any, including amount and timing", "Facts, misses, and risks the user can support", "What the board already knows"],
+        [
+            "The decision or update type",
+            "The ask, if any, including amount and timing",
+            "Facts, misses, and risks the user can support",
+            "What the board already knows",
+        ],
         [
             "Lead with the ask: The first paragraph states the decision, the recommendation, and what happens if the board does nothing.",
             "Separate news from noise: Include only changes since the last meeting that affect cash, risk, customers, or the strategy.",
@@ -87,7 +114,12 @@ SKILLS = [
         "Design a board agenda that spends time on decisions and exceptions, and produce a clean minute skeleton afterward.",
         "board agenda and minute skeleton",
         ["board agenda", "run a board meeting", "board minutes", "director meeting plan"],
-        ["Meeting length", "Decisions required", "Materials already prepared", "Attendees and anyone recused"],
+        [
+            "Meeting length",
+            "Decisions required",
+            "Materials already prepared",
+            "Attendees and anyone recused",
+        ],
         [
             "Sort the agenda: Put decisions first, exceptions second, and FYI last. Cut FYI that was already in the pre-read.",
             "Timebox: Assign minutes to each item. Leave a buffer. Do not schedule more decisions than the meeting can actually make.",
@@ -110,8 +142,19 @@ SKILLS = [
         "Decision Log",
         "Record an important decision so a later reader can see the choice, the alternatives, and what would reopen it.",
         "decision record",
-        ["decision log", "document this decision", "why did we choose", "decision record", "ADR for the business"],
-        ["The decision in one sentence", "Alternatives considered", "Facts used", "Who decided and when"],
+        [
+            "decision log",
+            "document this decision",
+            "why did we choose",
+            "decision record",
+            "ADR for the business",
+        ],
+        [
+            "The decision in one sentence",
+            "Alternatives considered",
+            "Facts used",
+            "Who decided and when",
+        ],
         [
             "State the decision: One sentence, past or present tense, with the date and the decider. No preamble.",
             "Record alternatives: At least one real alternative that was rejected, and why. If none was considered, say that plainly.",
@@ -135,7 +178,12 @@ SKILLS = [
         "Build a small set of contrasting futures and the early signs that tell you which one you are in.",
         "scenario set with signposts",
         ["scenario planning", "what if", "upside and downside cases", "strategic scenarios"],
-        ["The decision the scenarios inform", "Two or three uncertainties that actually matter", "Time horizon", "Facts and constraints already known"],
+        [
+            "The decision the scenarios inform",
+            "Two or three uncertainties that actually matter",
+            "Time horizon",
+            "Facts and constraints already known",
+        ],
         [
             "Pick uncertainties: Choose two uncertainties the user believes could break the plan. Do not brainstorm twenty.",
             "Build three or four futures: A base case, a downside, and an upside are enough. Name each future so people can talk about it.",
@@ -159,7 +207,12 @@ SKILLS = [
         "Explain how you win against a named alternative, including the status quo, without inventing competitor secrets.",
         "competitive strategy note",
         ["competitive strategy", "how do we win", "competitor response", "against the status quo"],
-        ["The customer and the job to be done", "Alternatives the buyer actually considers, including doing nothing", "Proof the user has", "Where you refuse to compete"],
+        [
+            "The customer and the job to be done",
+            "Alternatives the buyer actually considers, including doing nothing",
+            "Proof the user has",
+            "Where you refuse to compete",
+        ],
         [
             "Name the real alternative: Include 'do nothing' and internal tools, not only famous vendors. Use competitor facts the user supplied.",
             "Find the deciding job: State the job the buyer hires a product to do, in their words if you have them.",
@@ -183,7 +236,12 @@ SKILLS = [
         "Test whether a new segment or geography deserves a real bet, using the user's evidence rather than a borrowed market-size slide.",
         "market entry assessment",
         ["should we enter", "new market", "new segment", "geographic expansion", "market entry"],
-        ["The segment definition", "Why now, in the user's words", "Access to the first customers", "Cost and constraint of a test"],
+        [
+            "The segment definition",
+            "Why now, in the user's words",
+            "Access to the first customers",
+            "Cost and constraint of a test",
+        ],
         [
             "Define the segment: Who is in, who is out, and what problem they already spend time or money on. Vague 'SMBs' is not a segment.",
             "Test access: How will you reach the first ten buyers? If the answer is 'marketing later,' the entry plan is not ready.",
@@ -206,8 +264,19 @@ SKILLS = [
         "M&A Screening",
         "Screen an acquisition or partnership idea before anyone spends serious diligence money.",
         "M&A screening memo",
-        ["acquisition screen", "should we buy", "M&A idea", "partnership versus build", "diligence kickoff"],
-        ["The target or partner, as the user described it", "The strategic gap this would fill", "Known price range or the fact that price is unknown", "Constraints: cash, talent, regulation"],
+        [
+            "acquisition screen",
+            "should we buy",
+            "M&A idea",
+            "partnership versus build",
+            "diligence kickoff",
+        ],
+        [
+            "The target or partner, as the user described it",
+            "The strategic gap this would fill",
+            "Known price range or the fact that price is unknown",
+            "Constraints: cash, talent, regulation",
+        ],
         [
             "State the gap: What customer, capability, or time problem is this meant to solve. If the gap is unclear, stop and say the screen cannot proceed.",
             "Compare alternatives: Buy, partner, or build. Recommend the path that fits the gap, not the most exciting one.",
@@ -224,15 +293,29 @@ SKILLS = [
         "A CEO received a teaser for a small competitor and wants to know if it is even worth a conversation.",
         "A screening memo with the strategic gap, buy-versus-build, five must-be-true tests, and a single next question before advisors are hired.",
         ["investment-memo", "competitive-strategy", "decision-log"],
-        ["A request to hide the deal from required approvers", "Valuation advice presented as a fairness opinion"],
+        [
+            "A request to hide the deal from required approvers",
+            "Valuation advice presented as a fairness opinion",
+        ],
     ),
     skill(
         "corporate-narrative",
         "Corporate Narrative",
         "Write the company story employees and customers can repeat without sliding into hype.",
         "corporate narrative",
-        ["company narrative", "our story", "why we exist", "elevator pitch for the company", "narrative memo"],
-        ["Who the company serves", "The problem in the customer's language", "Proof points the user can stand behind", "What the company refuses to claim"],
+        [
+            "company narrative",
+            "our story",
+            "why we exist",
+            "elevator pitch for the company",
+            "narrative memo",
+        ],
+        [
+            "Who the company serves",
+            "The problem in the customer's language",
+            "Proof points the user can stand behind",
+            "What the company refuses to claim",
+        ],
         [
             "Start with the customer: The first lines describe the customer's tension, not the founding myth.",
             "State the change: What is different because the company exists. One change, not a list of values.",
@@ -255,8 +338,18 @@ SKILLS = [
         "Operating Cadence",
         "Design the weekly, monthly, and quarterly meetings that keep a strategy alive without drowning the team.",
         "operating cadence",
-        ["operating cadence", "meeting rhythm", "weekly business review", "how should leadership meet"],
-        ["Team size and roles", "Decisions that currently stall", "Existing meetings the user wants to keep or kill", "Time zone or capacity constraints"],
+        [
+            "operating cadence",
+            "meeting rhythm",
+            "weekly business review",
+            "how should leadership meet",
+        ],
+        [
+            "Team size and roles",
+            "Decisions that currently stall",
+            "Existing meetings the user wants to keep or kill",
+            "Time zone or capacity constraints",
+        ],
         [
             "Start from decisions: List the decisions that are late or relitigated. Meetings exist to make those decisions, not to share updates that could be written.",
             "Design three loops: A weekly operating review, a monthly performance look, and a quarterly strategy check. Do not add a fourth loop unless the user has a specific failure it solves.",
@@ -280,7 +373,12 @@ SKILLS = [
         "Compress a complex issue into a single page a busy executive can act on.",
         "executive one-pager",
         ["one-pager", "exec summary", "brief the CEO", "single page brief"],
-        ["The audience and the decision they can make", "The source material or the user's facts", "The recommendation if there is one", "What must not be cut"],
+        [
+            "The audience and the decision they can make",
+            "The source material or the user's facts",
+            "The recommendation if there is one",
+            "What must not be cut",
+        ],
         [
             "Identify the reader: Write for the person who will decide, not for every stakeholder who wants a mention.",
             "Put the point first: The top of the page states the situation, the recommendation, and the ask.",
@@ -304,7 +402,12 @@ SKILLS = [
         "Map who can help or block a decision, and how to engage them without manipulation.",
         "stakeholder map and engagement plan",
         ["stakeholder map", "who do we need", "political landscape", "influence map"],
-        ["The decision or change", "People involved, as the user named them", "Known concerns", "The engagement the user is willing to do"],
+        [
+            "The decision or change",
+            "People involved, as the user named them",
+            "Known concerns",
+            "The engagement the user is willing to do",
+        ],
         [
             "List actors: Include operators, approvers, customers, and skeptics. Do not limit the map to people who already agree.",
             "Assess influence and interest: Use the user's judgment. Do not psychoanalyze people or invent motives.",
@@ -328,7 +431,12 @@ SKILLS = [
         "Plan how a specific change will be adopted, including who loses something and how you will support them.",
         "change adoption plan",
         ["change management", "rollout to the org", "people side of change", "adoption plan"],
-        ["The change in concrete terms", "Who must work differently", "What they lose or must learn", "Sponsor and timing"],
+        [
+            "The change in concrete terms",
+            "Who must work differently",
+            "What they lose or must learn",
+            "Sponsor and timing",
+        ],
         [
             "Describe the change in behavior: What will a specific person do differently on a Tuesday. If you cannot say, the change is not defined.",
             "Name losses: Status, skill, convenience, or headcount effects the user has acknowledged. Do not pretend a hard change is only upside.",
@@ -352,7 +460,12 @@ SKILLS = [
         "Describe how the culture actually behaves, using evidence, and name one habit worth changing.",
         "culture diagnostic",
         ["culture problem", "how we work", "culture diagnostic", "values versus behavior"],
-        ["Incidents or examples the user witnessed", "Stated values, if any", "What the user wants culture to help the business do", "Limits on what they are willing to change"],
+        [
+            "Incidents or examples the user witnessed",
+            "Stated values, if any",
+            "What the user wants culture to help the business do",
+            "Limits on what they are willing to change",
+        ],
         [
             "Prefer stories to adjectives: Collect specific moments. 'We are innovative' is not evidence.",
             "Compare stated and lived: Where values and promotions, meetings, or incidents disagree, write the gap carefully and without gossip.",
@@ -376,7 +489,12 @@ SKILLS = [
         "Rank a set of initiatives by constraint, not by who argued last, and make the cut visible.",
         "prioritized portfolio",
         ["prioritize initiatives", "what should we stop", "portfolio review", "too many projects"],
-        ["The list of initiatives", "The scarce resource: people, cash, or attention", "Strategy bets", "Which items are truly mandatory"],
+        [
+            "The list of initiatives",
+            "The scarce resource: people, cash, or attention",
+            "Strategy bets",
+            "Which items are truly mandatory",
+        ],
         [
             "Name the constraint: Prioritize against the scarce resource. If everything is priority one, nothing is.",
             "Separate mandatory from chosen: Regulatory, contractual, or safety work the user confirms as mandatory sits above discretionary bets.",
@@ -399,8 +517,18 @@ SKILLS = [
         "North Star Metric",
         "Choose one north-star metric that reflects customer value, plus a handful of input metrics the team can move.",
         "north-star metric definition",
-        ["north star metric", "one metric that matters", "company metric", "what should we optimize"],
-        ["How the customer gets value", "Current candidate metrics and their definitions", "Known ways the metric could be gamed", "Who will own it"],
+        [
+            "north star metric",
+            "one metric that matters",
+            "company metric",
+            "what should we optimize",
+        ],
+        [
+            "How the customer gets value",
+            "Current candidate metrics and their definitions",
+            "Known ways the metric could be gamed",
+            "Who will own it",
+        ],
         [
             "Start from value: The north star should move when customers get value, not merely when the company books activity.",
             "Reject vanity: Signups, page views, and raw revenue are usually poor north stars unless the user can show they match value in this business.",
@@ -424,7 +552,12 @@ SKILLS = [
         "Stand up a short-lived response when a serious business issue needs daily focus, without turning panic into a permanent process.",
         "war-room brief",
         ["war room", "crisis brief", "we have a serious issue", "daily response plan"],
-        ["What happened, in facts", "Who is affected", "Decisions needed in the next 48 hours", "Who is in charge"],
+        [
+            "What happened, in facts",
+            "Who is affected",
+            "Decisions needed in the next 48 hours",
+            "Who is in charge",
+        ],
         [
             "State the incident: Facts, time, impact, and what is still unknown. No blame paragraph at the top.",
             "Set the objective: What 'stable' means in the next 48 hours. A war room without an objective becomes a standing meeting.",
@@ -447,8 +580,18 @@ SKILLS = [
         "Founder Decision Review",
         "Help a founder pressure-test a lonely decision before they announce it.",
         "founder decision review",
-        ["founder decision", "am I about to make a mistake", "pressure-test this call", "solo founder choice"],
-        ["The decision and the deadline", "Alternatives still open", "What the founder is afraid of", "Whose advice they have already heard"],
+        [
+            "founder decision",
+            "am I about to make a mistake",
+            "pressure-test this call",
+            "solo founder choice",
+        ],
+        [
+            "The decision and the deadline",
+            "Alternatives still open",
+            "What the founder is afraid of",
+            "Whose advice they have already heard",
+        ],
         [
             "Restate the decision: Reflect it back in one sentence so you are reviewing the real choice.",
             "Separate fear from fact: List facts the founder supplied and the fear they named. Do not therapize. Do not flatter.",
@@ -472,7 +615,12 @@ SKILLS = [
         "Design a planning calendar that connects strategy, money, and team capacity without a three-month planning fog.",
         "annual planning cycle",
         ["annual planning", "planning calendar", "budget season", "how to run planning"],
-        ["Fiscal year dates", "Who must approve the plan", "Inputs that were late last year", "Non-negotiable constraints"],
+        [
+            "Fiscal year dates",
+            "Who must approve the plan",
+            "Inputs that were late last year",
+            "Non-negotiable constraints",
+        ],
         [
             "Work backward from approval: Put the board or CEO decision date on the calendar first, then the drafts that must precede it.",
             "Sequence the work: Strategy choices before budget numbers. Headcount after the bets, not before.",
@@ -496,7 +644,12 @@ SKILLS = [
         "Brief a launch or a new motion so sales, product, and marketing are aiming at the same buyer and offer.",
         "go-to-market brief",
         ["go to market", "GTM brief", "launch motion", "how do we take this to market"],
-        ["The offer", "The buyer and the trigger event", "The channel the team can actually staff", "The date and the success signal"],
+        [
+            "The offer",
+            "The buyer and the trigger event",
+            "The channel the team can actually staff",
+            "The date and the success signal",
+        ],
         [
             "Define the buyer: One primary buyer. Secondary audiences are noted, not given equal weight.",
             "State the offer: What they buy, what is out of the box, and what problem it solves this quarter.",
@@ -520,7 +673,12 @@ SKILLS = [
         "Design an offsite that leaves with decisions, not a pile of flip charts.",
         "offsite design and pre-work",
         ["executive offsite", "leadership offsite", "strategy day", "offsite agenda"],
-        ["The decisions the offsite must produce", "Attendees", "Length of the offsite", "Sensitive topics the user wants handled carefully"],
+        [
+            "The decisions the offsite must produce",
+            "Attendees",
+            "Length of the offsite",
+            "Sensitive topics the user wants handled carefully",
+        ],
         [
             "Pick two outcomes: An offsite that tries to settle culture, budget, product, and hiring will settle none of them.",
             "Send pre-work: A short memo per outcome, read before the day. The offsite is for disagreement and decision, not live briefing.",

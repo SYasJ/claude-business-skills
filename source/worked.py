@@ -183,10 +183,32 @@ def _listed(label):
 
 # Head nouns that mean the label wants a thing, not a party name.
 _NOT_A_NAME = (
-    "checklist", "list", "criteria", "template", "framework", "scorecard",
-    "process", "plan", "policy", "journey", "segment", "feedback", "need",
-    "count", "history", "record", "profile", "contract", "terms", "brief",
-    "instruction", "decision", "request", "complaint", "objection", "question",
+    "checklist",
+    "list",
+    "criteria",
+    "template",
+    "framework",
+    "scorecard",
+    "process",
+    "plan",
+    "policy",
+    "journey",
+    "segment",
+    "feedback",
+    "need",
+    "count",
+    "history",
+    "record",
+    "profile",
+    "contract",
+    "terms",
+    "brief",
+    "instruction",
+    "decision",
+    "request",
+    "complaint",
+    "objection",
+    "question",
 )
 
 
@@ -199,13 +221,19 @@ def _fill(label, ctx, world, example, domain_id):
         states = ["in the file", "not in the file", "open"]
         return "; ".join(f"{part}: {states[index % 3]}" for index, part in enumerate(listed))
     phrases = [
-        ("opening cash", f"{money} {world['opening']:,} on {ctx['asof']}, operating account, one entity"),
+        (
+            "opening cash",
+            f"{money} {world['opening']:,} on {ctx['asof']}, operating account, one entity",
+        ),
         ("cash fact", f"{money} {world['opening']:,} counted {ctx['asof']}"),
         ("cash on hand", f"{money} {world['opening']:,} counted {ctx['asof']}"),
         ("payroll", f"{money} {world['payroll']:,} on the 1st and the 15th"),
         ("compensation", f"base {money} {world['payroll']:,}. Bonus line blank"),
         ("receivable", f"{world['party']} owes {money} {world['receipt']:,}, usually 20 days late"),
-        ("collection", f"{world['party']} usually pays 20 days late. {money} {world['receipt']:,} still open"),
+        (
+            "collection",
+            f"{world['party']} usually pays 20 days late. {money} {world['receipt']:,} still open",
+        ),
         ("already seen", "lumenledger.com was open on 12 Sep 2026. No register search in the file"),
         ("proposed name", "Lumen Ledger, word mark, no logo"),
         ("goods or services", "bookkeeping software for independent shops"),
@@ -231,9 +259,18 @@ def _fill(label, ctx, world, example, domain_id):
         ("approver", f"{ctx['person']}. They have not signed"),
         ("audience", f"people who already buy from {ctx['org']}"),
         # Specific first: these read as a job-to-be-done, not a counterparty name.
-        ("customer job", "the shopper solving one task in one trip. Not segmented further in the file"),
-        ("job the customer", "the shopper solving one task in one trip. Not segmented further in the file"),
-        ("job to be done", "the shopper solving one task in one trip. Not segmented further in the file"),
+        (
+            "customer job",
+            "the shopper solving one task in one trip. Not segmented further in the file",
+        ),
+        (
+            "job the customer",
+            "the shopper solving one task in one trip. Not segmented further in the file",
+        ),
+        (
+            "job to be done",
+            "the shopper solving one task in one trip. Not segmented further in the file",
+        ),
         ("customer need", "stated once in the ask. No research file attached"),
         ("customer feedback", f"three comments, {ctx['asof']}. No survey export"),
         ("customer segment", "one segment named. No sizing attached"),
@@ -298,56 +335,159 @@ def _fill(label, ctx, world, example, domain_id):
 # so the row survives _thin() and reaches the example.
 _FAMILIES = (
     (
-        ("ask", "point", "goal", "objective", "outcome", "purpose", "decision",
-         "question", "hypothesis", "idea", "intent", "what they want", "problem"),
-        lambda lab, ctx, w, ex, it: f"{ex.rstrip('.')}. Stated once, in the ask. Not written down anywhere else",
+        (
+            "ask",
+            "point",
+            "goal",
+            "objective",
+            "outcome",
+            "purpose",
+            "decision",
+            "question",
+            "hypothesis",
+            "idea",
+            "intent",
+            "what they want",
+            "problem",
+        ),
+        lambda lab, ctx, w, ex, it: (
+            f"{ex.rstrip('.')}. Stated once, in the ask. Not written down anywhere else"
+        ),
     ),
     (
-        ("reader", "audience", "participant", "actor", "stakeholder", "attendee",
-         "recipient", "user of", "who is", "roles"),
-        lambda lab, ctx, w, ex, it: f"{ctx['person']} plus two others named in the thread. No distribution list attached",
+        (
+            "reader",
+            "audience",
+            "participant",
+            "actor",
+            "stakeholder",
+            "attendee",
+            "recipient",
+            "user of",
+            "who is",
+            "roles",
+        ),
+        lambda lab, ctx, w, ex, it: (
+            f"{ctx['person']} plus two others named in the thread. No distribution list attached"
+        ),
     ),
     (
-        ("draft", "note", "document", "export", "file", "record", "transcript",
-         "log", "report", "deck", "sheet", "attachment"),
-        lambda lab, ctx, w, ex, it: f"one file, dated {ctx['asof']}. No earlier version attached for comparison",
+        (
+            "draft",
+            "note",
+            "document",
+            "export",
+            "file",
+            "record",
+            "transcript",
+            "log",
+            "report",
+            "deck",
+            "sheet",
+            "attachment",
+        ),
+        lambda lab, ctx, w, ex, it: (
+            f"one file, dated {ctx['asof']}. No earlier version attached for comparison"
+        ),
     ),
     (
-        ("exception", "exclusion", "dependency", "unknown", "open issue", "barrier",
-         "blocker", "objection", "edge case", "limitation", "caveat"),
-        lambda lab, ctx, w, ex, it: f"{it[0]} is open. {it[1]} was raised verbally and never logged",
+        (
+            "exception",
+            "exclusion",
+            "dependency",
+            "unknown",
+            "open issue",
+            "barrier",
+            "blocker",
+            "objection",
+            "edge case",
+            "limitation",
+            "caveat",
+        ),
+        lambda lab, ctx, w, ex, it: (
+            f"{it[0]} is open. {it[1]} was raised verbally and never logged"
+        ),
     ),
     (
-        ("volume", "count", "rate", "performance", "throughput", "load", "traffic",
-         "usage", "demand", "quantity"),
-        lambda lab, ctx, w, ex, it: f"{w['qty']} in the last period. No prior period attached, so no trend",
+        (
+            "volume",
+            "count",
+            "rate",
+            "performance",
+            "throughput",
+            "load",
+            "traffic",
+            "usage",
+            "demand",
+            "quantity",
+        ),
+        lambda lab, ctx, w, ex, it: (
+            f"{w['qty']} in the last period. No prior period attached, so no trend"
+        ),
     ),
     (
-        ("system", "environment", "service", "flow", "journey", "platform", "tool",
-         "stack", "pipeline", "integration", "architecture"),
-        lambda lab, ctx, w, ex, it: f"the one named in the ask. Version and owner not recorded",
+        (
+            "system",
+            "environment",
+            "service",
+            "flow",
+            "journey",
+            "platform",
+            "tool",
+            "stack",
+            "pipeline",
+            "integration",
+            "architecture",
+        ),
+        lambda lab, ctx, w, ex, it: "the one named in the ask. Version and owner not recorded",
     ),
     (
         ("tone", "style", "voice", "format", "length", "channel", "medium"),
-        lambda lab, ctx, w, ex, it: "plain, for people who already know the context. No house guide attached",
+        lambda lab, ctx, w, ex, it: (
+            "plain, for people who already know the context. No house guide attached"
+        ),
     ),
     (
-        ("control", "policy", "rule", "standard", "requirement", "guideline",
-         "procedure", "convention", "threshold"),
-        lambda lab, ctx, w, ex, it: f"their one-page rule dated 2 Mar 2026. No exception log since",
+        (
+            "control",
+            "policy",
+            "rule",
+            "standard",
+            "requirement",
+            "guideline",
+            "procedure",
+            "convention",
+            "threshold",
+        ),
+        lambda lab, ctx, w, ex, it: "their one-page rule dated 2 Mar 2026. No exception log since",
     ),
     (
         ("checklist", "criteria", "template", "framework", "scorecard"),
-        lambda lab, ctx, w, ex, it: f"their existing list, {len(it) + 3} lines. Two lines have no owner",
+        lambda lab, ctx, w, ex, it: (
+            f"their existing list, {len(it) + 3} lines. Two lines have no owner"
+        ),
     ),
     (
         ("lose", "win", "lost", "won", "competitor", "rival", "alternative"),
-        lambda lab, ctx, w, ex, it: f"two deals cited from memory. Neither has a written loss reason",
+        lambda lab, ctx, w, ex, it: (
+            "two deals cited from memory. Neither has a written loss reason"
+        ),
     ),
     (
-        ("failed", "failure", "incident", "error", "defect", "bug", "outage",
-         "complaint", "escalation"),
-        lambda lab, ctx, w, ex, it: f"{it[0]}, first seen {ctx['asof']}. No root cause recorded yet",
+        (
+            "failed",
+            "failure",
+            "incident",
+            "error",
+            "defect",
+            "bug",
+            "outage",
+            "complaint",
+            "escalation",
+        ),
+        lambda lab, ctx, w, ex, it: (
+            f"{it[0]}, first seen {ctx['asof']}. No root cause recorded yet"
+        ),
     ),
     (
         ("task", "work", "activity", "step", "action", "deliverable", "milestone"),
@@ -355,7 +495,9 @@ _FAMILIES = (
     ),
     (
         ("sensitive", "confidential", "personal data", "pii", "health", "restricted"),
-        lambda lab, ctx, w, ex, it: "email and billing address only. They stated no health or payment data",
+        lambda lab, ctx, w, ex, it: (
+            "email and billing address only. They stated no health or payment data"
+        ),
     ),
 )
 
@@ -390,46 +532,246 @@ def _rows(record, ctx, world, domain_id):
 
 
 CASES = {
-    "people": ["cadence: weekly, 30 minutes, Tuesday 10:00", "status board: already updated daily", "last meeting: 6 status questions, employee did not set the agenda", "growth topic: none written down"],
-    "legal": ["name: Lumen Ledger, word mark, no logo", "goods: bookkeeping software for independent shops", "already checked: lumenledger.com open on 12 Sep 2026", "register search: not in the file"],
-    "finance": ["cash: the counted figure in the ask, one entity", "maybe receipt: not in the bank", "buffer: the one they named", "new spend: not in the base case"],
-    "accounting": ["period: August 2026", "no preparer: undeposited funds, sales tax payable", "cash recs: one inbox, not the shared folder", "reviewer: not signed"],
-    "sales": ["account: Harbor Goods", "last meeting: 9 Sep 2026, no dated next step", "proof: one email", "discount asked: 15 percent, not approved"],
-    "marketing": ["page: the live page", "claim: broader than the note", "proof: none attached", "publish date wanted: 19 Sep 2026"],
-    "product": ["interviews: 12, March to June 2026", "decision: ship, hold, or cut", "metric: not defined", "kill line: not written"],
-    "engineering": ["branch: main, change not merged", "tests listed: none", "rollback: not written", "owner: the person who opened the change"],
-    "data": ["extract date: 14 Sep 2026", "owner: the sender", "second source: not attached", "nulls: not counted yet"],
-    "security": ["policy: the one they have", "report in the folder: none", "control named: only if it is in the policy", "owner: engineering lead"],
-    "operations": ["shift: two people", "SOP: one page, 2 Mar 2026", "exception: not logged", "queue: the items in the ask"],
-    "delivery": ["milestone: the customer date", "status: slipped", "completed tasks: do not replace the slip", "decision: needed"],
-    "customer": ["ticket: 4412, 14 Sep 2026", "customer words: in the ticket", "exception: not approved", "card or password: not collected"],
-    "risk": ["event: the one in the ask, not a one-word label", "owner: blank", "control: not named", "score: not invented"],
-    "strategy": ["decision: the one in the ask", "options: two, named", "evidence: the file only", "unowned idea: parked"],
-    "design": ["screens: 8, dated 10 Sep 2026", "job: the task in the ask", "accessibility pass: not done", "assets: theirs only"],
-    "healthcare": ["clinic: Cedar, Tuesday list", "diagnosis: not in this note", "roster: the one attached", "advice to a patient: not written"],
-    "education": ["course: the one named", "section: the one they teach", "student submission: not written for them", "due: 30 Sep 2026"],
-    "research": ["site: one", "sample: the count they gave", "missing file: named in the ask", "unopened citation: not used"],
-    "supply-chain": ["sku: 1044", "supplier: Redline Parts", "lead time: their number", "alternate: none"],
-    "manufacturing": ["line: line 2", "lot: 26-0914", "hold: open", "count: the tally, not the order"],
-    "real-estate": ["address: the one in the ask", "rent roll: their sheet", "comp: not invented", "legal review: not done here"],
-    "construction": ["site: Birch, Cochrane", "safety item: stays open", "quantity: their takeoff", "date: the look-ahead"],
-    "hospitality": ["stay: the dates in the ask", "offer: policy amount only", "complaint: their words", "manager: on duty"],
-    "retail": ["store: Harbor Goods, Airdrie", "price: shelf price", "stock: the count", "review: not invented"],
-    "nonprofit": ["program: the one they run", "measured outcome: no", "ask: one", "story: not invented"],
-    "banking": ["run: 14 Sep 2026", "changed payee: email this morning, not verified", "password: not collected", "hold: that line"],
-    "insurance": ["folder: the claim file they have", "coverage opinion: not given", "missing doc: named", "handler: licensed owner"],
-    "consulting": ["decision: the one in the ask", "evidence: notes only", "out of scope: named", "finding: not promised"],
-    "media": ["document: the statement in the folder", "unnamed quote: not used", "deadline: the board time", "unknown: stays unknown"],
-    "procurement": ["quotes: only those attached", "missing term: blank", "authority: their limit", "award: not made here"],
-    "agriculture": ["week: 14 Sep 2026", "cash: their figure", "treatment: not prescribed here", "sheet: theirs"],
-    "public-sector": ["record: the agenda or request", "vote: not implied if it has not happened", "names: public record only", "deadline: the posted one"],
-    "sustainability": ["period: the year they named", "factor: only from their sheet", "certification: not claimed", "estimate: labeled"],
-    "energy": ["meter: the one they named", "figure: their sheet", "promised date from elsewhere: not in the file", "owner: superintendent"],
-    "transport": ["lane: the one in the ask", "tally: their count", "limit: the one they stated", "concealment: not advised"],
-    "productivity": ["week: 14 Sep 2026", "calendar: the meetings they listed", "dissent: kept if it was said", "monitoring: not recommended"],
-    "entrepreneurship": ["paying names: only those given", "cash: bank figure, not a maybe", "ask: the one they wrote", "copied line: cut"],
-    "library": ["folder: one SKILL.md", "description: says when to use it", "network: none", "author: Yasir Jilani"],
-    "creator": ["owned file: dated", "someone else's script: not in the folder", "paid: only if stated", "export: only if attached"],
+    "people": [
+        "cadence: weekly, 30 minutes, Tuesday 10:00",
+        "status board: already updated daily",
+        "last meeting: 6 status questions, employee did not set the agenda",
+        "growth topic: none written down",
+    ],
+    "legal": [
+        "name: Lumen Ledger, word mark, no logo",
+        "goods: bookkeeping software for independent shops",
+        "already checked: lumenledger.com open on 12 Sep 2026",
+        "register search: not in the file",
+    ],
+    "finance": [
+        "cash: the counted figure in the ask, one entity",
+        "maybe receipt: not in the bank",
+        "buffer: the one they named",
+        "new spend: not in the base case",
+    ],
+    "accounting": [
+        "period: August 2026",
+        "no preparer: undeposited funds, sales tax payable",
+        "cash recs: one inbox, not the shared folder",
+        "reviewer: not signed",
+    ],
+    "sales": [
+        "account: Harbor Goods",
+        "last meeting: 9 Sep 2026, no dated next step",
+        "proof: one email",
+        "discount asked: 15 percent, not approved",
+    ],
+    "marketing": [
+        "page: the live page",
+        "claim: broader than the note",
+        "proof: none attached",
+        "publish date wanted: 19 Sep 2026",
+    ],
+    "product": [
+        "interviews: 12, March to June 2026",
+        "decision: ship, hold, or cut",
+        "metric: not defined",
+        "kill line: not written",
+    ],
+    "engineering": [
+        "branch: main, change not merged",
+        "tests listed: none",
+        "rollback: not written",
+        "owner: the person who opened the change",
+    ],
+    "data": [
+        "extract date: 14 Sep 2026",
+        "owner: the sender",
+        "second source: not attached",
+        "nulls: not counted yet",
+    ],
+    "security": [
+        "policy: the one they have",
+        "report in the folder: none",
+        "control named: only if it is in the policy",
+        "owner: engineering lead",
+    ],
+    "operations": [
+        "shift: two people",
+        "SOP: one page, 2 Mar 2026",
+        "exception: not logged",
+        "queue: the items in the ask",
+    ],
+    "delivery": [
+        "milestone: the customer date",
+        "status: slipped",
+        "completed tasks: do not replace the slip",
+        "decision: needed",
+    ],
+    "customer": [
+        "ticket: 4412, 14 Sep 2026",
+        "customer words: in the ticket",
+        "exception: not approved",
+        "card or password: not collected",
+    ],
+    "risk": [
+        "event: the one in the ask, not a one-word label",
+        "owner: blank",
+        "control: not named",
+        "score: not invented",
+    ],
+    "strategy": [
+        "decision: the one in the ask",
+        "options: two, named",
+        "evidence: the file only",
+        "unowned idea: parked",
+    ],
+    "design": [
+        "screens: 8, dated 10 Sep 2026",
+        "job: the task in the ask",
+        "accessibility pass: not done",
+        "assets: theirs only",
+    ],
+    "healthcare": [
+        "clinic: Cedar, Tuesday list",
+        "diagnosis: not in this note",
+        "roster: the one attached",
+        "advice to a patient: not written",
+    ],
+    "education": [
+        "course: the one named",
+        "section: the one they teach",
+        "student submission: not written for them",
+        "due: 30 Sep 2026",
+    ],
+    "research": [
+        "site: one",
+        "sample: the count they gave",
+        "missing file: named in the ask",
+        "unopened citation: not used",
+    ],
+    "supply-chain": [
+        "sku: 1044",
+        "supplier: Redline Parts",
+        "lead time: their number",
+        "alternate: none",
+    ],
+    "manufacturing": [
+        "line: line 2",
+        "lot: 26-0914",
+        "hold: open",
+        "count: the tally, not the order",
+    ],
+    "real-estate": [
+        "address: the one in the ask",
+        "rent roll: their sheet",
+        "comp: not invented",
+        "legal review: not done here",
+    ],
+    "construction": [
+        "site: Birch, Cochrane",
+        "safety item: stays open",
+        "quantity: their takeoff",
+        "date: the look-ahead",
+    ],
+    "hospitality": [
+        "stay: the dates in the ask",
+        "offer: policy amount only",
+        "complaint: their words",
+        "manager: on duty",
+    ],
+    "retail": [
+        "store: Harbor Goods, Airdrie",
+        "price: shelf price",
+        "stock: the count",
+        "review: not invented",
+    ],
+    "nonprofit": [
+        "program: the one they run",
+        "measured outcome: no",
+        "ask: one",
+        "story: not invented",
+    ],
+    "banking": [
+        "run: 14 Sep 2026",
+        "changed payee: email this morning, not verified",
+        "password: not collected",
+        "hold: that line",
+    ],
+    "insurance": [
+        "folder: the claim file they have",
+        "coverage opinion: not given",
+        "missing doc: named",
+        "handler: licensed owner",
+    ],
+    "consulting": [
+        "decision: the one in the ask",
+        "evidence: notes only",
+        "out of scope: named",
+        "finding: not promised",
+    ],
+    "media": [
+        "document: the statement in the folder",
+        "unnamed quote: not used",
+        "deadline: the board time",
+        "unknown: stays unknown",
+    ],
+    "procurement": [
+        "quotes: only those attached",
+        "missing term: blank",
+        "authority: their limit",
+        "award: not made here",
+    ],
+    "agriculture": [
+        "week: 14 Sep 2026",
+        "cash: their figure",
+        "treatment: not prescribed here",
+        "sheet: theirs",
+    ],
+    "public-sector": [
+        "record: the agenda or request",
+        "vote: not implied if it has not happened",
+        "names: public record only",
+        "deadline: the posted one",
+    ],
+    "sustainability": [
+        "period: the year they named",
+        "factor: only from their sheet",
+        "certification: not claimed",
+        "estimate: labeled",
+    ],
+    "energy": [
+        "meter: the one they named",
+        "figure: their sheet",
+        "promised date from elsewhere: not in the file",
+        "owner: superintendent",
+    ],
+    "transport": [
+        "lane: the one in the ask",
+        "tally: their count",
+        "limit: the one they stated",
+        "concealment: not advised",
+    ],
+    "productivity": [
+        "week: 14 Sep 2026",
+        "calendar: the meetings they listed",
+        "dissent: kept if it was said",
+        "monitoring: not recommended",
+    ],
+    "entrepreneurship": [
+        "paying names: only those given",
+        "cash: bank figure, not a maybe",
+        "ask: the one they wrote",
+        "copied line: cut",
+    ],
+    "library": [
+        "folder: one SKILL.md",
+        "description: says when to use it",
+        "network: none",
+        "author: Yasir Jilani",
+    ],
+    "creator": [
+        "owned file: dated",
+        "someone else's script: not in the folder",
+        "paid: only if stated",
+        "export: only if attached",
+    ],
 }
 
 
@@ -465,7 +807,9 @@ def _classify(record, domain_id):
         return "variance"
     if "checklist" in blob or blob.endswith("calendar"):
         return "checklist"
-    if domain_id in {"creator", "blog"} and any(word in blob for word in ("outline", "script", "caption", "hook")):
+    if domain_id in {"creator", "blog"} and any(
+        word in blob for word in ("outline", "script", "caption", "hook")
+    ):
         return "outline"
     if any(word in blob for word in ("email", "announcement", "disclosure", "reply", "pitch")):
         return "message"
@@ -486,9 +830,9 @@ def _outcome_cash(record, ctx, world):
     week4 = week3 + receipt
     breach = "week 3" if week3 < buffer else "none in the first four weeks"
     return f"""**13-week cash view, first four weeks shown**
-{ctx['org']} · {ctx['asof']} · {ctx['currency']}
+{ctx["org"]} · {ctx["asof"]} · {ctx["currency"]}
 
-Decision: do not add a new recurring cost until {world['party']}'s {receipt:,} is collected or moved out of the plan. The hire is a cash condition, not a yes.
+Decision: do not add a new recurring cost until {world["party"]}'s {receipt:,} is collected or moved out of the plan. The hire is a cash condition, not a yes.
 
 | Week | Opening | In | Out | Closing | Against buffer {buffer:,} |
 | --- | --- | --- | --- | --- | --- |
@@ -500,24 +844,24 @@ Decision: do not add a new recurring cost until {world['party']}'s {receipt:,} i
 First tight week: {breach}.
 Assumption: the {receipt:,} is collected in week 4 because that is the 20-day lag in the file. It is not booked revenue.
 Not in this draft: a second scenario where the receipt slips past week 6. Build that before any offer letter.
-Next action: {ctx['person']} confirms the collection date by {ctx['due']}."""
+Next action: {ctx["person"]} confirms the collection date by {ctx["due"]}."""
 
 
 def _outcome_variance(record, ctx, world):
     gap = world["plan"] - world["actual"]
     return f"""**Variance note**
-{ctx['org']} · period ending {ctx['asof']}
+{ctx["org"]} · period ending {ctx["asof"]}
 
 Decision: treat the gap as a miss against the file, not as a formatting issue. Do not call it timing unless the invoice date is in the file.
 
 | Line | Plan | Actual | Gap |
 | --- | --- | --- | --- |
-| Main driver | {world['plan']} | {world['actual']} | {gap} |
+| Main driver | {world["plan"]} | {world["actual"]} | {gap} |
 | One-off named in the file | — | not supplied | leave open |
 | Full-period outlook | unchanged until the one-off is dated | | |
 
-{_decision(record['example_out'])}
-Next action: {ctx['person']} marks the gap as timing or as a real miss by {ctx['due']}."""
+{_decision(record["example_out"])}
+Next action: {ctx["person"]} marks the gap as timing or as a real miss by {ctx["due"]}."""
 
 
 def _refusals(record, limit=3):
@@ -535,11 +879,11 @@ def _outcome_checklist(record, ctx, rows):
     gates = "\n".join(
         f"{i}. {_split_step(step)[0]}" for i, step in enumerate(record["steps"][:5], 1)
     )
-    return f"""**{record['artifact'].capitalize()}**
-{ctx['org']} · {ctx['asof']} · Due {ctx['due']}
+    return f"""**{record["artifact"].capitalize()}**
+{ctx["org"]} · {ctx["asof"]} · Due {ctx["due"]}
 
 **Decision**
-{_decision(record['example_out'])}
+{_decision(record["example_out"])}
 
 **Checklist**
 
@@ -555,7 +899,7 @@ def _outcome_checklist(record, ctx, rows):
 **Stop rule**
 Do not mark this pack complete while a box above is open. An open box is a finding, not a formality — it is the thing this checklist exists to catch.
 
-Next: {ctx['person']} closes the open items before {ctx['due']}."""
+Next: {ctx["person"]} closes the open items before {ctx["due"]}."""
 
 
 def _outcome_outline(record, ctx, world):
@@ -564,8 +908,8 @@ def _outcome_outline(record, ctx, world):
         label, detail = _split_step(step)
         beats.append(f"**Beat {i} — {label}**" + (f"  \n{detail}" if detail else ""))
     body = "\n\n".join(beats)
-    return f"""**{record['artifact'].capitalize()}**
-For {ctx['person']} at {ctx['org']} · {ctx['asof']}
+    return f"""**{record["artifact"].capitalize()}**
+For {ctx["person"]} at {ctx["org"]} · {ctx["asof"]}
 
 | | |
 | --- | --- |
@@ -575,7 +919,7 @@ For {ctx['person']} at {ctx['org']} · {ctx['asof']}
 | Source of every claim | The example data above, and nothing else |
 
 **Decision**
-{_decision(record['example_out'])}
+{_decision(record["example_out"])}
 
 **Structure**
 
@@ -588,7 +932,7 @@ For {ctx['person']} at {ctx['org']} · {ctx['asof']}
 - Any metric, quote, or sponsor not present in the example data stayed blank. A blank is honest; an invented figure is not.
 - Where the file supports a claim only partly, the outline says so rather than rounding it up.
 
-Next: {ctx['person']} replaces each blank with a real source before publishing. Due {ctx['due']}."""
+Next: {ctx["person"]} replaces each blank with a real source before publishing. Due {ctx["due"]}."""
 
 
 def _outcome_message(record, ctx, world):
@@ -597,24 +941,24 @@ def _outcome_message(record, ctx, world):
         label, detail = _split_step(step)
         checks.append(f"{i}. **{label}** — {detail}" if detail else f"{i}. **{label}**")
     body = "\n".join(checks)
-    return f"""**{record['artifact'].capitalize()} — draft ready to send**
+    return f"""**{record["artifact"].capitalize()} — draft ready to send**
 
 > To: the recipient named in the file
-> From: {ctx['person']}, {ctx['role']}, {ctx['org']}
-> Date: {ctx['asof']}
+> From: {ctx["person"]}, {ctx["role"]}, {ctx["org"]}
+> Date: {ctx["asof"]}
 
 ---
 
 Hello,
 
-{_decision(record['example_out'])}
+{_decision(record["example_out"])}
 
-Everything above comes from the file dated {ctx['asof']}. Where a figure, a date, or a commitment was not in that file, this note leaves it out rather than filling the gap.
+Everything above comes from the file dated {ctx["asof"]}. Where a figure, a date, or a commitment was not in that file, this note leaves it out rather than filling the gap.
 
-One point is still open, and I would rather flag it than paper over it. I will confirm it before {ctx['due']} and follow up either way.
+One point is still open, and I would rather flag it than paper over it. I will confirm it before {ctx["due"]} and follow up either way.
 
-{ctx['person']}
-{ctx['role']}, {ctx['org']}
+{ctx["person"]}
+{ctx["role"]}, {ctx["org"]}
 
 ---
 
@@ -625,23 +969,23 @@ One point is still open, and I would rather flag it than paper over it. I will c
 **Deliberately not done**
 {_refusals(record)}
 
-Next: {ctx['person']} sends after confirming the open point. Due {ctx['due']}. This is a draft, not a sent message."""
+Next: {ctx["person"]} sends after confirming the open point. Due {ctx["due"]}. This is a draft, not a sent message."""
 
 
 def _outcome_table(record, ctx, world):
     method = "\n".join(
         f"{i}. {_split_step(step)[0]}" for i, step in enumerate(record["steps"][:5], 1)
     )
-    return f"""**{record['artifact'].capitalize()}**
-{ctx['org']} · {ctx['asof']} · Due {ctx['due']}
+    return f"""**{record["artifact"].capitalize()}**
+{ctx["org"]} · {ctx["asof"]} · Due {ctx["due"]}
 
 **Decision**
-{_decision(record['example_out'])}
+{_decision(record["example_out"])}
 
 | Item | Figure in the file | Call | Why |
 | --- | --- | --- | --- |
-| {world['party']} | plan {world['plan']}, actual {world['actual']} | Use | Both sides of the comparison are in the file |
-| {world['second']} | score {world['score']} | Report, do not benchmark | One score is a reading, not a baseline |
+| {world["party"]} | plan {world["plan"]}, actual {world["actual"]} | Use | Both sides of the comparison are in the file |
+| {world["second"]} | score {world["score"]} | Report, do not benchmark | One score is a reading, not a baseline |
 | Missing export | Not in the file | Stop | The cell stays blank until the export arrives |
 
 **How these calls were made**
@@ -655,7 +999,7 @@ def _outcome_table(record, ctx, world):
 - The missing export is the binding constraint. No figure was estimated to fill its place.
 - Any row marked *Report, do not benchmark* needs a second period before it can carry a trend.
 
-Next: {ctx['person']} attaches the missing export, or the cell stays blank. Due {ctx['due']}."""
+Next: {ctx["person"]} attaches the missing export, or the cell stays blank. Due {ctx["due"]}."""
 
 
 def _split_step(step):
@@ -691,12 +1035,12 @@ def _outcome_memo(record, ctx, rows, domain_id):
     # Anti-patterns are the distinctive part: say what this draft refused to do.
     refused = "\n".join(f"- {_clean(item).rstrip('.')}." for item in record["anti"][:3])
 
-    return f"""**{record['artifact'].capitalize()}**
-To: {ctx['person']}, {ctx['role']}, {ctx['org']}
-Date: {ctx['asof']} · Needed by: {ctx['due']}
+    return f"""**{record["artifact"].capitalize()}**
+To: {ctx["person"]}, {ctx["role"]}, {ctx["org"]}
+Date: {ctx["asof"]} · Needed by: {ctx["due"]}
 
 **Decision**
-{_decision(record['example_out'])}
+{_decision(record["example_out"])}
 
 **What the file supports**
 
@@ -715,7 +1059,7 @@ Date: {ctx['asof']} · Needed by: {ctx['due']}
 - Confirm every row marked *Needs confirmation* above before this leaves draft.
 - Anything absent from the file stayed absent. No figure, date, or name was supplied from outside it.
 
-Next: {ctx['person']} by {ctx['due']}. This is a draft, not a sign-off."""
+Next: {ctx["person"]} by {ctx["due"]}. This is a draft, not a sign-off."""
 
 
 def _outcome(record, ctx, rows, world, domain_id):

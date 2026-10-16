@@ -3,9 +3,15 @@ from scenario_bank import put
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "media", "title": "Media and communications", "summary": "Newsroom assignments, source logs, and headlines that do not invent quotes.", "keywords": ["news", "newsroom", "headline", "editorial", "media"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "media",
+            "title": "Media and communications",
+            "summary": "Newsroom assignments, source logs, and headlines that do not invent quotes.",
+            "keywords": ["news", "newsroom", "headline", "editorial", "media"],
+        },
+        """
 news-assignment | News Assignment | assignment
 job: Assign a story with the question, the sources already in hand, and what is not known.
 triggers: news assignment; story brief; assign a reporter; news budget item
@@ -85,8 +91,9 @@ anti: A lead with no source; A full rundown nobody can report; A wish list calle
 example: Five stories are on the board. Two have documents. Three reporters are on shift.
 out: A budget with two stories staffed and three cut.
 related: news-assignment; editorial-calendar-newsroom
-"""
-))
+""",
+    )
+)
 
 put(
     "news-assignment",
@@ -246,9 +253,15 @@ Not today: the school rumor, the land vote that has not happened, a second fire 
 A full rundown is not the goal. An empty slot is better than an unsourced item.""",
 )
 
-PACKS.append(pack(
-    {"id": "seo", "title": "Search", "summary": "Query maps, intent, and index notes from pages and data the user can show. No cloaking or fake reviews.", "keywords": ["seo", "search", "keywords", "local"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "seo",
+            "title": "Search",
+            "summary": "Query maps, intent, and index notes from pages and data the user can show. No cloaking or fake reviews.",
+            "keywords": ["seo", "search", "keywords", "local"],
+        },
+        """
 keyword-map | Keyword Map | query map
 job: Map queries to pages the user already has, using only queries they exported or listed.
 triggers: keyword map; query mapping; which page for this query; SEO map
@@ -328,8 +341,9 @@ anti: A promise that a page will rank once indexed; Reasons not in the export; P
 example: 30 blog URLs are excluded by a noindex left on from a March test.
 out: A note to remove that noindex, with no ranking promise.
 related: technical-seo-note; blog-refresh
-"""
-))
+""",
+    )
+)
 
 put(
     "keyword-map",
@@ -503,9 +517,15 @@ This note does not say the blog will rank after the tag is removed. Indexing is 
 Owner: Sam. Diane rechecks one blog URL after the Friday deploy.""",
 )
 
-PACKS.append(pack(
-    {"id": "research", "title": "Research", "summary": "Search logs, consent, and claims that stay inside the evidence. No invented citations.", "keywords": ["research", "evidence", "consent", "replication"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "research",
+            "title": "Research",
+            "summary": "Search logs, consent, and claims that stay inside the evidence. No invented citations.",
+            "keywords": ["research", "evidence", "consent", "replication"],
+        },
+        """
 source-search-log | Search Log | search log
 job: Log the searches and the dates so a review can see what was looked for.
 triggers: search log; literature search; what did we search; database log
@@ -565,8 +585,9 @@ anti: Cause language on an association; A national claim from one site; A policy
 example: A sentence says the workshop caused employment. The study asked 20 people at one site how confident they felt.
 out: A sentence about confidence at that site, with cause and employment removed.
 related: research-memo; evidence-table
-"""
-))
+""",
+    )
+)
 
 put(
     "source-search-log",

@@ -2,9 +2,15 @@ from dense import pack
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "customer", "title": "Customer experience", "summary": "Journeys, support quality, recovery, and honest customer communication.", "keywords": ["customer", "support", "cx", "success", "journey"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "customer",
+            "title": "Customer experience",
+            "summary": "Journeys, support quality, recovery, and honest customer communication.",
+            "keywords": ["customer", "support", "cx", "success", "journey"],
+        },
+        """
 voice-of-customer | Voice of Customer | voice-of-customer brief
 job: Assemble a voice-of-customer brief from real quotes and tickets, with the sample bias visible.
 triggers: voice of customer; VOC brief; customer themes; what are customers saying
@@ -145,12 +151,19 @@ anti: A cause guess; A silent gap with no next update; Contradicting the previou
 example: A draft blames a vendor and promises a fix in 15 minutes without engineering confirmation.
 out: An update that removes the blame and the unconfirmed clock, and commits to a next update time.
 related: service-recovery; war-room-brief
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "risk", "title": "Risk and compliance", "summary": "Risk assessments, controls, and compliance operations. Not a certification and not legal advice.", "keywords": ["risk", "compliance", "controls", "audit", "privacy"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "risk",
+            "title": "Risk and compliance",
+            "summary": "Risk assessments, controls, and compliance operations. Not a certification and not legal advice.",
+            "keywords": ["risk", "compliance", "controls", "audit", "privacy"],
+        },
+        """
 risk-assessment | Risk Assessment | risk assessment
 job: Assess a few real risks with a scenario, a control, and an owner, using the organization's own scale.
 triggers: risk assessment; assess this risk; risk workshop; enterprise risk item
@@ -304,5 +317,6 @@ example: Sales wants to tweak a customer name so the screening tool stops flaggi
 out: A refusal of the tweak, a pause recommendation, and a handoff to the compliance owner.
 related: third-party-risk; ethics-hotline-triage
 avoid: Sanctions evasion; Altering records to defeat screening
-"""
-))
+""",
+    )
+)

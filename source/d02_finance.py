@@ -13,8 +13,19 @@ SKILLS = [
         "Cash Flow Forecast",
         "Build a 13-week direct cash forecast from collections and commitments, not from accrual revenue.",
         "13-week cash forecast",
-        ["13-week cash", "cash forecast", "when do we run out of money", "weekly cash", "liquidity forecast"],
-        ["Opening cash by entity and currency", "Receivables and the user's collection experience", "Payroll, tax, rent, and debt dates", "Approved payables and known one-offs"],
+        [
+            "13-week cash",
+            "cash forecast",
+            "when do we run out of money",
+            "weekly cash",
+            "liquidity forecast",
+        ],
+        [
+            "Opening cash by entity and currency",
+            "Receivables and the user's collection experience",
+            "Payroll, tax, rent, and debt dates",
+            "Approved payables and known one-offs",
+        ],
         [
             "Lock the frame: Use 13 weeks unless the user asked for another horizon. Record opening cash by account. Do not net cash against a credit line unless they treat that line as cash.",
             "Forecast collections: Inflows come from expected cash collected, not from revenue booked. Use the user's lag. If they have no history, mark a stated assumption and keep it visible.",
@@ -39,7 +50,12 @@ SKILLS = [
         "Explain what moved versus budget in a way an operator can act on, separating timing from true misses.",
         "budget variance review",
         ["budget variance", "why are we off budget", "actual versus plan", "monthly variance"],
-        ["Budget and actuals for the period", "The user's explanation of one-off items", "Materiality threshold", "Who needs the review"],
+        [
+            "Budget and actuals for the period",
+            "The user's explanation of one-off items",
+            "Materiality threshold",
+            "Who needs the review",
+        ],
         [
             "Set materiality: Ignore noise under the threshold the user names. If they name none, propose one and label it as a proposal.",
             "Bridge the gap: Start at budget and walk to actual in a few drivers. Volume, price, timing, and one-offs are the usual buckets. Use only drivers you can support.",
@@ -63,7 +79,12 @@ SKILLS = [
         "Calculate contribution economics for one real unit the business sells, and show which assumption dominates.",
         "unit economics sheet",
         ["unit economics", "contribution margin", "CAC payback", "do we make money per customer"],
-        ["The unit: customer, order, location, or contract", "Price and direct costs the user can support", "Acquisition cost definition", "Retention or repeat evidence, if any"],
+        [
+            "The unit: customer, order, location, or contract",
+            "Price and direct costs the user can support",
+            "Acquisition cost definition",
+            "Retention or repeat evidence, if any",
+        ],
         [
             "Define the unit: Say exactly what one unit is. Mixing orders and customers in one margin is how teams fool themselves.",
             "Build contribution: Price minus costs that vary with the unit. Keep fixed overhead out of the unit and show it separately.",
@@ -87,7 +108,12 @@ SKILLS = [
         "Trace price, mix, and cost so a margin change has a cause and a commercial response.",
         "price-mix-cost bridge",
         ["margin bridge", "price mix cost", "why did margin fall", "pricing review"],
-        ["Revenue and cost for two periods", "Price and volume detail if available", "Known mix shifts", "Discount or rebate practice"],
+        [
+            "Revenue and cost for two periods",
+            "Price and volume detail if available",
+            "Known mix shifts",
+            "Discount or rebate practice",
+        ],
         [
             "Start with the margin change: State gross margin or contribution change in the user's currency and in points.",
             "Separate price, volume, and mix: Use the detail the user has. If mix cannot be seen, say the bridge is incomplete rather than forcing a fake split.",
@@ -111,7 +137,12 @@ SKILLS = [
         "Lay out how much cash a raise needs to buy, what it funds, and what remains unresolved. Not a valuation.",
         "fundraising use-of-proceeds model",
         ["fundraising model", "use of proceeds", "how much should we raise", "runway raise"],
-        ["Current cash and monthly burn the user stands behind", "The plan the raise is meant to fund", "Target months of runway", "Known financing terms, if any"],
+        [
+            "Current cash and monthly burn the user stands behind",
+            "The plan the raise is meant to fund",
+            "Target months of runway",
+            "Known financing terms, if any",
+        ],
         [
             "Start from the plan: The raise follows the operating plan, not the other way around. If there is no plan, say the amount cannot be justified yet.",
             "Build a monthly cash view: Use the user's costs. Separate hiring that is required for the plan from hiring that is optional.",
@@ -136,7 +167,12 @@ SKILLS = [
         "Compute cash runway from a defined burn, and show how hiring or a slipped receipt changes the date.",
         "runway note",
         ["runway", "burn rate", "how long is our cash", "cash out date"],
-        ["Cash on hand", "Which expenses are in burn", "Expected receipts the user wants included or excluded", "Upcoming committed hires"],
+        [
+            "Cash on hand",
+            "Which expenses are in burn",
+            "Expected receipts the user wants included or excluded",
+            "Upcoming committed hires",
+        ],
         [
             "Define burn: State whether burn is cash operating burn, and whether financing or one-offs are excluded. Write the definition before the number.",
             "Use a recent window: Prefer the user's last complete months over a single unusual week. Note if a month was distorted.",
@@ -159,8 +195,18 @@ SKILLS = [
         "Three-Statement Model",
         "Sketch how profit, cash, and the balance sheet stay tied together, at the level the user can actually support.",
         "linked three-statement sketch",
-        ["three statement model", "integrated forecast", "P&L balance sheet cash flow", "financial model structure"],
-        ["Historical statements or the fact that they are unavailable", "Forecast horizon", "Debt, capex, and working-capital drivers", "What decision the model must support"],
+        [
+            "three statement model",
+            "integrated forecast",
+            "P&L balance sheet cash flow",
+            "financial model structure",
+        ],
+        [
+            "Historical statements or the fact that they are unavailable",
+            "Forecast horizon",
+            "Debt, capex, and working-capital drivers",
+            "What decision the model must support",
+        ],
         [
             "Start from the decision: Build only the detail that decision needs. A full monthly model is not automatically better.",
             "Link the statements: Net income flows to retained earnings. Depreciation, working capital, capex, and debt explain why profit is not cash.",
@@ -184,7 +230,12 @@ SKILLS = [
         "Find cash trapped in receivables, inventory, or payables, and separate a process fix from a one-time release.",
         "working-capital review",
         ["working capital", "cash conversion", "DSO DIO DPO", "cash trapped in the balance sheet"],
-        ["Receivables, inventory, and payables balances", "Related revenue or cost, so days can be calculated", "Known disputes or obsolete stock", "Payment terms the user actually offers"],
+        [
+            "Receivables, inventory, and payables balances",
+            "Related revenue or cost, so days can be calculated",
+            "Known disputes or obsolete stock",
+            "Payment terms the user actually offers",
+        ],
         [
             "Compute days only if the bases exist: Do not invent DSO. Show the formula you used.",
             "Separate structural from overdue: Terms the company chose are not the same as customers paying late.",
@@ -207,8 +258,18 @@ SKILLS = [
         "Capex Business Case",
         "Write a capital-spend case that states the problem, the alternatives, and the cash consequences without fake precision.",
         "capex business case",
-        ["capex case", "capital request", "should we buy this equipment", "investment business case"],
-        ["The problem the spend solves", "Cost and timing the user has", "Alternatives including do nothing", "How benefits will be observed"],
+        [
+            "capex case",
+            "capital request",
+            "should we buy this equipment",
+            "investment business case",
+        ],
+        [
+            "The problem the spend solves",
+            "Cost and timing the user has",
+            "Alternatives including do nothing",
+            "How benefits will be observed",
+        ],
         [
             "Define the problem: Downtime, capacity, safety, or compliance. A request that starts with the vendor's name is not ready.",
             "Compare alternatives: Buy, lease, outsource, or defer. Include do nothing and its operational cost if the user described one.",
@@ -232,7 +293,12 @@ SKILLS = [
         "Find cost that can come out without pretending that every cut is free of service impact.",
         "cost reduction sprint plan",
         ["cut costs", "cost reduction", "save money quickly", "expense sprint"],
-        ["Cost baseline by category", "What must not be cut, in the user's words", "Contracts and notice periods if known", "Service or quality lines they will not cross"],
+        [
+            "Cost baseline by category",
+            "What must not be cut, in the user's words",
+            "Contracts and notice periods if known",
+            "Service or quality lines they will not cross",
+        ],
         [
             "Set a target and a boundary: How much, by when, and what is protected. A sprint without a protected list damages the business at random.",
             "Sort actions: Stop, renegotiate, delay, and redesign. Quick stops are not the same as structural redesigns.",
@@ -255,8 +321,18 @@ SKILLS = [
         "Revenue Recognition Review",
         "Prepare questions and a fact pattern for a revenue-recognition issue without pretending to issue an accounting opinion.",
         "revenue recognition fact pattern",
-        ["revenue recognition", "can we book this revenue", "deferred revenue question", "contract accounting question"],
-        ["The contract facts the user can share", "What was delivered and what was billed", "The framework the company claims to use", "The decision they need from finance or the auditor"],
+        [
+            "revenue recognition",
+            "can we book this revenue",
+            "deferred revenue question",
+            "contract accounting question",
+        ],
+        [
+            "The contract facts the user can share",
+            "What was delivered and what was billed",
+            "The framework the company claims to use",
+            "The decision they need from finance or the auditor",
+        ],
         [
             "Write the fact pattern: Parties, promises, price, delivery, and acceptance, in the user's words. Do not upgrade vague facts into certainty.",
             "Separate billing from revenue: Cash collected and revenue recognized are different questions. Keep them apart.",
@@ -281,7 +357,12 @@ SKILLS = [
         "Design a short monthly pack that tells leaders what changed, what it means, and what decision is due.",
         "management reporting pack outline",
         ["monthly pack", "management report", "board finance pack", "FP&A pack"],
-        ["Who reads it", "Decisions the pack should trigger", "Numbers the team can produce reliably", "What is currently ignored in the old pack"],
+        [
+            "Who reads it",
+            "Decisions the pack should trigger",
+            "Numbers the team can produce reliably",
+            "What is currently ignored in the old pack",
+        ],
         [
             "Choose the reader: A pack for the CEO is not a pack for every cost-center manager. Say which one you are designing.",
             "Lead with changes: Page one is cash, outlook versus plan, and exceptions. Activity belongs later or nowhere.",
@@ -305,7 +386,12 @@ SKILLS = [
         "Break a financial outcome into drivers the operator can influence, and stop at metrics someone owns.",
         "finance KPI tree",
         ["KPI tree", "driver tree", "what drives margin", "finance metrics tree"],
-        ["The top outcome", "The operating levers the team controls", "Metrics they can actually extract", "Owners"],
+        [
+            "The top outcome",
+            "The operating levers the team controls",
+            "Metrics they can actually extract",
+            "Owners",
+        ],
         [
             "Start at the outcome: Cash, contribution, or revenue quality. One top node.",
             "Decompose mathematically: Each level should explain the level above. If a metric does not connect, cut it.",
@@ -329,7 +415,12 @@ SKILLS = [
         "Screen whether a borrowing idea fits the user's cash generation, without acting as a lender.",
         "debt capacity screen",
         ["can we borrow", "debt capacity", "loan versus equity", "covenant headroom"],
-        ["Historical and expected cash generation the user provided", "Existing debt and covenants if known", "The use of the new money", "Security or guarantee constraints"],
+        [
+            "Historical and expected cash generation the user provided",
+            "Existing debt and covenants if known",
+            "The use of the new money",
+            "Security or guarantee constraints",
+        ],
         [
             "State the use: Borrowing for a defined need is different from borrowing because it is available. If the use is vague, say so.",
             "Look at coverage with their numbers: Show cash after maintenance needs versus proposed debt service. Do not invent a bank's credit box.",
@@ -353,7 +444,12 @@ SKILLS = [
         "Identify where currency actually hits cash, and separate a hedge policy question from a bookkeeping curiosity.",
         "FX exposure review",
         ["FX exposure", "currency risk", "hedging review", "exchange rate impact"],
-        ["Currencies of revenue, costs, and cash", "Which exposures are contractual", "The user's hedge policy, if any", "The decision they need to make"],
+        [
+            "Currencies of revenue, costs, and cash",
+            "Which exposures are contractual",
+            "The user's hedge policy, if any",
+            "The decision they need to make",
+        ],
         [
             "Map cash exposures: Where currency hits a bank account, not only where a report is translated.",
             "Separate transaction from translation: Management action usually belongs on contracted cash flows. Say which one the user is looking at.",
@@ -400,8 +496,18 @@ SKILLS = [
         "Forecast Accuracy Review",
         "Measure how forecasts missed, separate bias from noise, and change the forecasting habit rather than the template.",
         "forecast accuracy review",
-        ["forecast accuracy", "why is the forecast always wrong", "forecast bias", "prediction error"],
-        ["Prior forecasts and actuals", "The grain: week, month, product, or team", "Known one-off events", "Who owns the forecast"],
+        [
+            "forecast accuracy",
+            "why is the forecast always wrong",
+            "forecast bias",
+            "prediction error",
+        ],
+        [
+            "Prior forecasts and actuals",
+            "The grain: week, month, product, or team",
+            "Known one-off events",
+            "Who owns the forecast",
+        ],
         [
             "Choose the grain: Accuracy at the company level can hide a biased team. Use the grain the decision needs.",
             "Measure error and bias: Direction matters. A forecast that is always high is a different problem from one that jumps around.",
@@ -424,8 +530,18 @@ SKILLS = [
         "Internal Investment Memo",
         "Write an internal memo for spending scarce cash on a bet, with the downside written in the same size font as the upside.",
         "internal investment memo",
-        ["investment memo", "should we fund this bet", "internal investment paper", "resource bet memo"],
-        ["The bet", "Cash and people required", "Evidence already in hand", "What failure looks like"],
+        [
+            "investment memo",
+            "should we fund this bet",
+            "internal investment paper",
+            "resource bet memo",
+        ],
+        [
+            "The bet",
+            "Cash and people required",
+            "Evidence already in hand",
+            "What failure looks like",
+        ],
         [
             "State the bet: Customer, offer, and the result that would make this a success, in the user's terms.",
             "Show evidence and gaps: What has been seen, and what is still a hope. Do not promote hope to evidence.",
@@ -449,7 +565,12 @@ SKILLS = [
         "Define a small SaaS metrics pack from the company's own billing reality, without imported benchmark theater.",
         "SaaS metrics definitions",
         ["SaaS metrics", "ARR MRR churn", "net revenue retention", "magic number"],
-        ["How customers are billed", "Expansion, contraction, and churn definitions they want to use", "Segments that should not be mixed", "The decision the pack supports"],
+        [
+            "How customers are billed",
+            "Expansion, contraction, and churn definitions they want to use",
+            "Segments that should not be mixed",
+            "The decision the pack supports",
+        ],
         [
             "Define ARR or MRR from contracts: Write the inclusion rule. One-time services do not become ARR because someone wishes they would.",
             "Define retention carefully: Logo churn and revenue retention answer different questions. Do not blend them into one cheerful number.",
@@ -472,8 +593,18 @@ SKILLS = [
         "Break-Even Analysis",
         "Find the volume or price where a defined contribution covers a defined fixed cost, and show the assumption that matters.",
         "break-even note",
-        ["break even", "breakeven", "how many do we need to sell", "contribution versus fixed cost"],
-        ["Price and variable cost per unit", "Which costs are fixed over the horizon", "The horizon", "Capacity limits"],
+        [
+            "break even",
+            "breakeven",
+            "how many do we need to sell",
+            "contribution versus fixed cost",
+        ],
+        [
+            "Price and variable cost per unit",
+            "Which costs are fixed over the horizon",
+            "The horizon",
+            "Capacity limits",
+        ],
         [
             "Define the box: The product or location, and the months the fixed cost stays fixed. Break-even without a box is a slogan.",
             "Compute contribution per unit: Price minus variable cost, using the user's figures. If contribution is zero or negative, say break-even does not exist at this price.",
@@ -496,8 +627,18 @@ SKILLS = [
         "Sensitivity and Scenarios",
         "Show how a model moves when a few inputs move, without pretending the spreadsheet is a crystal ball.",
         "sensitivity note",
-        ["sensitivity analysis", "what if this input changes", "tornado chart", "scenario versus sensitivity"],
-        ["The model outcome that matters", "The inputs the user can actually vary", "A base case from their numbers", "The range they consider plausible"],
+        [
+            "sensitivity analysis",
+            "what if this input changes",
+            "tornado chart",
+            "scenario versus sensitivity",
+        ],
+        [
+            "The model outcome that matters",
+            "The inputs the user can actually vary",
+            "A base case from their numbers",
+            "The range they consider plausible",
+        ],
         [
             "Pick the outcome: Cash, margin, or runway. One outcome per pass.",
             "Vary one input at a time first: That is a sensitivity. Combinations are scenarios and should be named, not hidden in a data table.",
@@ -521,7 +662,12 @@ SKILLS = [
         "Rebuild a cost pool from activities that still earn their keep, instead of last year plus a percent.",
         "zero-based review of one cost pool",
         ["zero based budget", "rebuild the budget", "justify this spend", "cost pool review"],
-        ["The cost pool", "The activities it pays for", "Demand for those activities", "The decision rights"],
+        [
+            "The cost pool",
+            "The activities it pays for",
+            "Demand for those activities",
+            "The decision rights",
+        ],
         [
             "Bound the pool: One pool, such as travel, contractors, or a function's non-payroll spend. A company-wide zero-base in one sitting is theater.",
             "List activities: What work the money buys. Vendors are not activities.",
@@ -545,7 +691,12 @@ SKILLS = [
         "Draft the questions and structure of a simple cash and risk policy for a small finance team.",
         "treasury policy brief",
         ["treasury policy", "cash policy", "who can move money", "investment of surplus cash"],
-        ["Entities and bank relationships the user mentioned", "Who may approve payments today", "Surplus cash, if any", "Risks they have already hit"],
+        [
+            "Entities and bank relationships the user mentioned",
+            "Who may approve payments today",
+            "Surplus cash, if any",
+            "Risks they have already hit",
+        ],
         [
             "Write the purpose: Safeguard cash, pay on time, and avoid surprises. Do not turn a small company policy into a bank manual.",
             "Approval matrix: Recommend they document who can approve which payment size. Use their current practice as the starting point and flag gaps.",

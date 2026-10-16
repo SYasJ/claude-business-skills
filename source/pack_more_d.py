@@ -3,9 +3,15 @@ from scenario_bank import put
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "supply-chain", "title": "Supply chain", "summary": "Demand, inventory, suppliers, and shortages using the user's own lead times.", "keywords": ["supply-chain", "inventory", "suppliers", "logistics", "otif"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "supply-chain",
+            "title": "Supply chain",
+            "summary": "Demand, inventory, suppliers, and shortages using the user's own lead times.",
+            "keywords": ["supply-chain", "inventory", "suppliers", "logistics", "otif"],
+        },
+        """
 supplier-risk-note | Supplier Risk Note | risk note
 job: Note a supplier risk from the evidence the buyer has, without a mood score.
 triggers: supplier risk; vendor risk; single source; supply risk
@@ -65,8 +71,9 @@ anti: Available stock increased to match the PO; A theft claim with no evidence;
 example: PO 5521 said 40 filters. The tally is 32. The seal note says intact.
 out: A note for 8 short, stock available 32, no theft claim.
 related: logistics-exception; incoming-inspection
-"""
-))
+""",
+    )
+)
 
 put(
     "supplier-risk-note",
@@ -194,9 +201,15 @@ Tell the buyer: Diane. Tell the carrier: after she sends this count, not before.
 Do not raise available stock to match the PO while the 8 are open.""",
 )
 
-PACKS.append(pack(
-    {"id": "oil-gas", "title": "Oil and gas operations", "summary": "Production, nominations, and site notes for operators. Not a permit and not a way around a safety control.", "keywords": ["oil", "gas", "production", "nomination", "hse"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "oil-gas",
+            "title": "Oil and gas operations",
+            "summary": "Production, nominations, and site notes for operators. Not a permit and not a way around a safety control.",
+            "keywords": ["oil", "gas", "production", "nomination", "hse"],
+        },
+        """
 production-variance | Production Variance | variance note
 job: Compare produced volumes to the nomination using the meters the user provides.
 triggers: production variance; actual versus nomination; daily production; volume miss
@@ -276,8 +289,9 @@ anti: A forced balance; A down meter entered as zero; A gap hidden inside fuel
 example: Inlet 10.0, sales 8.1, fuel 0.4, flare meter down. Tolerance is 0.3.
 out: A balance that will not close and does not put the gap in fuel.
 related: production-variance; flare-volume-note
-"""
-))
+""",
+    )
+)
 
 put(
     "production-variance",
@@ -437,9 +451,15 @@ The day does not close. Tolerance is 0.3. This gap is over it even before flare 
 Next: Devon. The note does not force a balance.""",
 )
 
-PACKS.append(pack(
-    {"id": "automotive", "title": "Automotive", "summary": "Dealer, service, and recall notes. Not a safety-system repair procedure and not a recall determination.", "keywords": ["automotive", "dealer", "service", "recall", "fleet"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "automotive",
+            "title": "Automotive",
+            "summary": "Dealer, service, and recall notes. Not a safety-system repair procedure and not a recall determination.",
+            "keywords": ["automotive", "dealer", "service", "recall", "fleet"],
+        },
+        """
 dealer-morning-review | Dealer Morning Review | morning note
 job: Set the service morning from the appointments and the parts the dealer can see.
 triggers: dealer morning; service morning huddle; shop board; advisor huddle
@@ -519,8 +539,9 @@ anti: An ad for cars that are not on the ground; A payment invented for the ad; 
 example: The ad says six test-drive cars. Two are on the ground. The payment in the ad was not calculated.
 out: A check that cuts the ad to two cars and removes the payment.
 related: dealer-morning-review; local-service-offer
-"""
-))
+""",
+    )
+)
 
 put(
     "dealer-morning-review",

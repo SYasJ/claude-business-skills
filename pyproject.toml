@@ -1,0 +1,33 @@
+[project]
+name = "claude-business-skills"
+version = "1.0.0"
+description = "601 Claude Code Agent Skills for business work across 48 domains, in the Agent Skills SKILL.md format."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [{ name = "Yasir Jilani" }]
+keywords = ["claude", "claude-code", "agent-skills", "skills", "llm", "business", "automation"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Code Generators",
+]
+
+# The library itself is Markdown. The scripts that build and install it use
+# only the Python standard library - no runtime dependencies, by design.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "ruff>=0.4"]
+
+[project.urls]
+Homepage = "https://syasj.github.io/claude-business-skills/"
+Repository = "https://github.com/SYasJ/claude-business-skills"
+Documentation = "https://github.com/SYasJ/claude-business-skills/wiki"
+Issues = "https://github.com/SYasJ/claude-business-skills/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

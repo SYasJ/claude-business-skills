@@ -10,8 +10,8 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import shutil
-import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,6 +25,18 @@ FORBIDDEN_PARTS = {
     "syswow64",
     "windows",
 }
+
+# Matched as a prefix rather than a path component, so a user directory that
+# happens to be called "system" or "library" is still a valid destination.
+FORBIDDEN_ROOTS = (
+    "/System",
+    "/Library",
+    "/private/etc",
+    "/private/var/db",
+    "/Applications",
+    "C:\\Windows",
+    "C:\\Program Files",
+)
 
 
 def sha256(path):
@@ -96,6 +108,10 @@ def assert_safe_destination(path):
     parts = {part.lower() for part in resolved.parts}
     if parts & FORBIDDEN_PARTS:
         raise SystemExit(f"Refusing to write into a system path: {resolved}")
+    text = str(resolved)
+    for prefix in FORBIDDEN_ROOTS:
+        if text == prefix or text.startswith(prefix + os.sep):
+            raise SystemExit(f"Refusing to write into a system path: {resolved}")
     if resolved == Path(resolved.anchor):
         raise SystemExit(f"Refusing to use a drive root as destination: {resolved}")
 
@@ -153,11 +169,26 @@ def install(skills, dest, dry_run):
 
 def main():
     parser = argparse.ArgumentParser(description="Install Yasir Jilani Practice Skills locally.")
-    parser.add_argument("--tool", default="claude", help="claude, claude-project, codex, gemini, agents, project, cursor, windsurf, opencode, hermes, openclaw, openclaw-project, langchain, or all")
-    parser.add_argument("--domain", action="append", default=[], help="Domain id to install. Repeatable. Default: none, so the full library is not installed by accident. Use --domain all to opt in.")
+    parser.add_argument(
+        "--tool",
+        default="claude",
+        help="claude, claude-project, codex, gemini, agents, project, cursor, windsurf, opencode, hermes, openclaw, openclaw-project, langchain, or all",
+    )
+    parser.add_argument(
+        "--domain",
+        action="append",
+        default=[],
+        help="Domain id to install. Repeatable. Default: none, so the full library is not installed by accident. Use --domain all to opt in.",
+    )
     parser.add_argument("--project", default=".", help="Project directory for project-scoped tools")
-    parser.add_argument("--dry-run", action="store_true", help="Print the copy plan and write nothing")
-    parser.add_argument("--skip-verify", action="store_true", help="Skip MANIFEST.sha256 verification. Not recommended.")
+    parser.add_argument(
+        "--dry-run", action="store_true", help="Print the copy plan and write nothing"
+    )
+    parser.add_argument(
+        "--skip-verify",
+        action="store_true",
+        help="Skip MANIFEST.sha256 verification. Not recommended.",
+    )
     args = parser.parse_args()
     if not args.domain:
         raise SystemExit(
@@ -187,7 +218,9 @@ def main():
         receipt_path = Path.cwd() / "install-receipt.json"
         receipt_path.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
         print(f"Wrote {receipt_path}")
-    print("Install plan is local only. No packages were downloaded and no skill script was executed.")
+    print(
+        "Install plan is local only. No packages were downloaded and no skill script was executed."
+    )
 
 
 if __name__ == "__main__":

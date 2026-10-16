@@ -3,9 +3,15 @@ from scenario_bank import put
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "airline", "title": "Airline operations", "summary": "Irregular operations, delays, and station notes. Not a way around duty limits or a maintenance release.", "keywords": ["airline", "station", "delay", "irrops", "baggage"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "airline",
+            "title": "Airline operations",
+            "summary": "Irregular operations, delays, and station notes. Not a way around duty limits or a maintenance release.",
+            "keywords": ["airline", "station", "delay", "irrops", "baggage"],
+        },
+        """
 irrops-brief | Irregular Ops Brief | ops brief
 job: Brief the station on a disrupted flight using the facts the controller has.
 triggers: irregular operations; IRROPS; disrupted flight; station brief
@@ -85,8 +91,9 @@ anti: A confirmed seat that is not confirmed; A refund amount invented; A cause 
 example: KA188 is cancelled. No seat is confirmed. A draft promises the 10:00 and a full refund.
 out: A message that says cancelled, no seat yet, and no refund figure.
 related: delay-message; irrops-brief
-"""
-))
+""",
+    )
+)
 
 put(
     "irrops-brief",
@@ -249,9 +256,15 @@ KA188 is cancelled. We do not have a confirmed seat yet. We are still searching.
 The 10:00. A full refund. A cause. None of those are in the file.""",
 )
 
-PACKS.append(pack(
-    {"id": "energy", "title": "Energy", "summary": "Operational energy advice is not a permit and not a safety case.", "keywords": ["energy", "utility", "outage", "tariff", "power"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "energy",
+            "title": "Energy",
+            "summary": "Operational energy advice is not a permit and not a safety case.",
+            "keywords": ["energy", "utility", "outage", "tariff", "power"],
+        },
+        """
 tariff-change-note | Tariff Change Note | tariff note
 job: Explain a tariff change from the sheet the user has, in the units on that sheet.
 triggers: tariff change; rate change; utility rate; price plan change
@@ -301,8 +314,9 @@ anti: A compensation rate from memory; A meter that does not match, ignored; An 
 example: They were told to drop 2 MW from 14:00 to 16:00. The meter dropped 1.4.
 out: A note with both figures and no compensation rate.
 related: demand-response-offer; production-variance
-"""
-))
+""",
+    )
+)
 
 put(
     "tariff-change-note",
@@ -396,9 +410,15 @@ This is a record, not a dispute letter.
 Acknowledged by: Devon.""",
 )
 
-PACKS.append(pack(
-    {"id": "small-business", "title": "Small business", "summary": "Owner-level cash, hiring, and local offers. Not legal, tax, or bylaw advice.", "keywords": ["small-business", "owner", "local", "shop"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "small-business",
+            "title": "Small business",
+            "summary": "Owner-level cash, hiring, and local offers. Not legal, tax, or bylaw advice.",
+            "keywords": ["small-business", "owner", "local", "shop"],
+        },
+        """
 owner-cash-huddle | Owner Cash Huddle | cash huddle
 job: Set the week's cash picture from the till, the bills due, and the owner's buffer.
 triggers: weekly cash; owner huddle; can I pay this bill; shop cash
@@ -478,8 +498,9 @@ anti: An invented bylaw; A fee from memory; A checklist that says they are appro
 example: She has a business licence and a fee sheet for a sidewalk display at $75. She has not asked about a sign.
 out: A list that includes the licence and the $75 sheet, and leaves the sign unchecked.
 related: blog-refresh; local-service-offer
-"""
-))
+""",
+    )
+)
 
 put(
     "owner-cash-huddle",
@@ -644,9 +665,15 @@ The blog line about free signs is not a bylaw. It comes off the list.
 This checklist is not an approval.""",
 )
 
-PACKS.append(pack(
-    {"id": "saas", "title": "SaaS", "summary": "Weekly metrics, activation, and pricing notes from the export. No invented retention or certification.", "keywords": ["saas", "subscription", "churn", "activation", "pricing"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "saas",
+            "title": "SaaS",
+            "summary": "Weekly metrics, activation, and pricing notes from the export. No invented retention or certification.",
+            "keywords": ["saas", "subscription", "churn", "activation", "pricing"],
+        },
+        """
 saas-weekly-metrics | SaaS Weekly Metrics | metrics note
 job: Read a weekly SaaS export and say what moved, without a benchmark from memory.
 triggers: SaaS metrics; weekly SaaS; MRR review; subscription metrics
@@ -726,8 +753,9 @@ anti: A certification they do not hold; A guessed control; Secrets in the answer
 example: A question asks for the SOC 2 report. The folder has no report. A draft says yes, in progress.
 out: An answer of not in the file, with no in-progress claim they did not document.
 related: vendor-security-review; ai-vendor-note
-"""
-))
+""",
+    )
+)
 
 put(
     "saas-weekly-metrics",
@@ -882,9 +910,15 @@ Other questions with no document get the same mark, not a guess.
 No secrets in the sheet.""",
 )
 
-PACKS.append(pack(
-    {"id": "entrepreneurship", "title": "Entrepreneurship", "summary": "Startup choices, discovery, and investor updates. Not a promise of funding.", "keywords": ["startup", "founder", "ideas", "saas", "mvp"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "entrepreneurship",
+            "title": "Entrepreneurship",
+            "summary": "Startup choices, discovery, and investor updates. Not a promise of funding.",
+            "keywords": ["startup", "founder", "ideas", "saas", "mvp"],
+        },
+        """
 startup-story | Startup Story | story note
 job: Write the company story from the customer and the fact they can show, not from a borrowed pitch.
 triggers: startup story; origin story; pitch narrative; what do we say we are
@@ -964,8 +998,9 @@ anti: A line moved after a miss; A vanity metric as the only test; No person who
 example: They said they would stop if five owners would not pay. Five said no. A draft says try five more.
 out: A note that records the stop, and does not add five more.
 related: idea-screen; runway-choice
-"""
-))
+""",
+    )
+)
 
 put(
     "startup-story",

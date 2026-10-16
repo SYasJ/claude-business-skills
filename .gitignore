@@ -26,3 +26,9 @@ desktop.ini
 
 # Written by scripts/install.py at the repo root
 install-receipt.json
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/

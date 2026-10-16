@@ -124,7 +124,9 @@ def validate(packs):
 
 
 def filter_related(record, known):
-    record["related"] = [name for name in record["related"] if name in known and name != record["name"]]
+    record["related"] = [
+        name for name in record["related"] if name in known and name != record["name"]
+    ]
     return record
 
 
@@ -168,7 +170,12 @@ def main():
                 raise SystemExit(f"{record['name']} has angle brackets in frontmatter")
             skill_dir = domain_dir / "skills" / record["name"]
             if record["name"] in LOCAL_TOOLS:
-                body = body.rstrip() + "\n\n## Optional local tool\n\n" + LOCAL_TOOLS[record["name"]] + "\n"
+                body = (
+                    body.rstrip()
+                    + "\n\n## Optional local tool\n\n"
+                    + LOCAL_TOOLS[record["name"]]
+                    + "\n"
+                )
             skill_path = skill_dir / "SKILL.md"
             write(skill_path, body)
             catalog.append(
@@ -184,7 +191,10 @@ def main():
                     "example_out": record["example_out"],
                 }
             )
-            write(ROOT / "examples" / "by-skill" / domain["id"] / f"{record['name']}.md", render_example(record, domain))
+            write(
+                ROOT / "examples" / "by-skill" / domain["id"] / f"{record['name']}.md",
+                render_example(record, domain),
+            )
     catalog.sort(key=lambda item: (item["domain"], item["name"]))
     write(ROOT / "catalog" / "skills.json", json.dumps(catalog, indent=2) + "\n")
     write(ROOT / "catalog" / "SKILLS.md", render_catalog(packs, catalog))
@@ -223,32 +233,33 @@ def main():
     counts = {pack["domain"]["id"]: len(pack["skills"]) for pack in packs}
     write(
         ROOT / "catalog" / "counts.json",
-        json.dumps({"skills": len(catalog), "domains": len(packs), "by_domain": counts}, indent=2) + "\n",
+        json.dumps({"skills": len(catalog), "domains": len(packs), "by_domain": counts}, indent=2)
+        + "\n",
     )
     print(f"Generated {len(catalog)} skills in {len(packs)} domains")
 
 
 def render_example(record, domain):
     worked = record["worked"]
-    return f"""# {record['title']}
+    return f"""# {record["title"]}
 
-`{record['name']}`
+`{record["name"]}`
 
 ## What this is for
 
-{worked['purpose']}
+{worked["purpose"]}
 
 ## Scenario
 
-{worked['scenario']}
+{worked["scenario"]}
 
 ## Example data
 
-{worked['data']}
+{worked["data"]}
 
 ## Example outcome
 
-{worked['outcome']}
+{worked["outcome"]}
 """
 
 

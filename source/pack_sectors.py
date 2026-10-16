@@ -2,9 +2,15 @@ from dense import pack
 
 PACKS = []
 
-PACKS.append(pack(
-    {"id": "consulting", "title": "Consulting", "summary": "Engagement framing, findings, and readouts that separate evidence from advice.", "keywords": ["consulting", "engagement", "findings", "client"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "consulting",
+            "title": "Consulting",
+            "summary": "Engagement framing, findings, and readouts that separate evidence from advice.",
+            "keywords": ["consulting", "engagement", "findings", "client"],
+        },
+        """
 engagement-framing | Engagement Framing | engagement brief
 job: Frame a consulting engagement with the decision, the evidence, and what is out of scope.
 triggers: engagement brief; consulting scope; statement of work narrative; frame the work
@@ -44,12 +50,19 @@ anti: Fake consensus; Owners the room did not accept; A novel of sticky notes
 example: Notes say the client chose a market, but the room only brainstormed.
 out: A record that labels the market as an idea, not a decision, and lists the open choice.
 related: decision-log; workshop-facilitation
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "nonprofit", "title": "Nonprofit and public interest", "summary": "Case statements, grants, and program reviews that do not invent impact.", "keywords": ["nonprofit", "fundraising", "program", "impact"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "nonprofit",
+            "title": "Nonprofit and public interest",
+            "summary": "Case statements, grants, and program reviews that do not invent impact.",
+            "keywords": ["nonprofit", "fundraising", "program", "impact"],
+        },
+        """
 nonprofit-case-statement | Case Statement | case statement
 job: Write a case for support from real need, real program facts, and a specific ask.
 triggers: case for support; fundraising narrative; case statement; donor narrative
@@ -89,12 +102,19 @@ anti: Hidden time demands; Regulated work pushed to volunteers casually; No supe
 example: A role asks volunteers to give clinical advice with no clinician present.
 out: A brief that removes the clinical duty and names a supervisor for the remaining work.
 related: job-description-writer; patient-communication
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "banking", "title": "Banking and treasury operations", "summary": "Cash operations and credit-file hygiene. Not a credit decision and not a request for banking passwords.", "keywords": ["banking", "treasury", "credit", "payments"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "banking",
+            "title": "Banking and treasury operations",
+            "summary": "Cash operations and credit-file hygiene. Not a credit decision and not a request for banking passwords.",
+            "keywords": ["banking", "treasury", "credit", "payments"],
+        },
+        """
 payment-run-review | Payment Run Review | payment run review
 job: Review a payment run for duplicates, approvals, and changes to payee details.
 triggers: payment run; AP run review; pay cycle review; payment approval
@@ -135,12 +155,19 @@ anti: A facility shown as cash; Uncommitted inflow shown as certain; A credentia
 example: A ladder treats an undrawn line as money already in the account.
 out: A ladder that separates the line from cash and flags the first short bucket.
 related: cash-flow-forecast; treasury-policy-brief
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "insurance", "title": "Insurance operations", "summary": "Claims files and coverage questions organized for a licensed professional. Not a coverage determination.", "keywords": ["insurance", "claims", "policy", "broker"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "insurance",
+            "title": "Insurance operations",
+            "summary": "Claims files and coverage questions organized for a licensed professional. Not a coverage determination.",
+            "keywords": ["insurance", "claims", "policy", "broker"],
+        },
+        """
 claim-file-checklist | Claim File Checklist | claim file checklist
 job: Organize a claim file so a handler can see facts, documents, and open questions.
 triggers: claim file; insurance claim checklist; FNOL file; claims documentation
@@ -181,12 +208,19 @@ anti: A dropped loss; A premium prediction; An incomplete run treated as complet
 example: A summary averages away one severe open claim.
 out: A summary that shows the severe claim separately and makes no price prediction.
 related: claim-file-checklist; management-reporting-pack
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "public-sector", "title": "Public sector", "summary": "Briefing notes and consultation records that are accurate and suitable for the public record.", "keywords": ["public-sector", "briefing", "consultation", "government"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "public-sector",
+            "title": "Public sector",
+            "summary": "Briefing notes and consultation records that are accurate and suitable for the public record.",
+            "keywords": ["public-sector", "briefing", "consultation", "government"],
+        },
+        """
 briefing-note | Briefing Note | briefing note
 job: Write a briefing note that states the issue, the options, and the recommendation for a public decision-maker.
 triggers: briefing note; ministerial brief; decision note public; options brief
@@ -228,12 +262,19 @@ example: A manager wants to delete drafts because a request might cover them.
 out: A triage that forbids deletion and lists locations for the officer to decide.
 related: records-retention; legal-hold-notice
 avoid: Destroying records; Evading a lawful request
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "sustainability", "title": "Sustainability", "summary": "Emissions and supplier questionnaires that do not invent factors or certifications.", "keywords": ["sustainability", "emissions", "esg", "suppliers"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "sustainability",
+            "title": "Sustainability",
+            "summary": "Emissions and supplier questionnaires that do not invent factors or certifications.",
+            "keywords": ["sustainability", "emissions", "esg", "suppliers"],
+        },
+        """
 emissions-inventory-brief | Emissions Inventory Brief | inventory brief
 job: Brief an emissions inventory from activity data they have, with factors labeled and gaps visible.
 triggers: emissions inventory; carbon footprint; GHG inventory; scope 1 2 3
@@ -273,12 +314,19 @@ anti: Implied certification; Targets written as results; Metrics with no source
 example: A report outline claims alignment with a standard nobody has mapped.
 out: An outline that labels alignment as not yet assessed and lists only sourced metrics.
 related: emissions-inventory-brief; management-reporting-pack
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "media", "title": "Media and communications", "summary": "Editorial briefs and corrections that do not fabricate quotes or sources.", "keywords": ["media", "editorial", "communications", "corrections"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "media",
+            "title": "Media and communications",
+            "summary": "Editorial briefs and corrections that do not fabricate quotes or sources.",
+            "keywords": ["media", "editorial", "communications", "corrections"],
+        },
+        """
 editorial-brief | Editorial Brief | editorial brief
 job: Brief a story or communication with the reader, the news, and the sources that exist.
 triggers: editorial brief; story brief; comms brief; article brief
@@ -319,12 +367,19 @@ anti: Filling a slot with an unsourced piece; Opinion labeled as news; A decepti
 example: The plan assigns a trend piece with no sources because the slot is empty.
 out: A plan that kills or holds the piece and leaves the slot open.
 related: content-calendar; editorial-brief
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "procurement", "title": "Procurement", "summary": "Sourcing events and award notes that follow authority and do not steer a bid unfairly.", "keywords": ["procurement", "sourcing", "rfp", "award"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "procurement",
+            "title": "Procurement",
+            "summary": "Sourcing events and award notes that follow authority and do not steer a bid unfairly.",
+            "keywords": ["procurement", "sourcing", "rfp", "award"],
+        },
+        """
 sourcing-event-brief | Sourcing Event Brief | sourcing brief
 job: Brief a sourcing event with the need, the evaluation criteria, and the rules before vendors are contacted.
 triggers: sourcing event; RFP brief; tender brief; go to market procurement
@@ -364,12 +419,19 @@ anti: Savings with no baseline; Avoidance counted as cash; A service cut hidden 
 example: A report claims savings because the department stopped the service.
 out: A note that refuses the savings claim or labels it a service cut.
 related: cost-reduction-sprint; budget-variance-review
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "agriculture", "title": "Agriculture operations", "summary": "Farm records, seasonal plans, and food-safety documentation. Not a recipe for pesticides, toxins, or pathogens.", "keywords": ["agriculture", "farm", "season", "food-safety"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "agriculture",
+            "title": "Agriculture operations",
+            "summary": "Farm records, seasonal plans, and food-safety documentation. Not a recipe for pesticides, toxins, or pathogens.",
+            "keywords": ["agriculture", "farm", "season", "food-safety"],
+        },
+        """
 season-plan | Season Plan | season plan
 job: Plan a season from fields, labor, and cash the farm can actually commit.
 triggers: season plan; crop plan; planting plan; farm season
@@ -411,12 +473,19 @@ anti: Hoped receipts shown as certain; Concealed sales; A capital buy hidden in 
 example: A note treats an unsigned grain contract as cash already coming.
 out: A weekly view that labels the contract hoped and shows the break week without it.
 related: cash-flow-forecast; season-plan
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "hospitality", "title": "Hospitality", "summary": "Service recovery and shift briefs for hotels and restaurants, inside policy.", "keywords": ["hospitality", "hotel", "restaurant", "guest"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "hospitality",
+            "title": "Hospitality",
+            "summary": "Service recovery and shift briefs for hotels and restaurants, inside policy.",
+            "keywords": ["hospitality", "hotel", "restaurant", "guest"],
+        },
+        """
 guest-recovery | Guest Recovery | guest recovery note
 job: Plan guest recovery after a service miss, with a truthful apology and a remedy inside authority.
 triggers: guest recovery; hotel complaint; restaurant complaint; service miss hospitality
@@ -447,12 +516,19 @@ anti: An unconfirmed vendor presented as certain; No backup; Extra personal deta
 example: A run of show promises a speaker who has not confirmed.
 out: A plan that marks the speaker unconfirmed and names a backup cue.
 related: webinar-run-of-show; shift-brief-hospitality
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "retail", "title": "Retail and commerce", "summary": "Assortment, promotions, and store operations without deceptive pricing.", "keywords": ["retail", "store", "promotion", "assortment"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "retail",
+            "title": "Retail and commerce",
+            "summary": "Assortment, promotions, and store operations without deceptive pricing.",
+            "keywords": ["retail", "store", "promotion", "assortment"],
+        },
+        """
 promotion-review | Promotion Review | promotion review
 job: Review a promotion for margin, inventory, and honest terms.
 triggers: promotion review; retail promo; discount event; offer review retail
@@ -562,12 +638,19 @@ anti: An earn rate that creates liability they cannot pay; Blocked redemption th
 example: A program offers 10% back in points but the redemption minimum is higher than the average order, so few members ever cash out.
 out: A structure that sets a redemption minimum below the average order and discloses the liability cap.
 related: promotion-review; customer-health-score
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "energy", "title": "Energy and utilities operations", "summary": "Outage communication and work planning. Not a permit and not a bypass of isolation rules.", "keywords": ["energy", "utilities", "outage", "isolation"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "energy",
+            "title": "Energy and utilities operations",
+            "summary": "Outage communication and work planning. Not a permit and not a bypass of isolation rules.",
+            "keywords": ["energy", "utilities", "outage", "isolation"],
+        },
+        """
 outage-communication | Outage Communication | outage message
 job: Draft an outage message with the area, the known cause label, and the next update time.
 triggers: outage message; power outage update; utility customer message; restoration update
@@ -598,12 +681,19 @@ anti: Deferring a known safety defect for a metric; No capacity cut; A crew sent
 example: A cosmetic backlog is scheduled ahead of a known leak on a safety device.
 out: A priority list that puts the safety device first and parks cosmetics over capacity.
 related: portfolio-prioritization; capacity-plan
-"""
-))
+""",
+    )
+)
 
-PACKS.append(pack(
-    {"id": "transport", "title": "Transport and logistics operations", "summary": "Dispatch and exception handling that follow the safety rules the user states.", "keywords": ["transport", "dispatch", "fleet", "delivery"]},
-    """
+PACKS.append(
+    pack(
+        {
+            "id": "transport",
+            "title": "Transport and logistics operations",
+            "summary": "Dispatch and exception handling that follow the safety rules the user states.",
+            "keywords": ["transport", "dispatch", "fleet", "delivery"],
+        },
+        """
 dispatch-plan | Dispatch Plan | dispatch plan
 job: Plan a dispatch from orders, hours, and equipment limits the user stated.
 triggers: dispatch plan; route plan; fleet dispatch; delivery plan
@@ -635,5 +725,6 @@ example: A review suggests not reporting a minor crash so the score stays clean.
 out: A review that refuses the non-report and assigns a control for the actual pattern.
 related: safety-toolbox-talk; incident-postmortem
 avoid: Hiding incidents
-"""
-))
+""",
+    )
+)
