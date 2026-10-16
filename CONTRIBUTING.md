@@ -123,6 +123,47 @@ Priya has a dock photo. Sam keeps the catalog consistent. They are not both edit
 python3 scripts/install.py --tool claude --domain supply-chain --dry-run
 ```
 
+## Fork, branch, pull request
+
+```bash
+# 1. Fork on GitHub, then clone your fork
+git clone https://github.com/YOUR_USERNAME/claude-business-skills.git
+cd claude-business-skills
+
+# 2. Branch. Name it after the change.
+git checkout -b add-dock-photo-note
+
+# 3. Edit source/ - never plugins/, which is generated
+#    then rebuild and check
+python3 scripts/generate.py
+python3 scripts/validate.py
+python3 -m pytest tests/
+
+# 4. Commit the source change AND the generated files together
+git add -A
+git commit -m "feat: add dock-photo-note to supply-chain"
+
+# 5. Publish the branch and open a PR
+git push -u origin add-dock-photo-note
+```
+
+What to expect:
+
+| | |
+| --- | --- |
+| Commit style | `type: description` - feat, fix, docs, chore, refactor |
+| CI | Tests on Python 3.9/3.11/3.13, ruff, and an installer smoke test on Linux, macOS and Windows. It also fails if `generate.py` output is uncommitted. |
+| Review | Name, folder match, and whether the example shows real output rather than describing it |
+| Turnaround | Usually a few days. A skill from someone who does the work gets read carefully, so give the domain reasoning in the PR body. |
+
+First time? The
+[good first issues](https://github.com/SYasJ/claude-business-skills/labels/good%20first%20issue)
+each name one missing skill in a thin domain. Domain knowledge counts for more
+than Python there.
+
+By contributing you agree your work is licensed under the MIT License, and to
+the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## Running the tests
 
 The repo has a pytest suite covering manifest integrity, skill format, catalog
