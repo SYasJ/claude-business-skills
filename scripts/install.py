@@ -61,6 +61,7 @@ def load_manifest():
 def verify_tree():
     entries = load_manifest()
     mismatches = []
+    bad = []
     for rel, expected in entries.items():
         path = ROOT / rel
         if not path.is_file() or path.is_symlink():
@@ -68,9 +69,37 @@ def verify_tree():
             continue
         if sha256(path) != expected:
             mismatches.append(f"hash mismatch {rel}")
+            bad.append(rel)
     if mismatches:
-        raise SystemExit("Integrity check failed:\n- " + "\n- ".join(mismatches[:20]))
+        message = "Integrity check failed:\n- " + "\n- ".join(mismatches[:20])
+        if _looks_like_crlf_checkout(entries, bad):
+            message += (
+                "\n\nEvery file differs only by line endings. Git converted LF to CRLF "
+                "on checkout, which changes the bytes the hashes cover.\n"
+                "Fix it with:\n"
+                "  git config core.autocrlf false\n"
+                "  git rm --cached -r . && git reset --hard"
+            )
+        raise SystemExit(message)
     return entries
+
+
+def _looks_like_crlf_checkout(entries, mismatching):
+    """True when the mismatching files differ from the manifest only by CRLF."""
+    checked = 0
+    for rel in mismatching:
+        path = ROOT / rel
+        if not path.is_file():
+            continue
+        raw = path.read_bytes()
+        if b"\r\n" not in raw:
+            return False
+        if hashlib.sha256(raw.replace(b"\r\n", b"\n")).hexdigest() != entries[rel]:
+            return False
+        checked += 1
+        if checked >= 5:
+            break
+    return checked > 0
 
 
 def destinations(tool, project):

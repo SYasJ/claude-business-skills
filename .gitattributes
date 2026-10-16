@@ -1,0 +1,25 @@
+# MANIFEST.sha256 hashes file contents byte for byte, and scripts/install.py
+# verifies those hashes before copying anything. Git's default on Windows is to
+# convert LF to CRLF on checkout, which changes every byte count and makes the
+# integrity check fail - so a Windows clone could not install at all.
+#
+# Force LF in the working tree on every platform.
+* text=auto eol=lf
+
+*.md    text eol=lf
+*.py    text eol=lf
+*.json  text eol=lf
+*.toml  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.csv   text eol=lf
+*.svg   text eol=lf
+*.html  text eol=lf
+*.sh    text eol=lf
+MANIFEST.sha256 text eol=lf
+uv.lock text eol=lf
+
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary

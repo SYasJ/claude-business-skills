@@ -33,3 +33,19 @@ def test_every_skill_is_listed_in_the_manifest(root, manifest, skill_files):
 
 def test_manifest_is_not_empty(manifest):
     assert len(manifest) > 100
+
+
+def test_no_crlf_in_hashed_files(root, manifest):
+    """Git on Windows rewrites LF to CRLF unless .gitattributes forbids it.
+
+    That changes the bytes, so every manifest hash mismatches and install.py
+    refuses to run. .gitattributes pins eol=lf; this guards it.
+    """
+    crlf = [p for p in manifest if b"\r\n" in (root / p).read_bytes()]
+    assert not crlf, f"CRLF line endings would break the manifest: {crlf[:5]}"
+
+
+def test_gitattributes_pins_line_endings(root):
+    attrs = root / ".gitattributes"
+    assert attrs.exists(), ".gitattributes is required to keep LF on Windows clones"
+    assert "eol=lf" in attrs.read_text()
